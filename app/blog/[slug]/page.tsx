@@ -181,7 +181,11 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
           {/* Corpo MDX */}
           <div className="bg-background px-6 pb-20 md:px-12 md:pb-28 lg:px-20 lg:pb-32">
             <div className="mx-auto max-w-3xl">
-              <MDXRemote source={post.content} components={blogMdxComponents} />
+              <MDXRemote
+                source={post.content}
+                components={blogMdxComponents}
+                options={{ blockJS: false }}
+              />
             </div>
           </div>
 

@@ -8,14 +8,17 @@
     "start": "next start",
     "lint": "next lint",
     "catalog": "node scripts/catalog-photos.mjs",
-    "process-photos": "node scripts/process-selected.mjs"
+    "process-photos": "node scripts/process-selected.mjs",
+    "images:optimize": "node scripts/optimize-images.mjs",
+    "images:scan": "node scripts/scan-image-usage.mjs",
+    "images:report": "node scripts/image-rotation-report.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",
     "gray-matter": "^4.0.3",
     "lucide-react": "^1.8.0",
     "next": "14.2.35",
-    "next-mdx-remote": "^5.0.0",
+    "next-mdx-remote": "^6.0.0",
     "react": "^18",
     "react-dom": "^18",
     "reading-time": "^1.5.0",
