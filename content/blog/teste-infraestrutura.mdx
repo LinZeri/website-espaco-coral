@@ -1,0 +1,87 @@
+---
+title: "Teste de Infraestrutura do Blog"
+description: "Post de verificação interna do pipeline MDX, schema BlogPosting e renderização. Não é conteúdo editorial. Apaga após validação."
+publishDate: "2026-04-15"
+lastUpdated: "2026-05-01"
+status: "draft"
+author: "Claude Editor"
+authorBio: "Equipe editorial do Espaço Coral"
+pillar: "estrutura"
+tags:
+  - "infraestrutura"
+  - "teste"
+keywordPrimary: "teste blog"
+metaTitle: "Teste de Infraestrutura do Blog | Espaço Coral"
+metaDescription: "Post de verificação do pipeline MDX, BlogPosting schema e renderização. Apagar após Phase 0 do roadmap."
+coverImage: "/images/spaces/fachada-entardecer.webp"
+coverImageAlt: "Fachada do Espaço Coral em Batatais ao entardecer"
+ogImage: "/og/home.jpg"
+faq:
+  - question: "Este post é real?"
+    answer: "Não. É um post de verificação interna criado durante a Phase 0 da implementação do blog. Deve ser apagado antes do go-live em produção."
+  - question: "O que está sendo testado aqui?"
+    answer: "Renderização de MDX com componentes customizados, geração de JSON-LD BlogPosting + FAQPage, integração com sitemap, build SSG e schema validation."
+---
+
+Este post existe apenas para validar a infraestrutura do blog do Espaço Coral. Cada elemento abaixo testa um pedaço diferente do pipeline.
+
+## Heading H2 com pergunta direta
+
+Parágrafo de abertura com **negrito**, *itálico* e um [link interno para a página de casamentos](/eventos/casamentos). O pipeline precisa renderizar o link via `next/link` automaticamente.
+
+Um link externo também: [Google Search Console](https://search.google.com/search-console). Esse deve abrir em nova aba.
+
+### Subheading H3
+
+Lista não ordenada com bullets dourados:
+
+- Primeiro item da lista
+- Segundo item, mais longo, para testar quebra de linha em mobile com texto que pode estourar a largura da viewport em dispositivos menores
+- Terceiro item
+
+Lista ordenada:
+
+1. Passo um
+2. Passo dois
+3. Passo três
+
+## Bloco de citação (estilo "Em resumo")
+
+> **Em resumo**
+> - Pipeline MDX renderiza H2/H3, parágrafos e listas com a tipografia do projeto
+> - Componente `Blockquote` aplica borda dourada à esquerda
+> - Schema BlogPosting + FAQPage é injetado via `<JsonLd />`
+
+## Imagens inline
+
+Imagem local (deve usar `next/image`):
+
+![Salão do Espaço Coral montado para casamento](/images/spaces/salao-panoramica.webp)
+
+## Tabela de capacidade
+
+| Tipo de evento | Capacidade ideal | Capacidade máxima |
+|---|---|---|
+| Casamento sentado | 200-280 | 320 |
+| Festa de 15 anos | 220-300 | 320 |
+| Confraternização corporativa | 150-250 | 320 |
+
+## Código inline e bloco
+
+Código inline: `npm run build` deve gerar SSG estático.
+
+```bash
+npm install
+npm run dev
+npm run build
+```
+
+---
+
+## Citação acadêmica
+
+Segundo o IBGE, o interior de São Paulo concentrava 22 milhões de habitantes em 2024 ([IBGE Censo](https://www.ibge.gov.br/), 2024). Esse número justifica investimento em conteúdo geo-localizado para Batatais e região.
+
+## Verificações esperadas no build
+
+Se este post renderiza corretamente em `npm run dev`, o pipeline está pronto para receber os 24 artigos do calendário editorial.
