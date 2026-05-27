@@ -100,7 +100,7 @@ export default function FrancaPage() {
         <PageHero
           title="Espaço para Eventos para Franca"
           subtitle="Espaço Coral, a 95 km, em Batatais"
-          imageSrc="/images/spaces/fachada-noite.webp"
+          imageSrc="/images/scenes/fachada/fachada-noite.webp"
           imageAlt="Fachada do Espaço Coral à noite em Batatais, espaço para eventos a 95 km de Franca"
         />
 
@@ -134,7 +134,7 @@ export default function FrancaPage() {
           <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-2 md:gap-16 lg:gap-24">
             <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
               <Image
-                src="/images/spaces/cerimonia-palmeiras.webp"
+                src="/images/scenes/cerimonia/cerimonia-palmeiras.webp"
                 alt="Cerimônia ao ar livre entre palmeiras no Espaço Coral, opção de espaço próximo a Franca"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -199,7 +199,7 @@ export default function FrancaPage() {
             </div>
             <div className="relative order-1 aspect-[4/5] overflow-hidden rounded-2xl md:order-2">
               <Image
-                src="/images/spaces/salao-panoramica.webp"
+                src="/images/scenes/salao/salao-panoramica.webp"
                 alt="Vista panorâmica do salão de eventos do Espaço Coral em Batatais"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"

@@ -73,7 +73,7 @@ export function PhilosophySection() {
                 }}
               >
                 <Image
-                  src="/images/gallery/salao-decorado.webp"
+                  src="/images/scenes/casamentos/salao-decorado.webp"
                   alt="Salão do Espaço Coral decorado para casamento"
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
@@ -92,7 +92,7 @@ export function PhilosophySection() {
                 }}
               >
                 <Image
-                  src="/images/spaces/cerimonia-arco.webp"
+                  src="/images/scenes/cerimonia/cerimonia-arco.webp"
                   alt="Cerimônia ao ar livre com arco floral no Espaço Coral"
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"

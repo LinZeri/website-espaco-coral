@@ -122,7 +122,7 @@ const SCHEMA = servicePageSchema(
       "Espaço para confraternizações, formaturas, premiações e lançamentos em Batatais, SP. Capacidade para 320 pessoas, estrutura completa e privacidade total.",
     serviceType: "Espaço para evento corporativo",
     url: "https://coraleventos.com.br/eventos/corporativo",
-    image: "/images/spaces/salao-panoramica.webp",
+    image: "/images/scenes/salao/salao-panoramica.webp",
   },
   [
     { name: "Início", url: "/" },
@@ -141,7 +141,7 @@ export default function CorporativoPage() {
         <PageHero
           title="Eventos Corporativos em Batatais"
           subtitle="Estrutura profissional para sua empresa"
-          imageSrc="/images/spaces/salao-panoramica.webp"
+          imageSrc="/images/scenes/salao/salao-panoramica.webp"
           imageAlt="Salão panorâmico do Espaço Coral para eventos corporativos em Batatais SP"
         />
 
@@ -223,7 +223,7 @@ export default function CorporativoPage() {
           <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-2 md:gap-16 lg:gap-24">
             <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
               <Image
-                src="/images/spaces/salao-mesa.webp"
+                src="/images/scenes/salao/salao-mesa.webp"
                 alt="Salão do Espaço Coral montado para evento corporativo"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -292,7 +292,7 @@ export default function CorporativoPage() {
             </div>
             <div className="relative order-1 aspect-[4/5] overflow-hidden rounded-2xl md:order-2">
               <Image
-                src="/images/spaces/fachada-noite.webp"
+                src="/images/scenes/fachada/fachada-noite.webp"
                 alt="Fachada iluminada do Espaço Coral à noite"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"

@@ -101,7 +101,7 @@ export default function RibeiraoPretoPage() {
         <PageHero
           title="Espaço para Eventos para Ribeirão Preto"
           subtitle="Espaço Coral, a 70 km, em Batatais"
-          imageSrc="/images/spaces/fachada-entardecer.webp"
+          imageSrc="/images/scenes/fachada/fachada-entardecer.webp"
           imageAlt="Fachada do Espaço Coral em Batatais ao entardecer, espaço para eventos a 70 km de Ribeirão Preto"
         />
 
@@ -135,7 +135,7 @@ export default function RibeiraoPretoPage() {
           <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-2 md:gap-16 lg:gap-24">
             <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
               <Image
-                src="/images/spaces/cerimonia-arco.webp"
+                src="/images/scenes/cerimonia/cerimonia-arco.webp"
                 alt="Cerimônia ao ar livre com arco floral no Espaço Coral, opção para noivas de Ribeirão Preto"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -197,7 +197,7 @@ export default function RibeiraoPretoPage() {
             </div>
             <div className="relative order-1 aspect-[4/5] overflow-hidden rounded-2xl md:order-2">
               <Image
-                src="/images/spaces/fachada-noite.webp"
+                src="/images/scenes/fachada/fachada-noite.webp"
                 alt="Fachada iluminada do Espaço Coral à noite em Batatais"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"

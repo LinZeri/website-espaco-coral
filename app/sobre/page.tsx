@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     url: "https://coraleventos.com.br/sobre",
     images: [
       {
-        url: "/images/spaces/fachada-entardecer.webp",
+        url: "/images/scenes/fachada/fachada-entardecer.webp",
         width: 1200,
         height: 630,
         alt: "Fachada do Espaço Coral em Batatais SP ao entardecer",
@@ -76,7 +76,7 @@ export default function SobrePage() {
         <PageHero
           title="Sobre o Espaço Coral"
           subtitle="Quem somos · Batatais, SP"
-          imageSrc="/images/spaces/fachada-entardecer.webp"
+          imageSrc="/images/scenes/fachada/fachada-entardecer.webp"
           imageAlt="Fachada do Espaço Coral ao entardecer em Batatais SP"
         />
 
@@ -190,7 +190,7 @@ export default function SobrePage() {
           <div className="mx-auto grid max-w-5xl grid-cols-1 items-center gap-12 md:grid-cols-2 md:gap-16 lg:gap-24">
             <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
               <Image
-                src="/images/spaces/fachada-noite.webp"
+                src="/images/scenes/fachada/fachada-noite.webp"
                 alt="Fachada do Espaço Coral à noite em Batatais SP"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"

@@ -53,25 +53,25 @@ function ScrollRevealText({ text }: { text: string }) {
 
 const sideImages = [
   {
-    src: "/images/spaces/cerimonia-arco.webp",
+    src: "/images/scenes/cerimonia/cerimonia-arco.webp",
     alt: "Cerimônia ao ar livre com arco floral",
     position: "left",
     span: 1,
   },
   {
-    src: "/images/spaces/entrada-decorada.webp",
+    src: "/images/scenes/entrada/entrada-decorada.webp",
     alt: "Entrada decorada do Espaço Coral",
     position: "left",
     span: 1,
   },
   {
-    src: "/images/spaces/terraco-noite.webp",
+    src: "/images/scenes/terraco/terraco-noite.webp",
     alt: "Terraço panorâmico do Espaço Coral à noite",
     position: "right",
     span: 1,
   },
   {
-    src: "/images/spaces/cerimonia-palmeiras.webp",
+    src: "/images/scenes/cerimonia/cerimonia-palmeiras.webp",
     alt: "Cerimônia ao ar livre entre palmeiras",
     position: "right",
     span: 1,
@@ -193,7 +193,7 @@ export function TechnologySection() {
               style={{ width: "100%", height: "100%", flex: "0 0 auto" }}
             >
               <Image
-                src="/images/spaces/salao-mesa-flores.webp"
+                src="/images/scenes/salao/salao-mesa-flores.webp"
                 alt="Salão do Espaço Coral decorado com flores"
                 fill
                 sizes="100vw"

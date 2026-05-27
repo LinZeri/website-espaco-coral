@@ -44,7 +44,7 @@ export default function GaleriaPage() {
         <PageHero
           title="Galeria"
           subtitle="Momentos que ficam para sempre"
-          imageSrc="/images/gallery/casamento-arco-floral.webp"
+          imageSrc="/images/scenes/casamentos/casamento-arco-floral.webp"
           imageAlt="Casamento no Espaço Coral em Batatais SP"
         />
         <section className="bg-background">

@@ -16,7 +16,7 @@ export function TestimonialsSection() {
       {/* Full-width image */}
       <div className="relative aspect-[16/9] w-full">
         <Image
-          src="/images/spaces/salao-panoramica.webp"
+          src="/images/scenes/salao/salao-panoramica.webp"
           alt="Vista panorâmica do salão do Espaço Coral"
           fill
           sizes="100vw"

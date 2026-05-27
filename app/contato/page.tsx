@@ -47,7 +47,7 @@ export default function ContatoPage() {
         <PageHero
           title="Fale Conosco"
           subtitle="Espaço Coral em Batatais, SP"
-          imageSrc="/images/spaces/fachada-entardecer.webp"
+          imageSrc="/images/scenes/fachada/fachada-entardecer.webp"
           imageAlt="Fachada do Espaço Coral ao entardecer em Batatais SP"
         />
 

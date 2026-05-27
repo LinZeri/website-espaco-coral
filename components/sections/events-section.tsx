@@ -6,37 +6,37 @@ const diferenciais = [
   {
     title: "Salão de Festas",
     description: "Elegância",
-    image: "/images/spaces/salao-mesa.webp",
+    image: "/images/scenes/salao/salao-mesa.webp",
     alt: "Salão de festas do Espaço Coral",
   },
   {
     title: "Cerimônia ao Ar Livre",
     description: "Natureza",
-    image: "/images/spaces/cerimonia-palmeiras.webp",
+    image: "/images/scenes/cerimonia/cerimonia-palmeiras.webp",
     alt: "Área de cerimônia ao ar livre com palmeiras",
   },
   {
     title: "Varanda Panôramica",
     description: "Conforto",
-    image: "/images/spaces/terraco-noite.webp",
+    image: "/images/scenes/terraco/terraco-noite.webp",
     alt: "Terraço panorâmico do Espaço Coral à noite",
   },
   {
     title: "Estacionamento Amplo",
     description: "Praticidade",
-    image: "/images/spaces/fachada-dia.webp",
+    image: "/images/scenes/fachada/fachada-dia.webp",
     alt: "Fachada e estacionamento do Espaço Coral",
   },
   {
     title: "Luxo em cada detalhe",
     description: "Alto Padrão",
-    image: "/images/spaces/fachada-noite.webp",
+    image: "/images/scenes/fachada/fachada-noite.webp",
     alt: "Vista noturna da fachada do Espaço Coral",
   },
   {
     title: "Equipe Dedicada",
     description: "Excelência",
-    image: "/images/spaces/entrada-decorada.webp",
+    image: "/images/scenes/entrada/entrada-decorada.webp",
     alt: "Entrada decorada do Espaço Coral",
   },
 ];

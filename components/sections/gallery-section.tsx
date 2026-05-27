@@ -11,14 +11,14 @@ export function GallerySection() {
   const rafRef = useRef<number | null>(null);
 
   const images = [
-    { src: "/images/gallery/casamento-confetti.webp", alt: "Casal com chuva de confetti na cerimônia" },
-    { src: "/images/gallery/casamento-veu.webp", alt: "Noiva com véu ao vento no Espaço Coral" },
-    { src: "/images/gallery/casamento-arco-floral.webp", alt: "Arco floral para cerimônia de casamento" },
-    { src: "/images/gallery/mesa-branca-dourada.webp", alt: "Mesa de festa branca e dourada" },
-    { src: "/images/gallery/noiva-escada.webp", alt: "Noiva na escada do Espaço Coral" },
-    { src: "/images/gallery/salao-decorado.webp", alt: "Salão do Espaço Coral decorado" },
-    { src: "/images/gallery/cerimonia-entrada-noiva.webp", alt: "Entrada da noiva na cerimônia" },
-    { src: "/images/gallery/mesa-bolo-flores.webp", alt: "Mesa de bolo com flores" },
+    { src: "/images/scenes/casamentos/casamento-confetti.webp", alt: "Casal com chuva de confetti na cerimônia" },
+    { src: "/images/scenes/casamentos/casamento-veu.webp", alt: "Noiva com véu ao vento no Espaço Coral" },
+    { src: "/images/scenes/casamentos/casamento-arco-floral.webp", alt: "Arco floral para cerimônia de casamento" },
+    { src: "/images/scenes/casamentos/mesa-branca-dourada.webp", alt: "Mesa de festa branca e dourada" },
+    { src: "/images/scenes/casamentos/noiva-escada.webp", alt: "Noiva na escada do Espaço Coral" },
+    { src: "/images/scenes/casamentos/salao-decorado.webp", alt: "Salão do Espaço Coral decorado" },
+    { src: "/images/scenes/casamentos/cerimonia-entrada-noiva.webp", alt: "Entrada da noiva na cerimônia" },
+    { src: "/images/scenes/casamentos/mesa-bolo-flores.webp", alt: "Mesa de bolo com flores" },
   ];
 
   useEffect(() => {

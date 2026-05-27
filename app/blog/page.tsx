@@ -67,7 +67,7 @@ export default function BlogIndexPage() {
         <PageHero
           title="Blog"
           subtitle="Guias e referências para o seu evento"
-          imageSrc="/images/spaces/fachada-entardecer.webp"
+          imageSrc="/images/scenes/fachada/fachada-entardecer.webp"
           imageAlt="Fachada do Espaço Coral em Batatais ao entardecer"
         />
 

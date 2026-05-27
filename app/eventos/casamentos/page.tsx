@@ -100,7 +100,7 @@ const SCHEMA = servicePageSchema(
       "Cerimônia ao céu aberto, sala privativa da noiva e estrutura para até 320 convidados em Batatais, SP.",
     serviceType: "Espaço para casamento",
     url: "https://coraleventos.com.br/eventos/casamentos",
-    image: "/images/gallery/casamento-arco-floral.webp",
+    image: "/images/scenes/casamentos/casamento-arco-floral.webp",
   },
   [
     { name: "Início", url: "/" },
@@ -119,7 +119,7 @@ export default function CasamentosPage() {
         <PageHero
           title="Casamentos em Batatais"
           subtitle="O cenário perfeito para o grande dia"
-          imageSrc="/images/gallery/casamento-arco-floral.webp"
+          imageSrc="/images/scenes/casamentos/casamento-arco-floral.webp"
           imageAlt="Cerimônia de casamento com arco floral no Espaço Coral em Batatais SP"
         />
 
@@ -202,7 +202,7 @@ export default function CasamentosPage() {
           <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-2 md:gap-16 lg:gap-24">
             <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
               <Image
-                src="/images/spaces/cerimonia-arco.webp"
+                src="/images/scenes/cerimonia/cerimonia-arco.webp"
                 alt="Cerimônia ao ar livre com arco floral no Espaço Coral"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -270,7 +270,7 @@ export default function CasamentosPage() {
             </div>
             <div className="relative order-1 aspect-[4/5] overflow-hidden rounded-2xl md:order-2">
               <Image
-                src="/images/gallery/noiva-escada.webp"
+                src="/images/scenes/casamentos/noiva-escada.webp"
                 alt="Noiva na escada do Espaço Coral em Batatais"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -285,7 +285,7 @@ export default function CasamentosPage() {
           <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-2 md:gap-16 lg:gap-24">
             <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
               <Image
-                src="/images/spaces/salao-mesa.webp"
+                src="/images/scenes/salao/salao-mesa.webp"
                 alt="Salão de festas do Espaço Coral montado para casamento"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"

@@ -52,21 +52,21 @@ const eventTypes = [
   {
     title: "Casamentos",
     subtitle: "O cenário perfeito para o dia mais importante",
-    image: "/images/gallery/casamento-arco-floral.webp",
+    image: "/images/scenes/casamentos/casamento-arco-floral.webp",
     alt: "Cerimônia de casamento com arco floral no Espaço Coral em Batatais",
     href: "/eventos/casamentos",
   },
   {
     title: "Festas de 15 Anos",
     subtitle: "Exclusividade e encanto para a debutante",
-    image: "/images/gallery/salao-decorado.webp",
+    image: "/images/scenes/casamentos/salao-decorado.webp",
     alt: "Salão decorado para festa de 15 anos no Espaço Coral",
     href: "/eventos/15-anos",
   },
   {
     title: "Eventos Corporativos",
     subtitle: "Estrutura profissional para sua empresa",
-    image: "/images/spaces/salao-panoramica.webp",
+    image: "/images/scenes/salao/salao-panoramica.webp",
     alt: "Salão panorâmico do Espaço Coral para eventos corporativos em Batatais",
     href: "/eventos/corporativo",
   },
@@ -81,7 +81,7 @@ export default function EventosPage() {
         <PageHero
           title="Eventos"
           subtitle="Espaço Coral em Batatais, SP"
-          imageSrc="/images/spaces/salao-mesa-flores.webp"
+          imageSrc="/images/scenes/salao/salao-mesa-flores.webp"
           imageAlt="Salão do Espaço Coral decorado com flores para evento em Batatais"
         />
 

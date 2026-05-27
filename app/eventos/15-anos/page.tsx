@@ -99,7 +99,7 @@ const SCHEMA = servicePageSchema(
       "Espaço para festas de debutantes em Batatais, SP. Sala privativa, espaço kids com monitora, capacidade para 320 convidados.",
     serviceType: "Espaço para festa de 15 anos",
     url: "https://coraleventos.com.br/eventos/15-anos",
-    image: "/images/gallery/salao-decorado.webp",
+    image: "/images/scenes/casamentos/salao-decorado.webp",
   },
   [
     { name: "Início", url: "/" },
@@ -118,7 +118,7 @@ export default function QuinzeAnosPage() {
         <PageHero
           title="Festas de 15 Anos em Batatais"
           subtitle="Um momento único merece um espaço único"
-          imageSrc="/images/gallery/salao-decorado.webp"
+          imageSrc="/images/scenes/casamentos/salao-decorado.webp"
           imageAlt="Salão do Espaço Coral decorado para festa de 15 anos em Batatais SP"
         />
 
@@ -209,7 +209,7 @@ export default function QuinzeAnosPage() {
           <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-2 md:gap-16 lg:gap-24">
             <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
               <Image
-                src="/images/spaces/entrada-decorada.webp"
+                src="/images/scenes/entrada/entrada-decorada.webp"
                 alt="Entrada decorada do Espaço Coral para festa de 15 anos"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -273,7 +273,7 @@ export default function QuinzeAnosPage() {
             </div>
             <div className="relative order-1 aspect-[4/5] overflow-hidden rounded-2xl md:order-2">
               <Image
-                src="/images/spaces/fachada-entardecer.webp"
+                src="/images/scenes/fachada/fachada-entardecer.webp"
                 alt="Fachada do Espaço Coral ao entardecer"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -288,7 +288,7 @@ export default function QuinzeAnosPage() {
           <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-2 md:gap-16 lg:gap-24">
             <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
               <Image
-                src="/images/spaces/salao-mesa.webp"
+                src="/images/scenes/salao/salao-mesa.webp"
                 alt="Salão do Espaço Coral montado para festa"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"

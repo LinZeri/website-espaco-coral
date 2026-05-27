@@ -41,42 +41,42 @@ const ambientes = [
     title: "Salão Principal",
     description:
       "Ambiente climatizado com capacidade para até 320 convidados sentados. Iluminação profissional, sistema de som ambiente e TVs para tornar seu evento impecável.",
-    image: "/images/spaces/salao-mesa.webp",
+    image: "/images/scenes/salao/salao-mesa.webp",
     alt: "Salão principal do Espaço Coral montado para evento",
   },
   {
     title: "Cerimônia ao Céu Aberto",
     description:
       "Área verde exclusiva para cerimônias ao ar livre. O cenário natural, aliado à iluminação e ao espaço generoso, cria o pano de fundo perfeito para o momento mais emocionante da festa.",
-    image: "/images/spaces/cerimonia-arco.webp",
+    image: "/images/scenes/cerimonia/cerimonia-arco.webp",
     alt: "Área de cerimônia ao ar livre com arco floral no Espaço Coral",
   },
   {
     title: "Sala Privativa",
     description:
       "Espaço exclusivo para a homenageada, noiva ou debutante. Conta com cadeira de maquiagem profissional, banheiro e chuveiro privativos para que ela se prepare com total conforto e privacidade.",
-    image: "/images/spaces/entrada-decorada.webp",
+    image: "/images/scenes/entrada/entrada-decorada.webp",
     alt: "Entrada decorada do Espaço Coral",
   },
   {
     title: "Espaço Kids",
     description:
       "Área dedicada ao entretenimento infantil, supervisionada por uma monitora profissional durante todo o evento. Os pais aproveitam a festa com tranquilidade enquanto os pequenos se divertem com segurança.",
-    image: "/images/spaces/cerimonia-palmeiras.webp",
+    image: "/images/scenes/cerimonia/cerimonia-palmeiras.webp",
     alt: "Área verde do Espaço Coral entre palmeiras",
   },
   {
     title: "Varanda Panorâmica",
     description:
       "Espaço ao ar livre elevado com vista para o jardim e a área de eventos. Ideal para momentos de descanso e conversas durante a festa.",
-    image: "/images/spaces/terraco-noite.webp",
+    image: "/images/scenes/terraco/terraco-noite.webp",
     alt: "Varanda panorâmica do Espaço Coral à noite",
   },
   {
     title: "Estacionamento",
     description:
       "Estacionamento com capacidade para 40 veículos, com orientadores de vagas durante todo o evento. Acesso fácil e sem estresse para seus convidados.",
-    image: "/images/spaces/fachada-dia.webp",
+    image: "/images/scenes/fachada/fachada-dia.webp",
     alt: "Fachada e estacionamento do Espaço Coral durante o dia",
   },
 ];
@@ -98,7 +98,7 @@ export default function EstruturaPage() {
         <PageHero
           title="Nossa Estrutura"
           subtitle="12.000 m² para o seu evento"
-          imageSrc="/images/spaces/salao-panoramica.webp"
+          imageSrc="/images/scenes/salao/salao-panoramica.webp"
           imageAlt="Vista panorâmica do salão do Espaço Coral em Batatais SP"
         />
 
@@ -191,7 +191,7 @@ export default function EstruturaPage() {
           <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-2 md:gap-16 lg:gap-24">
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
               <Image
-                src="/images/spaces/salao-mesa-flores.webp"
+                src="/images/scenes/salao/salao-mesa-flores.webp"
                 alt="Salão do Espaço Coral decorado com flores para casamento em Batatais"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"

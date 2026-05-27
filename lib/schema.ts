@@ -85,9 +85,9 @@ function venue() {
     description: BUSINESS.description,
     url: SITE_URL,
     image: [
-      `${SITE_URL}/images/spaces/fachada-entardecer.webp`,
-      `${SITE_URL}/images/spaces/salao-panoramica.webp`,
-      `${SITE_URL}/images/spaces/cerimonia-arco.webp`,
+      `${SITE_URL}/images/scenes/fachada/fachada-entardecer.webp`,
+      `${SITE_URL}/images/scenes/salao/salao-panoramica.webp`,
+      `${SITE_URL}/images/scenes/cerimonia/cerimonia-arco.webp`,
     ],
     logo: LOGO_URL,
     telephone: CONTACT.phone,

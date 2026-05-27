@@ -7,13 +7,13 @@ const word = "CORAL";
 
 const sideImages = [
   {
-    src: "/images/spaces/fachada-entardecer.webp",
+    src: "/images/scenes/fachada/fachada-entardecer.webp",
     alt: "Fachada do Espaço Coral ao entardecer",
     position: "left",
     span: 1,
   },
   {
-    src: "/images/spaces/salao-panoramica.webp",
+    src: "/images/scenes/salao/salao-panoramica.webp",
     alt: "Vista panorâmica do salão do Espaço Coral",
     position: "left",
     span: 1,
