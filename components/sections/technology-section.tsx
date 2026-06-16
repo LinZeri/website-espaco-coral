@@ -6,11 +6,12 @@ import { useEffect, useRef, useCallback } from "react";
 function ScrollRevealText({ text }: { text: string }) {
   const containerRef = useRef<HTMLParagraphElement>(null);
   const wordRefs = useRef<(HTMLSpanElement | null)[]>([]);
+  const rafRef = useRef<number | null>(null);
 
   const words = text.split(" ");
 
   useEffect(() => {
-    const handleScroll = () => {
+    const updateWords = () => {
       if (!containerRef.current) return;
       const rect = containerRef.current.getBoundingClientRect();
       const windowHeight = window.innerHeight;
@@ -26,9 +27,16 @@ function ScrollRevealText({ text }: { text: string }) {
         el.style.color = progress > wordProgress ? "var(--foreground)" : "#e4e4e7";
       });
     };
+    const handleScroll = () => {
+      if (rafRef.current) cancelAnimationFrame(rafRef.current);
+      rafRef.current = requestAnimationFrame(updateWords);
+    };
     window.addEventListener("scroll", handleScroll, { passive: true });
-    handleScroll();
-    return () => window.removeEventListener("scroll", handleScroll);
+    updateWords();
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      if (rafRef.current) cancelAnimationFrame(rafRef.current);
+    };
   }, [words.length]);
 
   return (
@@ -90,8 +98,10 @@ export function TechnologySection() {
   const rightColRef = useRef<HTMLDivElement>(null);
   const centerRef = useRef<HTMLDivElement>(null);
   const titleWordsRef = useRef<(HTMLSpanElement | null)[]>([]);
+  const sideWrappersRef = useRef<NodeListOf<HTMLDivElement> | null>(null);
+  const rafRef = useRef<number | null>(null);
 
-  const handleScroll = useCallback(() => {
+  const updateTransforms = useCallback(() => {
     if (!sectionRef.current) return;
     const rect = sectionRef.current.getBoundingClientRect();
     const scrollableHeight = window.innerHeight * 2;
@@ -137,21 +147,30 @@ export function TechnologySection() {
       const wordFadeEnd = wordFadeStart + 0.07;
       const wordProgress = Math.max(0, Math.min(1, (scrollProgress - wordFadeStart) / (wordFadeEnd - wordFadeStart)));
       el.style.opacity = String(1 - wordProgress);
-      el.style.filter = `blur(${wordProgress * 10}px)`;
+      el.style.transform = `translateY(${wordProgress * -12}px)`;
     });
 
     // Side image border radius
-    if (sectionRef.current) {
-      const sideWrappers = sectionRef.current.querySelectorAll<HTMLDivElement>(".tech-side-img");
-      sideWrappers.forEach((el) => { el.style.borderRadius = `${borderRadius}px`; });
+    if (sideWrappersRef.current) {
+      sideWrappersRef.current.forEach((el) => { el.style.borderRadius = `${borderRadius}px`; });
     }
   }, []);
 
   useEffect(() => {
+    if (sectionRef.current) {
+      sideWrappersRef.current = sectionRef.current.querySelectorAll<HTMLDivElement>(".tech-side-img");
+    }
+    const handleScroll = () => {
+      if (rafRef.current) cancelAnimationFrame(rafRef.current);
+      rafRef.current = requestAnimationFrame(updateTransforms);
+    };
     window.addEventListener("scroll", handleScroll, { passive: true });
-    handleScroll();
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, [handleScroll]);
+    updateTransforms();
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      if (rafRef.current) cancelAnimationFrame(rafRef.current);
+    };
+  }, [updateTransforms]);
 
   return (
     <section ref={sectionRef} className="relative bg-foreground">

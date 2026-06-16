@@ -7,26 +7,26 @@ const word = "CORAL";
 
 const sideImages = [
   {
-    src: "/images/scenes/fachada/fachada-entardecer.webp",
-    alt: "Fachada do Espaço Coral ao entardecer",
+    src: "/images/hero/espaco-coral-hero-cerimonia-ao-ar-livre-01.webp",
+    alt: "Cerimônia de casamento ao ar livre no jardim do Espaço Coral em Batatais SP",
     position: "left",
     span: 1,
   },
   {
-    src: "/images/scenes/salao/salao-panoramica.webp",
-    alt: "Vista panorâmica do salão do Espaço Coral",
+    src: "/images/hero/espaco-coral-hero-decoracao-luxo-01.webp",
+    alt: "Decoração de luxo para casamento no salão do Espaço Coral em Batatais",
     position: "left",
     span: 1,
   },
   {
-    src: "/images/hero/hero-top-right.webp",
-    alt: "Noiva na fachada de vidro do Espaço Coral",
+    src: "/images/hero/espaco-coral-hero-espaco-elegante-01.webp",
+    alt: "Ambiente elegante do Espaço Coral para festas e eventos em Batatais SP",
     position: "right",
     span: 1,
   },
   {
-    src: "/images/hero/hero-bottom-right.webp",
-    alt: "Noivos com chuva de pétalas na cerimônia ao ar livre",
+    src: "/images/hero/espaco-coral-hero-salao-sofas-cerejeiras-02.webp",
+    alt: "Salão do Espaço Coral com sofás e cerejeiras decorativas em Batatais SP",
     position: "right",
     span: 1,
   },
@@ -39,9 +39,14 @@ export function HeroSection() {
   const rightColRef = useRef<HTMLDivElement>(null);
   const centerRef = useRef<HTMLDivElement>(null);
   const textRef = useRef<HTMLDivElement>(null);
+  const sideWrappersRef = useRef<NodeListOf<HTMLDivElement> | null>(null);
+  const rafRef = useRef<number | null>(null);
 
   useEffect(() => {
-    const handleScroll = () => {
+    if (sectionRef.current) {
+      sideWrappersRef.current = sectionRef.current.querySelectorAll<HTMLDivElement>(".side-img-wrapper");
+    }
+    const updateTransforms = () => {
       if (!sectionRef.current) return;
       const rect = sectionRef.current.getBoundingClientRect();
       const scrollableHeight = window.innerHeight * 2;
@@ -88,15 +93,24 @@ export function HeroSection() {
       }
 
       // Apply borderRadius to side image wrappers
-      const sideImgWrappers = sectionRef.current.querySelectorAll<HTMLDivElement>(".side-img-wrapper");
-      sideImgWrappers.forEach((el) => {
-        el.style.borderRadius = `${borderRadius}px`;
-      });
+      if (sideWrappersRef.current) {
+        sideWrappersRef.current.forEach((el) => {
+          el.style.borderRadius = `${borderRadius}px`;
+        });
+      }
+    };
+
+    const handleScroll = () => {
+      if (rafRef.current) cancelAnimationFrame(rafRef.current);
+      rafRef.current = requestAnimationFrame(updateTransforms);
     };
 
     window.addEventListener("scroll", handleScroll, { passive: true });
-    handleScroll();
-    return () => window.removeEventListener("scroll", handleScroll);
+    updateTransforms();
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      if (rafRef.current) cancelAnimationFrame(rafRef.current);
+    };
   }, []);
 
   return (
@@ -125,7 +139,6 @@ export function HeroSection() {
                       src={img.src}
                       alt={img.alt}
                       fill
-                      priority
                       sizes="(max-width: 768px) 0vw, 22vw"
                       className="object-cover"
                     />
@@ -140,7 +153,7 @@ export function HeroSection() {
               style={{ width: "100%", height: "100%", flex: "0 0 auto" }}
             >
               <Image
-                src="/images/hero/hero-main.webp"
+                src="/images/hero/espaco-coral-hero-salao-panoramico-01.webp"
                 alt="Vista panorâmica do salão do Espaço Coral decorado para casamento em Batatais SP"
                 fill
                 priority
@@ -189,7 +202,6 @@ export function HeroSection() {
                       src={img.src}
                       alt={img.alt}
                       fill
-                      priority
                       sizes="(max-width: 768px) 0vw, 22vw"
                       className="object-cover"
                     />

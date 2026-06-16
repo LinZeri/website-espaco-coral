@@ -159,7 +159,6 @@ export function GalleryGrid() {
               height={800}
               sizes="90vw"
               className="max-h-[85vh] w-auto rounded-lg object-contain"
-              priority
             />
           </div>
 

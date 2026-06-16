@@ -8,12 +8,13 @@ type FadeImageProps = ImageProps & {
   className?: string;
 };
 
-export function FadeImage({ className, ...props }: FadeImageProps) {
+export function FadeImage({ className, alt, ...props }: FadeImageProps) {
   const [isLoaded, setIsLoaded] = useState(false);
 
   return (
     <Image
       {...props}
+      alt={alt}
       className={cn(
         "transition-opacity duration-700",
         isLoaded ? "opacity-100" : "opacity-0",

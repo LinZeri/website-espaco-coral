@@ -1,13 +1,11 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useRef, useState, useCallback } from "react";
+import { useEffect, useRef, useCallback } from "react";
 
 export function GallerySection() {
   const galleryRef = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
-  const [sectionHeight, setSectionHeight] = useState("100vh");
-  const [translateX, setTranslateX] = useState(0);
   const rafRef = useRef<number | null>(null);
 
   const images = [
@@ -23,12 +21,12 @@ export function GallerySection() {
 
   useEffect(() => {
     const calculateHeight = () => {
-      if (!containerRef.current) return;
+      if (!containerRef.current || !galleryRef.current) return;
       const containerWidth = containerRef.current.scrollWidth;
       const viewportWidth = window.innerWidth;
       const viewportHeight = window.innerHeight;
       const totalHeight = viewportHeight + (containerWidth - viewportWidth);
-      setSectionHeight(`${totalHeight}px`);
+      galleryRef.current.style.height = `${totalHeight}px`;
     };
     const timer = setTimeout(calculateHeight, 100);
     window.addEventListener("resize", calculateHeight);
@@ -47,7 +45,8 @@ export function GallerySection() {
     const scrolled = Math.max(0, -rect.top);
     const progress = Math.min(1, scrolled / totalScrollDistance);
     const newTranslateX = progress * -totalScrollDistance;
-    setTranslateX(newTranslateX);
+    containerRef.current.style.transform = `translate3d(${newTranslateX}px, 0, 0)`;
+    containerRef.current.style.webkitTransform = `translate3d(${newTranslateX}px, 0, 0)`;
   }, []);
 
   useEffect(() => {
@@ -68,7 +67,7 @@ export function GallerySection() {
       id="galeria"
       ref={galleryRef}
       className="relative bg-background"
-      style={{ height: sectionHeight }}
+      style={{ height: "100vh" }}
     >
       <div className="sticky top-0 h-screen overflow-hidden">
         <div className="flex h-full items-center">
@@ -76,8 +75,8 @@ export function GallerySection() {
             ref={containerRef}
             className="flex gap-6 px-6"
             style={{
-              transform: `translate3d(${translateX}px, 0, 0)`,
-              WebkitTransform: `translate3d(${translateX}px, 0, 0)`,
+              transform: "translate3d(0, 0, 0)",
+              WebkitTransform: "translate3d(0, 0, 0)",
               backfaceVisibility: "hidden",
               WebkitBackfaceVisibility: "hidden",
               perspective: 1000,
@@ -100,7 +99,6 @@ export function GallerySection() {
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 85vw, (max-width: 1024px) 60vw, 45vw"
-                  priority={index < 3}
                 />
               </div>
             ))}
