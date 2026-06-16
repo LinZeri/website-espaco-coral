@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import dynamic from "next/dynamic";
 import Image from "next/image";
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { WhatsAppButton } from "@/components/layout/whatsapp-button";
@@ -183,6 +185,16 @@ export default function EstruturaPage() {
                 </ul>
               </div>
             ))}
+          </div>
+
+          <div className="mt-12">
+            <Link
+              href="/estrutura/mobiliario"
+              className="inline-flex items-center gap-2 border border-white/20 px-8 py-4 text-sm font-medium tracking-wide text-white transition-colors duration-200 hover:border-gold hover:text-gold"
+            >
+              Ver mobiliário completo
+              <ArrowRight size={16} />
+            </Link>
           </div>
         </section>
 

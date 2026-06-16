@@ -275,6 +275,24 @@ export function estruturaSchema() {
 }
 
 /**
+ * /estrutura/mobiliario: EventVenue completo + Breadcrumb (filho de /estrutura).
+ */
+export function mobiliarioSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      organization(),
+      venue(),
+      breadcrumb([
+        { name: "Início", url: "/" },
+        { name: "Estrutura", url: "/estrutura" },
+        { name: "Mobiliário", url: "/estrutura/mobiliario" },
+      ]),
+    ],
+  };
+}
+
+/**
  * /galeria: ImageGallery + Breadcrumb.
  */
 export function galeriaSchema() {

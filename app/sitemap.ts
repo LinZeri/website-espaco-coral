@@ -17,6 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/eventos/15-anos", changeFrequency: "monthly", priority: 0.9 },
     { path: "/eventos/corporativo", changeFrequency: "monthly", priority: 0.8 },
     { path: "/estrutura", changeFrequency: "monthly", priority: 0.8 },
+    { path: "/estrutura/mobiliario", changeFrequency: "yearly", priority: 0.5 },
     { path: "/galeria", changeFrequency: "weekly", priority: 0.7 },
     { path: "/cidades/ribeirao-preto", changeFrequency: "monthly", priority: 0.7 },
     { path: "/cidades/franca", changeFrequency: "monthly", priority: 0.7 },
