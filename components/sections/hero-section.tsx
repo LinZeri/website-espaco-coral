@@ -219,14 +219,12 @@ export function HeroSection() {
         {/* Indicador de scroll */}
         <div
           ref={arrowRef}
-          className="pointer-events-none absolute bottom-8 left-1/2 -translate-x-1/2 will-change-[opacity]"
+          className="pointer-events-none absolute bottom-6 left-1/2 z-10 -translate-x-1/2 will-change-[opacity]"
           aria-hidden="true"
         >
-          <ChevronDown
-            size={32}
-            strokeWidth={1.5}
-            className="animate-scroll-hint text-white drop-shadow-md"
-          />
+          <div className="flex h-11 w-11 animate-scroll-hint items-center justify-center rounded-full border border-white/60 bg-black/25 backdrop-blur-sm">
+            <ChevronDown size={22} strokeWidth={2} className="text-white" />
+          </div>
         </div>
       </div>
 
