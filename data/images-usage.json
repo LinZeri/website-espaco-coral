@@ -45,7 +45,7 @@
     "usedIn": [
       {
         "path": "components/sections/hero-section.tsx",
-        "line": 161,
+        "line": 157,
         "as": "inline"
       }
     ],
@@ -74,7 +74,7 @@
       },
       {
         "path": "components/layout/header.tsx",
-        "line": 52,
+        "line": 54,
         "as": "inline"
       },
       {
@@ -98,6 +98,192 @@
     "firstUsedAt": null,
     "lastUsedAt": null,
     "totalUses": 0
+  },
+  "/images/proposta/buffet/buffet-coral.webp": {
+    "usedIn": [
+      {
+        "path": "lib/proposta/data.ts",
+        "line": 77,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-17",
+    "totalUses": 1
+  },
+  "/images/proposta/buffet/cafe-buffet.webp": {
+    "usedIn": [
+      {
+        "path": "lib/proposta/data.ts",
+        "line": 89,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-17",
+    "totalUses": 1
+  },
+  "/images/proposta/buffet/cerveja-gelada.webp": {
+    "usedIn": [
+      {
+        "path": "lib/proposta/data.ts",
+        "line": 83,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-17",
+    "totalUses": 1
+  },
+  "/images/proposta/buffet/roll-bufala-pesto.webp": {
+    "usedIn": [
+      {
+        "path": "lib/proposta/data.ts",
+        "line": 71,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-17",
+    "totalUses": 1
+  },
+  "/images/proposta/buffet/rondelli.webp": {
+    "usedIn": [
+      {
+        "path": "lib/proposta/data.ts",
+        "line": 578,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-17",
+    "totalUses": 1
+  },
+  "/images/proposta/buffet/terrine-pistache.webp": {
+    "usedIn": [
+      {
+        "path": "lib/proposta/data.ts",
+        "line": 95,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-17",
+    "totalUses": 1
+  },
+  "/images/proposta/decoracao/altar-cerimonia-gramado.webp": {
+    "usedIn": [
+      {
+        "path": "lib/proposta/data.ts",
+        "line": 818,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-17",
+    "totalUses": 1
+  },
+  "/images/proposta/decoracao/arranjo-aereo.webp": {
+    "usedIn": [
+      {
+        "path": "lib/proposta/data.ts",
+        "line": 854,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-17",
+    "totalUses": 1
+  },
+  "/images/proposta/decoracao/arranjo-alto-mesas.webp": {
+    "usedIn": [
+      {
+        "path": "lib/proposta/data.ts",
+        "line": 765,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-17",
+    "totalUses": 1
+  },
+  "/images/proposta/decoracao/arranjo-mesa-pais.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/proposta/decoracao/arranjo-vaso-dourado.webp": {
+    "usedIn": [
+      {
+        "path": "lib/proposta/data.ts",
+        "line": 835,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-17",
+    "totalUses": 1
+  },
+  "/images/proposta/decoracao/arvore-francesa.webp": {
+    "usedIn": [
+      {
+        "path": "lib/proposta/data.ts",
+        "line": 782,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-17",
+    "totalUses": 1
+  },
+  "/images/proposta/decoracao/bolo-mesa.webp": {
+    "usedIn": [
+      {
+        "path": "lib/proposta/data.ts",
+        "line": 745,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-17",
+    "totalUses": 1
+  },
+  "/images/proposta/decoracao/cerimonia-ceu-aberto.webp": {
+    "usedIn": [
+      {
+        "path": "lib/proposta/data.ts",
+        "line": 736,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-17",
+    "totalUses": 1
+  },
+  "/images/proposta/decoracao/cerimonia-gramado.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/proposta/decoracao/decoracao-estatua.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/proposta/decoracao/vasos-pequenos.webp": {
+    "usedIn": [
+      {
+        "path": "lib/proposta/data.ts",
+        "line": 801,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-17",
+    "totalUses": 1
   },
   "/images/scenes/atracoes-bem-estar/espaco-coral-atracoes-bem-estar-01.webp": {
     "usedIn": [],
@@ -1020,16 +1206,10 @@
     "totalUses": 0
   },
   "/images/scenes/decoracao-flores/espaco-coral-decoracao-flores-07.webp": {
-    "usedIn": [
-      {
-        "path": "lib/proposta/data.ts",
-        "line": 684,
-        "as": "inline"
-      }
-    ],
-    "firstUsedAt": "2026-06-16",
+    "usedIn": [],
+    "firstUsedAt": null,
     "lastUsedAt": "2026-06-17",
-    "totalUses": 1
+    "totalUses": 0
   },
   "/images/scenes/decoracao-flores/espaco-coral-decoracao-flores-08.webp": {
     "usedIn": [],
@@ -1291,16 +1471,10 @@
     "totalUses": 1
   },
   "/images/scenes/decoracao-mesas/espaco-coral-decoracao-mesa-posta-04.webp": {
-    "usedIn": [
-      {
-        "path": "lib/proposta/data.ts",
-        "line": 281,
-        "as": "inline"
-      }
-    ],
-    "firstUsedAt": "2026-06-16",
+    "usedIn": [],
+    "firstUsedAt": null,
     "lastUsedAt": "2026-06-17",
-    "totalUses": 1
+    "totalUses": 0
   },
   "/images/scenes/decoracao-mesas/espaco-coral-decoracao-mesa-posta-05.webp": {
     "usedIn": [],
@@ -1436,16 +1610,11 @@
         "path": "content/blog/confraternizacao-fim-ano-espaco-empresa.mdx",
         "line": 99,
         "as": "mdx-inline"
-      },
-      {
-        "path": "lib/proposta/data.ts",
-        "line": 84,
-        "as": "inline"
       }
     ],
     "firstUsedAt": "2026-06-08",
     "lastUsedAt": "2026-06-17",
-    "totalUses": 2
+    "totalUses": 1
   },
   "/images/scenes/fachada/fachada-dia.webp": {
     "usedIn": [
@@ -1619,22 +1788,17 @@
         "path": "content/blog/formatura-empresarial-roteiro.mdx",
         "line": 72,
         "as": "mdx-inline"
-      },
-      {
-        "path": "lib/proposta/data.ts",
-        "line": 528,
-        "as": "inline"
       }
     ],
     "firstUsedAt": "2026-06-08",
     "lastUsedAt": "2026-06-17",
-    "totalUses": 2
+    "totalUses": 1
   },
   "/images/scenes/salao/espaco-coral-salao-cerejeiras-panoramico-13.webp": {
     "usedIn": [
       {
         "path": "app/estrutura/mobiliario/page.tsx",
-        "line": 80,
+        "line": 81,
         "as": "imageSrc"
       },
       {
@@ -1964,7 +2128,7 @@
     "usedIn": [
       {
         "path": "app/estrutura/mobiliario/page.tsx",
-        "line": 138,
+        "line": 143,
         "as": "inline"
       }
     ],

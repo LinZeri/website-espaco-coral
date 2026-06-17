@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import dynamic from "next/dynamic";
-import Image from "next/image";
 import Link from "next/link";
 import { ChevronLeft } from "lucide-react";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { WhatsAppButton } from "@/components/layout/whatsapp-button";
 import { PageHero } from "@/components/sections/page-hero";
+import { FadeImage } from "@/components/fade-image";
+import { Reveal } from "@/components/reveal";
 import { JsonLd } from "@/components/seo/json-ld";
 import { mobiliarioSchema } from "@/lib/schema";
 
@@ -83,7 +84,7 @@ export default function MobiliarioPage() {
 
         {/* Intro */}
         <section className="bg-background px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
-          <div className="mx-auto max-w-3xl">
+          <Reveal className="mx-auto max-w-3xl">
             <Link
               href="/estrutura"
               className="mb-8 inline-flex items-center gap-1 text-xs uppercase tracking-widest text-muted-foreground transition-colors hover:text-gold-dark"
@@ -103,14 +104,18 @@ export default function MobiliarioPage() {
               seu evento sem custo adicional. Você economiza com locação e ganha
               tempo no planejamento.
             </p>
-          </div>
+          </Reveal>
         </section>
 
         {/* Inventário */}
         <section className="bg-foreground px-6 pb-20 pt-4 md:px-12 md:pb-28 lg:px-20 lg:pb-32">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-            {inventario.map((grupo) => (
-              <div key={grupo.categoria} className="border border-white/10 p-6">
+            {inventario.map((grupo, i) => (
+              <Reveal
+                key={grupo.categoria}
+                delay={i * 90}
+                className="border border-white/10 p-6"
+              >
                 <p className="mb-4 text-xs uppercase tracking-widest text-gold">
                   {grupo.categoria}
                 </p>
@@ -125,16 +130,16 @@ export default function MobiliarioPage() {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </Reveal>
             ))}
           </div>
         </section>
 
         {/* Imagem + texto */}
         <section className="bg-background px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
-          <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-2 md:gap-16 lg:gap-24">
+          <Reveal className="grid grid-cols-1 items-center gap-12 md:grid-cols-2 md:gap-16 lg:gap-24">
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
-              <Image
+              <FadeImage
                 src="/images/scenes/terraco/espaco-coral-terraco-02.webp"
                 alt="Lounge com sofás e poltronas Rami na varanda do Espaço Coral em Batatais"
                 fill
@@ -156,7 +161,7 @@ export default function MobiliarioPage() {
                 cada detalhe pessoalmente.
               </p>
             </div>
-          </div>
+          </Reveal>
         </section>
 
         <CtaSection />
