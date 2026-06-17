@@ -15,12 +15,22 @@ export interface ProposalGroup {
   items: string[];
 }
 
+export interface ProposalImage {
+  src: string;
+  alt: string;
+  /** Dimensões reais do arquivo (evita distorção, sem crop). */
+  w: number;
+  h: number;
+}
+
 export interface ProposalBlock {
   /** Nome da seção, exibido como título (ex: "Ilha de Degustação"). */
   eyebrow: string;
   /** Observação curta, ex: "Escolher 2 opções", "Todos inclusos". */
   note?: string;
   groups: ProposalGroup[];
+  /** Foto opcional ao lado do bloco (fotos originais do site WordPress). */
+  image?: ProposalImage;
 }
 
 export interface ProposalConditions {
@@ -81,8 +91,8 @@ const selecaoCoral: ProposalData = {
   tagline: "A partir de 80 convidados",
   intro:
     "Um cardápio completo e elegante, do receptivo ao cantinho do café, pensado para receber seus convidados com requinte do começo ao fim da festa.",
-  heroImage: "/images/scenes/entrada/espaco-coral-foyer-mesa-champanhe-10.webp",
-  heroAlt: "Mesa de recepção com champanhe no foyer do Espaço Coral em Batatais SP",
+  heroImage: "/images/proposta/buffet/cafe-buffet.webp",
+  heroAlt: "Mesa de café e doces do buffet do Espaço Coral em Batatais SP",
   whatsappText:
     "Olá! Gostaria de saber mais sobre o menu Seleção Coral do Espaço Coral.",
   blocks: [

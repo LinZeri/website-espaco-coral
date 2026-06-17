@@ -40,7 +40,6 @@ export function HeroSection() {
   const rightColRef = useRef<HTMLDivElement>(null);
   const centerRef = useRef<HTMLDivElement>(null);
   const textRef = useRef<HTMLDivElement>(null);
-  const arrowRef = useRef<HTMLDivElement>(null);
   const sideWrappersRef = useRef<NodeListOf<HTMLDivElement> | null>(null);
   const rafRef = useRef<number | null>(null);
 
@@ -66,23 +65,23 @@ export function HeroSection() {
       const sideTranslateRight = 100 - imageProgress * 100;
       const borderRadius = imageProgress * 24;
       const gap = imageProgress * 16;
-      const sideTranslateY = -(imageProgress * 15);
 
       if (wrapperRef.current) {
         wrapperRef.current.style.gap = `${gap}px`;
         wrapperRef.current.style.padding = `${imageProgress * 16}px`;
-        wrapperRef.current.style.paddingBottom = `${60 + imageProgress * 40}px`;
       }
       if (leftColRef.current) {
         leftColRef.current.style.width = `${sideWidth}%`;
+        leftColRef.current.style.height = `${centerHeight}%`;
         leftColRef.current.style.gap = `${gap}px`;
-        leftColRef.current.style.transform = `translateX(${sideTranslateLeft}%) translateY(${sideTranslateY}%)`;
+        leftColRef.current.style.transform = `translateX(${sideTranslateLeft}%)`;
         leftColRef.current.style.opacity = String(sideOpacity);
       }
       if (rightColRef.current) {
         rightColRef.current.style.width = `${sideWidth}%`;
+        rightColRef.current.style.height = `${centerHeight}%`;
         rightColRef.current.style.gap = `${gap}px`;
-        rightColRef.current.style.transform = `translateX(${sideTranslateRight}%) translateY(${sideTranslateY}%)`;
+        rightColRef.current.style.transform = `translateX(${sideTranslateRight}%)`;
         rightColRef.current.style.opacity = String(sideOpacity);
       }
       if (centerRef.current) {
@@ -92,9 +91,6 @@ export function HeroSection() {
       }
       if (textRef.current) {
         textRef.current.style.opacity = String(textOpacity);
-      }
-      if (arrowRef.current) {
-        arrowRef.current.style.opacity = String(textOpacity);
       }
 
       // Apply borderRadius to side image wrappers
@@ -124,7 +120,7 @@ export function HeroSection() {
         <div className="flex h-full w-full items-center justify-center">
           <div
             ref={wrapperRef}
-            className="relative flex h-full w-full items-stretch justify-center"
+            className="relative flex h-full w-full items-center justify-center"
           >
             {/* Left Column */}
             <div
@@ -171,7 +167,7 @@ export function HeroSection() {
                 ref={textRef}
                 className="absolute inset-0 flex items-end overflow-hidden"
               >
-                <h1 className="w-full text-[22vw] font-medium leading-[0.8] tracking-tighter text-white">
+                <h1 className="flex w-full items-end whitespace-nowrap text-[22vw] font-medium leading-[0.8] tracking-tighter text-white">
                   {word.split("").map((letter, index) => (
                     <span
                       key={index}
@@ -185,6 +181,11 @@ export function HeroSection() {
                       {letter}
                     </span>
                   ))}
+                  <ChevronDown
+                    aria-hidden="true"
+                    strokeWidth={2.5}
+                    className="ml-[0.04em] mb-[0.04em] h-[0.58em] w-[0.58em] animate-scroll-hint self-end"
+                  />
                 </h1>
               </div>
             </div>
@@ -213,17 +214,6 @@ export function HeroSection() {
                   </div>
                 ))}
             </div>
-          </div>
-        </div>
-
-        {/* Indicador de scroll */}
-        <div
-          ref={arrowRef}
-          className="pointer-events-none absolute bottom-6 left-1/2 z-10 -translate-x-1/2 will-change-[opacity]"
-          aria-hidden="true"
-        >
-          <div className="flex h-11 w-11 animate-scroll-hint items-center justify-center rounded-full border border-white/60 bg-black/25 backdrop-blur-sm">
-            <ChevronDown size={22} strokeWidth={2} className="text-white" />
           </div>
         </div>
       </div>

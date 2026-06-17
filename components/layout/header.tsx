@@ -39,7 +39,9 @@ export function Header() {
 
   return (
     <header
-      className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[90%] max-w-3xl rounded-full bg-white/95 backdrop-blur-md transition-all duration-300"
+      className={`fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[90%] max-w-3xl bg-white/95 backdrop-blur-md transition-all duration-300 ${
+        isMenuOpen ? "rounded-3xl" : "rounded-full"
+      }`}
       style={{
         boxShadow:
           "rgba(14, 63, 126, 0.08) 0px 0px 0px 1px, rgba(42, 51, 69, 0.08) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.08) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.08) 0px 6px 6px -3px, rgba(14, 63, 126, 0.08) 0px 12px 12px -6px, rgba(14, 63, 126, 0.08) 0px 24px 24px -12px",
@@ -138,7 +140,7 @@ export function Header() {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="rounded-b-2xl border-t border-border bg-background px-6 py-8 md:hidden">
+        <div className="rounded-b-3xl border-t border-border bg-background px-6 py-8 md:hidden">
           <nav className="flex flex-col gap-1">
             {navLinks.map((link) =>
               link.children ? (
