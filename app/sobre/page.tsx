@@ -21,7 +21,7 @@ const CtaSection = dynamic(() =>
 export const metadata: Metadata = {
   title: "Sobre o Espaço Coral",
   description:
-    "Conheça o Espaço Coral, espaço de eventos premium em Batatais, SP. 12.000 m², capacidade para 320 convidados, 36 avaliações 5 estrelas no Google. Inaugurado em 2024.",
+    "Conheça o Espaço Coral, espaço de eventos premium em Batatais, SP. 12.000 m², capacidade para 320 convidados, 40 avaliações 5 estrelas no Google. Inaugurado em 2024.",
   keywords: [
     "sobre Espaço Coral",
     "espaço de eventos Batatais",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Sobre o Espaço Coral | Espaço de Eventos em Batatais, SP",
     description:
-      "12.000 m² de estrutura premium em Batatais, SP. Inaugurado em 2024 e referência local em casamentos, 15 anos e eventos corporativos com 36 avaliações 5 estrelas.",
+      "12.000 m² de estrutura premium em Batatais, SP. Inaugurado em 2024 e referência local em casamentos, 15 anos e eventos corporativos com 40 avaliações 5 estrelas.",
     url: "https://coraleventos.com.br/sobre",
     images: [
       {
@@ -106,7 +106,7 @@ export default function SobrePage() {
             <p className="text-base leading-relaxed text-muted-foreground">
               Em pouco tempo de operação, o Espaço Coral se consolidou como uma
               das principais opções de celebração no interior de São Paulo,
-              hoje com <strong>36 avaliações no Google e nota máxima de 5
+              hoje com <strong>40 avaliações no Google e nota máxima de 5
               estrelas</strong>, conquistadas casamento após casamento, festa
               após festa.
             </p>
@@ -135,7 +135,7 @@ export default function SobrePage() {
               </div>
               <div className="text-center">
                 <p className="font-display text-4xl text-foreground md:text-5xl">
-                  36
+                  40
                 </p>
                 <p className="mt-2 text-xs uppercase tracking-widest text-muted-foreground">
                   Avaliações Google
@@ -218,7 +218,7 @@ export default function SobrePage() {
               </p>
               <div className="flex flex-col items-start gap-4 sm:flex-row">
                 <a
-                  href="https://maps.app.goo.gl/zhbZpzoYTjqZHc967"
+                  href="https://maps.app.goo.gl/RRvRvYMonqZWbR1v8"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 border border-white/20 px-6 py-3 text-sm font-medium tracking-wide text-white/80 transition-colors hover:border-white/40 hover:text-white"

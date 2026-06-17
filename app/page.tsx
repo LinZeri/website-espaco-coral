@@ -59,11 +59,11 @@ export default function HomePage() {
       <main>
         <HeroSection />
         <PhilosophySection />
+        <TestimonialsSection />
         <EventsSection />
         <TechnologySection />
         <GallerySection />
         <StatsSection />
-        <TestimonialsSection />
         <CtaSection />
       </main>
       <Footer />

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Menu, X, MessageCircle, ChevronDown } from "lucide-react";
@@ -30,19 +30,7 @@ const navLinks: NavLink[] = [
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
   const [expandedMobile, setExpandedMobile] = useState<string | null>(null);
-
-  useEffect(() => {
-    const sentinel = document.getElementById("header-scroll-sentinel");
-    if (!sentinel) return;
-    const observer = new IntersectionObserver(
-      ([entry]) => setIsScrolled(!entry.isIntersecting),
-      { threshold: 0 }
-    );
-    observer.observe(sentinel);
-    return () => observer.disconnect();
-  }, []);
 
   const closeMenu = () => {
     setIsMenuOpen(false);
@@ -51,15 +39,10 @@ export function Header() {
 
   return (
     <header
-      className={`fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[90%] max-w-3xl transition-all duration-300 ${
-        isScrolled
-          ? "bg-background/80 backdrop-blur-md rounded-full"
-          : "bg-transparent"
-      }`}
+      className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[90%] max-w-3xl rounded-full bg-background/90 backdrop-blur-md transition-all duration-300"
       style={{
-        boxShadow: isScrolled
-          ? "rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(14, 63, 126, 0.04) 0px 24px 24px -12px"
-          : "none",
+        boxShadow:
+          "rgba(14, 63, 126, 0.06) 0px 0px 0px 1px, rgba(42, 51, 69, 0.06) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.06) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.06) 0px 6px 6px -3px, rgba(14, 63, 126, 0.06) 0px 12px 12px -6px, rgba(14, 63, 126, 0.06) 0px 24px 24px -12px",
       }}
     >
       <div className="flex items-center justify-between px-2 pl-5 py-2 transition-all duration-300">
@@ -70,7 +53,7 @@ export function Header() {
             alt="Espaço Coral"
             width={120}
             height={34}
-            className={`h-7 w-auto brightness-0 ${isScrolled ? "" : "invert"}`}
+            className="h-9 w-auto brightness-0"
           />
         </Link>
 
@@ -81,11 +64,11 @@ export function Header() {
               <div key={link.href} className="group relative">
                 <Link
                   href={link.href}
-                  className={`flex items-center gap-1 text-sm transition-colors ${isScrolled ? "text-foreground/70 hover:text-foreground" : "text-white/90 hover:text-white drop-shadow-sm"}`}
+                  className="flex items-center gap-1 text-base font-medium text-foreground transition-colors hover:text-gold"
                 >
                   {link.label}
                   <ChevronDown
-                    size={13}
+                    size={15}
                     className="transition-transform duration-200 group-hover:rotate-180"
                   />
                 </Link>
@@ -117,7 +100,7 @@ export function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`text-sm transition-colors ${isScrolled ? "text-foreground/70 hover:text-foreground" : "text-white/90 hover:text-white drop-shadow-sm"}`}
+                className="text-base font-medium text-foreground transition-colors hover:text-gold"
               >
                 {link.label}
               </Link>
@@ -131,11 +114,7 @@ export function Header() {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className={`flex items-center gap-2 rounded-full px-4 py-2 text-sm font-medium transition-all ${
-              isScrolled
-                ? "bg-gold text-white hover:bg-gold-dark"
-                : "bg-white text-foreground hover:bg-white/90"
-            }`}
+            className="flex items-center gap-2 rounded-full bg-gold px-4 py-2 text-sm font-medium text-white transition-all hover:bg-gold-dark"
           >
             <MessageCircle size={14} />
             Agendar visita
@@ -146,10 +125,14 @@ export function Header() {
         <button
           type="button"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="text-white transition-colors md:hidden"
+          className="mr-1 text-foreground transition-colors md:hidden"
           aria-label="Abrir menu"
         >
-          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          {isMenuOpen ? (
+            <X size={28} strokeWidth={2.5} />
+          ) : (
+            <Menu size={28} strokeWidth={2.5} />
+          )}
         </button>
       </div>
 

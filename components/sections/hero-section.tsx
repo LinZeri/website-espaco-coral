@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { ChevronDown } from "lucide-react";
 import { useEffect, useRef } from "react";
 
 const word = "CORAL";
@@ -39,6 +40,7 @@ export function HeroSection() {
   const rightColRef = useRef<HTMLDivElement>(null);
   const centerRef = useRef<HTMLDivElement>(null);
   const textRef = useRef<HTMLDivElement>(null);
+  const arrowRef = useRef<HTMLDivElement>(null);
   const sideWrappersRef = useRef<NodeListOf<HTMLDivElement> | null>(null);
   const rafRef = useRef<number | null>(null);
 
@@ -90,6 +92,9 @@ export function HeroSection() {
       }
       if (textRef.current) {
         textRef.current.style.opacity = String(textOpacity);
+      }
+      if (arrowRef.current) {
+        arrowRef.current.style.opacity = String(textOpacity);
       }
 
       // Apply borderRadius to side image wrappers
@@ -153,8 +158,8 @@ export function HeroSection() {
               style={{ width: "100%", height: "100%", flex: "0 0 auto" }}
             >
               <Image
-                src="/images/hero/espaco-coral-hero-salao-panoramico-01.webp"
-                alt="Vista panorâmica do salão do Espaço Coral decorado para casamento em Batatais SP"
+                src="/images/hero/espaco-coral-hero-salao-recepcao-mesas-01.webp"
+                alt="Salão do Espaço Coral montado para recepção de casamento com mesas postas e arranjos florais em Batatais SP"
                 fill
                 priority
                 sizes="100vw"
@@ -209,6 +214,19 @@ export function HeroSection() {
                 ))}
             </div>
           </div>
+        </div>
+
+        {/* Indicador de scroll */}
+        <div
+          ref={arrowRef}
+          className="pointer-events-none absolute bottom-8 left-1/2 -translate-x-1/2 will-change-[opacity]"
+          aria-hidden="true"
+        >
+          <ChevronDown
+            size={32}
+            strokeWidth={1.5}
+            className="animate-scroll-hint text-white drop-shadow-md"
+          />
         </div>
       </div>
 

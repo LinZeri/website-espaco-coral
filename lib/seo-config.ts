@@ -49,7 +49,7 @@ export const CONTACT = {
 export const SOCIAL = {
   instagram: "https://www.instagram.com/espaco.coral",
   facebook: "https://www.facebook.com/EspacoCoralEventos",
-  googleMaps: "https://maps.app.goo.gl/zhbZpzoYTjqZHc967",
+  googleMaps: "https://maps.app.goo.gl/RRvRvYMonqZWbR1v8",
 } as const;
 
 /**
@@ -58,7 +58,7 @@ export const SOCIAL = {
  */
 export const REVIEWS = {
   ratingValue: 5,
-  reviewCount: 36,
+  reviewCount: 40,
   bestRating: 5,
   worstRating: 1,
 } as const;

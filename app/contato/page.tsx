@@ -171,7 +171,7 @@ export default function ContatoPage() {
                 />
               </div>
               <a
-                href="https://maps.app.goo.gl/zhbZpzoYTjqZHc967"
+                href="https://maps.app.goo.gl/RRvRvYMonqZWbR1v8"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
