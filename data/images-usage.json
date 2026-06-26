@@ -8,7 +8,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/hero/espaco-coral-hero-decoracao-luxo-01.webp": {
@@ -20,7 +20,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/hero/espaco-coral-hero-espaco-elegante-01.webp": {
@@ -32,7 +32,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/hero/espaco-coral-hero-salao-panoramico-01.webp": {
@@ -45,12 +45,12 @@
     "usedIn": [
       {
         "path": "components/sections/hero-section.tsx",
-        "line": 157,
+        "line": 172,
         "as": "inline"
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/hero/espaco-coral-hero-salao-sofas-cerejeiras-02.webp": {
@@ -62,7 +62,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/logo/logo-coral-completo.svg": {
@@ -84,7 +84,7 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 3
   },
   "/images/logo/logo-coral-logotipia.svg": {
@@ -108,7 +108,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/proposta/buffet/cafe-buffet.webp": {
@@ -120,7 +120,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/proposta/buffet/cerveja-gelada.webp": {
@@ -132,7 +132,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/proposta/buffet/roll-bufala-pesto.webp": {
@@ -144,7 +144,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/proposta/buffet/rondelli.webp": {
@@ -156,7 +156,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/proposta/buffet/terrine-pistache.webp": {
@@ -168,7 +168,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/proposta/decoracao/altar-cerimonia-gramado.webp": {
@@ -180,7 +180,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/proposta/decoracao/arranjo-aereo.webp": {
@@ -192,7 +192,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/proposta/decoracao/arranjo-alto-mesas.webp": {
@@ -204,7 +204,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/proposta/decoracao/arranjo-mesa-pais.webp": {
@@ -222,7 +222,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/proposta/decoracao/arvore-francesa.webp": {
@@ -234,7 +234,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/proposta/decoracao/bolo-mesa.webp": {
@@ -246,7 +246,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/proposta/decoracao/cerimonia-ceu-aberto.webp": {
@@ -258,7 +258,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/proposta/decoracao/cerimonia-gramado.webp": {
@@ -282,8 +282,92 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
+  },
+  "/images/scenes/ambientes/area-verde/espaco-coral-ambientes-area-verde-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/ambientes/entrada-salao/espaco-coral-ambientes-entrada-salao-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/ambientes/entrada-salao/espaco-coral-ambientes-entrada-salao-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/ambientes/entrada-salao/espaco-coral-ambientes-entrada-salao-03.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/ambientes/entrada-salao/espaco-coral-ambientes-entrada-salao-04.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/ambientes/entrada-salao/espaco-coral-ambientes-entrada-salao-05.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/ambientes/gramado/espaco-coral-ambientes-gramado-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/ambientes/marquise/espaco-coral-ambientes-marquise-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/ambientes/marquise/espaco-coral-ambientes-marquise-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/ambientes/marquise/espaco-coral-ambientes-marquise-03.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/ambientes/marquise/espaco-coral-ambientes-marquise-04.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/ambientes/salao/espaco-coral-ambientes-salao-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/ambientes/varanda/espaco-coral-ambientes-varanda-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/ambientes/varanda/espaco-coral-ambientes-varanda-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
   },
   "/images/scenes/atracoes-bem-estar/espaco-coral-atracoes-bem-estar-01.webp": {
     "usedIn": [],
@@ -323,7 +407,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 2
   },
   "/images/scenes/atracoes-brincadeiras/espaco-coral-atracoes-brincadeiras-02.webp": {
@@ -335,7 +419,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/atracoes-brincadeiras/espaco-coral-atracoes-brincadeiras-03.webp": {
@@ -364,7 +448,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 2
   },
   "/images/scenes/atracoes-dancas/espaco-coral-atracoes-animacao-02.webp": {
@@ -376,7 +460,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/atracoes-dancas/espaco-coral-atracoes-animacao-03.webp": {
@@ -406,7 +490,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/atracoes-musica/espaco-coral-atracoes-musica-02.webp": {
@@ -418,7 +502,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/atracoes-musica/espaco-coral-atracoes-musica-03.webp": {
@@ -430,7 +514,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/atracoes-musica/espaco-coral-atracoes-musica-04.webp": {
@@ -454,7 +538,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/atracoes-pelucias/espaco-coral-atracoes-maquina-pelucias-02.webp": {
@@ -476,6 +560,366 @@
     "totalUses": 0
   },
   "/images/scenes/atracoes-pelucias/espaco-coral-atracoes-maquina-pelucias-lucky-kids-05.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/album-fotos-polaroid/espaco-coral-atracoes-album-fotos-polaroid-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/animadores/espaco-coral-atracoes-animadores-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/animadores/espaco-coral-atracoes-animadores-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/animadores/espaco-coral-atracoes-animadores-03.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/animadores/espaco-coral-atracoes-animadores-04.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/animadores/espaco-coral-atracoes-animadores-05.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/animadores/espaco-coral-atracoes-animadores-06.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/animadores/espaco-coral-atracoes-animadores-07.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/animadores/espaco-coral-atracoes-animadores-08.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/animadores/espaco-coral-atracoes-animadores-09.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/animadores/espaco-coral-atracoes-animadores-10.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/banda/espaco-coral-atracoes-banda-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/banda/espaco-coral-atracoes-banda-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/banda/espaco-coral-atracoes-banda-03.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/banda/espaco-coral-atracoes-banda-04.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/brincadeiras/danca-da-cordinha/espaco-coral-atracoes-brincadeiras-danca-da-cordinha-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/brincadeiras/danca-da-cordinha/espaco-coral-atracoes-brincadeiras-danca-da-cordinha-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/brincadeiras/danca-da-cordinha/espaco-coral-atracoes-brincadeiras-danca-da-cordinha-03.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/brincadeiras/jogando-buque/espaco-coral-atracoes-brincadeiras-jogando-buque-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/brincadeiras/jogando-buque/espaco-coral-atracoes-brincadeiras-jogando-buque-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/brincadeiras/jogando-buque/espaco-coral-atracoes-brincadeiras-jogando-buque-03.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/brincadeiras/jogando-whiskie/espaco-coral-atracoes-brincadeiras-jogando-whiskie-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/brincadeiras/jogando-whiskie/espaco-coral-atracoes-brincadeiras-jogando-whiskie-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/brincadeiras/jogando-whiskie/espaco-coral-atracoes-brincadeiras-jogando-whiskie-03.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/brincadeiras/jogando-whiskie/espaco-coral-atracoes-brincadeiras-jogando-whiskie-04.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/brincadeiras/quebrando-pratos/espaco-coral-atracoes-brincadeiras-quebrando-pratos-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/brincadeiras/quebrando-pratos/espaco-coral-atracoes-brincadeiras-quebrando-pratos-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/brincadeiras/quebrando-pratos/espaco-coral-atracoes-brincadeiras-quebrando-pratos-03.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/maquina-pelucias/espaco-coral-atracoes-maquina-pelucias-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/maquina-pelucias/espaco-coral-atracoes-maquina-pelucias-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/maquina-pelucias/espaco-coral-atracoes-maquina-pelucias-03.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/maquina-pelucias/espaco-coral-atracoes-maquina-pelucias-04.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/maquina-pelucias/espaco-coral-atracoes-maquina-pelucias-05.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/maquina-pelucias/espaco-coral-atracoes-maquina-pelucias-06.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/maquina-pelucias/espaco-coral-atracoes-maquina-pelucias-07.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/massagem/espaco-coral-atracoes-massagem-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/massagem/espaco-coral-atracoes-massagem-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/massagem/espaco-coral-atracoes-massagem-03.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/massagem/espaco-coral-atracoes-massagem-04.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/massagem/espaco-coral-atracoes-massagem-05.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/orquestra/espaco-coral-atracoes-orquestra-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/orquestra/espaco-coral-atracoes-orquestra-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/orquestra/espaco-coral-atracoes-orquestra-03.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/orquestra/espaco-coral-atracoes-orquestra-04.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/orquestra/espaco-coral-atracoes-orquestra-05.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/orquestra/espaco-coral-atracoes-orquestra-06.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/receptivo-espumante/espaco-coral-atracoes-receptivo-espumante-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/telao-led/espaco-coral-atracoes-telao-led-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/telao-led/espaco-coral-atracoes-telao-led-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/atracoes/telao-led/espaco-coral-atracoes-telao-led-03.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/bancos-gerais/corporativo/espaco-coral-bancos-gerais-corporativo-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/bancos-gerais/corporativo/espaco-coral-bancos-gerais-corporativo-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/bar-de-drinks/espaco-coral-bar-de-drinks-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/bar-de-drinks/espaco-coral-bar-de-drinks-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/bar-de-drinks/espaco-coral-bar-de-drinks-03.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/bar-de-drinks/espaco-coral-bar-de-drinks-04.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/bar-de-drinks/espaco-coral-bar-de-drinks-05.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/buffet/espaco-coral-buffet-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/buffet/espaco-coral-buffet-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/buque-noiva/espaco-coral-buque-noiva-01.webp": {
     "usedIn": [],
     "firstUsedAt": null,
     "lastUsedAt": null,
@@ -515,7 +959,7 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 6
   },
   "/images/scenes/casamentos/casamento-confetti.webp": {
@@ -529,11 +973,21 @@
         "path": "components/sections/gallery-section.tsx",
         "line": 12,
         "as": "inline"
+      },
+      {
+        "path": "content/blog/guia-casamento-batatais-2027.mdx",
+        "line": 24,
+        "as": "coverImage"
+      },
+      {
+        "path": "content/blog/guia-casamento-batatais-2027.mdx",
+        "line": 26,
+        "as": "ogImage"
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-06-17",
-    "totalUses": 2
+    "lastUsedAt": "2026-06-26",
+    "totalUses": 4
   },
   "/images/scenes/casamentos/casamento-veu.webp": {
     "usedIn": [
@@ -549,7 +1003,7 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 2
   },
   "/images/scenes/casamentos/cerimonia-entrada-noiva.webp": {
@@ -566,20 +1020,14 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 2
   },
   "/images/scenes/casamentos/espaco-coral-casamento-brinde-01.webp": {
-    "usedIn": [
-      {
-        "path": "content/blog/roteiro-casamento-cronograma-hora-a-hora.mdx",
-        "line": 115,
-        "as": "mdx-inline"
-      }
-    ],
-    "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
-    "totalUses": 1
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": "2026-06-24",
+    "totalUses": 0
   },
   "/images/scenes/casamentos/espaco-coral-casamento-cerimonia-01.webp": {
     "usedIn": [],
@@ -608,7 +1056,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/casamentos/espaco-coral-casamento-decoracao-02.webp": {
@@ -618,16 +1066,10 @@
     "totalUses": 0
   },
   "/images/scenes/casamentos/espaco-coral-casamento-decoracao-floral-01.webp": {
-    "usedIn": [
-      {
-        "path": "content/blog/fornecedores-casamento-batatais-ribeirao.mdx",
-        "line": 102,
-        "as": "mdx-inline"
-      }
-    ],
-    "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
-    "totalUses": 1
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": "2026-06-24",
+    "totalUses": 0
   },
   "/images/scenes/casamentos/espaco-coral-casamento-entrada-01.webp": {
     "usedIn": [],
@@ -656,7 +1098,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/casamentos/espaco-coral-casamento-momento-01.webp": {
@@ -673,20 +1115,14 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 2
   },
   "/images/scenes/casamentos/espaco-coral-casamento-noiva-01.webp": {
-    "usedIn": [
-      {
-        "path": "content/blog/sala-da-noiva-importancia.mdx",
-        "line": 57,
-        "as": "mdx-inline"
-      }
-    ],
-    "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
-    "totalUses": 1
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": "2026-06-24",
+    "totalUses": 0
   },
   "/images/scenes/casamentos/espaco-coral-casamento-noiva-espelho-02.webp": {
     "usedIn": [
@@ -702,7 +1138,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 2
   },
   "/images/scenes/casamentos/espaco-coral-casamento-noiva-neon-costas-03.webp": {
@@ -714,7 +1150,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/casamentos/espaco-coral-casamento-noivo-pai-abraco-04.webp": {
@@ -724,67 +1160,33 @@
     "totalUses": 0
   },
   "/images/scenes/casamentos/espaco-coral-casamento-noivos-01.webp": {
-    "usedIn": [
-      {
-        "path": "content/blog/guia-casamento-batatais-2027.mdx",
-        "line": 24,
-        "as": "coverImage"
-      },
-      {
-        "path": "content/blog/guia-casamento-batatais-2027.mdx",
-        "line": 26,
-        "as": "ogImage"
-      }
-    ],
-    "firstUsedAt": "2026-06-08",
+    "usedIn": [],
+    "firstUsedAt": null,
     "lastUsedAt": "2026-06-17",
-    "totalUses": 2
+    "totalUses": 0
   },
   "/images/scenes/casamentos/espaco-coral-casamento-noivos-02.webp": {
-    "usedIn": [
-      {
-        "path": "content/blog/acabei-de-noivar-primeiros-passos.mdx",
-        "line": 24,
-        "as": "coverImage"
-      },
-      {
-        "path": "content/blog/acabei-de-noivar-primeiros-passos.mdx",
-        "line": 26,
-        "as": "ogImage"
-      }
-    ],
-    "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
-    "totalUses": 2
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": "2026-06-24",
+    "totalUses": 0
   },
   "/images/scenes/casamentos/espaco-coral-casamento-noivos-03.webp": {
-    "usedIn": [
-      {
-        "path": "content/blog/casamento-pequeno-vs-grande.mdx",
-        "line": 62,
-        "as": "mdx-inline"
-      }
-    ],
-    "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
-    "totalUses": 1
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": "2026-06-24",
+    "totalUses": 0
   },
   "/images/scenes/casamentos/espaco-coral-casamento-noivos-04.webp": {
-    "usedIn": [
-      {
-        "path": "content/blog/guia-casamento-batatais-2027.mdx",
-        "line": 64,
-        "as": "mdx-inline"
-      }
-    ],
-    "firstUsedAt": "2026-06-08",
+    "usedIn": [],
+    "firstUsedAt": null,
     "lastUsedAt": "2026-06-17",
-    "totalUses": 1
+    "totalUses": 0
   },
   "/images/scenes/casamentos/espaco-coral-casamento-noivos-05.webp": {
     "usedIn": [],
     "firstUsedAt": null,
-    "lastUsedAt": null,
+    "lastUsedAt": "2026-06-23",
     "totalUses": 0
   },
   "/images/scenes/casamentos/espaco-coral-casamento-noivos-06.webp": {
@@ -802,7 +1204,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/casamentos/espaco-coral-casamento-recepcao-02.webp": {
@@ -825,20 +1227,14 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 2
   },
   "/images/scenes/casamentos/espaco-coral-casamento-salao-03.webp": {
-    "usedIn": [
-      {
-        "path": "content/blog/casamento-dia-noite-comparacao.mdx",
-        "line": 67,
-        "as": "mdx-inline"
-      }
-    ],
-    "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
-    "totalUses": 1
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": "2026-06-24",
+    "totalUses": 0
   },
   "/images/scenes/casamentos/espaco-coral-casamento-salao-decorado-01.webp": {
     "usedIn": [
@@ -849,7 +1245,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/casamentos/mesa-bolo-flores.webp": {
@@ -866,7 +1262,7 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 2
   },
   "/images/scenes/casamentos/mesa-branca-dourada.webp": {
@@ -883,7 +1279,7 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 2
   },
   "/images/scenes/casamentos/noiva-escada.webp": {
@@ -910,7 +1306,7 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 4
   },
   "/images/scenes/casamentos/salao-decorado.webp": {
@@ -947,7 +1343,7 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 6
   },
   "/images/scenes/cerimonia/cerimonia-arco.webp": {
@@ -999,7 +1395,7 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 9
   },
   "/images/scenes/cerimonia/cerimonia-palmeiras.webp": {
@@ -1031,7 +1427,7 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 5
   },
   "/images/scenes/cerimonia/espaco-coral-cerimonia-01.webp": {
@@ -1043,7 +1439,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/cerimonia/espaco-coral-cerimonia-02.webp": {
@@ -1055,7 +1451,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/cerimonia/espaco-coral-cerimonia-03.webp": {
@@ -1091,7 +1487,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/cerimonia/espaco-coral-cerimonia-palmeiras-panoramica-08.webp": {
@@ -1108,7 +1504,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 2
   },
   "/images/scenes/decoracao-flores/espaco-coral-decoracao-arco-flores-coloridas-09.webp": {
@@ -1125,7 +1521,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 2
   },
   "/images/scenes/decoracao-flores/espaco-coral-decoracao-bolo-orquideas-laranja-10.webp": {
@@ -1148,7 +1544,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 2
   },
   "/images/scenes/decoracao-flores/espaco-coral-decoracao-flores-02.webp": {
@@ -1160,7 +1556,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/decoracao-flores/espaco-coral-decoracao-flores-03.webp": {
@@ -1172,7 +1568,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/decoracao-flores/espaco-coral-decoracao-flores-04.webp": {
@@ -1184,7 +1580,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/decoracao-flores/espaco-coral-decoracao-flores-05.webp": {
@@ -1196,7 +1592,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/decoracao-flores/espaco-coral-decoracao-flores-06.webp": {
@@ -1255,7 +1651,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 2
   },
   "/images/scenes/decoracao-instagramavel/espaco-coral-decoracao-instagramavel-02.webp": {
@@ -1272,7 +1668,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 2
   },
   "/images/scenes/decoracao-instagramavel/espaco-coral-decoracao-instagramavel-03.webp": {
@@ -1284,7 +1680,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/decoracao-instagramavel/espaco-coral-decoracao-instagramavel-04.webp": {
@@ -1296,7 +1692,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/decoracao-instagramavel/espaco-coral-decoracao-instagramavel-05.webp": {
@@ -1308,7 +1704,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/decoracao-instagramavel/espaco-coral-decoracao-instagramavel-06.webp": {
@@ -1350,7 +1746,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/decoracao-instagramavel/espaco-coral-decoracao-neon-all-you-need-is-love-15.webp": {
@@ -1367,7 +1763,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 2
   },
   "/images/scenes/decoracao-instagramavel/espaco-coral-decoracao-neon-noiva-backdrop-16.webp": {
@@ -1379,7 +1775,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/decoracao-instagramavel/espaco-coral-decoracao-painel-musgo-neon-escada-18.webp": {
@@ -1391,7 +1787,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/decoracao-mesas/espaco-coral-decoracao-mesa-bolo-casamento-09.webp": {
@@ -1403,7 +1799,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/decoracao-mesas/espaco-coral-decoracao-mesa-candelabro-flores-12.webp": {
@@ -1420,7 +1816,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 2
   },
   "/images/scenes/decoracao-mesas/espaco-coral-decoracao-mesa-charger-verde-salmao-10.webp": {
@@ -1443,7 +1839,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 2
   },
   "/images/scenes/decoracao-mesas/espaco-coral-decoracao-mesa-posta-02.webp": {
@@ -1455,7 +1851,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/decoracao-mesas/espaco-coral-decoracao-mesa-posta-03.webp": {
@@ -1467,7 +1863,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/decoracao-mesas/espaco-coral-decoracao-mesa-posta-04.webp": {
@@ -1509,8 +1905,530 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
+  },
+  "/images/scenes/decoracao/cerimonia-ar-livre/espaco-coral-decoracao-cerimonia-ar-livre-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/cerimonia-ar-livre/espaco-coral-decoracao-cerimonia-ar-livre-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/cerimonia-ar-livre/espaco-coral-decoracao-cerimonia-ar-livre-03.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/cerimonia-ar-livre/espaco-coral-decoracao-cerimonia-ar-livre-04.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/cerimonia-ar-livre/espaco-coral-decoracao-cerimonia-ar-livre-05.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/cerimonia-ar-livre/espaco-coral-decoracao-cerimonia-ar-livre-06.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/cerimonia-ar-livre/espaco-coral-decoracao-cerimonia-ar-livre-07.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/cerimonia-ar-livre/espaco-coral-decoracao-cerimonia-ar-livre-08.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/cerimonia-ar-livre/espaco-coral-decoracao-cerimonia-ar-livre-09.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/cerimonia-ar-livre/espaco-coral-decoracao-cerimonia-ar-livre-10.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/decoracao-flores/espaco-coral-decoracao-decoracao-flores-01.webp": {
+    "usedIn": [
+      {
+        "path": "content/blog/fornecedores-casamento-batatais-ribeirao.mdx",
+        "line": 102,
+        "as": "mdx-inline"
+      }
+    ],
+    "firstUsedAt": "2026-06-26",
+    "lastUsedAt": "2026-06-26",
+    "totalUses": 1
+  },
+  "/images/scenes/decoracao/decoracao-flores/espaco-coral-decoracao-decoracao-flores-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/decoracao-flores/espaco-coral-decoracao-decoracao-flores-03.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/decoracao-flores/espaco-coral-decoracao-decoracao-flores-04.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/decoracao-flores/espaco-coral-decoracao-decoracao-flores-05.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/decoracao-mesas/espaco-coral-decoracao-decoracao-mesas-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/decoracao-mesas/espaco-coral-decoracao-decoracao-mesas-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/decoracao-mesas/espaco-coral-decoracao-decoracao-mesas-03.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/decoracao-mesas/espaco-coral-decoracao-decoracao-mesas-04.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/decoracao-mesas/espaco-coral-decoracao-decoracao-mesas-05.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/decoracao-mesas/espaco-coral-decoracao-decoracao-mesas-06.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/decoracao-mesas/espaco-coral-decoracao-decoracao-mesas-07.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/decoracao-mesas/espaco-coral-decoracao-decoracao-mesas-08.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/decoracao-mesas/espaco-coral-decoracao-decoracao-mesas-09.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/decoracao-mesas/espaco-coral-decoracao-decoracao-mesas-10.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/decoracao-mesas/espaco-coral-decoracao-decoracao-mesas-11.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/decoracao-mesas/espaco-coral-decoracao-decoracao-mesas-12.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/decoracao-mesas/espaco-coral-decoracao-decoracao-mesas-13.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/decoracao-mesas/espaco-coral-decoracao-decoracao-mesas-14.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/decoracao-mesas/espaco-coral-decoracao-decoracao-mesas-15.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/decoracao-mesas/espaco-coral-decoracao-decoracao-mesas-16.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/decoracao-mesas/espaco-coral-decoracao-decoracao-mesas-17.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/decoracao-mesas/espaco-coral-decoracao-decoracao-mesas-18.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/decoracao-mesas/espaco-coral-decoracao-decoracao-mesas-19.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/decoracao-mesas/espaco-coral-decoracao-decoracao-mesas-20.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/decoracao-mesas/espaco-coral-decoracao-decoracao-mesas-21.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/decoracao-mesas/espaco-coral-decoracao-decoracao-mesas-22.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/espaco-instagramavel/espaco-coral-decoracao-espaco-instagramavel-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/espaco-instagramavel/espaco-coral-decoracao-espaco-instagramavel-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/espaco-instagramavel/espaco-coral-decoracao-espaco-instagramavel-03.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bem-casados/espaco-coral-decoracao-mesa-de-bem-casados-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bem-casados/espaco-coral-decoracao-mesa-de-bem-casados-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bem-casados/espaco-coral-decoracao-mesa-de-bem-casados-03.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bem-casados/espaco-coral-decoracao-mesa-de-bem-casados-04.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bem-casados/espaco-coral-decoracao-mesa-de-bem-casados-05.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-03.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-04.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-05.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-06.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-07.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-08.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-09.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-10.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-11.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-12.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-13.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-14.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-15.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-16.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-17.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-18.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-19.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-20.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-21.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-22.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-23.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-24.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-25.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-26.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-27.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-28.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-29.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-30.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-31.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-32.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-33.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-34.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-bolo-e-doces/espaco-coral-decoracao-mesa-de-bolo-e-doces-35.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/mesa-de-pais/espaco-coral-decoracao-mesa-de-pais-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/pista-de-danca/espaco-coral-decoracao-pista-de-danca-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/pista-de-danca/espaco-coral-decoracao-pista-de-danca-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/pista-de-danca/espaco-coral-decoracao-pista-de-danca-03.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/pista-de-danca/espaco-coral-decoracao-pista-de-danca-04.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/decoracao/pista-de-danca/espaco-coral-decoracao-pista-de-danca-05.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
   },
   "/images/scenes/entrada/entrada-decorada.webp": {
     "usedIn": [
@@ -1541,7 +2459,7 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 5
   },
   "/images/scenes/entrada/espaco-coral-entrada-01.webp": {
@@ -1595,7 +2513,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/entrada/espaco-coral-fachada-logo-dia-08.webp": {
@@ -1613,7 +2531,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/fachada/fachada-dia.webp": {
@@ -1630,7 +2548,7 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 2
   },
   "/images/scenes/fachada/fachada-entardecer.webp": {
@@ -1682,7 +2600,7 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 9
   },
   "/images/scenes/fachada/fachada-noite.webp": {
@@ -1719,7 +2637,7 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 6
   },
   "/images/scenes/inauguracao/espaco-coral-inauguracao-ambiente-01.webp": {
@@ -1782,6 +2700,677 @@
     "lastUsedAt": null,
     "totalUses": 0
   },
+  "/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-01.webp": {
+    "usedIn": [
+      {
+        "path": "content/blog/acabei-de-noivar-primeiros-passos.mdx",
+        "line": 24,
+        "as": "coverImage"
+      },
+      {
+        "path": "content/blog/acabei-de-noivar-primeiros-passos.mdx",
+        "line": 26,
+        "as": "ogImage"
+      }
+    ],
+    "firstUsedAt": "2026-06-26",
+    "lastUsedAt": "2026-06-26",
+    "totalUses": 2
+  },
+  "/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-03.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-04.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-05.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-06.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-07.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-08.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-09.webp": {
+    "usedIn": [
+      {
+        "path": "content/blog/casamento-pequeno-vs-grande.mdx",
+        "line": 62,
+        "as": "mdx-inline"
+      }
+    ],
+    "firstUsedAt": "2026-06-26",
+    "lastUsedAt": "2026-06-26",
+    "totalUses": 1
+  },
+  "/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-10.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-11.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-12.webp": {
+    "usedIn": [
+      {
+        "path": "content/blog/roteiro-casamento-cronograma-hora-a-hora.mdx",
+        "line": 115,
+        "as": "mdx-inline"
+      }
+    ],
+    "firstUsedAt": "2026-06-26",
+    "lastUsedAt": "2026-06-26",
+    "totalUses": 1
+  },
+  "/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-13.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-14.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-15.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-16.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-17.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-18.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-19.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-20.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/convidados/espaco-coral-pessoas-convidados-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/convidados/espaco-coral-pessoas-convidados-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/convidados/espaco-coral-pessoas-convidados-03.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/convidados/espaco-coral-pessoas-convidados-04.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/convidados/espaco-coral-pessoas-convidados-05.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/dia-da-noiva/espaco-coral-pessoas-dia-da-noiva-01.webp": {
+    "usedIn": [
+      {
+        "path": "content/blog/sala-da-noiva-importancia.mdx",
+        "line": 57,
+        "as": "mdx-inline"
+      }
+    ],
+    "firstUsedAt": "2026-06-26",
+    "lastUsedAt": "2026-06-26",
+    "totalUses": 1
+  },
+  "/images/scenes/pessoas/dia-da-noiva/espaco-coral-pessoas-dia-da-noiva-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/dia-da-noiva/espaco-coral-pessoas-dia-da-noiva-03.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/dia-da-noiva/espaco-coral-pessoas-dia-da-noiva-04.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/dia-da-noiva/espaco-coral-pessoas-dia-da-noiva-05.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/dia-do-noivo/espaco-coral-pessoas-dia-do-noivo-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/dia-do-noivo/espaco-coral-pessoas-dia-do-noivo-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/dia-do-noivo/espaco-coral-pessoas-dia-do-noivo-03.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/dia-do-noivo/espaco-coral-pessoas-dia-do-noivo-04.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/dia-do-noivo/espaco-coral-pessoas-dia-do-noivo-05.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/dia-do-noivo/espaco-coral-pessoas-dia-do-noivo-06.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/dia-do-noivo/espaco-coral-pessoas-dia-do-noivo-07.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/dia-do-noivo/espaco-coral-pessoas-dia-do-noivo-08.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/dia-do-noivo/espaco-coral-pessoas-dia-do-noivo-09.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/dia-do-noivo/espaco-coral-pessoas-dia-do-noivo-10.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/dia-do-noivo/espaco-coral-pessoas-dia-do-noivo-11.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/dia-do-noivo/espaco-coral-pessoas-dia-do-noivo-12.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/dia-do-noivo/espaco-coral-pessoas-dia-do-noivo-13.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-03.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-04.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-05.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-06.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-07.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-08.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-09.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-10.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-11.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-12.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-13.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-14.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-15.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-16.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-17.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-18.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-19.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-20.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-21.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-22.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-23.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-24.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-25.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-26.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-27.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-28.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-29.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-30.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-31.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-32.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-33.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noiva/espaco-coral-pessoas-noiva-34.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noivo/espaco-coral-pessoas-noivo-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noivo/espaco-coral-pessoas-noivo-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noivo/espaco-coral-pessoas-noivo-03.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/noivo/espaco-coral-pessoas-noivo-04.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/padrinhos/espaco-coral-pessoas-padrinhos-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/padrinhos/espaco-coral-pessoas-padrinhos-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/padrinhos/espaco-coral-pessoas-padrinhos-03.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/padrinhos/espaco-coral-pessoas-padrinhos-04.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/padrinhos/espaco-coral-pessoas-padrinhos-05.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/pajens/espaco-coral-pessoas-pajens-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/pajens/espaco-coral-pessoas-pajens-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/pajens/espaco-coral-pessoas-pajens-03.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/pajens/espaco-coral-pessoas-pajens-04.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/pajens/espaco-coral-pessoas-pajens-05.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/pajens/espaco-coral-pessoas-pajens-06.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/pajens/espaco-coral-pessoas-pajens-07.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/pessoas-dancando/espaco-coral-pessoas-pessoas-dancando-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/pessoas-dancando/espaco-coral-pessoas-pessoas-dancando-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/pessoas-dancando/espaco-coral-pessoas-pessoas-dancando-03.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/pessoas-dancando/espaco-coral-pessoas-pessoas-dancando-04.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/pessoas-dancando/espaco-coral-pessoas-pessoas-dancando-05.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/pessoas-dancando/espaco-coral-pessoas-pessoas-dancando-06.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/pessoas-dancando/espaco-coral-pessoas-pessoas-dancando-07.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/pessoas-dancando/espaco-coral-pessoas-pessoas-dancando-08.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/pessoas-dancando/espaco-coral-pessoas-pessoas-dancando-09.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/pessoas-dancando/espaco-coral-pessoas-pessoas-dancando-10.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/pessoas-dancando/espaco-coral-pessoas-pessoas-dancando-11.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/pessoas-dancando/espaco-coral-pessoas-pessoas-dancando-12.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/pessoas-dancando/espaco-coral-pessoas-pessoas-dancando-13.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/pessoas/pessoas-dancando/espaco-coral-pessoas-pessoas-dancando-14.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
   "/images/scenes/salao/espaco-coral-salao-bar-arvore-12.webp": {
     "usedIn": [
       {
@@ -1791,7 +3380,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/salao/espaco-coral-salao-cerejeiras-panoramico-13.webp": {
@@ -1805,22 +3394,27 @@
         "path": "content/blog/capacidade-espaco-casamento-calculo.mdx",
         "line": 112,
         "as": "mdx-inline"
+      },
+      {
+        "path": "content/blog/guia-casamento-batatais-2027.mdx",
+        "line": 64,
+        "as": "mdx-inline"
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
-    "totalUses": 2
+    "lastUsedAt": "2026-06-26",
+    "totalUses": 3
   },
   "/images/scenes/salao/espaco-coral-salao-decoracao-completa-15.webp": {
     "usedIn": [
       {
         "path": "content/blog/guia-casamento-batatais-2027.mdx",
-        "line": 100,
+        "line": 99,
         "as": "mdx-inline"
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/salao/espaco-coral-salao-mesas-casamento-11.webp": {
@@ -1837,7 +3431,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 2
   },
   "/images/scenes/salao/espaco-coral-salao-palco-banda-14.webp": {
@@ -1854,11 +3448,16 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 2
   },
   "/images/scenes/salao/espaco-coral-salao-principal-01.webp": {
     "usedIn": [
+      {
+        "path": "content/blog/casamento-dia-noite-comparacao.mdx",
+        "line": 67,
+        "as": "mdx-inline"
+      },
       {
         "path": "content/blog/como-escolher-espaco-casamento-interior-sp.mdx",
         "line": 24,
@@ -1871,8 +3470,8 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
-    "totalUses": 2
+    "lastUsedAt": "2026-06-26",
+    "totalUses": 3
   },
   "/images/scenes/salao/espaco-coral-salao-principal-02.webp": {
     "usedIn": [
@@ -1888,7 +3487,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 2
   },
   "/images/scenes/salao/espaco-coral-salao-principal-03.webp": {
@@ -1905,7 +3504,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 2
   },
   "/images/scenes/salao/espaco-coral-salao-principal-04.webp": {
@@ -1922,7 +3521,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 2
   },
   "/images/scenes/salao/espaco-coral-salao-principal-05.webp": {
@@ -1939,7 +3538,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 2
   },
   "/images/scenes/salao/espaco-coral-salao-principal-06.webp": {
@@ -1951,7 +3550,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/salao/espaco-coral-salao-principal-07.webp": {
@@ -1963,7 +3562,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/salao/espaco-coral-salao-principal-08.webp": {
@@ -1975,7 +3574,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/salao/espaco-coral-salao-principal-09.webp": {
@@ -1987,7 +3586,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/salao/espaco-coral-salao-principal-10.webp": {
@@ -1999,7 +3598,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/salao/salao-mesa-flores.webp": {
@@ -2026,7 +3625,7 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 4
   },
   "/images/scenes/salao/salao-mesa.webp": {
@@ -2063,7 +3662,7 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 6
   },
   "/images/scenes/salao/salao-panoramica.webp": {
@@ -2115,7 +3714,7 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 9
   },
   "/images/scenes/terraco/espaco-coral-terraco-01.webp": {
@@ -2133,7 +3732,7 @@
       }
     ],
     "firstUsedAt": "2026-06-16",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 1
   },
   "/images/scenes/terraco/espaco-coral-terraco-03.webp": {
@@ -2190,7 +3789,19 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-06-17",
+    "lastUsedAt": "2026-06-26",
     "totalUses": 4
+  },
+  "/images/scenes/vestido-noiva/espaco-coral-vestido-noiva-01.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/vestido-noiva/espaco-coral-vestido-noiva-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
   }
 }

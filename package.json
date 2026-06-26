@@ -10,6 +10,7 @@
     "catalog": "node scripts/catalog-photos.mjs",
     "process-photos": "node scripts/process-selected.mjs",
     "images:optimize": "node scripts/optimize-images.mjs",
+    "images:build-scenes": "node scripts/build-scenes.mjs",
     "images:scan": "node scripts/scan-image-usage.mjs",
     "images:report": "node scripts/image-rotation-report.mjs"
   },
