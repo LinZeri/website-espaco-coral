@@ -5,6 +5,7 @@ import { WhatsAppButton } from "@/components/layout/whatsapp-button";
 import { PageHero } from "@/components/sections/page-hero";
 import { FadeImage } from "@/components/fade-image";
 import { Reveal } from "@/components/reveal";
+import { cn } from "@/lib/utils";
 import type { ProposalBlock, ProposalData } from "@/lib/proposta/data";
 
 const WHATSAPP_BASE = "https://wa.me/5516991294178?text=";
@@ -31,6 +32,8 @@ export function ProposalTemplate({ data }: { data: ProposalData }) {
           subtitle={data.tagline}
           imageSrc={data.heroImage}
           imageAlt={data.heroAlt}
+          subtitleClassName="text-sm font-bold text-white [text-shadow:0_2px_10px_rgba(0,0,0,0.75)]"
+          titleClassName="[text-shadow:0_3px_18px_rgba(0,0,0,0.55)]"
         />
 
         {/* Introdução */}
@@ -49,7 +52,12 @@ export function ProposalTemplate({ data }: { data: ProposalData }) {
         <section className="bg-background px-6 pb-20 md:px-12 md:pb-28 lg:px-20 lg:pb-32">
           <div className="mx-auto max-w-5xl space-y-12 md:space-y-16">
             {data.blocks.map((block, i) => (
-              <ProposalBlockView key={block.eyebrow} block={block} index={i} />
+              <ProposalBlockView
+                key={block.eyebrow}
+                block={block}
+                index={i}
+                align={data.imageAlign ?? "start"}
+              />
             ))}
           </div>
         </section>
@@ -136,14 +144,14 @@ export function ProposalTemplate({ data }: { data: ProposalData }) {
 function BlockBody({ block }: { block: ProposalBlock }) {
   return (
     <>
-      <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+      <div>
         <h2 className="font-display text-2xl font-normal tracking-tight text-foreground md:text-3xl">
           {block.eyebrow}
         </h2>
         {block.note && (
-          <span className="text-xs uppercase tracking-widest text-gold">
+          <p className="mt-1.5 text-sm font-semibold text-gold-dark">
             {block.note}
-          </span>
+          </p>
         )}
       </div>
 
@@ -176,9 +184,11 @@ function BlockBody({ block }: { block: ProposalBlock }) {
 function ProposalBlockView({
   block,
   index,
+  align,
 }: {
   block: ProposalBlock;
   index: number;
+  align: "start" | "center";
 }) {
   // Sem foto: bloco de texto em coluna de leitura.
   if (!block.image) {
@@ -196,7 +206,12 @@ function ProposalBlockView({
 
   return (
     <Reveal className="border-t border-border pt-10">
-      <div className="grid grid-cols-1 items-start gap-8 md:grid-cols-2 md:gap-12 lg:gap-16">
+      <div
+        className={cn(
+          "grid grid-cols-1 items-start gap-8 md:grid-cols-2 md:gap-12 lg:gap-16",
+          align === "center" && "md:items-center"
+        )}
+      >
         <div className={imageRight ? "md:order-2" : "md:order-1"}>
           <FadeImage
             src={block.image.src}

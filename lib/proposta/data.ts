@@ -51,6 +51,8 @@ export interface ProposalData {
   whatsappText: string;
   blocks: ProposalBlock[];
   conditions?: ProposalConditions;
+  /** Alinhamento vertical da foto em relação ao texto do bloco (desktop). */
+  imageAlign?: "start" | "center";
 }
 
 const SHARED_CONDITIONS: ProposalConditions = {
@@ -125,8 +127,8 @@ const selecaoCoral: ProposalData = {
   tagline: "A partir de 80 convidados",
   intro:
     "Um cardápio completo e elegante, do receptivo ao cantinho do café, pensado para receber seus convidados com requinte do começo ao fim da festa.",
-  heroImage: IMG.cafe.src,
-  heroAlt: IMG.cafe.alt,
+  heroImage: "/images/proposta/buffet/hero-selecao.webp",
+  heroAlt: "Buffet do menu Seleção Coral no Espaço Coral em Batatais SP",
   whatsappText:
     "Olá! Gostaria de saber mais sobre o menu Seleção Coral do Espaço Coral.",
   blocks: [
@@ -325,8 +327,8 @@ const grandCoral: ProposalData = {
   tagline: "A partir de 80 convidados",
   intro:
     "Nosso cardápio mais completo. Uma seleção ampliada de queijos, entradas, jantares e finalizações para uma experiência gastronômica de alto padrão.",
-  heroImage: IMG.buffetCoral.src,
-  heroAlt: IMG.buffetCoral.alt,
+  heroImage: "/images/proposta/buffet/hero-grand.webp",
+  heroAlt: "Buffet do menu Grand Coral no Espaço Coral em Batatais SP",
   whatsappText:
     "Olá! Gostaria de saber mais sobre o menu Grand Coral do Espaço Coral.",
   blocks: [
@@ -575,8 +577,8 @@ const botequimCoral: ProposalData = {
   tagline: "A partir de 80 convidados",
   intro:
     "Uma proposta descontraída e farta, com a alma do boteco. Tortas, finger foods, pastéis, massas e o clássico cantinho do boteco para uma festa cheia de sabor.",
-  heroImage: "/images/proposta/buffet/rondelli.webp",
-  heroAlt: "Rondelli do buffet Botequim Coral no Espaço Coral em Batatais SP",
+  heroImage: "/images/proposta/buffet/hero-botequim.webp",
+  heroAlt: "Buffet do menu Botequim Coral no Espaço Coral em Batatais SP",
   whatsappText:
     "Olá! Gostaria de saber mais sobre o menu Botequim Coral do Espaço Coral.",
   blocks: [
@@ -733,9 +735,10 @@ const coralElegance: ProposalData = {
   tagline: "Decoração",
   intro:
     "Um projeto de decoração personalizado, do altar à mesa do bolo. Arranjos florais, ambientação do salão e consultoria completa para transformar cada espaço da sua festa.",
-  heroImage: "/images/proposta/decoracao/cerimonia-ceu-aberto.webp",
+  heroImage: "/images/proposta/decoracao/hero-coral-elegance.webp",
   heroAlt:
-    "Decoração de cerimônia ao céu aberto no gramado do Espaço Coral em Batatais SP",
+    "Decoração de cerimônia ao ar livre no gramado do Espaço Coral em Batatais SP",
+  imageAlign: "center",
   whatsappText:
     "Olá! Gostaria de saber mais sobre a decoração Coral Elegance do Espaço Coral.",
   blocks: [
@@ -779,10 +782,10 @@ const coralElegance: ProposalData = {
     {
       eyebrow: "Salão interno",
       image: {
-        src: "/images/proposta/decoracao/arvore-francesa.webp",
-        alt: "Árvore francesa decorando a pista de dança de casamento no Espaço Coral em Batatais",
-        w: 612,
-        h: 1148,
+        src: "/images/proposta/decoracao/arranjo-aereo.webp",
+        alt: "Jardim aéreo com arranjo floral suspenso em festa de casamento no Espaço Coral em Batatais",
+        w: 500,
+        h: 911,
       },
       groups: [
         {
@@ -851,10 +854,10 @@ const coralElegance: ProposalData = {
     {
       eyebrow: "Orientações sobre a decoração",
       image: {
-        src: "/images/proposta/decoracao/arranjo-aereo.webp",
-        alt: "Arranjo floral aéreo em festa de casamento no Espaço Coral em Batatais",
-        w: 500,
-        h: 911,
+        src: "/images/proposta/decoracao/arvore-francesa.webp",
+        alt: "Árvore francesa decorando a pista de dança de casamento no Espaço Coral em Batatais",
+        w: 612,
+        h: 1148,
       },
       groups: [
         {
