@@ -20,7 +20,7 @@ const CtaSection = dynamic(() =>
 );
 
 export const metadata: Metadata = {
-  title: "Espaço para Casamentos e Eventos perto de Franca, SP | Espaço Coral",
+  title: "Espaço para Casamentos e Eventos perto de Franca, SP",
   description:
     "A 95 km de Franca, o Espaço Coral oferece estrutura premium para casamentos e eventos em Batatais: 12.000 m², cerimônia ao céu aberto, 320 convidados.",
   keywords: [
@@ -83,7 +83,7 @@ const SCHEMA = cityPageSchema(
   FAQS,
   [
     { name: "Início", url: "/" },
-    { name: "Cidades atendidas", url: "/" },
+    { name: "Cidades atendidas", url: "/cidades" },
     { name: "Franca", url: "/cidades/franca" },
   ]
 );

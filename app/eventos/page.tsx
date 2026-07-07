@@ -22,7 +22,7 @@ const CtaSection = dynamic(() =>
 );
 
 export const metadata: Metadata = {
-  title: "Casamentos, 15 Anos e Eventos Corporativos em Batatais",
+  title: "Casamentos, 15 Anos e Eventos Corporativos",
   description:
     "Casamentos, festas de 15 anos, eventos corporativos e celebrações familiares em Batatais, SP. Conheça os tipos de eventos no Espaço Coral.",
   alternates: { canonical: "https://coraleventos.com.br/eventos" },

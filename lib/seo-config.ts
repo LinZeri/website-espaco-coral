@@ -29,13 +29,12 @@ export const ADDRESS = {
 } as const;
 
 /**
- * Coordenadas aproximadas: verificar com Google Maps antes de produção
- * para garantir precisão (rua Matheus Marinelli, 18, Jardim Elena, Batatais).
- * Atual: centro de Batatais como aproximação.
+ * Coordenadas reais do Google Business Profile (Rua Matheus Marinelli, 18,
+ * Jardim Elena, Batatais). Confirmadas em 07/07/2026 via ficha do Google Maps.
  */
 export const GEO = {
-  latitude: -20.8911,
-  longitude: -47.5856,
+  latitude: -20.8809322,
+  longitude: -47.5929521,
 } as const;
 
 export const CONTACT = {

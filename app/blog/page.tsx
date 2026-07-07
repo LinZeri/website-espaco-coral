@@ -20,7 +20,7 @@ const CtaSection = dynamic(() =>
 );
 
 export const metadata: Metadata = {
-  title: "Blog do Espaço Coral",
+  title: "Blog: Casamento e Eventos no Interior de SP",
   description:
     "Guias práticos para casamento, festa de 15 anos e eventos corporativos no interior de São Paulo. Como escolher espaço, planejar cerimônia, calcular capacidade e mais.",
   keywords: [

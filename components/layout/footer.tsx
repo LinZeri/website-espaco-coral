@@ -14,11 +14,17 @@ const navLinks = [
   { label: "Contato", href: "/contato" },
 ];
 
+const cityLinks = [
+  { label: "Ribeirão Preto", href: "/cidades/ribeirao-preto" },
+  { label: "Franca", href: "/cidades/franca" },
+  { label: "Todas as cidades", href: "/cidades" },
+];
+
 export function Footer() {
   return (
     <footer className="bg-background border-t border-border">
       <div className="max-w-7xl mx-auto px-6 lg:px-12 py-20">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           {/* Brand */}
           <div className="flex flex-col gap-4">
             <Image
@@ -60,6 +66,22 @@ export function Footer() {
               Navegação
             </p>
             {navLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
+                {link.label}
+              </Link>
+            ))}
+          </div>
+
+          {/* Cidades atendidas */}
+          <div className="flex flex-col gap-3">
+            <p className="text-xs font-medium tracking-widest uppercase text-muted-foreground mb-1">
+              Atendemos
+            </p>
+            {cityLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}

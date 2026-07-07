@@ -19,7 +19,7 @@ const CtaSection = dynamic(() =>
 );
 
 export const metadata: Metadata = {
-  title: "Sobre o Espaço Coral",
+  title: "Sobre o Espaço de Eventos em Batatais, SP",
   description:
     "Conheça o Espaço Coral, espaço de eventos premium em Batatais, SP. 12.000 m², capacidade para 320 convidados, 40 avaliações 5 estrelas no Google. Inaugurado em 2024.",
   keywords: [

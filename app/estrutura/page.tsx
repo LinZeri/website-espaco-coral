@@ -18,7 +18,7 @@ const CtaSection = dynamic(() =>
 );
 
 export const metadata: Metadata = {
-  title: "Estrutura e Diferenciais: 12.000 m² em Batatais",
+  title: "Estrutura: 12.000 m² em Batatais, SP",
   description:
     "Conheça a estrutura do Espaço Coral: 12.000 m², 320 convidados, cerimônia ao ar livre, sala da noiva, espaço kids, climatização, gerador, estacionamento orientado.",
   alternates: { canonical: "https://coraleventos.com.br/estrutura" },

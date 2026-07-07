@@ -81,6 +81,53 @@ export function pillarLabel(pillar: BlogPillar): string {
   return PILLAR_LABELS[pillar] ?? pillar;
 }
 
+/**
+ * Slug URL-safe de uma tag: minúsculas, sem acentos, espaços viram hífen.
+ * "Cerimônia ao ar livre" → "cerimonia-ao-ar-livre". Pilares já são slugs
+ * e passam inalterados. É a forma canônica usada em URLs e comparações.
+ */
+export function slugifyTag(tag: string): string {
+  return tag
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+/** Palavras que ficam minúsculas em labels (exceto se forem a primeira). */
+const LABEL_LOWERCASE = new Set(["de", "do", "da", "dos", "das", "ao", "aos", "a", "o", "e", "em", "no", "na", "para"]);
+/** Siglas que ficam em caixa alta em labels. */
+const LABEL_UPPERCASE = new Set(["sp", "mg", "led"]);
+
+function titleCaseTag(tag: string): string {
+  return tag
+    .split(/\s+/)
+    .map((word, i) => {
+      const lower = word.toLowerCase();
+      if (LABEL_UPPERCASE.has(lower)) return lower.toUpperCase();
+      if (i > 0 && LABEL_LOWERCASE.has(lower)) return lower;
+      return lower.charAt(0).toUpperCase() + lower.slice(1);
+    })
+    .join(" ");
+}
+
+/**
+ * Nome de exibição de um cluster a partir do slug. Pilares usam o label
+ * oficial; tags livres recuperam a grafia original do frontmatter (com
+ * acentos e espaços). Fallback: title-case do próprio slug.
+ */
+export function tagLabel(slug: string): string {
+  if (slug in PILLAR_LABELS) return PILLAR_LABELS[slug as BlogPillar];
+
+  for (const post of getAllPostSummaries()) {
+    for (const tag of post.tags) {
+      if (slugifyTag(tag) === slug) return titleCaseTag(tag);
+    }
+  }
+  return titleCaseTag(slug.replace(/-/g, " "));
+}
+
 function ensureBlogDir(): boolean {
   return fs.existsSync(BLOG_DIR);
 }
@@ -179,15 +226,16 @@ export function getPostsByPillar(pillar: BlogPillar): BlogPostSummary[] {
 }
 
 /**
- * Filtra por tag (case-insensitive). Como conveniência, posts cujo `pillar`
- * é exatamente igual ao tag também são incluídos. Isso permite usar o mesmo
+ * Filtra por tag, comparando pela forma slugificada (aceita "Decoração",
+ * "decoracao" ou "decoração"). Como conveniência, posts cujo `pillar`
+ * corresponde ao slug também são incluídos. Isso permite usar o mesmo
  * roteador `/blog/tag/[tag]` tanto para pilares quanto para tags livres.
  */
 export function getPostsByTag(tag: string): BlogPostSummary[] {
-  const normalized = tag.toLowerCase();
+  const slug = slugifyTag(tag);
   return getAllPostSummaries().filter((post) => {
-    if (post.pillar.toLowerCase() === normalized) return true;
-    return post.tags.some((t) => t.toLowerCase() === normalized);
+    if (slugifyTag(post.pillar) === slug) return true;
+    return post.tags.some((t) => slugifyTag(t) === slug);
   });
 }
 
@@ -210,17 +258,21 @@ export function getAllTags(): { tag: string; count: number }[] {
  * Filtra para incluir só clusters com >= MIN_POSTS_PER_TAG posts (evita
  * páginas thin com 1 post, má prática de SEO programático).
  */
-const MIN_POSTS_PER_TAG = 1;
+const MIN_POSTS_PER_TAG = 3;
 
 export function getAllClusterSlugs(): string[] {
   const tagCounts: Record<string, number> = {};
 
   for (const post of getAllPostSummaries()) {
-    tagCounts[post.pillar] = (tagCounts[post.pillar] ?? 0) + 1;
-    for (const tag of post.tags) {
-      const normalized = tag.toLowerCase();
-      tagCounts[normalized] = (tagCounts[normalized] ?? 0) + 1;
-    }
+    // Slugifica pilar e tags: "15 anos" e o pilar "15-anos" contam juntos
+    // e viram um único cluster.
+    const clusterSlugs = new Set([
+      slugifyTag(post.pillar),
+      ...post.tags.map(slugifyTag),
+    ]);
+    clusterSlugs.forEach((slug) => {
+      tagCounts[slug] = (tagCounts[slug] ?? 0) + 1;
+    });
   }
 
   return Object.entries(tagCounts)
@@ -247,13 +299,13 @@ export function getRelatedPosts(slug: string, limit = 3): BlogPostSummary[] {
   if (!target) return [];
 
   const all = getAllPostSummaries().filter((p) => p.slug !== slug);
-  const targetTags = new Set((target.frontmatter.tags ?? []).map((t) => t.toLowerCase()));
+  const targetTags = new Set((target.frontmatter.tags ?? []).map(slugifyTag));
 
   const scored = all.map((post) => {
     let score = 0;
     if (post.pillar === target.frontmatter.pillar) score += 10;
     for (const tag of post.tags) {
-      if (targetTags.has(tag.toLowerCase())) score += 3;
+      if (targetTags.has(slugifyTag(tag))) score += 3;
     }
     return { post, score };
   });
@@ -272,5 +324,5 @@ export function blogPostUrl(slug: string, siteUrl: string): string {
 }
 
 export function tagUrl(tag: string, siteUrl: string): string {
-  return `${siteUrl}/blog/tag/${encodeURIComponent(tag)}`;
+  return `${siteUrl}/blog/tag/${slugifyTag(tag)}`;
 }

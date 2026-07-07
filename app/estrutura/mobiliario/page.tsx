@@ -16,7 +16,7 @@ const CtaSection = dynamic(() =>
 );
 
 export const metadata: Metadata = {
-  title: "Mobiliário Incluso: Mesas, Cadeiras e Estrutura",
+  title: "Mobiliário Incluso: Mesas e Cadeiras",
   description:
     "Conheça o mobiliário incluso no Espaço Coral: 320 cadeiras Versalles, mesas Venezza, Roma, Paris e Dior, balcões, cozinha industrial completa e lounge na varanda.",
   alternates: { canonical: "https://coraleventos.com.br/estrutura/mobiliario" },

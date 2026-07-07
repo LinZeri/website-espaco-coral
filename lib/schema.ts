@@ -210,6 +210,34 @@ export function eventosHubSchema(services: Array<{ name: string; url: string }>)
 }
 
 /**
+ * /cidades: hub das cidades atendidas. ItemList com as páginas de cidade.
+ */
+export function cidadesHubSchema(cities: Array<{ name: string; url: string }>) {
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      organization(),
+      venue(),
+      {
+        "@type": "ItemList",
+        "@id": `${SITE_URL}/cidades#itemlist`,
+        name: "Cidades atendidas pelo Espaço Coral",
+        itemListElement: cities.map((c, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          name: c.name,
+          url: `${SITE_URL}${c.url}`,
+        })),
+      },
+      breadcrumb([
+        { name: "Início", url: "/" },
+        { name: "Cidades atendidas", url: "/cidades" },
+      ]),
+    ],
+  };
+}
+
+/**
  * FAQPage: quando a página tiver bloco de perguntas frequentes.
  */
 export interface FaqPair {
@@ -554,9 +582,10 @@ export function blogPostingSchema(
 export function blogTagSchema(
   tag: string,
   posts: Array<{ url: string; headline: string; datePublished: string }>,
-  breadcrumbItems: BreadcrumbItem[]
+  breadcrumbItems: BreadcrumbItem[],
+  displayName = tag
 ) {
-  const absoluteUrl = `${SITE_URL}/blog/tag/${encodeURIComponent(tag)}`;
+  const absoluteUrl = `${SITE_URL}/blog/tag/${tag}`;
   return {
     "@context": "https://schema.org",
     "@graph": [
@@ -565,8 +594,8 @@ export function blogTagSchema(
         "@type": "CollectionPage",
         "@id": `${absoluteUrl}#collection`,
         url: absoluteUrl,
-        name: `${tag} no Blog do ${BUSINESS.name}`,
-        description: `Conteúdos do blog do ${BUSINESS.name} sobre ${tag}.`,
+        name: `${displayName} no Blog do ${BUSINESS.name}`,
+        description: `Conteúdos do blog do ${BUSINESS.name} sobre ${displayName.toLowerCase()}.`,
         inLanguage: "pt-BR",
         isPartOf: { "@id": `${SITE_URL}/blog#blog` },
         mainEntity: {

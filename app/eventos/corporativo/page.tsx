@@ -15,7 +15,7 @@ const CtaSection = dynamic(() =>
 );
 
 export const metadata: Metadata = {
-  title: "Espaço para Eventos Corporativos em Batatais, SP",
+  title: "Espaço para Eventos Corporativos em Batatais",
   description:
     "Espaço para eventos corporativos em Batatais: confraternizações, formaturas, premiações e lançamentos com estrutura completa para até 320 pessoas. Privacidade total.",
   keywords: [

@@ -20,8 +20,7 @@ const CtaSection = dynamic(() =>
 );
 
 export const metadata: Metadata = {
-  title:
-    "Espaço para Casamentos e Eventos perto de Ribeirão Preto | Espaço Coral",
+  title: "Espaço para Casamentos e Eventos perto de Ribeirão Preto",
   description:
     "A 70 km de Ribeirão Preto, o Espaço Coral é a escolha de noivas e famílias que buscam estrutura premium fora da capital regional. Cerimônia ao ar livre, 320 convidados.",
   keywords: [
@@ -84,7 +83,7 @@ const SCHEMA = cityPageSchema(
   FAQS,
   [
     { name: "Início", url: "/" },
-    { name: "Cidades atendidas", url: "/" },
+    { name: "Cidades atendidas", url: "/cidades" },
     { name: "Ribeirão Preto", url: "/cidades/ribeirao-preto" },
   ]
 );

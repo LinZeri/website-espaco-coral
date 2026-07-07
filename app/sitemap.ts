@@ -19,6 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/estrutura", changeFrequency: "monthly", priority: 0.8 },
     { path: "/estrutura/mobiliario", changeFrequency: "yearly", priority: 0.5 },
     { path: "/galeria", changeFrequency: "weekly", priority: 0.7 },
+    { path: "/cidades", changeFrequency: "monthly", priority: 0.7 },
     { path: "/cidades/ribeirao-preto", changeFrequency: "monthly", priority: 0.7 },
     { path: "/cidades/franca", changeFrequency: "monthly", priority: 0.7 },
     { path: "/sobre", changeFrequency: "yearly", priority: 0.6 },
@@ -47,7 +48,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Cluster pages (tags + pilares): só inclui se houver posts publicados
   // (getAllClusterSlugs() já consulta posts publicados e filtra por threshold).
   const tagPages: MetadataRoute.Sitemap = getAllClusterSlugs().map((tag) => ({
-    url: `${SITE_URL}/blog/tag/${encodeURIComponent(tag)}`,
+    url: `${SITE_URL}/blog/tag/${tag}`,
     lastModified,
     changeFrequency: "monthly" as const,
     priority: 0.6,
