@@ -55,6 +55,7 @@ const config: Config = {
         "scale-in": "scale-in 0.6s ease forwards",
         "fade-in": "fade-in 0.7s ease forwards",
         float: "float 6s ease-in-out infinite",
+        "scroll-hint": "scroll-hint 2s ease-in-out infinite",
       },
       keyframes: {
         "reveal-up": {
@@ -80,6 +81,10 @@ const config: Config = {
         float: {
           "0%, 100%": { transform: "translateY(0)" },
           "50%": { transform: "translateY(-12px)" },
+        },
+        "scroll-hint": {
+          "0%, 100%": { transform: "translateY(0)", opacity: "0.65" },
+          "50%": { transform: "translateY(8px)", opacity: "1" },
         },
       },
     },

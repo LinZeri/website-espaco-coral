@@ -52,3 +52,6 @@ MEMORY.md
 # (são regenerados a partir de docs/seo-plan/CONTENT-CALENDAR.md)
 /briefs/
 /outlines/
+
+# Pasta temporária de processamento de imagens
+.tmp-wp/

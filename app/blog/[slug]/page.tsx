@@ -5,6 +5,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ChevronLeft } from "lucide-react";
 import { MDXRemote } from "next-mdx-remote/rsc";
+import remarkGfm from "remark-gfm";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { WhatsAppButton } from "@/components/layout/whatsapp-button";
@@ -184,7 +185,9 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
               <MDXRemote
                 source={post.content}
                 components={blogMdxComponents}
-                options={{ blockJS: false }}
+                options={{
+                  mdxOptions: { remarkPlugins: [remarkGfm] },
+                }}
               />
             </div>
           </div>

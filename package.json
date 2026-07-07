@@ -10,6 +10,7 @@
     "catalog": "node scripts/catalog-photos.mjs",
     "process-photos": "node scripts/process-selected.mjs",
     "images:optimize": "node scripts/optimize-images.mjs",
+    "images:build-scenes": "node scripts/build-scenes.mjs",
     "images:scan": "node scripts/scan-image-usage.mjs",
     "images:report": "node scripts/image-rotation-report.mjs"
   },
@@ -22,6 +23,7 @@
     "react": "^18",
     "react-dom": "^18",
     "reading-time": "^1.5.0",
+    "remark-gfm": "^4.0.1",
     "tailwind-merge": "^3.5.0"
   },
   "devDependencies": {

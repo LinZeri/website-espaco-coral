@@ -1,7 +1,7 @@
 const stats = [
   { label: "Área total", value: "12.000 m²" },
   { label: "Capacidade", value: "320 pessoas" },
-  { label: "Avaliações", value: "36 reviews" },
+  { label: "Avaliações", value: "40 reviews" },
   { label: "Google", value: "5★" },
 ];
 

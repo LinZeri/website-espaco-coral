@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
     default: "Espaço Coral | Espaço para Eventos em Batatais, SP",
-    template: "%s | Espaço Coral, Batatais, SP",
+    template: "%s | Espaço Coral",
   },
   description:
     "Espaço premium para casamentos, festas de 15 anos e eventos corporativos em Batatais, SP. 12.000 m², capacidade para 320 convidados, cerimônia ao ar livre.",

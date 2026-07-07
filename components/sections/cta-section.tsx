@@ -31,7 +31,7 @@ export function CtaSection() {
             Agendar visita pelo WhatsApp
           </a>
           <a
-            href="https://maps.app.goo.gl/zhbZpzoYTjqZHc967"
+            href="https://maps.app.goo.gl/RRvRvYMonqZWbR1v8"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-8 py-4 border border-white/20 text-white/70 text-sm font-medium tracking-wide hover:text-white hover:border-white/40 transition-colors duration-200"

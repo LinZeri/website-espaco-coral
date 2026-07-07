@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { ChevronDown } from "lucide-react";
 import { useEffect, useRef } from "react";
 
 const word = "CORAL";
@@ -39,6 +40,8 @@ export function HeroSection() {
   const rightColRef = useRef<HTMLDivElement>(null);
   const centerRef = useRef<HTMLDivElement>(null);
   const textRef = useRef<HTMLDivElement>(null);
+  const taglineRef = useRef<HTMLDivElement>(null);
+  const taglineTextRef = useRef<HTMLParagraphElement>(null);
   const sideWrappersRef = useRef<NodeListOf<HTMLDivElement> | null>(null);
   const rafRef = useRef<number | null>(null);
 
@@ -53,8 +56,15 @@ export function HeroSection() {
       const scrolled = -rect.top;
       const progress = Math.max(0, Math.min(1, scrolled / scrollableHeight));
 
-      const textOpacity = Math.max(0, 1 - progress / 0.2);
-      const imageProgress = Math.max(0, Math.min(1, (progress - 0.2) / 0.8));
+      // Timeline (progress 0 -> 1 ao longo de ~200vh de scroll):
+      //   0.00 - 0.18  "CORAL" some
+      //   0.18 - 0.50  as fotos formam a grade
+      //   0.50 - 0.62  segura a grade limpa
+      //   0.62 - 0.74  tagline entra (scrim + fade + rise)
+      //   0.74 - 1.00  tagline segura, legível, ainda fixada
+      const textOpacity = Math.max(0, 1 - progress / 0.18);
+      const imageProgress = Math.max(0, Math.min(1, (progress - 0.18) / 0.32));
+      const taglineProgress = Math.max(0, Math.min(1, (progress - 0.62) / 0.12));
 
       const centerWidth = 100 - imageProgress * 58;
       const centerHeight = 100 - imageProgress * 30;
@@ -64,23 +74,23 @@ export function HeroSection() {
       const sideTranslateRight = 100 - imageProgress * 100;
       const borderRadius = imageProgress * 24;
       const gap = imageProgress * 16;
-      const sideTranslateY = -(imageProgress * 15);
 
       if (wrapperRef.current) {
         wrapperRef.current.style.gap = `${gap}px`;
         wrapperRef.current.style.padding = `${imageProgress * 16}px`;
-        wrapperRef.current.style.paddingBottom = `${60 + imageProgress * 40}px`;
       }
       if (leftColRef.current) {
         leftColRef.current.style.width = `${sideWidth}%`;
+        leftColRef.current.style.height = `${centerHeight}%`;
         leftColRef.current.style.gap = `${gap}px`;
-        leftColRef.current.style.transform = `translateX(${sideTranslateLeft}%) translateY(${sideTranslateY}%)`;
+        leftColRef.current.style.transform = `translateX(${sideTranslateLeft}%)`;
         leftColRef.current.style.opacity = String(sideOpacity);
       }
       if (rightColRef.current) {
         rightColRef.current.style.width = `${sideWidth}%`;
+        rightColRef.current.style.height = `${centerHeight}%`;
         rightColRef.current.style.gap = `${gap}px`;
-        rightColRef.current.style.transform = `translateX(${sideTranslateRight}%) translateY(${sideTranslateY}%)`;
+        rightColRef.current.style.transform = `translateX(${sideTranslateRight}%)`;
         rightColRef.current.style.opacity = String(sideOpacity);
       }
       if (centerRef.current) {
@@ -90,6 +100,12 @@ export function HeroSection() {
       }
       if (textRef.current) {
         textRef.current.style.opacity = String(textOpacity);
+      }
+      if (taglineRef.current) {
+        taglineRef.current.style.opacity = String(taglineProgress);
+      }
+      if (taglineTextRef.current) {
+        taglineTextRef.current.style.transform = `translateY(${(1 - taglineProgress) * 28}px)`;
       }
 
       // Apply borderRadius to side image wrappers
@@ -119,7 +135,7 @@ export function HeroSection() {
         <div className="flex h-full w-full items-center justify-center">
           <div
             ref={wrapperRef}
-            className="relative flex h-full w-full items-stretch justify-center"
+            className="relative flex h-full w-full items-center justify-center"
           >
             {/* Left Column */}
             <div
@@ -153,8 +169,8 @@ export function HeroSection() {
               style={{ width: "100%", height: "100%", flex: "0 0 auto" }}
             >
               <Image
-                src="/images/hero/espaco-coral-hero-salao-panoramico-01.webp"
-                alt="Vista panorâmica do salão do Espaço Coral decorado para casamento em Batatais SP"
+                src="/images/hero/espaco-coral-hero-salao-recepcao-mesas-01.webp"
+                alt="Salão do Espaço Coral montado para recepção de casamento com mesas postas e arranjos florais em Batatais SP"
                 fill
                 priority
                 sizes="100vw"
@@ -166,7 +182,7 @@ export function HeroSection() {
                 ref={textRef}
                 className="absolute inset-0 flex items-end overflow-hidden"
               >
-                <h1 className="w-full text-[22vw] font-medium leading-[0.8] tracking-tighter text-white">
+                <h1 className="flex w-full items-end whitespace-nowrap text-[22vw] font-medium leading-[0.8] tracking-tighter text-white">
                   {word.split("").map((letter, index) => (
                     <span
                       key={index}
@@ -180,6 +196,11 @@ export function HeroSection() {
                       {letter}
                     </span>
                   ))}
+                  <ChevronDown
+                    aria-hidden="true"
+                    strokeWidth={2.5}
+                    className="ml-[0.04em] mb-[0.04em] h-[0.58em] w-[0.58em] animate-scroll-hint self-end"
+                  />
                 </h1>
               </div>
             </div>
@@ -210,19 +231,25 @@ export function HeroSection() {
             </div>
           </div>
         </div>
+
+        {/* Tagline: beat final da cena, entra sobre a grade ja formada */}
+        <div
+          ref={taglineRef}
+          className="pointer-events-none absolute inset-0 z-10 flex items-center justify-center bg-black/50 px-6 opacity-0 will-change-[opacity]"
+        >
+          <p
+            ref={taglineTextRef}
+            className="mx-auto max-w-3xl text-center text-3xl font-light leading-snug text-white will-change-transform md:text-4xl lg:text-5xl lg:leading-snug"
+          >
+            12.000 m² de estrutura premium
+            <br />
+            para momentos inesquecíveis.
+          </p>
+        </div>
       </div>
 
-      {/* Scroll space */}
+      {/* Scroll space: distancia de scroll que alimenta a animacao fixada */}
       <div className="h-[200vh]" />
-
-      {/* Tagline */}
-      <div className="px-6 pt-32 pb-28 md:pt-48 md:px-12 md:pb-36 lg:px-20 lg:pt-56 lg:pb-44">
-        <p className="mx-auto max-w-2xl text-center text-2xl leading-relaxed text-muted-foreground md:text-3xl lg:text-[2.5rem] lg:leading-snug">
-          12.000 m² de estrutura premium
-          <br />
-          para momentos inesquecíveis.
-        </p>
-      </div>
     </section>
   );
 }

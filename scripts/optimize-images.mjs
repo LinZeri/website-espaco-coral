@@ -16,6 +16,7 @@ const rules = [
   { match: /^events\/[^/]+\/cover\./,  width: 1280, quality: 65 },
   { match: /^events\//,                width: 1080, quality: 60 },
   { match: /^scenes\//,                width: 1080, quality: 60 },
+  { match: /^testimonials\//,          width: 1000, quality: 65 },
 ];
 
 const stats = { converted: 0, resized: 0, skipped: 0, errors: 0, rawNames: [] };

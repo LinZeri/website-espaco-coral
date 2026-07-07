@@ -9,12 +9,7 @@ import { JsonLd } from "@/components/seo/json-ld";
 import { BlogCard } from "@/components/blog/blog-card";
 import { blogTagSchema } from "@/lib/schema";
 import { SITE_URL } from "@/lib/seo-config";
-import {
-  getAllClusterSlugs,
-  getPostsByTag,
-  pillarLabel,
-  type BlogPillar,
-} from "@/lib/blog-utils";
+import { getAllClusterSlugs, getPostsByTag, tagLabel } from "@/lib/blog-utils";
 
 const CtaSection = dynamic(() =>
   import("@/components/sections/cta-section").then((m) => m.CtaSection)
@@ -24,25 +19,9 @@ interface BlogTagPageProps {
   params: { tag: string };
 }
 
-const KNOWN_PILLARS: BlogPillar[] = [
-  "casamento",
-  "15-anos",
-  "corporativo",
-  "estrutura",
-  "local",
-];
-
-function isPillar(slug: string): slug is BlogPillar {
-  return KNOWN_PILLARS.includes(slug as BlogPillar);
-}
-
-function tagDisplayName(slug: string): string {
-  if (isPillar(slug)) return pillarLabel(slug);
-  return slug
-    .split("-")
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(" ");
-}
+// Tags fora de generateStaticParams (abaixo do threshold de posts) devem
+// retornar 404 em vez de renderizar página thin sob demanda.
+export const dynamicParams = false;
 
 export function generateStaticParams() {
   return getAllClusterSlugs().map((tag) => ({ tag }));
@@ -53,11 +32,11 @@ export function generateMetadata({ params }: BlogTagPageProps): Metadata {
   const posts = getPostsByTag(tag);
   if (posts.length === 0) return { title: "Tag não encontrada" };
 
-  const display = tagDisplayName(tag);
-  const url = `${SITE_URL}/blog/tag/${encodeURIComponent(tag)}`;
+  const display = tagLabel(tag);
+  const url = `${SITE_URL}/blog/tag/${tag}`;
 
   return {
-    title: `${display} | Blog do Espaço Coral`,
+    title: `Blog: ${display}`,
     description: `Conteúdos do blog do Espaço Coral sobre ${display.toLowerCase()}. ${posts.length} ${posts.length === 1 ? "post publicado" : "posts publicados"}.`,
     alternates: { canonical: url },
     openGraph: {
@@ -81,7 +60,7 @@ export default function BlogTagPage({ params }: BlogTagPageProps) {
   const posts = getPostsByTag(tag);
   if (posts.length === 0) notFound();
 
-  const display = tagDisplayName(tag);
+  const display = tagLabel(tag);
 
   const schema = blogTagSchema(
     tag,
@@ -93,8 +72,9 @@ export default function BlogTagPage({ params }: BlogTagPageProps) {
     [
       { name: "Início", url: "/" },
       { name: "Blog", url: "/blog" },
-      { name: display, url: `/blog/tag/${encodeURIComponent(tag)}` },
-    ]
+      { name: display, url: `/blog/tag/${tag}` },
+    ],
+    display
   );
 
   return (
