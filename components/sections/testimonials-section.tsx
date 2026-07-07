@@ -1,15 +1,29 @@
-import { Star } from "lucide-react";
+"use client";
+
+import { useCallback, useEffect, useRef, useState } from "react";
+import { ChevronLeft, ChevronRight, Star } from "lucide-react";
 import { FadeImage } from "@/components/fade-image";
 import { TESTIMONIALS } from "@/data/testimonials";
 import { REVIEWS, SOCIAL } from "@/lib/seo-config";
 
-function Stars({ rating }: { rating: number }) {
+function Stars({
+  rating,
+  size = 16,
+  className = "",
+}: {
+  rating: number;
+  size?: number;
+  className?: string;
+}) {
   return (
-    <div className="flex gap-0.5" aria-label={`${rating} de 5 estrelas`}>
+    <div
+      className={`flex justify-center gap-1 ${className}`}
+      aria-label={`${rating} de 5 estrelas`}
+    >
       {Array.from({ length: 5 }).map((_, i) => (
         <Star
           key={i}
-          size={16}
+          size={size}
           className={
             i < rating ? "fill-gold text-gold" : "fill-border text-border"
           }
@@ -21,6 +35,36 @@ function Stars({ rating }: { rating: number }) {
 }
 
 export function TestimonialsSection() {
+  const trackRef = useRef<HTMLDivElement>(null);
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  const scrollToIndex = useCallback((index: number) => {
+    const track = trackRef.current;
+    if (!track) return;
+    const slide = track.children[index] as HTMLElement | undefined;
+    slide?.scrollIntoView({ behavior: "smooth", inline: "start", block: "nearest" });
+  }, []);
+
+  useEffect(() => {
+    const track = trackRef.current;
+    if (!track) return;
+
+    let rafId: number | null = null;
+    const handleScroll = () => {
+      if (rafId) cancelAnimationFrame(rafId);
+      rafId = requestAnimationFrame(() => {
+        const index = Math.round(track.scrollLeft / track.clientWidth);
+        setActiveIndex((prev) => (prev === index ? prev : index));
+      });
+    };
+
+    track.addEventListener("scroll", handleScroll, { passive: true });
+    return () => {
+      track.removeEventListener("scroll", handleScroll);
+      if (rafId) cancelAnimationFrame(rafId);
+    };
+  }, []);
+
   return (
     <section id="depoimentos" className="bg-secondary/40">
       <div className="px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
@@ -54,50 +98,85 @@ export function TestimonialsSection() {
           </a>
         </div>
 
-        {/* Mural de depoimentos (masonry) */}
-        <div className="mx-auto mt-14 max-w-6xl gap-5 [column-fill:_balance] sm:columns-2 lg:columns-3">
-          {TESTIMONIALS.map((t) => (
-            <figure
-              key={t.name}
-              className="mb-5 break-inside-avoid overflow-hidden rounded-2xl border border-border bg-background shadow-sm"
-            >
-              <div className="relative aspect-[4/3] w-full overflow-hidden">
-                <FadeImage
-                  src={t.photo ?? t.fallbackImage}
-                  alt={`Foto do evento de ${t.name} no Espaço Coral em Batatais SP`}
-                  fill
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  className="object-cover"
-                />
-              </div>
+        {/* Carrossel de depoimentos */}
+        <div className="mx-auto mt-14 max-w-2xl">
+          <div
+            ref={trackRef}
+            className="no-scrollbar flex snap-x snap-mandatory overflow-x-auto scroll-smooth"
+          >
+            {TESTIMONIALS.map((t) => (
+              <figure
+                key={t.name}
+                className="w-full shrink-0 snap-start overflow-hidden rounded-2xl border border-border bg-background shadow-sm"
+              >
+                <div className="relative aspect-[4/3] w-full overflow-hidden">
+                  <FadeImage
+                    src={t.photo ?? t.fallbackImage}
+                    alt={`Foto do evento de ${t.name} no Espaço Coral em Batatais SP`}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 42rem"
+                    className="object-cover"
+                  />
+                </div>
 
-              <div className="p-6">
-                <Stars rating={t.rating} />
-                <blockquote className="mt-4 text-[0.95rem] leading-relaxed text-foreground">
-                  {t.text}
-                </blockquote>
-                <figcaption className="mt-5 flex items-center justify-between border-t border-border pt-4">
-                  <div>
-                    <p className="text-sm font-semibold text-foreground">
+                <div className="p-8 text-center md:p-10">
+                  <Stars rating={t.rating} size={22} />
+                  <figcaption className="mt-4">
+                    <p className="text-base font-semibold text-foreground">
                       {t.name}
                     </p>
-                    {t.eventType && (
-                      <p className="text-xs text-muted-foreground">
-                        {t.eventType}
-                        {t.date ? ` · ${t.date}` : ""}
-                      </p>
-                    )}
-                    {!t.eventType && t.date && (
-                      <p className="text-xs text-muted-foreground">{t.date}</p>
-                    )}
-                  </div>
-                  <span className="shrink-0 text-xs text-muted-foreground">
-                    via Google
-                  </span>
-                </figcaption>
-              </div>
-            </figure>
-          ))}
+                    <p className="mt-1 text-xs text-muted-foreground">
+                      {[t.eventType, t.date, "via Google"]
+                        .filter(Boolean)
+                        .join(" · ")}
+                    </p>
+                  </figcaption>
+                  <blockquote className="mt-6 text-[0.95rem] leading-relaxed text-foreground">
+                    {t.text}
+                  </blockquote>
+                </div>
+              </figure>
+            ))}
+          </div>
+
+          {/* Navegação */}
+          <div className="mt-6 flex items-center justify-center gap-4">
+            <button
+              type="button"
+              onClick={() => scrollToIndex(Math.max(0, activeIndex - 1))}
+              disabled={activeIndex === 0}
+              aria-label="Depoimento anterior"
+              className="rounded-full border border-border bg-background p-2 text-foreground shadow-sm transition-colors hover:border-gold disabled:cursor-not-allowed disabled:opacity-30"
+            >
+              <ChevronLeft size={18} />
+            </button>
+
+            <div className="flex items-center gap-2">
+              {TESTIMONIALS.map((t, i) => (
+                <button
+                  key={t.name}
+                  type="button"
+                  onClick={() => scrollToIndex(i)}
+                  aria-label={`Ir para depoimento de ${t.name}`}
+                  className={`h-2 rounded-full transition-all ${
+                    i === activeIndex ? "w-6 bg-gold" : "w-2 bg-border"
+                  }`}
+                />
+              ))}
+            </div>
+
+            <button
+              type="button"
+              onClick={() =>
+                scrollToIndex(Math.min(TESTIMONIALS.length - 1, activeIndex + 1))
+              }
+              disabled={activeIndex === TESTIMONIALS.length - 1}
+              aria-label="Próximo depoimento"
+              className="rounded-full border border-border bg-background p-2 text-foreground shadow-sm transition-colors hover:border-gold disabled:cursor-not-allowed disabled:opacity-30"
+            >
+              <ChevronRight size={18} />
+            </button>
+          </div>
         </div>
 
         {/* CTA */}

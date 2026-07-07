@@ -36,7 +36,7 @@ export const TESTIMONIALS: Testimonial[] = [
     rating: 5,
     date: "Abr 2025",
     eventType: "Casamento",
-    // photo: "/images/testimonials/daiana-alves.webp",
+    photo: "/images/testimonials/espaco-coral-depoimento-daiana-alves.webp",
     fallbackImage: "/images/scenes/casamentos/espaco-coral-casamento-noivos-01.webp",
   },
   {
@@ -54,7 +54,7 @@ export const TESTIMONIALS: Testimonial[] = [
     text: "Lugar excelente, com atendimento diferenciado pelos proprietários. Ficamos muito felizes de ter escolhido este espaço para nosso evento.",
     rating: 5,
     date: "Nov 2025",
-    // photo: "/images/testimonials/wanderson-bagio.webp",
+    photo: "/images/testimonials/espaco-coral-depoimento-wanderson-bagio.webp",
     fallbackImage: "/images/scenes/casamentos/espaco-coral-casamento-decoracao-floral-01.webp",
   },
   {
@@ -62,7 +62,8 @@ export const TESTIMONIALS: Testimonial[] = [
     text: "Espaço maravilhoso, contando com uma equipe nota 1000!!",
     rating: 5,
     date: "Ago 2025",
-    // photo: "/images/testimonials/cassio-pupin.webp",
+    eventType: "Casamento",
+    photo: "/images/testimonials/espaco-coral-depoimento-cassio-pupin.webp",
     fallbackImage: "/images/scenes/salao/espaco-coral-salao-decoracao-completa-15.webp",
   },
 ];
