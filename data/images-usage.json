@@ -357,6 +357,23 @@
     "lastUsedAt": null,
     "totalUses": 0
   },
+  "/images/scenes/ambientes/espaco-kids/espaco-coral-ambientes-espaco-kids-01.webp": {
+    "usedIn": [
+      {
+        "path": "content/blog/espaco-kids-casamento.mdx",
+        "line": 24,
+        "as": "coverImage"
+      },
+      {
+        "path": "content/blog/espaco-kids-casamento.mdx",
+        "line": 26,
+        "as": "ogImage"
+      }
+    ],
+    "firstUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-07",
+    "totalUses": 2
+  },
   "/images/scenes/ambientes/gramado/espaco-coral-ambientes-gramado-01.webp": {
     "usedIn": [],
     "firstUsedAt": null,
@@ -430,33 +447,16 @@
     "totalUses": 0
   },
   "/images/scenes/atracoes-brincadeiras/espaco-coral-atracoes-brincadeiras-01.webp": {
-    "usedIn": [
-      {
-        "path": "content/blog/espaco-kids-casamento.mdx",
-        "line": 24,
-        "as": "coverImage"
-      },
-      {
-        "path": "content/blog/espaco-kids-casamento.mdx",
-        "line": 26,
-        "as": "ogImage"
-      }
-    ],
-    "firstUsedAt": "2026-06-08",
+    "usedIn": [],
+    "firstUsedAt": null,
     "lastUsedAt": "2026-07-07",
-    "totalUses": 2
+    "totalUses": 0
   },
   "/images/scenes/atracoes-brincadeiras/espaco-coral-atracoes-brincadeiras-02.webp": {
-    "usedIn": [
-      {
-        "path": "content/blog/espaco-kids-casamento.mdx",
-        "line": 58,
-        "as": "mdx-inline"
-      }
-    ],
-    "firstUsedAt": "2026-06-08",
+    "usedIn": [],
+    "firstUsedAt": null,
     "lastUsedAt": "2026-07-07",
-    "totalUses": 1
+    "totalUses": 0
   },
   "/images/scenes/atracoes-brincadeiras/espaco-coral-atracoes-brincadeiras-03.webp": {
     "usedIn": [],
@@ -471,33 +471,16 @@
     "totalUses": 0
   },
   "/images/scenes/atracoes-dancas/espaco-coral-atracoes-animacao-01.webp": {
-    "usedIn": [
-      {
-        "path": "content/blog/valsa-15-anos-organizar.mdx",
-        "line": 24,
-        "as": "coverImage"
-      },
-      {
-        "path": "content/blog/valsa-15-anos-organizar.mdx",
-        "line": 26,
-        "as": "ogImage"
-      }
-    ],
-    "firstUsedAt": "2026-06-08",
+    "usedIn": [],
+    "firstUsedAt": null,
     "lastUsedAt": "2026-07-07",
-    "totalUses": 2
+    "totalUses": 0
   },
   "/images/scenes/atracoes-dancas/espaco-coral-atracoes-animacao-02.webp": {
-    "usedIn": [
-      {
-        "path": "content/blog/valsa-15-anos-organizar.mdx",
-        "line": 53,
-        "as": "mdx-inline"
-      }
-    ],
-    "firstUsedAt": "2026-06-08",
+    "usedIn": [],
+    "firstUsedAt": null,
     "lastUsedAt": "2026-07-07",
-    "totalUses": 1
+    "totalUses": 0
   },
   "/images/scenes/atracoes-dancas/espaco-coral-atracoes-animacao-03.webp": {
     "usedIn": [],
@@ -566,16 +549,10 @@
     "totalUses": 0
   },
   "/images/scenes/atracoes-pelucias/espaco-coral-atracoes-maquina-pelucias-01.webp": {
-    "usedIn": [
-      {
-        "path": "content/blog/espaco-kids-casamento.mdx",
-        "line": 74,
-        "as": "mdx-inline"
-      }
-    ],
-    "firstUsedAt": "2026-06-08",
+    "usedIn": [],
+    "firstUsedAt": null,
     "lastUsedAt": "2026-07-07",
-    "totalUses": 1
+    "totalUses": 0
   },
   "/images/scenes/atracoes-pelucias/espaco-coral-atracoes-maquina-pelucias-02.webp": {
     "usedIn": [],
@@ -770,10 +747,16 @@
     "totalUses": 0
   },
   "/images/scenes/atracoes/maquina-pelucias/espaco-coral-atracoes-maquina-pelucias-01.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/blog/espaco-kids-casamento.mdx",
+        "line": 58,
+        "as": "mdx-inline"
+      }
+    ],
+    "firstUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-07",
+    "totalUses": 1
   },
   "/images/scenes/atracoes/maquina-pelucias/espaco-coral-atracoes-maquina-pelucias-02.webp": {
     "usedIn": [],
@@ -950,6 +933,18 @@
     "totalUses": 0
   },
   "/images/scenes/buffet/espaco-coral-buffet-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/buffet/espaco-coral-buffet-03.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/buffet/espaco-coral-buffet-04.webp": {
     "usedIn": [],
     "firstUsedAt": null,
     "lastUsedAt": null,
@@ -1674,62 +1669,28 @@
     "totalUses": 0
   },
   "/images/scenes/decoracao-instagramavel/espaco-coral-decoracao-instagramavel-01.webp": {
-    "usedIn": [
-      {
-        "path": "content/blog/checklist-festa-15-anos-planejamento.mdx",
-        "line": 24,
-        "as": "coverImage"
-      },
-      {
-        "path": "content/blog/checklist-festa-15-anos-planejamento.mdx",
-        "line": 26,
-        "as": "ogImage"
-      }
-    ],
-    "firstUsedAt": "2026-06-08",
+    "usedIn": [],
+    "firstUsedAt": null,
     "lastUsedAt": "2026-07-07",
-    "totalUses": 2
+    "totalUses": 0
   },
   "/images/scenes/decoracao-instagramavel/espaco-coral-decoracao-instagramavel-02.webp": {
-    "usedIn": [
-      {
-        "path": "content/blog/tema-15-anos-ideias-modernas.mdx",
-        "line": 24,
-        "as": "coverImage"
-      },
-      {
-        "path": "content/blog/tema-15-anos-ideias-modernas.mdx",
-        "line": 26,
-        "as": "ogImage"
-      }
-    ],
-    "firstUsedAt": "2026-06-08",
+    "usedIn": [],
+    "firstUsedAt": null,
     "lastUsedAt": "2026-07-07",
-    "totalUses": 2
+    "totalUses": 0
   },
   "/images/scenes/decoracao-instagramavel/espaco-coral-decoracao-instagramavel-03.webp": {
-    "usedIn": [
-      {
-        "path": "content/blog/checklist-festa-15-anos-planejamento.mdx",
-        "line": 66,
-        "as": "mdx-inline"
-      }
-    ],
-    "firstUsedAt": "2026-06-08",
+    "usedIn": [],
+    "firstUsedAt": null,
     "lastUsedAt": "2026-07-07",
-    "totalUses": 1
+    "totalUses": 0
   },
   "/images/scenes/decoracao-instagramavel/espaco-coral-decoracao-instagramavel-04.webp": {
-    "usedIn": [
-      {
-        "path": "content/blog/tema-15-anos-ideias-modernas.mdx",
-        "line": 61,
-        "as": "mdx-inline"
-      }
-    ],
-    "firstUsedAt": "2026-06-08",
+    "usedIn": [],
+    "firstUsedAt": null,
     "lastUsedAt": "2026-07-07",
-    "totalUses": 1
+    "totalUses": 0
   },
   "/images/scenes/decoracao-instagramavel/espaco-coral-decoracao-instagramavel-05.webp": {
     "usedIn": [
@@ -1879,16 +1840,10 @@
     "totalUses": 2
   },
   "/images/scenes/decoracao-mesas/espaco-coral-decoracao-mesa-posta-02.webp": {
-    "usedIn": [
-      {
-        "path": "content/blog/checklist-festa-15-anos-planejamento.mdx",
-        "line": 97,
-        "as": "mdx-inline"
-      }
-    ],
-    "firstUsedAt": "2026-06-08",
+    "usedIn": [],
+    "firstUsedAt": null,
     "lastUsedAt": "2026-07-07",
-    "totalUses": 1
+    "totalUses": 0
   },
   "/images/scenes/decoracao-mesas/espaco-coral-decoracao-mesa-posta-03.webp": {
     "usedIn": [
@@ -3282,10 +3237,16 @@
     "totalUses": 0
   },
   "/images/scenes/pessoas/pajens/espaco-coral-pessoas-pajens-01.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/blog/espaco-kids-casamento.mdx",
+        "line": 74,
+        "as": "mdx-inline"
+      }
+    ],
+    "firstUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-07",
+    "totalUses": 1
   },
   "/images/scenes/pessoas/pajens/espaco-coral-pessoas-pajens-02.webp": {
     "usedIn": [],
@@ -3402,6 +3363,297 @@
     "totalUses": 0
   },
   "/images/scenes/pessoas/pessoas-dancando/espaco-coral-pessoas-pessoas-dancando-14.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-01.webp": {
+    "usedIn": [
+      {
+        "path": "content/blog/tema-15-anos-ideias-modernas.mdx",
+        "line": 61,
+        "as": "mdx-inline"
+      }
+    ],
+    "firstUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-07",
+    "totalUses": 1
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-02.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-03.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-04.webp": {
+    "usedIn": [
+      {
+        "path": "content/blog/checklist-festa-15-anos-planejamento.mdx",
+        "line": 24,
+        "as": "coverImage"
+      },
+      {
+        "path": "content/blog/checklist-festa-15-anos-planejamento.mdx",
+        "line": 26,
+        "as": "ogImage"
+      }
+    ],
+    "firstUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-07",
+    "totalUses": 2
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-05.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-06.webp": {
+    "usedIn": [
+      {
+        "path": "content/blog/valsa-15-anos-organizar.mdx",
+        "line": 53,
+        "as": "mdx-inline"
+      }
+    ],
+    "firstUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-07",
+    "totalUses": 1
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-07.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-08.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-09.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-10.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-11.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-12.webp": {
+    "usedIn": [
+      {
+        "path": "content/blog/valsa-15-anos-organizar.mdx",
+        "line": 24,
+        "as": "coverImage"
+      },
+      {
+        "path": "content/blog/valsa-15-anos-organizar.mdx",
+        "line": 26,
+        "as": "ogImage"
+      }
+    ],
+    "firstUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-07",
+    "totalUses": 2
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-13.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-14.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-15.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-16.webp": {
+    "usedIn": [
+      {
+        "path": "content/blog/checklist-festa-15-anos-planejamento.mdx",
+        "line": 65,
+        "as": "mdx-inline"
+      }
+    ],
+    "firstUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-07",
+    "totalUses": 1
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-17.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-18.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-19.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-20.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-21.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-22.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-23.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-24.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-25.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-26.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-27.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-28.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-29.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-30.webp": {
+    "usedIn": [
+      {
+        "path": "content/blog/checklist-festa-15-anos-planejamento.mdx",
+        "line": 96,
+        "as": "mdx-inline"
+      }
+    ],
+    "firstUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-07",
+    "totalUses": 1
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-31.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-32.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-33.webp": {
+    "usedIn": [
+      {
+        "path": "content/blog/tema-15-anos-ideias-modernas.mdx",
+        "line": 24,
+        "as": "coverImage"
+      },
+      {
+        "path": "content/blog/tema-15-anos-ideias-modernas.mdx",
+        "line": 26,
+        "as": "ogImage"
+      }
+    ],
+    "firstUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-07",
+    "totalUses": 2
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-34.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-35.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-36.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-37.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-38.webp": {
+    "usedIn": [],
+    "firstUsedAt": null,
+    "lastUsedAt": null,
+    "totalUses": 0
+  },
+  "/images/scenes/quinze-anos/espaco-coral-quinze-anos-39.webp": {
     "usedIn": [],
     "firstUsedAt": null,
     "lastUsedAt": null,

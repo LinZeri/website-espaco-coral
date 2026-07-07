@@ -6,7 +6,7 @@
 //   npm run images:build-scenes  &&  npm run images:scan
 // HEIC nao e suportado pelo sharp no Windows: converta para JPG antes.
 import sharp from "sharp";
-import { readdirSync, statSync, mkdirSync, writeFileSync } from "fs";
+import { readdirSync, statSync, mkdirSync, writeFileSync, existsSync } from "fs";
 import { join, extname } from "path";
 import { fileURLToPath } from "url";
 
@@ -66,6 +66,8 @@ const ALT = {
   "ambientes/marquise": "Marquise do Espaço Coral em Batatais SP",
   "ambientes/salao": "Salão do Espaço Coral em Batatais SP",
   "ambientes/varanda": "Varanda do Espaço Coral em Batatais SP",
+  "ambientes/espaco-kids": "Espaço kids para crianças no Espaço Coral em Batatais SP",
+  "quinze-anos": "Festa de 15 anos no Espaço Coral em Batatais SP",
   "bancos-gerais/corporativo": "Evento corporativo no Espaço Coral em Batatais SP",
   "bar-de-drinks": "Bar de drinks no Espaço Coral em Batatais SP",
   "buffet": "Buffet servido no Espaço Coral em Batatais SP",
@@ -88,6 +90,20 @@ function walk(dir, relParts = []) {
 }
 
 const groups = walk(SRC);
+
+// Fontes extras: pastas fora de scenes/ (ex: galerias de eventos) que devem
+// entrar no banco como categorias de cena reutilizaveis.
+const EXTRA = [
+  { src: join(ROOT, "_references", "Photos", "events", "15 Anos da Mel Bagio"), cat: "quinze-anos" },
+];
+for (const { src, cat } of EXTRA) {
+  if (!existsSync(src)) continue;
+  const files = readdirSync(src, { withFileTypes: true })
+    .filter((e) => e.isFile() && IMG.has(extname(e.name).toLowerCase()))
+    .map((e) => join(src, e.name));
+  if (files.length) groups[cat] = (groups[cat] ?? []).concat(files);
+}
+
 const manifest = [];
 const stats = { ok: 0, err: 0, bytesIn: 0, bytesOut: 0 };
 const perCat = [];
