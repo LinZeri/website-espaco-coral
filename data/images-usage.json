@@ -1232,11 +1232,16 @@
         "path": "content/blog/acabei-de-noivar-primeiros-passos.mdx",
         "line": 123,
         "as": "mdx-inline"
+      },
+      {
+        "path": "content/blog/como-escolher-espaco-casamento-interior-sp.mdx",
+        "line": 225,
+        "as": "mdx-inline"
       }
     ],
     "firstUsedAt": "2026-06-08",
     "lastUsedAt": "2026-07-07",
-    "totalUses": 1
+    "totalUses": 2
   },
   "/images/scenes/casamentos/espaco-coral-casamento-recepcao-02.webp": {
     "usedIn": [],
@@ -1332,7 +1337,7 @@
       },
       {
         "path": "content/blog/como-escolher-espaco-casamento-interior-sp.mdx",
-        "line": 180,
+        "line": 182,
         "as": "mdx-inline"
       }
     ],
@@ -3866,16 +3871,10 @@
     "totalUses": 1
   },
   "/images/scenes/salao/espaco-coral-salao-principal-09.webp": {
-    "usedIn": [
-      {
-        "path": "content/blog/como-escolher-espaco-casamento-interior-sp.mdx",
-        "line": 223,
-        "as": "mdx-inline"
-      }
-    ],
-    "firstUsedAt": "2026-06-08",
+    "usedIn": [],
+    "firstUsedAt": null,
     "lastUsedAt": "2026-07-07",
-    "totalUses": 1
+    "totalUses": 0
   },
   "/images/scenes/salao/espaco-coral-salao-principal-10.webp": {
     "usedIn": [
@@ -3945,7 +3944,7 @@
       },
       {
         "path": "content/blog/como-escolher-espaco-casamento-interior-sp.mdx",
-        "line": 155,
+        "line": 158,
         "as": "mdx-inline"
       }
     ],
@@ -3987,7 +3986,7 @@
       },
       {
         "path": "content/blog/casamento-ar-livre-batatais.mdx",
-        "line": 163,
+        "line": 162,
         "as": "mdx-inline"
       },
       {

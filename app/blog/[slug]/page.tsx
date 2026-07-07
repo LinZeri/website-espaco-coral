@@ -186,7 +186,6 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
                 source={post.content}
                 components={blogMdxComponents}
                 options={{
-                  blockJS: false,
                   mdxOptions: { remarkPlugins: [remarkGfm] },
                 }}
               />
