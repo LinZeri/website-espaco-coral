@@ -76,6 +76,7 @@ export function PhilosophySection() {
                   src="/images/scenes/casamentos/salao-decorado.webp"
                   alt="Salão do Espaço Coral decorado para casamento"
                   fill
+                  quality={60}
                   sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover"
                 />
@@ -95,6 +96,7 @@ export function PhilosophySection() {
                   src="/images/scenes/cerimonia/cerimonia-arco.webp"
                   alt="Cerimônia ao ar livre com arco floral no Espaço Coral"
                   fill
+                  quality={60}
                   sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover"
                 />

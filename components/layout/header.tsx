@@ -55,6 +55,7 @@ export function Header() {
             alt="Espaço Coral"
             width={120}
             height={34}
+            priority
             className="h-9 w-auto brightness-0"
           />
         </Link>
@@ -90,7 +91,7 @@ export function Header() {
                     <div className="border-t border-border">
                       <Link
                         href={link.href}
-                        className="block px-5 py-3 text-xs uppercase tracking-widest text-gold transition-colors hover:bg-secondary"
+                        className="block px-5 py-3 text-xs uppercase tracking-widest text-gold-dark transition-colors hover:bg-secondary"
                       >
                         Ver todos os eventos
                       </Link>
@@ -127,7 +128,7 @@ export function Header() {
         <button
           type="button"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="mr-1 text-foreground transition-colors md:hidden"
+          className="flex h-11 w-11 items-center justify-center text-foreground transition-colors md:hidden"
           aria-label="Abrir menu"
         >
           {isMenuOpen ? (

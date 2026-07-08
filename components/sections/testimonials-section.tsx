@@ -17,6 +17,7 @@ function Stars({
 }) {
   return (
     <div
+      role="img"
       className={`flex justify-center gap-1 ${className}`}
       aria-label={`${rating} de 5 estrelas`}
     >
@@ -114,6 +115,7 @@ export function TestimonialsSection() {
                     src={t.photo ?? t.fallbackImage}
                     alt={`Foto do evento de ${t.name} no Espaço Coral em Batatais SP`}
                     fill
+                    quality={60}
                     sizes="(max-width: 768px) 100vw, 42rem"
                     className="object-cover"
                   />
@@ -158,10 +160,15 @@ export function TestimonialsSection() {
                   type="button"
                   onClick={() => scrollToIndex(i)}
                   aria-label={`Ir para depoimento de ${t.name}`}
-                  className={`h-2 rounded-full transition-all ${
-                    i === activeIndex ? "w-6 bg-gold" : "w-2 bg-border"
-                  }`}
-                />
+                  className="flex h-6 min-w-6 items-center justify-center"
+                >
+                  <span
+                    aria-hidden="true"
+                    className={`h-2 rounded-full transition-all ${
+                      i === activeIndex ? "w-6 bg-gold" : "w-2 bg-muted-foreground"
+                    }`}
+                  />
+                </button>
               ))}
             </div>
 
@@ -185,7 +192,7 @@ export function TestimonialsSection() {
             href={SOCIAL.googleMaps}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm font-medium text-gold transition-colors hover:text-gold-dark"
+            className="text-sm font-medium text-gold-dark transition-colors hover:text-foreground"
           >
             Ver todas as avaliações no Google →
           </a>
