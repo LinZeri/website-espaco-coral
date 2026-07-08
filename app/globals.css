@@ -93,6 +93,30 @@ body {
 }
 
 /* ─────────────────────────────────────────
+   Hero da home
+───────────────────────────────────────── */
+/* Painel sticky menor que a viewport: revela faixa branca inferior
+   e sinaliza que há conteúdo abaixo da primeira dobra */
+.hero-panel {
+  height: 88vh;
+}
+@supports (height: 1svh) {
+  .hero-panel {
+    height: 88svh;
+  }
+}
+@media (max-width: 767px) {
+  .hero-panel {
+    height: 85vh;
+  }
+  @supports (height: 1svh) {
+    .hero-panel {
+      height: 85svh;
+    }
+  }
+}
+
+/* ─────────────────────────────────────────
    Grain overlay (textura premium)
 ───────────────────────────────────────── */
 .grain::after {
