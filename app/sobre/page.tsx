@@ -230,7 +230,7 @@ export default function SobrePage() {
                   href={WHATSAPP_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 bg-gold px-6 py-3 text-sm font-medium tracking-wide text-white transition-colors hover:bg-gold-dark"
+                  className="flex items-center gap-2 bg-gold px-6 py-3 text-sm font-medium tracking-wide text-foreground transition-colors hover:bg-gold-light"
                 >
                   <MessageCircle size={16} />
                   Agendar visita

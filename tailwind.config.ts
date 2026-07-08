@@ -34,6 +34,7 @@ const config: Config = {
           DEFAULT: "var(--gold)",
           light: "var(--gold-light)",
           dark: "var(--gold-dark)",
+          text: "var(--gold-text)",
         },
       },
       fontFamily: {

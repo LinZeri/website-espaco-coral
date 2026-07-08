@@ -13,6 +13,7 @@ import {
   getAllPostSummaries,
   getAllPillars,
   pillarLabel,
+  slugifyTag,
 } from "@/lib/blog-utils";
 
 const CtaSection = dynamic(() =>
@@ -100,8 +101,8 @@ export default function BlogIndexPage() {
                 {pillars.map(({ pillar, count }) => (
                   <Link
                     key={pillar}
-                    href={`/blog/tag/${encodeURIComponent(pillar)}`}
-                    className="inline-flex items-center bg-secondary px-4 py-2 text-xs font-medium uppercase tracking-wider text-foreground transition-colors hover:bg-gold hover:text-white"
+                    href={`/blog/tag/${slugifyTag(pillar)}`}
+                    className="inline-flex items-center bg-secondary px-4 py-2 text-xs font-medium uppercase tracking-wider text-foreground transition-colors hover:bg-gold hover:text-foreground"
                   >
                     {pillarLabel(pillar)} ({count})
                   </Link>
