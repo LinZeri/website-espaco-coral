@@ -127,7 +127,7 @@ export function ProposalTemplate({ data }: { data: ProposalData }) {
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-gold px-8 py-4 text-sm font-medium tracking-wide text-white transition-colors duration-200 hover:bg-gold-dark"
+              className="inline-flex items-center gap-2 bg-gold px-8 py-4 text-sm font-medium tracking-wide text-foreground transition-colors duration-200 hover:bg-gold-light"
             >
               <MessageCircle size={16} />
               Falar pelo WhatsApp
