@@ -25,7 +25,7 @@ export function CtaSection() {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 px-8 py-4 bg-gold text-white text-sm font-medium tracking-wide hover:bg-gold-dark transition-colors duration-200"
+            className="flex items-center gap-2 px-8 py-4 bg-gold text-foreground text-sm font-medium tracking-wide hover:bg-gold-light transition-colors duration-200"
           >
             <MessageCircle size={16} />
             Agendar visita pelo WhatsApp
@@ -41,7 +41,7 @@ export function CtaSection() {
           </a>
         </div>
 
-        <p className="mt-8 text-white/30 text-xs">
+        <p className="mt-8 text-white/60 text-xs">
           Rua Matheus Marinelli, 18 · Jardim Elena · Batatais, SP
         </p>
       </div>

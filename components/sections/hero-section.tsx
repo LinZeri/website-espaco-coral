@@ -155,6 +155,7 @@ export function HeroSection() {
                       src={img.src}
                       alt={img.alt}
                       fill
+                      quality={60}
                       sizes="(max-width: 768px) 0vw, 22vw"
                       className="object-cover"
                     />
@@ -173,6 +174,7 @@ export function HeroSection() {
                 alt="Salão do Espaço Coral montado para recepção de casamento com mesas postas e arranjos florais em Batatais SP"
                 fill
                 priority
+                quality={60}
                 sizes="100vw"
                 className="object-cover"
               />
@@ -223,6 +225,7 @@ export function HeroSection() {
                       src={img.src}
                       alt={img.alt}
                       fill
+                      quality={60}
                       sizes="(max-width: 768px) 0vw, 22vw"
                       className="object-cover"
                     />

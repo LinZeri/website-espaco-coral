@@ -91,7 +91,7 @@ export function Header() {
                     <div className="border-t border-border">
                       <Link
                         href={link.href}
-                        className="block px-5 py-3 text-xs uppercase tracking-widest text-gold-dark transition-colors hover:bg-secondary"
+                        className="block px-5 py-3 text-xs uppercase tracking-widest text-gold-text transition-colors hover:bg-secondary"
                       >
                         Ver todos os eventos
                       </Link>
@@ -117,7 +117,7 @@ export function Header() {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 rounded-full bg-gold px-4 py-2 text-sm font-medium text-white transition-all hover:bg-gold-dark"
+            className="flex items-center gap-2 rounded-full bg-gold px-4 py-2 text-sm font-medium text-foreground transition-all hover:bg-gold-light"
           >
             <MessageCircle size={14} />
             Agendar visita
@@ -202,7 +202,7 @@ export function Header() {
               href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-6 flex items-center justify-center gap-2 rounded-full bg-gold px-5 py-3 text-center text-sm font-medium text-white"
+              className="mt-6 flex items-center justify-center gap-2 rounded-full bg-gold px-5 py-3 text-center text-sm font-medium text-foreground"
               onClick={closeMenu}
             >
               <MessageCircle size={14} />

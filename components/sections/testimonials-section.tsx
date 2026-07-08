@@ -192,7 +192,7 @@ export function TestimonialsSection() {
             href={SOCIAL.googleMaps}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm font-medium text-gold-dark transition-colors hover:text-foreground"
+            className="text-sm font-medium text-gold-text transition-colors hover:text-foreground"
           >
             Ver todas as avaliações no Google →
           </a>

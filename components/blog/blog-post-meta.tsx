@@ -1,6 +1,6 @@
 import { Clock, Calendar, User } from "lucide-react";
 import Link from "next/link";
-import { pillarLabel, type BlogPillar } from "@/lib/blog-utils";
+import { pillarLabel, slugifyTag, type BlogPillar } from "@/lib/blog-utils";
 
 interface BlogPostMetaProps {
   publishDate: string;
@@ -45,8 +45,8 @@ export function BlogPostMeta({
       className={`flex flex-wrap items-center gap-x-6 gap-y-3 text-sm text-muted-foreground ${className}`}
     >
       <Link
-        href={`/blog/tag/${encodeURIComponent(pillar)}`}
-        className="inline-flex items-center bg-secondary px-3 py-1 text-xs font-medium uppercase tracking-wider text-foreground transition-colors hover:bg-gold hover:text-white"
+        href={`/blog/tag/${slugifyTag(pillar)}`}
+        className="inline-flex items-center bg-secondary px-3 py-1 text-xs font-medium uppercase tracking-wider text-foreground transition-colors hover:bg-gold hover:text-foreground"
       >
         {pillarLabel(pillar)}
       </Link>

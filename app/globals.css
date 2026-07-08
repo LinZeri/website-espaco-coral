@@ -48,6 +48,9 @@
   --gold: #c9a96e;
   --gold-light: #e8d5a3;
   --gold-dark: #a07840;
+  /* Variante para TEXTO pequeno dourado sobre fundo claro:
+     gold-dark tem só 3,6:1 de contraste; este tom passa AA (>=4,5:1). */
+  --gold-text: #8a6534;
 
   /* Tipografia */
   --font-sans: var(--font-inter), system-ui, sans-serif;
