@@ -97,6 +97,7 @@ export function GallerySection() {
                   src={image.src}
                   alt={image.alt}
                   fill
+                  quality={60}
                   className="object-cover"
                   sizes="(max-width: 768px) 85vw, (max-width: 1024px) 60vw, 45vw"
                 />

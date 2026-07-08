@@ -24,7 +24,10 @@ function ScrollRevealText({ text }: { text: string }) {
       wordRefs.current.forEach((el, index) => {
         if (!el) return;
         const wordProgress = index / words.length;
-        el.style.color = progress > wordProgress ? "var(--foreground)" : "#e4e4e7";
+        // Cor "apagada" precisa passar contraste AA sobre fundo branco
+        // (era #e4e4e7, ~1.1:1; muted-foreground #737373 dá 4.7:1).
+        el.style.color =
+          progress > wordProgress ? "var(--foreground)" : "var(--muted-foreground)";
       });
     };
     const handleScroll = () => {
@@ -49,7 +52,7 @@ function ScrollRevealText({ text }: { text: string }) {
           key={index}
           ref={(el) => { wordRefs.current[index] = el; }}
           className="transition-colors duration-150"
-          style={{ color: "#e4e4e7" }}
+          style={{ color: "var(--muted-foreground)" }}
         >
           {word}
           {index < words.length - 1 ? " " : ""}

@@ -131,7 +131,7 @@ export function HeroSection() {
 
   return (
     <section ref={sectionRef} className="relative bg-background">
-      <div className="sticky top-0 h-screen overflow-hidden">
+      <div className="hero-panel sticky top-0 overflow-hidden">
         <div className="flex h-full w-full items-center justify-center">
           <div
             ref={wrapperRef}
