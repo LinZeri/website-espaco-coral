@@ -116,6 +116,9 @@ export function GalleryGrid() {
                 width={600}
                 height={400}
                 sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                // Primeira fileira fica visível logo abaixo do hero: carregar
+                // eager/priority evita que o LCP seja uma imagem lazy visível.
+                priority={index < 4}
                 className="w-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-foreground/0 transition-colors duration-300 group-hover:bg-foreground/20" />

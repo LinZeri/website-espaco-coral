@@ -13,12 +13,14 @@ const inter = Inter({
 // Display/títulos: Playfair Display como substituto temporário de PP Editorial New
 // TODO: substituir por PP Editorial New (fonte comercial) quando licença for adquirida
 // Arquivo deve ir em /public/fonts/ e ser carregado via next/font/local
+// Todo uso de font-display no site é peso 400 normal (sem itálico):
+// carregar só essa variante evita 5 arquivos de fonte desnecessários.
 const playfairDisplay = Playfair_Display({
   subsets: ["latin"],
   variable: "--font-display-serif",
   display: "swap",
-  weight: ["400", "500", "700"],
-  style: ["normal", "italic"],
+  weight: ["400"],
+  style: ["normal"],
 });
 
 const SITE_URL = "https://coraleventos.com.br";
