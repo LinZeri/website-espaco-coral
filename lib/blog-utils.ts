@@ -62,6 +62,7 @@ export interface BlogPostSummary {
   title: string;
   description: string;
   publishDate: string;
+  lastUpdated?: string;
   pillar: BlogPillar;
   tags: string[];
   coverImage?: string;
@@ -167,6 +168,7 @@ function toSummary(post: BlogPost): BlogPostSummary {
     title: post.frontmatter.title,
     description: post.frontmatter.description,
     publishDate: post.frontmatter.publishDate,
+    lastUpdated: post.frontmatter.lastUpdated,
     pillar: post.frontmatter.pillar,
     tags: post.frontmatter.tags ?? [],
     coverImage: post.frontmatter.coverImage,
@@ -321,8 +323,4 @@ export function getRelatedPosts(slug: string, limit = 3): BlogPostSummary[] {
  */
 export function blogPostUrl(slug: string, siteUrl: string): string {
   return `${siteUrl}/blog/${slug}`;
-}
-
-export function tagUrl(tag: string, siteUrl: string): string {
-  return `${siteUrl}/blog/tag/${slugifyTag(tag)}`;
 }

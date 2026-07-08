@@ -15,7 +15,7 @@ const CtaSection = dynamic(() =>
 );
 
 export const metadata: Metadata = {
-  title: "Cidades Atendidas na Região de Ribeirão Preto e Franca",
+  title: "Cidades Atendidas: Ribeirão Preto e Franca",
   description:
     "O Espaço Coral, em Batatais, SP, recebe casamentos, festas de 15 anos e eventos corporativos de Ribeirão Preto, Franca, Sertãozinho, Brodowski e região.",
   alternates: { canonical: "https://coraleventos.com.br/cidades" },

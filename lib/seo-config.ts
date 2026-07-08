@@ -13,7 +13,7 @@ export const BUSINESS = {
     "Espaço premium para casamentos, festas de 15 anos e eventos corporativos em Batatais, SP. 12.000 m² de estrutura, capacidade para 320 convidados, cerimônia ao céu aberto e sala privativa.",
   shortDescription:
     "Espaço premium para festas e eventos em Batatais, SP. 12.000 m², 320 convidados.",
-  founded: "2024", // ano de inauguração, confirmar com cliente
+  founded: "2024", // inauguração em outubro de 2024, confirmada com o GBP
   priceRange: "$$$",
   currenciesAccepted: "BRL",
   paymentAccepted: ["Pix", "Cartão", "Transferência bancária"],
@@ -53,11 +53,11 @@ export const SOCIAL = {
 
 /**
  * Avaliações agregadas do Google Business Profile.
- * Atualizar manualmente quando volume crescer significativamente.
+ * Sincronizar mensalmente com o valor público do GBP (última sync: 08/07/2026).
  */
 export const REVIEWS = {
   ratingValue: 5,
-  reviewCount: 40,
+  reviewCount: 41,
   bestRating: 5,
   worstRating: 1,
 } as const;
@@ -85,8 +85,7 @@ export const VENUE = {
 } as const;
 
 /**
- * Horário de atendimento via WhatsApp.
- * TODO: confirmar horário real com cliente (open-questions.md).
+ * Horário de atendimento via WhatsApp. Igual ao horário público do GBP.
  */
 export const OPENING_HOURS = [
   "Mo-Sa 09:00-18:00",

@@ -12,9 +12,11 @@ import { WhatsAppButton } from "@/components/layout/whatsapp-button";
 import { FaqSection } from "@/components/sections/faq-section";
 import { JsonLd } from "@/components/seo/json-ld";
 import { BlogPostMeta } from "@/components/blog/blog-post-meta";
+import { AuthorBio } from "@/components/blog/author-bio";
 import { RelatedPosts } from "@/components/blog/related-posts";
 import { blogMdxComponents } from "@/components/blog/mdx-components";
 import { blogPostingSchema } from "@/lib/schema";
+import { getPublicImageDims } from "@/lib/image-dims";
 import { SITE_URL } from "@/lib/seo-config";
 import {
   getAllPostSlugs,
@@ -102,6 +104,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
   const fm = post.frontmatter;
   const url = `${SITE_URL}/blog/${post.slug}`;
   const wordCount = post.content.split(/\s+/).filter(Boolean).length;
+  const coverDims = fm.coverImage ? getPublicImageDims(fm.coverImage) : undefined;
 
   const schema = blogPostingSchema(
     {
@@ -110,9 +113,12 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
       description: fm.description,
       image: fm.coverImage,
       imageAlt: fm.coverImageAlt,
+      imageWidth: coverDims?.width,
+      imageHeight: coverDims?.height,
       datePublished: fm.publishDate,
       dateModified: fm.lastUpdated,
       authorName: fm.author,
+      authorBio: fm.authorBio,
       keywords: [fm.keywordPrimary, ...(fm.keywordSecondary ?? []), ...(fm.tags ?? [])].filter(
         Boolean
       ) as string[],
@@ -189,6 +195,9 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
                   mdxOptions: { remarkPlugins: [remarkGfm] },
                 }}
               />
+              {fm.author && fm.authorBio && (
+                <AuthorBio name={fm.author} bio={fm.authorBio} />
+              )}
             </div>
           </div>
 
