@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import Script from "next/script";
+import { SITE_URL } from "@/lib/seo-config";
 import "./globals.css";
 
 // Corpo: Inter, legibilidade, modernidade
@@ -23,7 +24,6 @@ const playfairDisplay = Playfair_Display({
   style: ["normal"],
 });
 
-const SITE_URL = "https://coraleventos.com.br";
 const OG_DEFAULT = "/og/home.jpg";
 
 export const metadata: Metadata = {

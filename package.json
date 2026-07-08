@@ -12,7 +12,8 @@
     "images:optimize": "node scripts/optimize-images.mjs",
     "images:build-scenes": "node scripts/build-scenes.mjs",
     "images:scan": "node scripts/scan-image-usage.mjs",
-    "images:report": "node scripts/image-rotation-report.mjs"
+    "images:report": "node scripts/image-rotation-report.mjs",
+    "indexnow:ping": "node scripts/indexnow-ping.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",

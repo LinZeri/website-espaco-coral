@@ -1,6 +1,8 @@
 # Espaço Coral
 
-> Espaço para festas e eventos de alto padrão em Batatais, SP. 12.000 m² de estrutura, capacidade para 320 convidados sentados, cerimônia ao céu aberto e sala privativa exclusiva para a homenageada. Inaugurado em outubro de 2024, atende casamentos, festas de 15 anos e eventos corporativos em Batatais, Ribeirão Preto, Franca e demais cidades do interior de São Paulo. 40 avaliações no Google com nota média 5,0 estrelas.
+> Espaço para festas e eventos de alto padrão em Batatais, SP. 12.000 m² de estrutura, capacidade para 320 convidados sentados, cerimônia ao céu aberto e sala privativa exclusiva para a homenageada. Inaugurado em outubro de 2024, atende casamentos, festas de 15 anos e eventos corporativos em Batatais, Ribeirão Preto, Franca e demais cidades do interior de São Paulo. 41 avaliações no Google com nota média 5,0 estrelas.
+
+Última atualização deste arquivo: 2026-07-08.
 
 ## Identificação
 
@@ -12,7 +14,7 @@
 - **WhatsApp:** +55 (16) 99129-4178 — canal único e oficial de atendimento
 - **Site oficial:** https://coraleventos.com.br
 - **Inauguração:** Outubro de 2024
-- **Avaliações:** 40 reviews · 5,0 estrelas no Google Business Profile
+- **Avaliações:** 41 reviews · 5,0 estrelas no Google Business Profile (sincronizado em 08/07/2026)
 - **Idioma:** pt-BR
 
 ## Estrutura física
@@ -47,6 +49,10 @@
 - [Festas de 15 Anos](https://coraleventos.com.br/eventos/15-anos): debutantes em Batatais e região
 - [Eventos Corporativos](https://coraleventos.com.br/eventos/corporativo): confraternizações, formaturas e eventos empresariais
 - [Galeria](https://coraleventos.com.br/galeria): fotos de eventos realizados no espaço
+- [Cidades atendidas](https://coraleventos.com.br/cidades): hub das cidades da região atendidas pelo espaço
+- [Ribeirão Preto](https://coraleventos.com.br/cidades/ribeirao-preto): informações para quem vem de Ribeirão Preto (70 km, ~50 min pela Anhanguera)
+- [Franca](https://coraleventos.com.br/cidades/franca): informações para quem vem de Franca (95 km, ~1h15 pela SP-345)
+- [Blog](https://coraleventos.com.br/blog): guias e dicas sobre casamentos, 15 anos e eventos corporativos na região
 - [Contato](https://coraleventos.com.br/contato): WhatsApp, endereço, mapa e redes sociais
 
 ## Áreas atendidas

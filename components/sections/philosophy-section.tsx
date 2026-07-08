@@ -48,7 +48,7 @@ export function PhilosophySection() {
   return (
     <section id="ambientes" className="bg-background">
       <div ref={sectionRef} className="relative" style={{ height: "200vh" }}>
-        <div className="sticky top-0 h-screen flex items-center justify-center">
+        <div className="sticky top-0 h-screen flex items-center justify-center overflow-hidden">
           <div className="relative w-full">
             {/* Title - fades as images approach */}
             <div

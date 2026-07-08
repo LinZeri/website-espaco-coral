@@ -19,6 +19,7 @@ import {
   SOCIAL,
   VENUE,
 } from "./seo-config";
+import { GALLERY_IMAGES } from "@/data/gallery-images";
 
 const ORG_ID = `${SITE_URL}/#organization`;
 const VENUE_ID = `${SITE_URL}/#venue`;
@@ -69,7 +70,7 @@ function organization() {
       "@type": "ImageObject",
       url: LOGO_URL,
     },
-    sameAs: [SOCIAL.instagram, SOCIAL.facebook],
+    sameAs: [SOCIAL.instagram, SOCIAL.facebook, SOCIAL.googleMaps],
   };
 }
 
@@ -143,6 +144,10 @@ function breadcrumb(items: BreadcrumbItem[]) {
  * Service: para páginas de tipo de evento.
  * `name` curto (ex: "Casamentos no Espaço Coral").
  * `serviceType` é a categoria amigável.
+ *
+ * Sem `aggregateRating`: as avaliações são do negócio (LocalBusiness/venue),
+ * não de cada serviço isolado. Replicar o mesmo rating em vários Services
+ * viola as diretrizes do Google de review markup específico por item.
  */
 export interface ServiceInput {
   name: string;
@@ -163,7 +168,6 @@ function service(input: ServiceInput) {
     image: input.image.startsWith("http") ? input.image : `${SITE_URL}${input.image}`,
     provider: { "@id": ORG_ID },
     areaServed: AREAS_SERVED as unknown as string[],
-    aggregateRating,
   };
 }
 
@@ -336,6 +340,11 @@ export function galeriaSchema() {
           "Fotos de casamentos, festas de 15 anos e eventos realizados no Espaço Coral em Batatais, SP.",
         url: `${SITE_URL}/galeria`,
         publisher: { "@id": ORG_ID },
+        image: GALLERY_IMAGES.map((img) => ({
+          "@type": "ImageObject",
+          url: `${SITE_URL}${img.src}`,
+          caption: img.alt,
+        })),
       },
       breadcrumb([
         { name: "Início", url: "/" },
@@ -499,9 +508,12 @@ export interface BlogPostingInput {
   description: string;
   image?: string;
   imageAlt?: string;
+  imageWidth?: number;
+  imageHeight?: number;
   datePublished: string;
   dateModified?: string;
   authorName?: string;
+  authorBio?: string;
   keywords?: string[];
   articleSection?: string;
   wordCount?: number;
@@ -538,17 +550,24 @@ export function blogPostingSchema(
       ? {
           "@type": "Person",
           name: post.authorName,
+          url: `${SITE_URL}/sobre`,
+          description: post.authorBio,
           worksFor: { "@id": ORG_ID },
         }
       : { "@id": ORG_ID },
   };
 
   if (absoluteImage) {
-    blogPosting.image = {
+    const imageObject: Record<string, unknown> = {
       "@type": "ImageObject",
       url: absoluteImage,
       caption: post.imageAlt,
     };
+    if (post.imageWidth && post.imageHeight) {
+      imageObject.width = post.imageWidth;
+      imageObject.height = post.imageHeight;
+    }
+    blogPosting.image = imageObject;
   }
   if (post.keywords && post.keywords.length > 0) {
     blogPosting.keywords = post.keywords.join(", ");

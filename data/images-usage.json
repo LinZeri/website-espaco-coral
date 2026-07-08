@@ -8,7 +8,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/hero/espaco-coral-hero-decoracao-luxo-01.webp": {
@@ -20,7 +20,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/hero/espaco-coral-hero-espaco-elegante-01.webp": {
@@ -32,7 +32,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/hero/espaco-coral-hero-salao-panoramico-01.webp": {
@@ -45,12 +45,12 @@
     "usedIn": [
       {
         "path": "components/sections/hero-section.tsx",
-        "line": 172,
+        "line": 173,
         "as": "inline"
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/hero/espaco-coral-hero-salao-sofas-cerejeiras-02.webp": {
@@ -62,14 +62,14 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/logo/logo-coral-completo.svg": {
     "usedIn": [
       {
         "path": "components/layout/footer.tsx",
-        "line": 25,
+        "line": 31,
         "as": "inline"
       },
       {
@@ -79,12 +79,12 @@
       },
       {
         "path": "lib/schema.ts",
-        "line": 26,
+        "line": 27,
         "as": "inline"
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 3
   },
   "/images/logo/logo-coral-logotipia.svg": {
@@ -108,7 +108,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/proposta/buffet/cafe-buffet.webp": {
@@ -120,7 +120,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/proposta/buffet/cerveja-gelada.webp": {
@@ -132,7 +132,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/proposta/buffet/hero-botequim.webp": {
@@ -144,7 +144,7 @@
       }
     ],
     "firstUsedAt": "2026-07-07",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/proposta/buffet/hero-grand.webp": {
@@ -156,7 +156,7 @@
       }
     ],
     "firstUsedAt": "2026-07-07",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/proposta/buffet/hero-selecao.webp": {
@@ -168,7 +168,7 @@
       }
     ],
     "firstUsedAt": "2026-07-07",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/proposta/buffet/roll-bufala-pesto.webp": {
@@ -180,7 +180,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/proposta/buffet/rondelli.webp": {
@@ -198,7 +198,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/proposta/decoracao/altar-cerimonia-gramado.webp": {
@@ -210,7 +210,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/proposta/decoracao/arranjo-aereo.webp": {
@@ -222,7 +222,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/proposta/decoracao/arranjo-alto-mesas.webp": {
@@ -234,7 +234,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/proposta/decoracao/arranjo-mesa-pais.webp": {
@@ -252,7 +252,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/proposta/decoracao/arvore-francesa.webp": {
@@ -264,7 +264,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/proposta/decoracao/bolo-mesa.webp": {
@@ -276,7 +276,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/proposta/decoracao/cerimonia-ceu-aberto.webp": {
@@ -306,7 +306,7 @@
       }
     ],
     "firstUsedAt": "2026-07-07",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/proposta/decoracao/vasos-pequenos.webp": {
@@ -318,7 +318,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/ambientes/area-verde/espaco-coral-ambientes-area-verde-01.webp": {
@@ -371,7 +371,7 @@
       }
     ],
     "firstUsedAt": "2026-07-07",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 2
   },
   "/images/scenes/ambientes/gramado/espaco-coral-ambientes-gramado-01.webp": {
@@ -509,7 +509,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/atracoes-musica/espaco-coral-atracoes-musica-02.webp": {
@@ -521,7 +521,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/atracoes-musica/espaco-coral-atracoes-musica-03.webp": {
@@ -533,7 +533,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/atracoes-musica/espaco-coral-atracoes-musica-04.webp": {
@@ -755,7 +755,7 @@
       }
     ],
     "firstUsedAt": "2026-07-07",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/atracoes/maquina-pelucias/espaco-coral-atracoes-maquina-pelucias-02.webp": {
@@ -979,27 +979,17 @@
         "as": "imageSrc"
       },
       {
-        "path": "components/sections/gallery-grid.tsx",
-        "line": 14,
-        "as": "inline"
-      },
-      {
         "path": "components/sections/gallery-section.tsx",
         "line": 14,
         "as": "inline"
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-07",
-    "totalUses": 6
+    "lastUsedAt": "2026-07-08",
+    "totalUses": 5
   },
   "/images/scenes/casamentos/casamento-confetti.webp": {
     "usedIn": [
-      {
-        "path": "components/sections/gallery-grid.tsx",
-        "line": 15,
-        "as": "inline"
-      },
       {
         "path": "components/sections/gallery-section.tsx",
         "line": 12,
@@ -1017,16 +1007,11 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-07",
-    "totalUses": 4
+    "lastUsedAt": "2026-07-08",
+    "totalUses": 3
   },
   "/images/scenes/casamentos/casamento-veu.webp": {
     "usedIn": [
-      {
-        "path": "components/sections/gallery-grid.tsx",
-        "line": 16,
-        "as": "inline"
-      },
       {
         "path": "components/sections/gallery-section.tsx",
         "line": 13,
@@ -1034,16 +1019,11 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-07",
-    "totalUses": 2
+    "lastUsedAt": "2026-07-08",
+    "totalUses": 1
   },
   "/images/scenes/casamentos/cerimonia-entrada-noiva.webp": {
     "usedIn": [
-      {
-        "path": "components/sections/gallery-grid.tsx",
-        "line": 17,
-        "as": "inline"
-      },
       {
         "path": "components/sections/gallery-section.tsx",
         "line": 18,
@@ -1051,8 +1031,8 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-07",
-    "totalUses": 2
+    "lastUsedAt": "2026-07-08",
+    "totalUses": 1
   },
   "/images/scenes/casamentos/espaco-coral-casamento-brinde-01.webp": {
     "usedIn": [],
@@ -1087,7 +1067,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/casamentos/espaco-coral-casamento-decoracao-02.webp": {
@@ -1129,7 +1109,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/casamentos/espaco-coral-casamento-momento-01.webp": {
@@ -1146,7 +1126,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 2
   },
   "/images/scenes/casamentos/espaco-coral-casamento-noiva-01.webp": {
@@ -1169,7 +1149,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 2
   },
   "/images/scenes/casamentos/espaco-coral-casamento-noiva-neon-costas-03.webp": {
@@ -1181,7 +1161,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/casamentos/espaco-coral-casamento-noivo-pai-abraco-04.webp": {
@@ -1235,19 +1215,25 @@
       },
       {
         "path": "content/blog/como-escolher-espaco-casamento-interior-sp.mdx",
-        "line": 225,
+        "line": 220,
         "as": "mdx-inline"
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 2
   },
   "/images/scenes/casamentos/espaco-coral-casamento-recepcao-02.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/blog/casamento-ribeirao-preto-regiao.mdx",
+        "line": 96,
+        "as": "mdx-inline"
+      }
+    ],
+    "firstUsedAt": "2026-07-08",
+    "lastUsedAt": "2026-07-08",
+    "totalUses": 1
   },
   "/images/scenes/casamentos/espaco-coral-casamento-salao-02.webp": {
     "usedIn": [
@@ -1263,7 +1249,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 2
   },
   "/images/scenes/casamentos/espaco-coral-casamento-salao-03.webp": {
@@ -1281,16 +1267,11 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/casamentos/mesa-bolo-flores.webp": {
     "usedIn": [
-      {
-        "path": "components/sections/gallery-grid.tsx",
-        "line": 20,
-        "as": "inline"
-      },
       {
         "path": "components/sections/gallery-section.tsx",
         "line": 19,
@@ -1298,16 +1279,11 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-07",
-    "totalUses": 2
+    "lastUsedAt": "2026-07-08",
+    "totalUses": 1
   },
   "/images/scenes/casamentos/mesa-branca-dourada.webp": {
     "usedIn": [
-      {
-        "path": "components/sections/gallery-grid.tsx",
-        "line": 21,
-        "as": "inline"
-      },
       {
         "path": "components/sections/gallery-section.tsx",
         "line": 15,
@@ -1315,8 +1291,8 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-07",
-    "totalUses": 2
+    "lastUsedAt": "2026-07-08",
+    "totalUses": 1
   },
   "/images/scenes/casamentos/noiva-escada.webp": {
     "usedIn": [
@@ -1326,24 +1302,19 @@
         "as": "inline"
       },
       {
-        "path": "components/sections/gallery-grid.tsx",
-        "line": 18,
-        "as": "inline"
-      },
-      {
         "path": "components/sections/gallery-section.tsx",
         "line": 16,
         "as": "inline"
       },
       {
         "path": "content/blog/como-escolher-espaco-casamento-interior-sp.mdx",
-        "line": 182,
+        "line": 177,
         "as": "mdx-inline"
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-07",
-    "totalUses": 4
+    "lastUsedAt": "2026-07-08",
+    "totalUses": 3
   },
   "/images/scenes/casamentos/salao-decorado.webp": {
     "usedIn": [
@@ -1363,11 +1334,6 @@
         "as": "inline"
       },
       {
-        "path": "components/sections/gallery-grid.tsx",
-        "line": 19,
-        "as": "inline"
-      },
-      {
         "path": "components/sections/gallery-section.tsx",
         "line": 17,
         "as": "inline"
@@ -1379,14 +1345,19 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-07",
-    "totalUses": 6
+    "lastUsedAt": "2026-07-08",
+    "totalUses": 5
   },
   "/images/scenes/cerimonia/cerimonia-arco.webp": {
     "usedIn": [
       {
+        "path": "app/cidades/page.tsx",
+        "line": 45,
+        "as": "inline"
+      },
+      {
         "path": "app/cidades/ribeirao-preto/page.tsx",
-        "line": 138,
+        "line": 137,
         "as": "inline"
       },
       {
@@ -1400,18 +1371,13 @@
         "as": "inline"
       },
       {
-        "path": "components/sections/gallery-grid.tsx",
-        "line": 24,
-        "as": "inline"
-      },
-      {
         "path": "components/sections/philosophy-section.tsx",
-        "line": 95,
+        "line": 96,
         "as": "inline"
       },
       {
         "path": "components/sections/technology-section.tsx",
-        "line": 64,
+        "line": 67,
         "as": "inline"
       },
       {
@@ -1426,12 +1392,12 @@
       },
       {
         "path": "lib/schema.ts",
-        "line": 90,
+        "line": 91,
         "as": "inline"
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 9
   },
   "/images/scenes/cerimonia/cerimonia-palmeiras.webp": {
@@ -1452,19 +1418,14 @@
         "as": "inline"
       },
       {
-        "path": "components/sections/gallery-grid.tsx",
-        "line": 25,
-        "as": "inline"
-      },
-      {
         "path": "components/sections/technology-section.tsx",
-        "line": 82,
+        "line": 85,
         "as": "inline"
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-07",
-    "totalUses": 5
+    "lastUsedAt": "2026-07-08",
+    "totalUses": 4
   },
   "/images/scenes/cerimonia/espaco-coral-cerimonia-01.webp": {
     "usedIn": [
@@ -1475,7 +1436,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/cerimonia/espaco-coral-cerimonia-02.webp": {
@@ -1487,7 +1448,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/cerimonia/espaco-coral-cerimonia-03.webp": {
@@ -1517,17 +1478,32 @@
   "/images/scenes/cerimonia/espaco-coral-cerimonia-corredor-flores-07.webp": {
     "usedIn": [
       {
+        "path": "content/blog/casamento-ribeirao-preto-regiao.mdx",
+        "line": 76,
+        "as": "mdx-inline"
+      },
+      {
         "path": "content/blog/cerimonia-por-do-sol-batatais.mdx",
         "line": 130,
         "as": "mdx-inline"
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
-    "totalUses": 1
+    "lastUsedAt": "2026-07-08",
+    "totalUses": 2
   },
   "/images/scenes/cerimonia/espaco-coral-cerimonia-palmeiras-panoramica-08.webp": {
     "usedIn": [
+      {
+        "path": "content/blog/casamento-ribeirao-preto-regiao.mdx",
+        "line": 24,
+        "as": "coverImage"
+      },
+      {
+        "path": "content/blog/casamento-ribeirao-preto-regiao.mdx",
+        "line": 26,
+        "as": "ogImage"
+      },
       {
         "path": "content/blog/cerimonia-por-do-sol-batatais.mdx",
         "line": 24,
@@ -1540,8 +1516,8 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
-    "totalUses": 2
+    "lastUsedAt": "2026-07-08",
+    "totalUses": 4
   },
   "/images/scenes/decoracao-flores/espaco-coral-decoracao-arco-flores-coloridas-09.webp": {
     "usedIn": [
@@ -1557,7 +1533,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 2
   },
   "/images/scenes/decoracao-flores/espaco-coral-decoracao-bolo-orquideas-laranja-10.webp": {
@@ -1580,7 +1556,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 2
   },
   "/images/scenes/decoracao-flores/espaco-coral-decoracao-flores-02.webp": {
@@ -1592,7 +1568,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/decoracao-flores/espaco-coral-decoracao-flores-03.webp": {
@@ -1604,7 +1580,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/decoracao-flores/espaco-coral-decoracao-flores-04.webp": {
@@ -1616,7 +1592,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/decoracao-flores/espaco-coral-decoracao-flores-05.webp": {
@@ -1628,7 +1604,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/decoracao-flores/espaco-coral-decoracao-flores-06.webp": {
@@ -1706,7 +1682,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/decoracao-instagramavel/espaco-coral-decoracao-instagramavel-06.webp": {
@@ -1748,7 +1724,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/decoracao-instagramavel/espaco-coral-decoracao-neon-all-you-need-is-love-15.webp": {
@@ -1765,7 +1741,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 2
   },
   "/images/scenes/decoracao-instagramavel/espaco-coral-decoracao-neon-noiva-backdrop-16.webp": {
@@ -1777,7 +1753,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/decoracao-instagramavel/espaco-coral-decoracao-painel-musgo-neon-escada-18.webp": {
@@ -1789,19 +1765,19 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/decoracao-mesas/espaco-coral-decoracao-mesa-bolo-casamento-09.webp": {
     "usedIn": [
       {
         "path": "content/blog/quanto-custa-casar-batatais.mdx",
-        "line": 141,
+        "line": 143,
         "as": "mdx-inline"
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/decoracao-mesas/espaco-coral-decoracao-mesa-candelabro-flores-12.webp": {
@@ -1818,7 +1794,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 2
   },
   "/images/scenes/decoracao-mesas/espaco-coral-decoracao-mesa-charger-verde-salmao-10.webp": {
@@ -1841,7 +1817,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 2
   },
   "/images/scenes/decoracao-mesas/espaco-coral-decoracao-mesa-posta-02.webp": {
@@ -1854,12 +1830,12 @@
     "usedIn": [
       {
         "path": "content/blog/quanto-custa-casar-batatais.mdx",
-        "line": 111,
+        "line": 113,
         "as": "mdx-inline"
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/decoracao-mesas/espaco-coral-decoracao-mesa-posta-04.webp": {
@@ -1901,7 +1877,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/decoracao/cerimonia-ar-livre/espaco-coral-decoracao-cerimonia-ar-livre-01.webp": {
@@ -1973,7 +1949,7 @@
       }
     ],
     "firstUsedAt": "2026-06-26",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/decoracao/decoracao-flores/espaco-coral-decoracao-decoracao-flores-02.webp": {
@@ -2444,19 +2420,14 @@
         "as": "inline"
       },
       {
-        "path": "components/sections/gallery-grid.tsx",
-        "line": 26,
-        "as": "inline"
-      },
-      {
         "path": "components/sections/technology-section.tsx",
-        "line": 70,
+        "line": 73,
         "as": "inline"
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-07",
-    "totalUses": 5
+    "lastUsedAt": "2026-07-08",
+    "totalUses": 4
   },
   "/images/scenes/entrada/espaco-coral-entrada-01.webp": {
     "usedIn": [],
@@ -2509,7 +2480,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/entrada/espaco-coral-fachada-logo-dia-08.webp": {
@@ -2527,7 +2498,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/fachada/fachada-dia.webp": {
@@ -2544,19 +2515,29 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 2
   },
   "/images/scenes/fachada/fachada-entardecer.webp": {
     "usedIn": [
       {
         "path": "app/blog/page.tsx",
-        "line": 70,
+        "line": 71,
+        "as": "imageSrc"
+      },
+      {
+        "path": "app/cidades/page.tsx",
+        "line": 29,
+        "as": "schema"
+      },
+      {
+        "path": "app/cidades/page.tsx",
+        "line": 76,
         "as": "imageSrc"
       },
       {
         "path": "app/cidades/ribeirao-preto/page.tsx",
-        "line": 104,
+        "line": 103,
         "as": "imageSrc"
       },
       {
@@ -2580,23 +2561,13 @@
         "as": "imageSrc"
       },
       {
-        "path": "components/sections/gallery-grid.tsx",
-        "line": 28,
-        "as": "inline"
-      },
-      {
-        "path": "content/blog/teste-infraestrutura.mdx",
-        "line": 16,
-        "as": "coverImage"
-      },
-      {
         "path": "lib/schema.ts",
-        "line": 88,
+        "line": 89,
         "as": "inline"
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 9
   },
   "/images/scenes/fachada/fachada-noite.webp": {
@@ -2608,7 +2579,7 @@
       },
       {
         "path": "app/cidades/ribeirao-preto/page.tsx",
-        "line": 200,
+        "line": 199,
         "as": "inline"
       },
       {
@@ -2625,16 +2596,11 @@
         "path": "components/sections/events-section.tsx",
         "line": 33,
         "as": "inline"
-      },
-      {
-        "path": "components/sections/gallery-grid.tsx",
-        "line": 29,
-        "as": "inline"
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-07",
-    "totalUses": 6
+    "lastUsedAt": "2026-07-08",
+    "totalUses": 5
   },
   "/images/scenes/inauguracao/espaco-coral-inauguracao-ambiente-01.webp": {
     "usedIn": [],
@@ -2710,7 +2676,7 @@
       }
     ],
     "firstUsedAt": "2026-06-26",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 2
   },
   "/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-02.webp": {
@@ -2759,12 +2725,12 @@
     "usedIn": [
       {
         "path": "content/blog/casamento-pequeno-vs-grande.mdx",
-        "line": 62,
+        "line": 64,
         "as": "mdx-inline"
       }
     ],
     "firstUsedAt": "2026-06-26",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-10.webp": {
@@ -2788,7 +2754,7 @@
       }
     ],
     "firstUsedAt": "2026-06-26",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-13.webp": {
@@ -2878,7 +2844,7 @@
       }
     ],
     "firstUsedAt": "2026-06-26",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/pessoas/dia-da-noiva/espaco-coral-pessoas-dia-da-noiva-02.webp": {
@@ -3250,7 +3216,7 @@
       }
     ],
     "firstUsedAt": "2026-07-07",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/pessoas/pajens/espaco-coral-pessoas-pajens-02.webp": {
@@ -3382,7 +3348,7 @@
       }
     ],
     "firstUsedAt": "2026-07-07",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-02.webp": {
@@ -3411,7 +3377,7 @@
       }
     ],
     "firstUsedAt": "2026-07-07",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 2
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-05.webp": {
@@ -3429,7 +3395,7 @@
       }
     ],
     "firstUsedAt": "2026-07-07",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-07.webp": {
@@ -3476,7 +3442,7 @@
       }
     ],
     "firstUsedAt": "2026-07-07",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 2
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-13.webp": {
@@ -3506,7 +3472,7 @@
       }
     ],
     "firstUsedAt": "2026-07-07",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-17.webp": {
@@ -3596,7 +3562,7 @@
       }
     ],
     "firstUsedAt": "2026-07-07",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-31.webp": {
@@ -3625,7 +3591,7 @@
       }
     ],
     "firstUsedAt": "2026-07-07",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 2
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-34.webp": {
@@ -3673,7 +3639,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/salao/espaco-coral-salao-cerejeiras-panoramico-13.webp": {
@@ -3685,7 +3651,12 @@
       },
       {
         "path": "content/blog/capacidade-espaco-casamento-calculo.mdx",
-        "line": 112,
+        "line": 114,
+        "as": "mdx-inline"
+      },
+      {
+        "path": "content/blog/casamento-ribeirao-preto-regiao.mdx",
+        "line": 64,
         "as": "mdx-inline"
       },
       {
@@ -3695,8 +3666,8 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
-    "totalUses": 3
+    "lastUsedAt": "2026-07-08",
+    "totalUses": 4
   },
   "/images/scenes/salao/espaco-coral-salao-decoracao-completa-15.webp": {
     "usedIn": [
@@ -3707,7 +3678,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/salao/espaco-coral-salao-mesas-casamento-11.webp": {
@@ -3724,7 +3695,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 2
   },
   "/images/scenes/salao/espaco-coral-salao-palco-banda-14.webp": {
@@ -3741,7 +3712,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 2
   },
   "/images/scenes/salao/espaco-coral-salao-principal-01.webp": {
@@ -3763,7 +3734,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 3
   },
   "/images/scenes/salao/espaco-coral-salao-principal-02.webp": {
@@ -3780,7 +3751,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 2
   },
   "/images/scenes/salao/espaco-coral-salao-principal-03.webp": {
@@ -3797,7 +3768,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 2
   },
   "/images/scenes/salao/espaco-coral-salao-principal-04.webp": {
@@ -3814,7 +3785,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 2
   },
   "/images/scenes/salao/espaco-coral-salao-principal-05.webp": {
@@ -3831,7 +3802,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 2
   },
   "/images/scenes/salao/espaco-coral-salao-principal-06.webp": {
@@ -3843,31 +3814,31 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/salao/espaco-coral-salao-principal-07.webp": {
     "usedIn": [
       {
         "path": "content/blog/capacidade-espaco-casamento-calculo.mdx",
-        "line": 77,
+        "line": 79,
         "as": "mdx-inline"
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/salao/espaco-coral-salao-principal-08.webp": {
     "usedIn": [
       {
         "path": "content/blog/casamento-pequeno-vs-grande.mdx",
-        "line": 84,
+        "line": 86,
         "as": "mdx-inline"
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/salao/espaco-coral-salao-principal-09.webp": {
@@ -3885,7 +3856,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/salao/salao-mesa-flores.webp": {
@@ -3901,19 +3872,14 @@
         "as": "imageSrc"
       },
       {
-        "path": "components/sections/gallery-grid.tsx",
-        "line": 23,
-        "as": "inline"
-      },
-      {
         "path": "components/sections/technology-section.tsx",
-        "line": 215,
+        "line": 219,
         "as": "inline"
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-07",
-    "totalUses": 4
+    "lastUsedAt": "2026-07-08",
+    "totalUses": 3
   },
   "/images/scenes/salao/salao-mesa.webp": {
     "usedIn": [
@@ -3949,7 +3915,7 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 6
   },
   "/images/scenes/salao/salao-panoramica.webp": {
@@ -3957,6 +3923,11 @@
       {
         "path": "app/cidades/franca/page.tsx",
         "line": 202,
+        "as": "inline"
+      },
+      {
+        "path": "app/cidades/page.tsx",
+        "line": 55,
         "as": "inline"
       },
       {
@@ -3980,29 +3951,19 @@
         "as": "inline"
       },
       {
-        "path": "components/sections/gallery-grid.tsx",
-        "line": 22,
-        "as": "inline"
-      },
-      {
         "path": "content/blog/casamento-ar-livre-batatais.mdx",
-        "line": 162,
-        "as": "mdx-inline"
-      },
-      {
-        "path": "content/blog/teste-infraestrutura.mdx",
-        "line": 59,
+        "line": 155,
         "as": "mdx-inline"
       },
       {
         "path": "lib/schema.ts",
-        "line": 89,
+        "line": 90,
         "as": "inline"
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-07",
-    "totalUses": 9
+    "lastUsedAt": "2026-07-08",
+    "totalUses": 8
   },
   "/images/scenes/terraco/espaco-coral-terraco-01.webp": {
     "usedIn": [],
@@ -4019,7 +3980,7 @@
       }
     ],
     "firstUsedAt": "2026-06-16",
-    "lastUsedAt": "2026-07-07",
+    "lastUsedAt": "2026-07-08",
     "totalUses": 1
   },
   "/images/scenes/terraco/espaco-coral-terraco-03.webp": {
@@ -4065,19 +4026,14 @@
         "as": "inline"
       },
       {
-        "path": "components/sections/gallery-grid.tsx",
-        "line": 27,
-        "as": "inline"
-      },
-      {
         "path": "components/sections/technology-section.tsx",
-        "line": 76,
+        "line": 79,
         "as": "inline"
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-07",
-    "totalUses": 4
+    "lastUsedAt": "2026-07-08",
+    "totalUses": 3
   },
   "/images/scenes/vestido-noiva/espaco-coral-vestido-noiva-01.webp": {
     "usedIn": [],

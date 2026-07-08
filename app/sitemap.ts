@@ -1,58 +1,62 @@
 import type { MetadataRoute } from "next";
-import { getAllPostSummaries, getAllClusterSlugs } from "@/lib/blog-utils";
+import { getAllPostSummaries, getAllClusterSlugs, getPostsByTag } from "@/lib/blog-utils";
+import { SITE_URL } from "@/lib/seo-config";
 
-const SITE_URL = "https://coraleventos.com.br";
+/**
+ * Data da última alteração real de conteúdo das páginas estáticas.
+ * Atualizar ao mudar conteúdo visível dessas páginas (não a cada build:
+ * um lastmod que muda sem o conteúdo mudar ensina o Google a ignorá-lo).
+ *
+ * Sem changeFrequency/priority: o Google ignora ambos; lastmod é o único
+ * campo que ele usa como sinal.
+ */
+const STATIC_CONTENT_UPDATED = new Date("2026-07-08");
+
+const STATIC_PATHS = [
+  "/",
+  "/eventos",
+  "/eventos/casamentos",
+  "/eventos/15-anos",
+  "/eventos/corporativo",
+  "/estrutura",
+  "/estrutura/mobiliario",
+  "/galeria",
+  "/cidades",
+  "/cidades/ribeirao-preto",
+  "/cidades/franca",
+  "/sobre",
+  "/contato",
+  "/blog",
+];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const lastModified = new Date();
-
-  const staticRoutes: Array<{
-    path: string;
-    changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"];
-    priority: number;
-  }> = [
-    { path: "/", changeFrequency: "monthly", priority: 1.0 },
-    { path: "/eventos", changeFrequency: "monthly", priority: 0.9 },
-    { path: "/eventos/casamentos", changeFrequency: "monthly", priority: 0.9 },
-    { path: "/eventos/15-anos", changeFrequency: "monthly", priority: 0.9 },
-    { path: "/eventos/corporativo", changeFrequency: "monthly", priority: 0.8 },
-    { path: "/estrutura", changeFrequency: "monthly", priority: 0.8 },
-    { path: "/estrutura/mobiliario", changeFrequency: "yearly", priority: 0.5 },
-    { path: "/galeria", changeFrequency: "weekly", priority: 0.7 },
-    { path: "/cidades", changeFrequency: "monthly", priority: 0.7 },
-    { path: "/cidades/ribeirao-preto", changeFrequency: "monthly", priority: 0.7 },
-    { path: "/cidades/franca", changeFrequency: "monthly", priority: 0.7 },
-    { path: "/sobre", changeFrequency: "yearly", priority: 0.6 },
-    { path: "/contato", changeFrequency: "yearly", priority: 0.6 },
-    { path: "/blog", changeFrequency: "weekly", priority: 0.8 },
-  ];
-
-  const staticEntries: MetadataRoute.Sitemap = staticRoutes.map((route) => ({
-    url: `${SITE_URL}${route.path}`,
-    lastModified,
-    changeFrequency: route.changeFrequency,
-    priority: route.priority,
+  const staticEntries: MetadataRoute.Sitemap = STATIC_PATHS.map((path) => ({
+    url: `${SITE_URL}${path}`,
+    lastModified: STATIC_CONTENT_UPDATED,
   }));
 
   // Posts publicados: getAllPostSummaries respeita status + publishDate.
   // Drafts e posts com publishDate futura não entram no sitemap.
-  const blogPosts: MetadataRoute.Sitemap = getAllPostSummaries({
-    includeDrafts: false,
-  }).map((post) => ({
+  const posts = getAllPostSummaries({ includeDrafts: false });
+
+  const blogPosts: MetadataRoute.Sitemap = posts.map((post) => ({
     url: `${SITE_URL}/blog/${post.slug}`,
-    lastModified: new Date(post.publishDate),
-    changeFrequency: "monthly" as const,
-    priority: 0.7,
+    lastModified: new Date(post.lastUpdated ?? post.publishDate),
   }));
 
   // Cluster pages (tags + pilares): só inclui se houver posts publicados
   // (getAllClusterSlugs() já consulta posts publicados e filtra por threshold).
-  const tagPages: MetadataRoute.Sitemap = getAllClusterSlugs().map((tag) => ({
-    url: `${SITE_URL}/blog/tag/${tag}`,
-    lastModified,
-    changeFrequency: "monthly" as const,
-    priority: 0.6,
-  }));
+  // lastmod real: a data mais recente entre os posts do cluster.
+  const tagPages: MetadataRoute.Sitemap = getAllClusterSlugs().map((tag) => {
+    const newest = getPostsByTag(tag)
+      .map((post) => post.lastUpdated ?? post.publishDate)
+      .sort()
+      .at(-1);
+    return {
+      url: `${SITE_URL}/blog/tag/${tag}`,
+      lastModified: newest ? new Date(newest) : STATIC_CONTENT_UPDATED,
+    };
+  });
 
   return [...staticEntries, ...blogPosts, ...tagPages];
 }
