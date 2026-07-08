@@ -1,0 +1,36 @@
+{
+  "_notes": "Config do blog-loop para o Espaço Coral. Regras factuais vêm de docs/diretrizes-blog.md e CLAUDE.md (injetadas como HARD_RULES). Covers: SEMPRE foto real de public/images/scenes/ conforme o cluster, priorizando as menos usadas em data/images-usage.json. NÃO gerar hero por IA (governança de fotos reais = sinal E-E-A-T). Posts são .mdx com schema JSON-LD gerado em render a partir do frontmatter (faq[]), não há arquivos .schema.json separados.",
+
+  "branch": "main",
+  "remote": "origin",
+
+  "blogDir": "content/blog",
+  "schemaDir": "content/blog/schemas",
+  "briefDir": "docs/blog-briefs",
+  "imageDir": "public/images/blog",
+  "queueFile": "docs/blog-queue.json",
+  "logFile": "docs/blog-loop-log.md",
+  "strategyFile": "docs/blog-strategy.md",
+  "lockFile": "docs/.blog-loop.lock",
+  "drySentinel": "docs/.blog-loop-dry-run",
+
+  "batchSize": 2,
+  "replenishThresholdMultiplier": 2,
+
+  "reschedule": "auto",
+  "scheduleCadence": "daily-09-central",
+
+  "preflightGates": [1, 2, 5],
+
+  "hero": {
+    "enabled": false
+  },
+  "coverStrategy": "real-photos-bank",
+
+  "deploy": {
+    "mode": "auto-push",
+    "prTarget": null
+  },
+
+  "escalationChannel": "push-notification"
+}
