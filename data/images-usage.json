@@ -4326,5 +4326,17 @@
     "firstUsedAt": null,
     "lastUsedAt": null,
     "totalUses": 0
+  },
+  "/images/scenes/ambientes/espaco-kids/espaco-coral-ambientes-espaco-kids-02.webp": {
+    "usedIn": [
+      {
+        "path": "content/blog/espaco-kids-casamento.mdx",
+        "line": 152,
+        "as": "mdx-inline"
+      }
+    ],
+    "firstUsedAt": "2026-07-09",
+    "lastUsedAt": "2026-07-09",
+    "totalUses": 1
   }
 }
