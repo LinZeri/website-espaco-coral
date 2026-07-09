@@ -23,7 +23,7 @@ const CtaSection = dynamic(() =>
 export const metadata: Metadata = {
   title: "Espaço para Casamentos e Eventos perto de Ribeirão Preto",
   description:
-    "A 70 km de Ribeirão Preto, o Espaço Coral é a escolha de noivas e famílias que buscam estrutura premium fora da capital regional. Cerimônia ao ar livre, 320 convidados.",
+    "A 70 km de Ribeirão Preto, o Espaço Coral recebe casamentos, festas de 15 anos e eventos corporativos com estrutura premium fora da capital regional: cerimônia ao ar livre, salão climatizado para 320 convidados.",
   keywords: [
     "espaço para casamento perto de Ribeirão Preto",
     "salão de festas próximo a Ribeirão Preto",
@@ -92,6 +92,24 @@ const SCHEMA = cityPageSchema(
 const WHATSAPP_URL =
   "https://wa.me/5516991294178?text=Ol%C3%A1!%20Estou%20em%20Ribeir%C3%A3o%20Preto%20e%20gostaria%20de%20conhecer%20o%20Espa%C3%A7o%20Coral.";
 
+const EVENT_TYPES = [
+  {
+    href: "/eventos/casamentos",
+    label: "Casamentos",
+    text: "Cerimônia ao céu aberto e sala privativa da noiva para até 320 convidados.",
+  },
+  {
+    href: "/eventos/15-anos",
+    label: "Festas de 15 anos",
+    text: "Sala privativa da debutante, espaço kids com monitora e salão climatizado para a grande festa.",
+  },
+  {
+    href: "/eventos/corporativo",
+    label: "Eventos corporativos",
+    text: "Confraternizações, formaturas e premiações com estrutura para 320 pessoas e estacionamento próprio.",
+  },
+];
+
 const RELATED_LINKS = [
   {
     href: "/eventos/casamentos",
@@ -154,6 +172,44 @@ export default function RibeiraoPretoPage() {
               sala privativa da noiva, sem precisar abrir mão da proximidade
               com Ribeirão Preto.
             </p>
+          </div>
+        </section>
+
+        {/* Tipos de evento: hub multi-vertical */}
+        <section className="bg-secondary/30 px-6 pb-20 md:px-12 md:pb-28 lg:px-20 lg:pb-32">
+          <div className="mx-auto max-w-4xl pt-20 md:pt-28 lg:pt-32">
+            <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+              Todos os tipos de evento
+            </p>
+            <h2 className="font-display mb-4 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
+              Casamento, 15 anos ou evento corporativo perto de Ribeirão Preto
+            </h2>
+            <p className="mb-10 max-w-2xl text-base leading-relaxed text-muted-foreground">
+              O mesmo espaço em Batatais, a cerca de 50 minutos de Ribeirão
+              Preto, recebe os três formatos com a mesma estrutura de 12.000 m² e
+              salão climatizado para 320 convidados. Escolha o tipo de evento
+              para ver a página completa.
+            </p>
+            <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
+              {EVENT_TYPES.map((event) => (
+                <Link
+                  key={event.href}
+                  href={event.href}
+                  className="group flex flex-col rounded-2xl border border-border bg-background p-6 transition-colors hover:border-gold"
+                >
+                  <h3 className="font-display mb-2 text-xl font-normal tracking-tight text-foreground md:text-2xl">
+                    {event.label}
+                  </h3>
+                  <p className="mb-5 flex-1 text-sm leading-relaxed text-muted-foreground">
+                    {event.text}
+                  </p>
+                  <span className="inline-flex items-center gap-2 text-sm font-medium text-foreground transition-colors group-hover:text-gold">
+                    Ver página
+                    <ArrowRight size={16} />
+                  </span>
+                </Link>
+              ))}
+            </div>
           </div>
         </section>
 
