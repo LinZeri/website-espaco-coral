@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import dynamic from "next/dynamic";
 import Image from "next/image";
+import Link from "next/link";
 import { MessageCircle } from "lucide-react";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
@@ -143,8 +144,14 @@ export default function QuinzeAnosPage() {
               improviso e sem custos extras com aluguéis paralelos.
             </p>
             <p className="mt-6 text-base leading-relaxed text-muted-foreground md:text-lg">
-              Atendemos famílias de Batatais, Ribeirão Preto, Franca e
-              cidades vizinhas, com a estrutura física e a equipe de apoio
+              Atendemos famílias de Batatais,{" "}
+              <Link
+                href="/cidades/ribeirao-preto"
+                className="text-foreground underline decoration-gold/40 underline-offset-4 transition-colors hover:decoration-gold"
+              >
+                Ribeirão Preto
+              </Link>
+              , Franca e cidades vizinhas, com a estrutura física e a equipe de apoio
               prontas para receber tanto festas íntimas para a família mais
               próxima quanto celebrações com toda a turma do colégio
               presente. Cada festa é planejada com a debutante e a família

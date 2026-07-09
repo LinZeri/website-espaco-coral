@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import dynamic from "next/dynamic";
 import Image from "next/image";
+import Link from "next/link";
 import { MessageCircle } from "lucide-react";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
@@ -347,8 +348,14 @@ export default function CorporativoPage() {
             </h2>
             <p className="mb-4 text-base leading-relaxed text-muted-foreground">
               O Espaço Coral fica em Batatais, com acesso direto pelas
-              principais rodovias da região. Para empresas sediadas em
-              Ribeirão Preto, Franca, São Joaquim da Barra, Altinópolis,
+              principais rodovias da região. Para empresas sediadas em{" "}
+              <Link
+                href="/cidades/ribeirao-preto"
+                className="text-foreground underline decoration-gold/40 underline-offset-4 transition-colors hover:decoration-gold"
+              >
+                Ribeirão Preto
+              </Link>
+              , Franca, São Joaquim da Barra, Altinópolis,
               Brodowski e cidades próximas, o deslocamento é compatível com
               eventos de meio período ou noite, sem necessidade de
               hospedagem para a maioria dos colaboradores.
