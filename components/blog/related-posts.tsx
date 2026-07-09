@@ -39,7 +39,7 @@ export function RelatedPosts({
             <li key={post.slug}>
               <Link
                 href={`/blog/${post.slug}`}
-                className="group flex h-full flex-col bg-background transition-colors hover:bg-background"
+                className="group flex h-full flex-col overflow-hidden border border-border bg-background shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-gold/40 hover:shadow-lg"
               >
                 <div className="relative aspect-[4/3] overflow-hidden">
                   {post.coverImage ? (
@@ -53,7 +53,7 @@ export function RelatedPosts({
                   ) : (
                     <div className="absolute inset-0 bg-gradient-to-br from-secondary via-background to-secondary" />
                   )}
-                  <div className="absolute left-4 top-4 inline-flex bg-background/90 px-3 py-1 text-[0.65rem] font-medium uppercase tracking-wider text-foreground backdrop-blur-sm">
+                  <div className="absolute left-3 top-3 inline-flex bg-background px-3 py-1 text-[0.65rem] font-medium uppercase tracking-wider text-foreground shadow-sm">
                     {pillarLabel(post.pillar)}
                   </div>
                 </div>

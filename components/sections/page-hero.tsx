@@ -6,12 +6,18 @@ interface PageHeroProps {
   subtitle?: string;
   imageSrc: string;
   imageAlt: string;
-  /** Override do estilo do subtítulo (ex: reforçar contraste sobre a foto). */
+  /** Override do estilo do subtítulo (ex: reforçar contraste). */
   subtitleClassName?: string;
-  /** Override do estilo do título (ex: sombra para legibilidade). */
+  /** Override do estilo do título. */
   titleClassName?: string;
 }
 
+/**
+ * Header padrão das páginas internas (não a home): foto colada a um painel bege
+ * com o título, sem sobreposição de texto sobre a foto (contraste alto, editorial).
+ * Desktop: foto à esquerda + painel à direita. Mobile: foto compacta em cima + painel embaixo.
+ * Uma edição aqui propaga para todas as páginas que usam <PageHero />.
+ */
 export function PageHero({
   title,
   subtitle,
@@ -21,21 +27,25 @@ export function PageHero({
   titleClassName,
 }: PageHeroProps) {
   return (
-    <section className="relative h-[65vh] min-h-[500px] overflow-hidden">
-      <Image
-        src={imageSrc}
-        alt={imageAlt}
-        fill
-        priority
-        sizes="100vw"
-        className="object-cover"
-      />
-      <div className="absolute inset-0 bg-foreground/65" />
-      <div className="absolute inset-0 flex flex-col justify-end px-6 pb-16 md:px-12 md:pb-20 lg:px-20 lg:pb-24">
+    <section className="grid grid-cols-1 md:grid-cols-2">
+      {/* Foto */}
+      <div className="relative aspect-[16/10] md:aspect-auto md:min-h-[420px]">
+        <Image
+          src={imageSrc}
+          alt={imageAlt}
+          fill
+          priority
+          sizes="(max-width: 768px) 100vw, 50vw"
+          className="object-cover"
+        />
+      </div>
+
+      {/* Painel de texto (colado à foto) */}
+      <div className="flex flex-col justify-center bg-[#ebe3d4] px-6 py-10 md:px-12 md:py-16 lg:px-16">
         {subtitle && (
           <p
             className={cn(
-              "mb-4 text-xs uppercase tracking-widest text-gold",
+              "mb-4 text-xs font-semibold uppercase tracking-widest text-gold-dark",
               subtitleClassName
             )}
           >
@@ -44,7 +54,7 @@ export function PageHero({
         )}
         <h1
           className={cn(
-            "font-display max-w-3xl text-5xl font-normal tracking-tighter text-white md:text-7xl lg:text-8xl",
+            "font-display max-w-xl text-4xl font-normal leading-tight tracking-tight text-foreground md:text-5xl",
             titleClassName
           )}
         >
