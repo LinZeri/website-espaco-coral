@@ -435,13 +435,13 @@ export default function QuinzeAnosPage() {
         </section>
 
         {/* CTA intermediário */}
-        <section className="bg-foreground px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
+        <section className="bg-sand px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="mx-auto max-w-3xl text-center">
             <div className="gold-divider mx-auto mb-10 w-16 opacity-50" />
-            <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-white md:text-5xl">
+            <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
               Reserve a data da sua festa de 15 anos
             </h2>
-            <p className="mx-auto mb-10 max-w-xl text-base leading-relaxed text-white/60">
+            <p className="mx-auto mb-10 max-w-xl text-base leading-relaxed text-foreground/60">
               As datas mais desejadas se esgotam com antecedência. Entre em
               contato agora pelo WhatsApp e verifique a disponibilidade para o
               dia especial da sua filha.

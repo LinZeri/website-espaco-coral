@@ -41,7 +41,7 @@ export function PageHero({
       </div>
 
       {/* Painel de texto (colado à foto) */}
-      <div className="flex flex-col justify-center bg-[#ebe3d4] px-6 py-10 md:px-12 md:py-16 lg:px-16">
+      <div className="flex flex-col justify-center bg-sand px-6 py-10 md:px-12 md:py-16 lg:px-16">
         {subtitle && (
           <p
             className={cn(

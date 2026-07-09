@@ -155,15 +155,15 @@ export default function EstruturaPage() {
         </section>
 
         {/* Mobiliário e Equipamentos */}
-        <section className="bg-foreground px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
+        <section className="bg-sand px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="mb-16">
-            <p className="text-xs uppercase tracking-widest text-gold">
+            <p className="text-xs uppercase tracking-widest text-gold-dark">
               Inclusos no espaço
             </p>
-            <h2 className="font-display mt-4 text-4xl font-normal tracking-tight text-white md:text-5xl">
+            <h2 className="font-display mt-4 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
               Mobiliário e Equipamentos
             </h2>
-            <p className="mt-4 max-w-xl text-base text-white/60">
+            <p className="mt-4 max-w-xl text-base text-foreground/60">
               Tudo que está listado abaixo faz parte da estrutura do Espaço Coral
               disponível para o seu evento sem custo adicional.
             </p>
@@ -171,13 +171,13 @@ export default function EstruturaPage() {
 
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             {equipamentos.map((grupo) => (
-              <div key={grupo.categoria} className="border border-white/10 p-6">
-                <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+              <div key={grupo.categoria} className="border border-foreground/15 p-6">
+                <p className="mb-4 text-xs uppercase tracking-widest text-gold-dark">
                   {grupo.categoria}
                 </p>
                 <ul className="space-y-2">
                   {grupo.itens.map((item) => (
-                    <li key={item} className="flex items-start gap-3 text-sm text-white/70">
+                    <li key={item} className="flex items-start gap-3 text-sm text-foreground/70">
                       <span className="mt-1.5 h-1 w-1 shrink-0 rounded-full bg-gold" />
                       {item}
                     </li>
@@ -190,7 +190,7 @@ export default function EstruturaPage() {
           <div className="mt-12">
             <Link
               href="/estrutura/mobiliario"
-              className="inline-flex items-center gap-2 border border-white/20 px-8 py-4 text-sm font-medium tracking-wide text-white transition-colors duration-200 hover:border-gold hover:text-gold"
+              className="inline-flex items-center gap-2 border border-foreground/20 px-8 py-4 text-sm font-medium tracking-wide text-foreground transition-colors duration-200 hover:border-gold hover:text-gold"
             >
               Ver mobiliário completo
               <ArrowRight size={16} />

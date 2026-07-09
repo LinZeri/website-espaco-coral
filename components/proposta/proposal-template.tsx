@@ -64,25 +64,25 @@ export function ProposalTemplate({ data }: { data: ProposalData }) {
 
         {/* Condições comerciais */}
         {data.conditions && (
-          <section className="bg-foreground px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
+          <section className="bg-sand px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
             <Reveal className="mx-auto max-w-3xl">
-              <p className="text-xs uppercase tracking-widest text-gold">
+              <p className="text-xs uppercase tracking-widest text-gold-dark">
                 Condições
               </p>
-              <h2 className="font-display mt-4 text-4xl font-normal tracking-tight text-white md:text-5xl">
+              <h2 className="font-display mt-4 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
                 Condições comerciais
               </h2>
 
               <div className="mt-12 grid grid-cols-1 gap-10 md:grid-cols-2">
-                <div className="border border-white/10 p-6">
-                  <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+                <div className="border border-foreground/15 p-6">
+                  <p className="mb-4 text-xs uppercase tracking-widest text-gold-dark">
                     Crianças
                   </p>
                   <ul className="space-y-2">
                     {data.conditions.criancas.map((item) => (
                       <li
                         key={item}
-                        className="flex items-start gap-3 text-sm text-white/70"
+                        className="flex items-start gap-3 text-sm text-foreground/70"
                       >
                         <span className="mt-1.5 h-1 w-1 shrink-0 rounded-full bg-gold" />
                         {item}
@@ -91,15 +91,15 @@ export function ProposalTemplate({ data }: { data: ProposalData }) {
                   </ul>
                 </div>
 
-                <div className="border border-white/10 p-6">
-                  <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+                <div className="border border-foreground/15 p-6">
+                  <p className="mb-4 text-xs uppercase tracking-widest text-gold-dark">
                     Formas de pagamento
                   </p>
                   <ul className="space-y-2">
                     {data.conditions.pagamento.map((item) => (
                       <li
                         key={item}
-                        className="flex items-start gap-3 text-sm text-white/70"
+                        className="flex items-start gap-3 text-sm text-foreground/70"
                       >
                         <span className="mt-1.5 h-1 w-1 shrink-0 rounded-full bg-gold" />
                         {item}

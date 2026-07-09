@@ -44,6 +44,14 @@
   --radius-lg: 6px;
   --radius-xl: 8px;
 
+  /* Superfícies quentes (registro editorial — leveza)
+     --sand: bege dos painéis (page-hero, faixas de CTA)
+     --cream: variação mais clara para preencher seções inteiras */
+  --sand: #ebe3d4;
+  --sand-foreground: #12100c;
+  --cream: #f4efe6;
+  --cream-foreground: #12100c;
+
   /* Ouro champanhe */
   --gold: #c9a96e;
   --gold-light: #e8d5a3;
@@ -99,22 +107,23 @@ body {
    Hero da home
 ───────────────────────────────────────── */
 /* Painel sticky menor que a viewport: revela faixa branca inferior
-   e sinaliza que há conteúdo abaixo da primeira dobra */
+   e sinaliza que há conteúdo abaixo da primeira dobra.
+   Descontamos 5rem (altura do header sticky) para preservar o enquadramento. */
 .hero-panel {
-  height: 88vh;
+  height: calc(88vh - 5rem);
 }
 @supports (height: 1svh) {
   .hero-panel {
-    height: 88svh;
+    height: calc(88svh - 5rem);
   }
 }
 @media (max-width: 767px) {
   .hero-panel {
-    height: 85vh;
+    height: calc(85vh - 5rem);
   }
   @supports (height: 1svh) {
     .hero-panel {
-      height: 85svh;
+      height: calc(85svh - 5rem);
     }
   }
 }

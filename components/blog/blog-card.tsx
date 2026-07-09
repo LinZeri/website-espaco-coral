@@ -43,7 +43,7 @@ export function BlogCard({ post, variant = "default" }: BlogCardProps) {
 
       <div className="flex flex-1 flex-col p-6">
         <h3
-          className={`font-display mb-3 font-normal leading-tight tracking-tight text-foreground transition-colors group-hover:text-gold-dark ${
+          className={`font-sans mb-3 font-semibold leading-snug tracking-tight text-foreground transition-colors group-hover:text-gold-dark ${
             variant === "compact"
               ? "text-lg md:text-xl"
               : "text-xl md:text-2xl"

@@ -108,22 +108,22 @@ export default function MobiliarioPage() {
         </section>
 
         {/* Inventário */}
-        <section className="bg-foreground px-6 pb-20 pt-4 md:px-12 md:pb-28 lg:px-20 lg:pb-32">
+        <section className="bg-sand px-6 pb-20 pt-4 md:px-12 md:pb-28 lg:px-20 lg:pb-32">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             {inventario.map((grupo, i) => (
               <Reveal
                 key={grupo.categoria}
                 delay={i * 90}
-                className="border border-white/10 p-6"
+                className="border border-foreground/15 p-6"
               >
-                <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+                <p className="mb-4 text-xs uppercase tracking-widest text-gold-dark">
                   {grupo.categoria}
                 </p>
                 <ul className="space-y-2">
                   {grupo.itens.map((item) => (
                     <li
                       key={item}
-                      className="flex items-start gap-3 text-sm text-white/70"
+                      className="flex items-start gap-3 text-sm text-foreground/70"
                     >
                       <span className="mt-1.5 h-1 w-1 shrink-0 rounded-full bg-gold" />
                       {item}

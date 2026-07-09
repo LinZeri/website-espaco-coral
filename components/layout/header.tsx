@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import { Menu, X, MessageCircle, ChevronDown } from "lucide-react";
 
 const WHATSAPP_URL =
@@ -31,59 +32,62 @@ const navLinks: NavLink[] = [
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [expandedMobile, setExpandedMobile] = useState<string | null>(null);
+  const pathname = usePathname();
 
   const closeMenu = () => {
     setIsMenuOpen(false);
     setExpandedMobile(null);
   };
 
+  const isActive = (href: string) =>
+    pathname === href || pathname.startsWith(`${href}/`);
+
   return (
-    <header
-      className={`fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[90%] max-w-3xl bg-white/95 backdrop-blur-md transition-[box-shadow,background-color] duration-300 ${
-        isMenuOpen ? "rounded-3xl" : "rounded-full"
-      }`}
-      style={{
-        boxShadow:
-          "rgba(14, 63, 126, 0.08) 0px 0px 0px 1px, rgba(42, 51, 69, 0.08) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.08) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.08) 0px 6px 6px -3px, rgba(14, 63, 126, 0.08) 0px 12px 12px -6px, rgba(14, 63, 126, 0.08) 0px 24px 24px -12px",
-      }}
-    >
-      <div className="flex items-center justify-between px-2 pl-5 py-2 transition-all duration-300">
+    <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur-sm">
+      <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 lg:px-10">
         {/* Logo */}
-        <Link href="/">
+        <Link href="/" className="shrink-0" onClick={closeMenu}>
           <Image
             src="/images/logo/logo-coral-completo.svg"
             alt="Espaço Coral"
-            width={120}
-            height={34}
+            width={130}
+            height={38}
             priority
-            className="h-9 w-auto brightness-0"
+            className="h-10 w-auto brightness-0"
           />
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden items-center gap-8 md:flex">
+        <nav className="hidden items-center gap-7 lg:gap-9 md:flex">
           {navLinks.map((link) =>
             link.children ? (
               <div key={link.href} className="group relative">
                 <Link
                   href={link.href}
-                  className="flex items-center gap-1 text-base font-medium text-foreground transition-colors hover:text-gold"
+                  className={`flex items-center gap-1 text-sm font-medium uppercase tracking-[0.15em] transition-colors hover:text-gold ${
+                    isActive(link.href) ? "text-gold" : "text-foreground"
+                  }`}
                 >
                   {link.label}
                   <ChevronDown
-                    size={15}
+                    size={14}
                     className="transition-transform duration-200 group-hover:rotate-180"
+                  />
+                  <span
+                    className={`pointer-events-none absolute -bottom-1.5 left-0 h-px bg-gold transition-all duration-300 ${
+                      isActive(link.href) ? "w-full" : "w-0"
+                    }`}
                   />
                 </Link>
 
                 {/* Dropdown */}
                 <div className="invisible absolute left-1/2 top-full -translate-x-1/2 pt-4 opacity-0 transition-all duration-200 group-hover:visible group-hover:opacity-100">
-                  <div className="min-w-[180px] overflow-hidden rounded-xl border border-border bg-background shadow-lg">
+                  <div className="min-w-[200px] overflow-hidden border border-border bg-background shadow-md">
                     {link.children.map((child) => (
                       <Link
                         key={child.href}
                         href={child.href}
-                        className="block px-5 py-3 text-sm text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground"
+                        className="block px-5 py-3 text-sm text-muted-foreground transition-colors hover:bg-cream hover:text-foreground"
                       >
                         {child.label}
                       </Link>
@@ -91,7 +95,7 @@ export function Header() {
                     <div className="border-t border-border">
                       <Link
                         href={link.href}
-                        className="block px-5 py-3 text-xs uppercase tracking-widest text-gold-text transition-colors hover:bg-secondary"
+                        className="block px-5 py-3 text-xs uppercase tracking-widest text-gold-text transition-colors hover:bg-cream"
                       >
                         Ver todos os eventos
                       </Link>
@@ -103,26 +107,31 @@ export function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-base font-medium text-foreground transition-colors hover:text-gold"
+                className={`relative text-sm font-medium uppercase tracking-[0.15em] transition-colors hover:text-gold ${
+                  isActive(link.href) ? "text-gold" : "text-foreground"
+                }`}
               >
                 {link.label}
+                <span
+                  className={`pointer-events-none absolute -bottom-1.5 left-0 h-px bg-gold transition-all duration-300 ${
+                    isActive(link.href) ? "w-full" : "w-0"
+                  }`}
+                />
               </Link>
             )
           )}
         </nav>
 
-        {/* CTA */}
-        <div className="hidden items-center md:flex">
-          <a
-            href={WHATSAPP_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 rounded-full bg-gold px-4 py-2 text-sm font-medium text-foreground transition-all hover:bg-gold-light"
-          >
-            <MessageCircle size={14} />
-            Agendar visita
-          </a>
-        </div>
+        {/* CTA (desktop) */}
+        <a
+          href={WHATSAPP_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hidden shrink-0 items-center gap-2 rounded-full bg-gold px-5 py-2.5 text-xs font-medium uppercase tracking-widest text-foreground transition-colors hover:bg-gold-light md:flex"
+        >
+          <MessageCircle size={14} />
+          Agendar visita
+        </a>
 
         {/* Mobile Menu Button */}
         <button
@@ -132,16 +141,16 @@ export function Header() {
           aria-label="Abrir menu"
         >
           {isMenuOpen ? (
-            <X size={28} strokeWidth={2.5} />
+            <X size={28} strokeWidth={2} />
           ) : (
-            <Menu size={28} strokeWidth={2.5} />
+            <Menu size={28} strokeWidth={2} />
           )}
         </button>
       </div>
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="rounded-b-3xl border-t border-border bg-background px-6 py-8 md:hidden">
+        <div className="border-t border-border bg-background px-6 py-6 md:hidden">
           <nav className="flex flex-col gap-1">
             {navLinks.map((link) =>
               link.children ? (
@@ -149,7 +158,9 @@ export function Header() {
                   <div className="flex items-center justify-between">
                     <Link
                       href={link.href}
-                      className="py-3 text-lg text-foreground"
+                      className={`py-3 text-sm font-medium uppercase tracking-[0.15em] ${
+                        isActive(link.href) ? "text-gold" : "text-foreground"
+                      }`}
                       onClick={closeMenu}
                     >
                       {link.label}
@@ -173,7 +184,7 @@ export function Header() {
                     </button>
                   </div>
                   {expandedMobile === link.href && (
-                    <div className="mb-2 ml-4 flex flex-col gap-1 border-l border-border pl-4">
+                    <div className="mb-2 ml-1 flex flex-col gap-1 border-l border-border pl-4">
                       {link.children.map((child) => (
                         <Link
                           key={child.href}
@@ -191,7 +202,9 @@ export function Header() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="py-3 text-lg text-foreground"
+                  className={`py-3 text-sm font-medium uppercase tracking-[0.15em] ${
+                    isActive(link.href) ? "text-gold" : "text-foreground"
+                  }`}
                   onClick={closeMenu}
                 >
                   {link.label}
@@ -202,7 +215,7 @@ export function Header() {
               href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-6 flex items-center justify-center gap-2 rounded-full bg-gold px-5 py-3 text-center text-sm font-medium text-foreground"
+              className="mt-5 flex items-center justify-center gap-2 rounded-full bg-gold px-5 py-3 text-center text-xs font-medium uppercase tracking-widest text-foreground"
               onClick={closeMenu}
             >
               <MessageCircle size={14} />

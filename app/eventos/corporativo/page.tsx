@@ -415,13 +415,13 @@ export default function CorporativoPage() {
         </section>
 
         {/* CTA */}
-        <section className="bg-foreground px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
+        <section className="bg-sand px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="mx-auto max-w-3xl text-center">
             <div className="gold-divider mx-auto mb-10 w-16 opacity-50" />
-            <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-white md:text-5xl">
+            <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
               Solicite uma proposta para seu evento
             </h2>
-            <p className="mx-auto mb-10 max-w-xl text-base leading-relaxed text-white/60">
+            <p className="mx-auto mb-10 max-w-xl text-base leading-relaxed text-foreground/60">
               Entre em contato pelo WhatsApp para discutir o formato do seu
               evento, verificar disponibilidade e receber uma proposta
               personalizada.

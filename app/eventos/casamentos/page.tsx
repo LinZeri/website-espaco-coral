@@ -412,21 +412,21 @@ export default function CasamentosPage() {
         </section>
 
         {/* Fornecedores */}
-        <section className="bg-foreground px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
+        <section className="bg-sand px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="mx-auto max-w-3xl text-center">
             <div className="gold-divider mx-auto mb-10 w-16 opacity-50" />
-            <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+            <p className="mb-4 text-xs uppercase tracking-widest text-gold-dark">
               Flexibilidade
             </p>
-            <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-white md:text-5xl">
+            <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
               Seu Casamento, Seu Estilo
             </h2>
-            <p className="mx-auto mb-4 max-w-xl text-base leading-relaxed text-white/60">
+            <p className="mx-auto mb-4 max-w-xl text-base leading-relaxed text-foreground/60">
               O Espaço Coral é o palco: você escolhe os fornecedores. Buffet,
               decoração, cerimonial, DJ, banda e fotografia: a liberdade é toda
               sua para criar o casamento exatamente como imaginou.
             </p>
-            <p className="mx-auto max-w-xl text-base leading-relaxed text-white/60">
+            <p className="mx-auto max-w-xl text-base leading-relaxed text-foreground/60">
               Trabalhamos sem listas obrigatórias. Se você já tem fornecedores
               de confiança, eles são bem-vindos. Se ainda está montando a
               equipe, nossa equipe pode indicar profissionais que conhecem bem

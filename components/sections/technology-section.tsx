@@ -176,7 +176,7 @@ export function TechnologySection() {
   }, [updateTransforms]);
 
   return (
-    <section ref={sectionRef} className="relative bg-foreground">
+    <section ref={sectionRef} className="relative bg-[#1b1712]">
       <div className="sticky top-0 h-screen overflow-hidden">
         <div className="flex h-full w-full items-center justify-center">
           <div
@@ -223,7 +223,7 @@ export function TechnologySection() {
                 sizes="100vw"
                 className="object-cover"
               />
-              <div className="absolute inset-0 bg-foreground/40" />
+              <div className="absolute inset-0 bg-foreground/25" />
 
               <div className="absolute inset-0 flex flex-col items-center justify-center px-6 text-center">
                 <h2 className="max-w-3xl font-medium leading-tight tracking-tight text-white md:text-5xl lg:text-7xl text-5xl">

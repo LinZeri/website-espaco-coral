@@ -131,7 +131,7 @@ export function HeroSection() {
 
   return (
     <section ref={sectionRef} className="relative bg-background">
-      <div className="hero-panel sticky top-0 overflow-hidden">
+      <div className="hero-panel sticky top-20 overflow-hidden">
         <div className="flex h-full w-full items-center justify-center">
           <div
             ref={wrapperRef}
@@ -155,7 +155,7 @@ export function HeroSection() {
                       src={img.src}
                       alt={img.alt}
                       fill
-                      quality={70}
+                      quality={75}
                       sizes="(max-width: 768px) 28vw, 22vw"
                       className="object-cover"
                     />
@@ -174,7 +174,7 @@ export function HeroSection() {
                 alt="Salão do Espaço Coral montado para recepção de casamento com mesas postas e arranjos florais em Batatais SP"
                 fill
                 priority
-                quality={60}
+                quality={75}
                 sizes="100vw"
                 className="object-cover"
               />
@@ -225,7 +225,7 @@ export function HeroSection() {
                       src={img.src}
                       alt={img.alt}
                       fill
-                      quality={70}
+                      quality={75}
                       sizes="(max-width: 768px) 28vw, 22vw"
                       className="object-cover"
                     />

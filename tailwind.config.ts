@@ -30,6 +30,14 @@ const config: Config = {
         border: "var(--border)",
         input: "var(--input)",
         ring: "var(--ring)",
+        sand: {
+          DEFAULT: "var(--sand)",
+          foreground: "var(--sand-foreground)",
+        },
+        cream: {
+          DEFAULT: "var(--cream)",
+          foreground: "var(--cream-foreground)",
+        },
         gold: {
           DEFAULT: "var(--gold)",
           light: "var(--gold-light)",

@@ -96,7 +96,7 @@ export function TestimonialsSection() {
   }, []);
 
   return (
-    <section id="depoimentos" className="bg-secondary/40">
+    <section id="depoimentos" className="bg-cream">
       <div className="px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
         {/* Cabeçalho */}
         <div className="mx-auto max-w-2xl text-center">
@@ -146,7 +146,7 @@ export function TestimonialsSection() {
                       src={t.photo ?? t.fallbackImage}
                       alt={`Foto do evento de ${t.name} no Espaço Coral em Batatais SP`}
                       fill
-                      quality={60}
+                      quality={75}
                       sizes="(max-width: 768px) 100vw, 42rem"
                       className="object-cover"
                     />

@@ -231,16 +231,16 @@ export default function RibeiraoPretoPage() {
         </section>
 
         {/* CTA WhatsApp dedicado */}
-        <section className="bg-foreground px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
+        <section className="bg-sand px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="mx-auto max-w-3xl text-center">
             <div className="gold-divider mx-auto mb-10 w-16 opacity-50" />
-            <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+            <p className="mb-4 text-xs uppercase tracking-widest text-gold-dark">
               Próximo passo
             </p>
-            <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-white md:text-5xl">
+            <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
               Vamos conversar sobre o seu evento
             </h2>
-            <p className="mx-auto max-w-xl text-base leading-relaxed text-white/60">
+            <p className="mx-auto max-w-xl text-base leading-relaxed text-foreground/60">
               Conte para a gente a data, o tipo de festa e o número aproximado
               de convidados. Em pouco tempo, você sabe se a data está livre e
               recebe o orçamento detalhado pelo WhatsApp {CONTACT.phoneDisplay}.

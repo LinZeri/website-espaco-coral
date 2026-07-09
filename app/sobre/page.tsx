@@ -186,7 +186,7 @@ export default function SobrePage() {
         </section>
 
         {/* Localização e área de atuação */}
-        <section className="bg-foreground px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
+        <section className="bg-sand px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="mx-auto grid max-w-5xl grid-cols-1 items-center gap-12 md:grid-cols-2 md:gap-16 lg:gap-24">
             <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
               <Image
@@ -198,19 +198,19 @@ export default function SobrePage() {
               />
             </div>
             <div>
-              <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+              <p className="mb-4 text-xs uppercase tracking-widest text-gold-dark">
                 Localização
               </p>
-              <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-white md:text-5xl">
+              <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
                 No coração do interior paulista
               </h2>
-              <p className="mb-4 text-base leading-relaxed text-white/70">
-                Estamos em <strong className="text-white">Batatais, São
+              <p className="mb-4 text-base leading-relaxed text-foreground/70">
+                Estamos em <strong className="text-foreground">Batatais, São
                 Paulo</strong>, em uma localização privilegiada, próxima a uma
                 das principais avenidas da cidade, com fácil acesso pela rodovia
                 e estacionamento próprio para os convidados.
               </p>
-              <p className="mb-8 text-base leading-relaxed text-white/70">
+              <p className="mb-8 text-base leading-relaxed text-foreground/70">
                 Atendemos famílias e empresas de Batatais, Ribeirão Preto,
                 Franca, Sertãozinho, Brodowski, Altinópolis, Cravinhos e demais
                 municípios do interior de São Paulo que buscam um espaço
@@ -221,7 +221,7 @@ export default function SobrePage() {
                   href="https://maps.app.goo.gl/RRvRvYMonqZWbR1v8"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 border border-white/20 px-6 py-3 text-sm font-medium tracking-wide text-white/80 transition-colors hover:border-white/40 hover:text-white"
+                  className="flex items-center gap-2 border border-foreground/20 px-6 py-3 text-sm font-medium tracking-wide text-foreground/70 transition-colors hover:border-foreground/40 hover:text-foreground"
                 >
                   <MapPin size={16} />
                   Ver no Google Maps
