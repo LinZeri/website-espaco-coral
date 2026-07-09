@@ -983,12 +983,12 @@
     "usedIn": [
       {
         "path": "app/eventos/casamentos/page.tsx",
-        "line": 103,
+        "line": 104,
         "as": "inline"
       },
       {
         "path": "app/eventos/casamentos/page.tsx",
-        "line": 122,
+        "line": 123,
         "as": "imageSrc"
       },
       {
@@ -1049,7 +1049,7 @@
     "usedIn": [
       {
         "path": "components/sections/gallery-section.tsx",
-        "line": 17,
+        "line": 16,
         "as": "inline"
       }
     ],
@@ -1308,7 +1308,7 @@
     "usedIn": [
       {
         "path": "components/sections/gallery-section.tsx",
-        "line": 18,
+        "line": 17,
         "as": "inline"
       }
     ],
@@ -1326,7 +1326,7 @@
     "usedIn": [
       {
         "path": "app/eventos/casamentos/page.tsx",
-        "line": 273,
+        "line": 274,
         "as": "inline"
       },
       {
@@ -1362,19 +1362,14 @@
         "as": "inline"
       },
       {
-        "path": "components/sections/gallery-section.tsx",
-        "line": 16,
-        "as": "inline"
-      },
-      {
         "path": "components/sections/philosophy-section.tsx",
-        "line": 76,
+        "line": 77,
         "as": "inline"
       }
     ],
     "firstUsedAt": "2026-05-26",
     "lastUsedAt": "2026-07-09",
-    "totalUses": 5
+    "totalUses": 4
   },
   "/images/scenes/cerimonia/cerimonia-arco.webp": {
     "usedIn": [
@@ -1385,7 +1380,7 @@
       },
       {
         "path": "app/cidades/ribeirao-preto/page.tsx",
-        "line": 137,
+        "line": 165,
         "as": "inline"
       },
       {
@@ -1395,12 +1390,12 @@
       },
       {
         "path": "app/eventos/casamentos/page.tsx",
-        "line": 205,
+        "line": 206,
         "as": "inline"
       },
       {
         "path": "components/sections/philosophy-section.tsx",
-        "line": 96,
+        "line": 97,
         "as": "inline"
       },
       {
@@ -2610,7 +2605,7 @@
       },
       {
         "path": "app/cidades/ribeirao-preto/page.tsx",
-        "line": 103,
+        "line": 131,
         "as": "imageSrc"
       },
       {
@@ -2652,7 +2647,7 @@
       },
       {
         "path": "app/cidades/ribeirao-preto/page.tsx",
-        "line": 199,
+        "line": 227,
         "as": "inline"
       },
       {
@@ -4085,7 +4080,7 @@
       },
       {
         "path": "app/eventos/casamentos/page.tsx",
-        "line": 288,
+        "line": 289,
         "as": "inline"
       },
       {
