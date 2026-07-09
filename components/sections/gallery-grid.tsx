@@ -10,6 +10,7 @@ const images = GALLERY_IMAGES;
 const categories = [
   { id: "todos", label: "Todos" },
   { id: "casamentos", label: "Casamentos" },
+  { id: "15-anos", label: "15 Anos" },
   { id: "espacos", label: "Espaços" },
   { id: "detalhes", label: "Detalhes" },
 ] as const;
