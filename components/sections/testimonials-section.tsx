@@ -35,6 +35,35 @@ function Stars({
   );
 }
 
+function GoogleLogo({ size = 18 }: { size?: number }) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 48 48"
+      aria-hidden="true"
+      className="shrink-0"
+    >
+      <path
+        fill="#4285F4"
+        d="M45.12 24.5c0-1.56-.14-3.06-.4-4.5H24v8.51h11.84c-.51 2.75-2.06 5.08-4.39 6.64v5.52h7.11c4.16-3.83 6.56-9.47 6.56-16.17z"
+      />
+      <path
+        fill="#34A853"
+        d="M24 46c5.94 0 10.92-1.97 14.56-5.33l-7.11-5.52c-1.97 1.32-4.49 2.1-7.45 2.1-5.73 0-10.58-3.87-12.31-9.07H4.34v5.7C7.96 41.07 15.4 46 24 46z"
+      />
+      <path
+        fill="#FBBC05"
+        d="M11.69 28.18c-.44-1.32-.69-2.73-.69-4.18s.25-2.86.69-4.18v-5.7H4.34C2.85 17.09 2 20.45 2 24s.85 6.91 2.34 9.88l7.35-5.7z"
+      />
+      <path
+        fill="#EA4335"
+        d="M24 10.75c3.23 0 6.13 1.11 8.41 3.29l6.31-6.31C34.91 4.18 29.93 2 24 2 15.4 2 7.96 6.93 4.34 14.12l7.35 5.7c1.73-5.2 6.58-9.07 12.31-9.07z"
+      />
+    </svg>
+  );
+}
+
 export function TestimonialsSection() {
   const trackRef = useRef<HTMLDivElement>(null);
   const [activeIndex, setActiveIndex] = useState(0);
@@ -85,8 +114,9 @@ export function TestimonialsSection() {
             href={SOCIAL.googleMaps}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-8 inline-flex items-center gap-3 rounded-full border border-border bg-background px-5 py-2.5 text-sm shadow-sm transition-colors hover:border-gold"
+            className="mt-8 inline-flex items-center gap-2.5 rounded-full border border-border bg-background px-5 py-2.5 text-sm shadow-sm transition-colors hover:border-gold"
           >
+            <GoogleLogo size={20} />
             <span className="text-base font-semibold text-foreground">
               {REVIEWS.ratingValue.toLocaleString("pt-BR", {
                 minimumFractionDigits: 1,
@@ -101,77 +131,63 @@ export function TestimonialsSection() {
 
         {/* Carrossel de depoimentos */}
         <div className="mx-auto mt-14 max-w-2xl">
-          <div
-            ref={trackRef}
-            className="no-scrollbar flex snap-x snap-mandatory overflow-x-auto scroll-smooth"
-          >
-            {TESTIMONIALS.map((t) => (
-              <figure
-                key={t.name}
-                className="w-full shrink-0 snap-start overflow-hidden rounded-2xl border border-border bg-background shadow-sm"
-              >
-                <div className="relative aspect-[4/3] w-full overflow-hidden">
-                  <FadeImage
-                    src={t.photo ?? t.fallbackImage}
-                    alt={`Foto do evento de ${t.name} no Espaço Coral em Batatais SP`}
-                    fill
-                    quality={60}
-                    sizes="(max-width: 768px) 100vw, 42rem"
-                    className="object-cover"
-                  />
-                </div>
+          <div className="relative">
+            <div
+              ref={trackRef}
+              className="no-scrollbar flex snap-x snap-mandatory overflow-x-auto scroll-smooth"
+            >
+              {TESTIMONIALS.map((t) => (
+                <figure
+                  key={t.name}
+                  className="flex w-full shrink-0 snap-start flex-col overflow-hidden rounded-2xl border border-border bg-background shadow-sm"
+                >
+                  <div className="relative aspect-[3/2] w-full overflow-hidden">
+                    <FadeImage
+                      src={t.photo ?? t.fallbackImage}
+                      alt={`Foto do evento de ${t.name} no Espaço Coral em Batatais SP`}
+                      fill
+                      quality={60}
+                      sizes="(max-width: 768px) 100vw, 42rem"
+                      className="object-cover"
+                    />
+                  </div>
 
-                <div className="p-8 text-center md:p-10">
-                  <Stars rating={t.rating} size={22} />
-                  <figcaption className="mt-4">
-                    <p className="text-base font-semibold text-foreground">
-                      {t.name}
-                    </p>
-                    <p className="mt-1 text-xs text-muted-foreground">
-                      {[t.eventType, t.date, "via Google"]
-                        .filter(Boolean)
-                        .join(" · ")}
-                    </p>
-                  </figcaption>
-                  <blockquote className="mt-6 text-[0.95rem] leading-relaxed text-foreground">
-                    {t.text}
-                  </blockquote>
-                </div>
-              </figure>
-            ))}
-          </div>
+                  <div className="flex flex-1 flex-col justify-center px-8 py-10 text-center md:px-12">
+                    <span
+                      aria-hidden="true"
+                      className="mb-2 font-serif text-6xl leading-none text-gold/25"
+                    >
+                      &ldquo;
+                    </span>
+                    <Stars rating={t.rating} size={22} />
+                    <figcaption className="mt-4">
+                      <p className="text-base font-semibold text-foreground">
+                        {t.name}
+                      </p>
+                      <p className="mt-1 text-xs text-muted-foreground">
+                        {[t.eventType, t.date, "via Google"]
+                          .filter(Boolean)
+                          .join(" · ")}
+                      </p>
+                    </figcaption>
+                    <blockquote className="mt-6 text-[0.95rem] leading-relaxed text-foreground">
+                      {t.text}
+                    </blockquote>
+                  </div>
+                </figure>
+              ))}
+            </div>
 
-          {/* Navegação */}
-          <div className="mt-6 flex items-center justify-center gap-4">
+            {/* Setas: flanqueiam o card, alto contraste sobre a foto */}
             <button
               type="button"
               onClick={() => scrollToIndex(Math.max(0, activeIndex - 1))}
               disabled={activeIndex === 0}
               aria-label="Depoimento anterior"
-              className="rounded-full border border-border bg-background p-2 text-foreground shadow-sm transition-colors hover:border-gold disabled:cursor-not-allowed disabled:opacity-30"
+              className="absolute left-2 top-1/2 z-10 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-foreground text-background shadow-lg transition-opacity hover:bg-gold disabled:pointer-events-none disabled:opacity-0 md:-left-5"
             >
-              <ChevronLeft size={18} />
+              <ChevronLeft size={22} />
             </button>
-
-            <div className="flex items-center gap-2">
-              {TESTIMONIALS.map((t, i) => (
-                <button
-                  key={t.name}
-                  type="button"
-                  onClick={() => scrollToIndex(i)}
-                  aria-label={`Ir para depoimento de ${t.name}`}
-                  className="flex h-6 min-w-6 items-center justify-center"
-                >
-                  <span
-                    aria-hidden="true"
-                    className={`h-2 rounded-full transition-all ${
-                      i === activeIndex ? "w-6 bg-gold" : "w-2 bg-muted-foreground"
-                    }`}
-                  />
-                </button>
-              ))}
-            </div>
-
             <button
               type="button"
               onClick={() =>
@@ -179,10 +195,30 @@ export function TestimonialsSection() {
               }
               disabled={activeIndex === TESTIMONIALS.length - 1}
               aria-label="Próximo depoimento"
-              className="rounded-full border border-border bg-background p-2 text-foreground shadow-sm transition-colors hover:border-gold disabled:cursor-not-allowed disabled:opacity-30"
+              className="absolute right-2 top-1/2 z-10 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-foreground text-background shadow-lg transition-opacity hover:bg-gold disabled:pointer-events-none disabled:opacity-0 md:-right-5"
             >
-              <ChevronRight size={18} />
+              <ChevronRight size={22} />
             </button>
+          </div>
+
+          {/* Dots */}
+          <div className="mt-6 flex items-center justify-center gap-2">
+            {TESTIMONIALS.map((t, i) => (
+              <button
+                key={t.name}
+                type="button"
+                onClick={() => scrollToIndex(i)}
+                aria-label={`Ir para depoimento de ${t.name}`}
+                className="flex h-6 min-w-6 items-center justify-center"
+              >
+                <span
+                  aria-hidden="true"
+                  className={`h-2 rounded-full transition-all ${
+                    i === activeIndex ? "w-6 bg-gold" : "w-2.5 bg-foreground/25"
+                  }`}
+                />
+              </button>
+            ))}
           </div>
         </div>
 

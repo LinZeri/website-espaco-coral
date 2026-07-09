@@ -12,7 +12,6 @@ export function GallerySection() {
     { src: "/images/scenes/casamentos/casamento-confetti.webp", alt: "Casal com chuva de confetti na cerimônia" },
     { src: "/images/scenes/casamentos/casamento-veu.webp", alt: "Noiva com véu ao vento no Espaço Coral" },
     { src: "/images/scenes/casamentos/casamento-arco-floral.webp", alt: "Arco floral para cerimônia de casamento" },
-    { src: "/images/scenes/casamentos/mesa-branca-dourada.webp", alt: "Mesa de festa branca e dourada" },
     { src: "/images/scenes/casamentos/noiva-escada.webp", alt: "Noiva na escada do Espaço Coral" },
     { src: "/images/scenes/casamentos/salao-decorado.webp", alt: "Salão do Espaço Coral decorado" },
     { src: "/images/scenes/casamentos/cerimonia-entrada-noiva.webp", alt: "Entrada da noiva na cerimônia" },

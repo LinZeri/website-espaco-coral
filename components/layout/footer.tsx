@@ -26,7 +26,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-6 lg:px-12 py-20">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           {/* Brand */}
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 items-center text-center md:items-start md:text-left">
             <Image
               src="/images/logo/logo-coral-completo.svg"
               alt="Espaço Coral"
@@ -38,7 +38,7 @@ export function Footer() {
               Espaço premium para casamentos, festas de 15 anos e eventos em
               Batatais, SP.
             </p>
-            <div className="flex gap-4 mt-2">
+            <div className="flex gap-6 mt-2 justify-center md:justify-start md:gap-4">
               <a
                 href="https://www.instagram.com/espaco.coral"
                 target="_blank"
@@ -46,7 +46,7 @@ export function Footer() {
                 aria-label="Instagram"
                 className="text-muted-foreground hover:text-foreground transition-colors"
               >
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="3"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-14 h-14 md:w-5 md:h-5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="3"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
               </a>
               <a
                 href="https://www.facebook.com/EspacoCoralEventos"
@@ -55,13 +55,13 @@ export function Footer() {
                 aria-label="Facebook"
                 className="text-muted-foreground hover:text-foreground transition-colors"
               >
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-14 h-14 md:w-5 md:h-5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
               </a>
             </div>
           </div>
 
           {/* Navigation */}
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col gap-3 items-center text-center md:items-start md:text-left">
             <p className="text-xs font-medium tracking-widest uppercase text-muted-foreground mb-1">
               Navegação
             </p>
@@ -77,7 +77,7 @@ export function Footer() {
           </div>
 
           {/* Cidades atendidas */}
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col gap-3 items-center text-center md:items-start md:text-left">
             <p className="text-xs font-medium tracking-widest uppercase text-muted-foreground mb-1">
               Atendemos
             </p>
@@ -93,7 +93,7 @@ export function Footer() {
           </div>
 
           {/* Contact */}
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 items-center text-center md:items-start md:text-left">
             <p className="text-xs font-medium tracking-widest uppercase text-muted-foreground mb-1">
               Contato
             </p>

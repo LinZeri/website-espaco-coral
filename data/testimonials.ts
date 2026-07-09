@@ -31,6 +31,23 @@ export type Testimonial = {
 
 export const TESTIMONIALS: Testimonial[] = [
   {
+    name: "Wanderson Bagio",
+    text: "Lugar excelente, com atendimento diferenciado pelos proprietários. Ficamos muito felizes de ter escolhido este espaço para nosso evento.",
+    rating: 5,
+    date: "Nov 2025",
+    photo: "/images/testimonials/espaco-coral-depoimento-wanderson-bagio.webp",
+    fallbackImage: "/images/scenes/casamentos/espaco-coral-casamento-decoracao-floral-01.webp",
+  },
+  {
+    name: "Cássio Pupin",
+    text: "Espaço maravilhoso, contando com uma equipe nota 1000!!",
+    rating: 5,
+    date: "Ago 2025",
+    eventType: "Casamento",
+    photo: "/images/testimonials/espaco-coral-depoimento-cassio-pupin.webp",
+    fallbackImage: "/images/scenes/salao/espaco-coral-salao-decoracao-completa-15.webp",
+  },
+  {
     name: "Daiana Alves",
     text: "Agradecemos de coração o trabalho simplesmente perfeito de vocês. Espaço maravilhoso, trabalho impecável. Obrigada por fazerem nossa noite ser especial e por realizar nosso sonho de uma forma tão bela. Vocês são realizadores de sonhos e desempenham esse papel muitíssimo bem. A dedicação, a organização e o empenho de vocês em cada detalhe é único e insubstituível. Não poderíamos estar mais realizados e felizes com tudo! Se pudéssemos voltar no tempo para mudar alguma coisa, não mudaríamos absolutamente nada.",
     rating: 5,
@@ -48,22 +65,5 @@ export const TESTIMONIALS: Testimonial[] = [
     localGuide: true,
     // photo: "/images/testimonials/caroline-ferreira-rosa.webp",
     fallbackImage: "/images/scenes/casamentos/espaco-coral-casamento-recepcao-01.webp",
-  },
-  {
-    name: "Wanderson Bagio",
-    text: "Lugar excelente, com atendimento diferenciado pelos proprietários. Ficamos muito felizes de ter escolhido este espaço para nosso evento.",
-    rating: 5,
-    date: "Nov 2025",
-    photo: "/images/testimonials/espaco-coral-depoimento-wanderson-bagio.webp",
-    fallbackImage: "/images/scenes/casamentos/espaco-coral-casamento-decoracao-floral-01.webp",
-  },
-  {
-    name: "Cássio Pupin",
-    text: "Espaço maravilhoso, contando com uma equipe nota 1000!!",
-    rating: 5,
-    date: "Ago 2025",
-    eventType: "Casamento",
-    photo: "/images/testimonials/espaco-coral-depoimento-cassio-pupin.webp",
-    fallbackImage: "/images/scenes/salao/espaco-coral-salao-decoracao-completa-15.webp",
   },
 ];

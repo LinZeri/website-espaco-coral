@@ -201,8 +201,8 @@ export function TechnologySection() {
                       src={img.src}
                       alt={img.alt}
                       fill
-                      quality={60}
-                      sizes="(max-width: 768px) 0vw, 22vw"
+                      quality={70}
+                      sizes="(max-width: 768px) 28vw, 22vw"
                       className="object-cover"
                     />
                   </div>
@@ -260,8 +260,8 @@ export function TechnologySection() {
                       src={img.src}
                       alt={img.alt}
                       fill
-                      quality={60}
-                      sizes="(max-width: 768px) 0vw, 22vw"
+                      quality={70}
+                      sizes="(max-width: 768px) 28vw, 22vw"
                       className="object-cover"
                     />
                   </div>

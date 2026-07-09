@@ -155,8 +155,8 @@ export function HeroSection() {
                       src={img.src}
                       alt={img.alt}
                       fill
-                      quality={60}
-                      sizes="(max-width: 768px) 0vw, 22vw"
+                      quality={70}
+                      sizes="(max-width: 768px) 28vw, 22vw"
                       className="object-cover"
                     />
                   </div>
@@ -225,8 +225,8 @@ export function HeroSection() {
                       src={img.src}
                       alt={img.alt}
                       fill
-                      quality={60}
-                      sizes="(max-width: 768px) 0vw, 22vw"
+                      quality={70}
+                      sizes="(max-width: 768px) 28vw, 22vw"
                       className="object-cover"
                     />
                   </div>
@@ -238,15 +238,15 @@ export function HeroSection() {
         {/* Tagline: beat final da cena, entra sobre a grade ja formada */}
         <div
           ref={taglineRef}
-          className="pointer-events-none absolute inset-0 z-10 flex items-center justify-center bg-black/50 px-6 opacity-0 will-change-[opacity]"
+          className="pointer-events-none absolute inset-0 z-10 flex items-center justify-center bg-black/60 px-6 opacity-0 will-change-[opacity]"
         >
           <p
             ref={taglineTextRef}
-            className="mx-auto max-w-3xl text-center text-3xl font-light leading-snug text-white will-change-transform md:text-4xl lg:text-5xl lg:leading-snug"
+            className="mx-auto max-w-3xl text-center text-3xl font-semibold leading-snug text-white will-change-transform md:text-4xl lg:text-5xl lg:leading-snug"
           >
-            12.000 m² de estrutura premium
+            Onde os momentos mais importantes
             <br />
-            para momentos inesquecíveis.
+            acontecem.
           </p>
         </div>
       </div>
