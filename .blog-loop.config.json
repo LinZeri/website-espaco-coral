@@ -5,7 +5,8 @@
   "remote": "origin",
 
   "blogDir": "content/blog",
-  "schemaDir": "content/blog/schemas",
+  "fileExtension": "mdx",
+  "schemaDir": "docs/blog-schemas",
   "briefDir": "docs/blog-briefs",
   "imageDir": "public/images/blog",
   "queueFile": "docs/blog-queue.json",
@@ -21,7 +22,16 @@
   "reschedule": "auto",
   "scheduleCadence": "daily-09-central",
 
+  "preflight": {
+    "enabled": false,
+    "_note": "Preflight desligado: e o contrato generico de empacotar .md->.html->.pdf, que nao serve para a stack Next.js + MDX + Vercel do Coral (renderizador espera frontmatter 'date' e markdown puro; o Coral usa 'publishDate' e MDX com JSX/SVG). A validacao real e o build do Next (npm run build) + os gates seo/audit/factcheck. Se um dia adaptar o renderizador para MDX/publishDate, reativar."
+  },
   "preflightGates": [1, 2, 5],
+
+  "factcheck": {
+    "enabled": true,
+    "_note": "Estagio bloqueante entre audit e preflight: verifica cada estatistica CITADA contra a URL da fonte e falha o artigo se o numero nao aparece na pagina (fonte fabricada ou mal atribuida). Numeros sem citacao nao bloqueiam aqui; ver docs/diretrizes-blog.md e docs/blog-fontes-verificadas.md."
+  },
 
   "hero": {
     "enabled": false
