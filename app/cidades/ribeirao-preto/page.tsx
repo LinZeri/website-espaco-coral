@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import dynamic from "next/dynamic";
 import Image from "next/image";
-import { MessageCircle } from "lucide-react";
+import Link from "next/link";
+import { MessageCircle, ArrowRight } from "lucide-react";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { WhatsAppButton } from "@/components/layout/whatsapp-button";
@@ -90,6 +91,33 @@ const SCHEMA = cityPageSchema(
 
 const WHATSAPP_URL =
   "https://wa.me/5516991294178?text=Ol%C3%A1!%20Estou%20em%20Ribeir%C3%A3o%20Preto%20e%20gostaria%20de%20conhecer%20o%20Espa%C3%A7o%20Coral.";
+
+const RELATED_LINKS = [
+  {
+    href: "/eventos/casamentos",
+    title: "Espaço para casamento em Batatais",
+    text: "Cerimônia ao céu aberto, sala privativa da noiva e estrutura para 320 convidados, a 50 minutos de Ribeirão Preto.",
+    cta: "Conhecer o espaço de casamento",
+  },
+  {
+    href: "/blog/casamento-ribeirao-preto-regiao",
+    title: "Casar em Ribeirão Preto ou no interior próximo?",
+    text: "Guia para decidir entre a capital regional e um espaço fora dela: capacidade, cerimônia ao ar livre e logística dos convidados.",
+    cta: "Ler o guia da região",
+  },
+  {
+    href: "/blog/calendario-casamento-regiao-ribeirao-datas",
+    title: "Calendário de casamento da região",
+    text: "Melhor época por clima, alta e baixa temporada, feriados e datas para evitar, como a semana da Agrishow.",
+    cta: "Ver o calendário de datas",
+  },
+  {
+    href: "/blog/fornecedores-casamento-batatais-ribeirao",
+    title: "Fornecedores em Batatais e Ribeirão Preto",
+    text: "Como escolher buffet, decoração, fotografia, DJ e cerimonial, com cronograma de reserva e critérios de seleção.",
+    cta: "Escolher fornecedores",
+  },
+];
 
 export default function RibeiraoPretoPage() {
   return (
@@ -227,6 +255,52 @@ export default function RibeiraoPretoPage() {
                 </div>
               ))}
             </div>
+          </div>
+        </section>
+
+        {/* Cluster: continue o planejamento */}
+        <section className="bg-secondary/30 px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
+          <div className="mx-auto max-w-4xl">
+            <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+              Continue o planejamento
+            </p>
+            <h2 className="font-display mb-4 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
+              Guias para quem vai casar na região de Ribeirão Preto
+            </h2>
+            <p className="mb-10 max-w-2xl text-base leading-relaxed text-muted-foreground">
+              Reunimos o conteúdo que ajuda noivas e famílias de Ribeirão Preto a
+              decidir espaço, data e fornecedores com tranquilidade.
+            </p>
+            <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+              {RELATED_LINKS.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="group block rounded-2xl border border-border bg-background p-6 transition-colors hover:border-gold"
+                >
+                  <h3 className="font-display mb-2 text-xl font-normal tracking-tight text-foreground md:text-2xl">
+                    {link.title}
+                  </h3>
+                  <p className="mb-5 text-sm leading-relaxed text-muted-foreground">
+                    {link.text}
+                  </p>
+                  <span className="inline-flex items-center gap-2 text-sm font-medium text-foreground transition-colors group-hover:text-gold">
+                    {link.cta}
+                    <ArrowRight size={16} />
+                  </span>
+                </Link>
+              ))}
+            </div>
+            <p className="mt-8 text-base leading-relaxed text-muted-foreground">
+              Prefere ver o espaço na prática? Conheça a{" "}
+              <Link
+                href="/galeria"
+                className="text-foreground underline decoration-gold/40 underline-offset-4 transition-colors hover:decoration-gold"
+              >
+                galeria de fotos do Espaço Coral
+              </Link>{" "}
+              e imagine o seu evento em cada ambiente.
+            </p>
           </div>
         </section>
 

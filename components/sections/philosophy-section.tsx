@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useRef, useCallback } from "react";
 
 export function PhilosophySection() {
@@ -116,6 +117,23 @@ export function PhilosophySection() {
             Do casamento dos sonhos à festa de 15 anos perfeita, o Espaço Coral
             oferece ambientes sofisticados e uma equipe dedicada para cada detalhe
             do seu evento.
+          </p>
+          <p className="mx-auto mt-8 max-w-xl text-base leading-relaxed text-muted-foreground">
+            A poucos minutos de{" "}
+            <Link
+              href="/cidades/ribeirao-preto"
+              className="text-foreground underline decoration-gold/40 underline-offset-4 transition-colors hover:decoration-gold"
+            >
+              Ribeirão Preto
+            </Link>{" "}
+            e{" "}
+            <Link
+              href="/cidades/franca"
+              className="text-foreground underline decoration-gold/40 underline-offset-4 transition-colors hover:decoration-gold"
+            >
+              Franca
+            </Link>
+            , no coração do interior paulista.
           </p>
         </div>
       </div>

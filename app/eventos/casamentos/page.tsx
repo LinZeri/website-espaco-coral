@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import dynamic from "next/dynamic";
 import Image from "next/image";
+import Link from "next/link";
 import { MessageCircle } from "lucide-react";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
@@ -395,15 +396,27 @@ export default function CasamentosPage() {
             </h2>
             <p className="mb-4 text-base leading-relaxed text-muted-foreground">
               O Espaço Coral fica em Batatais, no Jardim Elena, com acesso fácil
-              a partir das principais cidades da macro-região. Para noivas e
-              famílias de Ribeirão Preto, é a alternativa premium fora da
-              capital regional, com a vantagem de oferecer mais espaço,
-              mais natureza e a tranquilidade de uma cidade do interior.
+              a partir das principais cidades da macro-região. Para{" "}
+              <Link
+                href="/cidades/ribeirao-preto"
+                className="text-foreground underline decoration-gold/40 underline-offset-4 transition-colors hover:decoration-gold"
+              >
+                noivas e famílias de Ribeirão Preto
+              </Link>
+              , é a alternativa premium fora da capital regional, com a vantagem
+              de oferecer mais espaço, mais natureza e a tranquilidade de uma
+              cidade do interior.
             </p>
             <p className="text-base leading-relaxed text-muted-foreground">
-              Para convidados vindos de Franca, São Joaquim da Barra,
-              Altinópolis, Brodowski e demais municípios da região, o acesso
-              por rodovia é direto. A localização também facilita o trabalho
+              Para convidados vindos de{" "}
+              <Link
+                href="/cidades/franca"
+                className="text-foreground underline decoration-gold/40 underline-offset-4 transition-colors hover:decoration-gold"
+              >
+                Franca
+              </Link>
+              , São Joaquim da Barra, Altinópolis, Brodowski e demais municípios
+              da região, o acesso por rodovia é direto. A localização também facilita o trabalho
               de fornecedores de Ribeirão Preto que prestam serviço regularmente
               em casamentos no Espaço Coral, sem custo adicional de deslocamento
               expressivo.
