@@ -39,7 +39,7 @@ export function Header() {
 
   return (
     <header
-      className={`fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[90%] max-w-3xl bg-white/95 backdrop-blur-md transition-all duration-300 ${
+      className={`fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[90%] max-w-3xl bg-white/95 backdrop-blur-md transition-[box-shadow,background-color] duration-300 ${
         isMenuOpen ? "rounded-3xl" : "rounded-full"
       }`}
       style={{
