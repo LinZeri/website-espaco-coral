@@ -65,7 +65,7 @@ export function EventsSection() {
                 src={item.image}
                 alt={item.alt}
                 fill
-                quality={60}
+                quality={75}
                 sizes="(max-width: 768px) 100vw, 33vw"
                 className="object-cover group-hover:scale-105 transition-transform duration-500"
               />

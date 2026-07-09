@@ -17,8 +17,8 @@ const OUT = join(ROOT, "public", "images", "scenes");
 const MANIFEST = join(ROOT, "_references", "selection.scenes.json");
 
 const IMG = new Set([".jpg", ".jpeg", ".png", ".webp", ".tif", ".tiff"]);
-const WIDTH = 1080;
-const QUALITY = 60;
+const WIDTH = 2048;
+const QUALITY = 76;
 
 function slug(s) {
   return s

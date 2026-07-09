@@ -12,11 +12,11 @@ const WEBP_EXTENSION = /\.webp$/i;
 const RAW_NAME_PATTERN = /^(IMG_|DSC_|DSCN|DSCF|P\d{7}|MVI_|GOPR|_MG_)/i;
 
 const rules = [
-  { match: /^hero\//,                  width: 1280, quality: 60 },
-  { match: /^events\/[^/]+\/cover\./,  width: 1280, quality: 65 },
-  { match: /^events\//,                width: 1080, quality: 60 },
-  { match: /^scenes\//,                width: 1080, quality: 60 },
-  { match: /^testimonials\//,          width: 1000, quality: 65 },
+  { match: /^hero\//,                  width: 2048, quality: 76 },
+  { match: /^events\/[^/]+\/cover\./,  width: 2048, quality: 76 },
+  { match: /^events\//,                width: 1920, quality: 76 },
+  { match: /^scenes\//,                width: 2048, quality: 76 },
+  { match: /^testimonials\//,          width: 1280, quality: 76 },
 ];
 
 const stats = { converted: 0, resized: 0, skipped: 0, errors: 0, rawNames: [] };

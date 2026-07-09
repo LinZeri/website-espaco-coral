@@ -201,7 +201,7 @@ export function TechnologySection() {
                       src={img.src}
                       alt={img.alt}
                       fill
-                      quality={70}
+                      quality={75}
                       sizes="(max-width: 768px) 28vw, 22vw"
                       className="object-cover"
                     />
@@ -219,7 +219,7 @@ export function TechnologySection() {
                 src="/images/scenes/salao/salao-mesa-flores.webp"
                 alt="Salão do Espaço Coral decorado com flores"
                 fill
-                quality={60}
+                quality={75}
                 sizes="100vw"
                 className="object-cover"
               />
@@ -260,7 +260,7 @@ export function TechnologySection() {
                       src={img.src}
                       alt={img.alt}
                       fill
-                      quality={70}
+                      quality={75}
                       sizes="(max-width: 768px) 28vw, 22vw"
                       className="object-cover"
                     />
