@@ -242,7 +242,7 @@ export function HeroSection() {
         >
           <p
             ref={taglineTextRef}
-            className="mx-auto max-w-3xl text-center text-3xl font-semibold leading-snug text-white will-change-transform md:text-4xl lg:text-5xl lg:leading-snug"
+            className="mx-auto max-w-4xl text-center text-3xl font-semibold leading-snug text-white will-change-transform md:text-4xl lg:text-5xl lg:leading-snug"
           >
             Onde os momentos mais importantes
             <br />
