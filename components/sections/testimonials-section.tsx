@@ -67,6 +67,7 @@ function GoogleLogo({ size = 18 }: { size?: number }) {
 export function TestimonialsSection() {
   const trackRef = useRef<HTMLDivElement>(null);
   const [activeIndex, setActiveIndex] = useState(0);
+  const [pageCount, setPageCount] = useState(TESTIMONIALS.length);
 
   const scrollToIndex = useCallback((index: number) => {
     const track = trackRef.current;
@@ -79,18 +80,43 @@ export function TestimonialsSection() {
     const track = trackRef.current;
     if (!track) return;
 
+    // Passo entre cards (largura do card + gap). Suporta 1 card por vez (mobile)
+    // ou vários por vez (desktop) sem hardcode de quantidade.
+    const getPitch = () => {
+      const a = track.children[0] as HTMLElement | undefined;
+      const b = track.children[1] as HTMLElement | undefined;
+      return a && b ? b.offsetLeft - a.offsetLeft : track.clientWidth;
+    };
+
+    const measure = () => {
+      const pitch = getPitch();
+      const maxScroll = track.scrollWidth - track.clientWidth;
+      const maxIndex = pitch > 0 ? Math.round(maxScroll / pitch) : 0;
+      setPageCount(maxIndex + 1);
+    };
+
     let rafId: number | null = null;
     const handleScroll = () => {
       if (rafId) cancelAnimationFrame(rafId);
       rafId = requestAnimationFrame(() => {
-        const index = Math.round(track.scrollLeft / track.clientWidth);
+        const pitch = getPitch();
+        const maxScroll = track.scrollWidth - track.clientWidth;
+        const maxIndex = pitch > 0 ? Math.round(maxScroll / pitch) : 0;
+        const atEnd = track.scrollLeft >= maxScroll - 1;
+        const index = atEnd
+          ? maxIndex
+          : Math.min(maxIndex, Math.round(track.scrollLeft / pitch));
         setActiveIndex((prev) => (prev === index ? prev : index));
       });
     };
 
+    measure();
     track.addEventListener("scroll", handleScroll, { passive: true });
+    const ro = new ResizeObserver(measure);
+    ro.observe(track);
     return () => {
       track.removeEventListener("scroll", handleScroll);
+      ro.disconnect();
       if (rafId) cancelAnimationFrame(rafId);
     };
   }, []);
@@ -130,16 +156,16 @@ export function TestimonialsSection() {
         </div>
 
         {/* Carrossel de depoimentos */}
-        <div className="mx-auto mt-14 max-w-2xl">
+        <div className="mx-auto mt-14 max-w-5xl">
           <div className="relative">
             <div
               ref={trackRef}
-              className="no-scrollbar flex snap-x snap-mandatory overflow-x-auto scroll-smooth"
+              className="no-scrollbar flex snap-x snap-mandatory gap-4 overflow-x-auto scroll-smooth md:gap-6"
             >
               {TESTIMONIALS.map((t) => (
                 <figure
                   key={t.name}
-                  className="flex w-full shrink-0 snap-start flex-col overflow-hidden rounded-2xl border border-border bg-background shadow-sm"
+                  className="flex w-[85%] shrink-0 snap-start flex-col overflow-hidden rounded-2xl border border-border bg-background shadow-sm md:w-[45%]"
                 >
                   <div className="relative aspect-[3/2] w-full overflow-hidden">
                     <FadeImage
@@ -147,7 +173,7 @@ export function TestimonialsSection() {
                       alt={`Foto do evento de ${t.name} no Espaço Coral em Batatais SP`}
                       fill
                       quality={75}
-                      sizes="(max-width: 768px) 100vw, 42rem"
+                      sizes="(max-width: 768px) 85vw, 460px"
                       className="object-cover"
                     />
                   </div>
@@ -191,9 +217,9 @@ export function TestimonialsSection() {
             <button
               type="button"
               onClick={() =>
-                scrollToIndex(Math.min(TESTIMONIALS.length - 1, activeIndex + 1))
+                scrollToIndex(Math.min(pageCount - 1, activeIndex + 1))
               }
-              disabled={activeIndex === TESTIMONIALS.length - 1}
+              disabled={activeIndex >= pageCount - 1}
               aria-label="Próximo depoimento"
               className="absolute right-2 top-1/2 z-10 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-foreground text-background shadow-lg transition-opacity hover:bg-gold disabled:pointer-events-none disabled:opacity-0 md:-right-5"
             >
@@ -203,7 +229,7 @@ export function TestimonialsSection() {
 
           {/* Dots */}
           <div className="mt-6 flex items-center justify-center gap-2">
-            {TESTIMONIALS.map((t, i) => (
+            {TESTIMONIALS.slice(0, pageCount).map((t, i) => (
               <button
                 key={t.name}
                 type="button"
