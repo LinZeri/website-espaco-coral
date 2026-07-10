@@ -10,9 +10,13 @@ export function GallerySection() {
 
   const images = [
     { src: "/images/scenes/casamentos/casamento-confetti.webp", alt: "Casal com chuva de confetti na cerimônia" },
+    { src: "/images/scenes/quinze-anos/espaco-coral-quinze-anos-40.webp", alt: "Mesa de bolo e doces com decoração floral suspensa em festa no Espaço Coral" },
     { src: "/images/scenes/casamentos/casamento-veu.webp", alt: "Noiva com véu ao vento no Espaço Coral" },
+    { src: "/images/scenes/quinze-anos/espaco-coral-quinze-anos-41.webp", alt: "Mesa de convidados com arranjo floral alto e taças de cristal no Espaço Coral" },
     { src: "/images/scenes/casamentos/casamento-arco-floral.webp", alt: "Arco floral para cerimônia de casamento" },
+    { src: "/images/scenes/vestido-noiva/espaco-coral-vestido-noiva-03.webp", alt: "Noiva em vestido de gala na escadaria do Espaço Coral" },
     { src: "/images/scenes/casamentos/noiva-escada.webp", alt: "Noiva na escada do Espaço Coral" },
+    { src: "/images/scenes/inauguracao/espaco-coral-inauguracao-musica-01.webp", alt: "Violinista de orquestra tocando durante evento no Espaço Coral" },
     { src: "/images/scenes/casamentos/cerimonia-entrada-noiva.webp", alt: "Entrada da noiva na cerimônia" },
     { src: "/images/scenes/casamentos/mesa-bolo-flores.webp", alt: "Mesa de bolo com flores" },
   ];
