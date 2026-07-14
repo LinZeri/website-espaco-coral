@@ -38,6 +38,24 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      // URLs de propostas set/2025 impressas em PDFs já enviados a leads.
+      // As páginas migraram para /proposta/* (noindex): os links dos PDFs
+      // precisam continuar resolvendo. Botequim Coral não tem redirect.
+      {
+        source: "/menu-selecao-coral-set-25",
+        destination: "/proposta/buffet/selecao-coral",
+        permanent: true,
+      },
+      {
+        source: "/menu-grand-coral-set-25",
+        destination: "/proposta/buffet/grand-coral",
+        permanent: true,
+      },
+      {
+        source: "/decoracao-coral-elegance-set-2025",
+        destination: "/proposta/decoracao/coral-elegance",
+        permanent: true,
+      },
       // URLs indexadas no WordPress antigo (ver Google Search Console em
       // _references/Google Search Console do Wordpress antigo/)
       {
