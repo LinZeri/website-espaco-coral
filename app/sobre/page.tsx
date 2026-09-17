@@ -113,6 +113,51 @@ export default function SobrePage() {
           </div>
         </section>
 
+        {/* Quem escreve: identifica o autor do blog para E-E-A-T (ver
+            lib/schema.ts, authorPerson/PERSON_ID). Sem esta seção, o
+            schema de cada post dizia "autor: Lin Zeri, ver /sobre" para
+            uma página que nunca mencionava esse nome. */}
+        <section
+          id="lin-zeri"
+          className="bg-background px-6 pb-20 md:px-12 md:pb-28 lg:px-20 lg:pb-32"
+        >
+          <div className="mx-auto max-w-3xl">
+            <div className="flex items-start gap-5">
+              <div
+                aria-hidden="true"
+                className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-gold/15 text-2xl font-semibold text-gold-dark"
+              >
+                L
+              </div>
+              <div>
+                <p className="mb-2 text-xs uppercase tracking-widest text-gold-text">
+                  Quem escreve
+                </p>
+                <h2 className="font-display text-2xl font-normal tracking-tight text-foreground md:text-3xl">
+                  Lin Zeri
+                </h2>
+                <p className="mb-3 text-sm font-medium text-foreground/70">
+                  Gestor do Espaço Coral
+                </p>
+                <p className="text-base leading-relaxed text-foreground/70">
+                  Lin Zeri está à frente do Espaço Coral desde a
+                  inauguração, em outubro de 2024, e acompanha cada
+                  casamento, festa de 15 anos e evento corporativo da
+                  primeira visita ao dia da celebração. É quem assina os
+                  guias e artigos do{" "}
+                  <a
+                    href="/blog"
+                    className="underline decoration-gold/50 underline-offset-4 transition-colors hover:text-foreground"
+                  >
+                    blog do Espaço Coral
+                  </a>
+                  .
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Stats / Trust signals */}
         <section className="bg-secondary/30 px-6 py-16 md:px-12 lg:px-20">
           <div className="mx-auto max-w-5xl">

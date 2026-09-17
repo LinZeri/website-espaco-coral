@@ -24,6 +24,7 @@ const ORG_ID = `${SITE_URL}/#organization`;
 const VENUE_ID = `${SITE_URL}/#venue`;
 const WEBSITE_ID = `${SITE_URL}/#website`;
 const LOGO_URL = `${SITE_URL}/images/logo/logo-coral-completo.svg`;
+const PERSON_ID = `${SITE_URL}/sobre#lin-zeri`;
 
 const postalAddress = {
   "@type": "PostalAddress",
@@ -73,6 +74,37 @@ function organization() {
       url: LOGO_URL,
     },
     sameAs: [SOCIAL.instagram, SOCIAL.facebook, SOCIAL.googleMaps],
+    employee: { "@id": PERSON_ID },
+  };
+}
+
+/**
+ * Autor único do blog e dos estudos de caso hoje: Lin Zeri, gestor do
+ * Espaço Coral. Usa @id compartilhado ancorado em /sobre#lin-zeri, onde a
+ * seção "Quem escreve" confirma nome, cargo e bio, para que o `author.url`
+ * de cada post aponte para uma página que realmente identifica quem
+ * escreveu (antes apontava para /sobre sem o nome aparecer lá em lugar
+ * nenhum, ver auditoria SEO de 16/09/2026). `description` muda por post:
+ * é a bio contextual ao tema do artigo, já escrita no frontmatter de cada
+ * `.mdx`, não um texto fixo.
+ */
+function authorPerson(name: string, bio?: string) {
+  if (name === "Lin Zeri") {
+    return {
+      "@type": "Person",
+      "@id": PERSON_ID,
+      name: "Lin Zeri",
+      url: PERSON_ID,
+      jobTitle: "Gestor do Espaço Coral",
+      description: bio,
+      worksFor: { "@id": ORG_ID },
+    };
+  }
+  return {
+    "@type": "Person",
+    name,
+    description: bio,
+    worksFor: { "@id": ORG_ID },
   };
 }
 
@@ -356,10 +388,12 @@ export function galeriaSchema() {
 }
 
 /**
- * /sobre: AboutPage + Organization + EventVenue + Breadcrumb.
+ * /sobre: AboutPage + Organization + EventVenue + Person (autor) + Breadcrumb.
  *
  * Reforça sinais de E-E-A-T: identidade do negócio, localização,
- * histórico (foundingDate) e relação com a página através de `mainEntity`.
+ * histórico (foundingDate), identidade de quem escreve o blog (seção
+ * "Quem escreve", ancorada em #lin-zeri) e relação com a página através
+ * de `mainEntity`.
  */
 export function sobreSchema() {
   return {
@@ -367,6 +401,10 @@ export function sobreSchema() {
     "@graph": [
       organization(),
       venue(),
+      authorPerson(
+        "Lin Zeri",
+        "Lin Zeri está à frente do Espaço Coral desde a inauguração, em outubro de 2024, e acompanha cada casamento, festa de 15 anos e evento corporativo da primeira visita ao dia da celebração."
+      ),
       {
         "@type": "AboutPage",
         "@id": `${SITE_URL}/sobre#aboutpage`,
@@ -547,13 +585,7 @@ export function blogPostingSchema(
     },
     publisher: { "@id": ORG_ID },
     author: post.authorName
-      ? {
-          "@type": "Person",
-          name: post.authorName,
-          url: `${SITE_URL}/sobre`,
-          description: post.authorBio,
-          worksFor: { "@id": ORG_ID },
-        }
+      ? authorPerson(post.authorName, post.authorBio)
       : { "@id": ORG_ID },
   };
 
@@ -686,13 +718,7 @@ export function caseStudySchema(
     about: { "@id": VENUE_ID },
     locationCreated: { "@id": VENUE_ID },
     author: input.authorName
-      ? {
-          "@type": "Person",
-          name: input.authorName,
-          url: `${SITE_URL}/sobre`,
-          description: input.authorBio,
-          worksFor: { "@id": ORG_ID },
-        }
+      ? authorPerson(input.authorName, input.authorBio)
       : { "@id": ORG_ID },
   };
 
