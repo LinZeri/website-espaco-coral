@@ -66,7 +66,7 @@ export function ProposalTemplate({ data }: { data: ProposalData }) {
         {data.conditions && (
           <section className="bg-sand px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
             <Reveal className="mx-auto max-w-3xl">
-              <p className="text-xs uppercase tracking-widest text-gold-dark">
+              <p className="text-xs uppercase tracking-widest text-gold-text">
                 Condições
               </p>
               <h2 className="font-display mt-4 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -75,7 +75,7 @@ export function ProposalTemplate({ data }: { data: ProposalData }) {
 
               <div className="mt-12 grid grid-cols-1 gap-10 md:grid-cols-2">
                 <div className="border border-foreground/15 p-6">
-                  <p className="mb-4 text-xs uppercase tracking-widest text-gold-dark">
+                  <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
                     Crianças
                   </p>
                   <ul className="space-y-2">
@@ -92,7 +92,7 @@ export function ProposalTemplate({ data }: { data: ProposalData }) {
                 </div>
 
                 <div className="border border-foreground/15 p-6">
-                  <p className="mb-4 text-xs uppercase tracking-widest text-gold-dark">
+                  <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
                     Formas de pagamento
                   </p>
                   <ul className="space-y-2">

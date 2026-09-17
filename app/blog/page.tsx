@@ -12,6 +12,7 @@ import { SITE_URL } from "@/lib/seo-config";
 import {
   getAllPostSummaries,
   getAllPillars,
+  getAllClusterSlugs,
   pillarLabel,
   slugifyTag,
 } from "@/lib/blog-utils";
@@ -50,7 +51,12 @@ export const metadata: Metadata = {
 
 export default function BlogIndexPage() {
   const posts = getAllPostSummaries({ includeDrafts: false });
-  const pillars = getAllPillars();
+  const clusterSlugs = getAllClusterSlugs();
+  // Só pilares com página /blog/tag/[tag] gerada (>= 3 posts no cluster):
+  // evita link para uma página que não existe (404).
+  const pillars = getAllPillars().filter(({ pillar }) =>
+    clusterSlugs.includes(slugifyTag(pillar))
+  );
 
   const schema = blogIndexSchema(
     posts.slice(0, 10).map((post) => ({

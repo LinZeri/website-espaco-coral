@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     url: "https://coraleventos.com.br/cidades/franca",
     images: [
       {
-        url: "/og/franca.jpg",
+        url: "/og/home.jpg", // TODO: og/franca.jpg pendente (ver public/og/README.md)
         width: 1200,
         height: 630,
         alt: "Espaço Coral em Batatais, espaço para eventos a 95 km de Franca, SP",
@@ -98,7 +98,7 @@ export default function FrancaPage() {
       <Header />
       <main>
         <PageHero
-          title="Espaço para Eventos para Franca"
+          title="Espaço para Eventos perto de Franca, SP"
           subtitle="Espaço Coral, a 95 km, em Batatais"
           imageSrc="/images/scenes/fachada/fachada-noite.webp"
           imageAlt="Fachada do Espaço Coral à noite em Batatais, espaço para eventos a 95 km de Franca"
@@ -142,7 +142,7 @@ export default function FrancaPage() {
               />
             </div>
             <div>
-              <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+              <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
                 Diferencial
               </p>
               <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -170,7 +170,7 @@ export default function FrancaPage() {
         <section className="bg-secondary/30 px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-2 md:gap-16 lg:gap-24">
             <div className="order-2 md:order-1">
-              <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+              <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
                 Logística
               </p>
               <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -212,7 +212,7 @@ export default function FrancaPage() {
         {/* FAQ */}
         <section className="bg-background px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="mx-auto max-w-3xl">
-            <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+            <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
               Perguntas frequentes
             </p>
             <h2 className="font-display mb-12 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -237,7 +237,7 @@ export default function FrancaPage() {
         <section className="bg-sand px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="mx-auto max-w-3xl text-center">
             <div className="gold-divider mx-auto mb-10 w-16 opacity-50" />
-            <p className="mb-4 text-xs uppercase tracking-widest text-gold-dark">
+            <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
               Próximo passo
             </p>
             <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">

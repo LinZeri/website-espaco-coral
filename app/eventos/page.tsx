@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     url: "https://coraleventos.com.br/eventos",
     images: [
       {
-        url: "/og/eventos.jpg",
+        url: "/og/home.jpg", // TODO: og/eventos.jpg pendente (ver public/og/README.md)
         width: 1200,
         height: 630,
         alt: "Salão do Espaço Coral decorado com flores em Batatais, SP",

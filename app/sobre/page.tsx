@@ -158,7 +158,7 @@ export default function SobrePage() {
         <section className="bg-background px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="mx-auto max-w-5xl">
             <div className="mb-16 max-w-2xl">
-              <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+              <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
                 Nossos pilares
               </p>
               <h2 className="font-display text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -169,7 +169,7 @@ export default function SobrePage() {
             <div className="grid grid-cols-1 gap-12 md:grid-cols-3 md:gap-10">
               {pillars.map((pillar, idx) => (
                 <div key={pillar.title} className="flex flex-col">
-                  <p className="font-display text-3xl text-gold">
+                  <p className="font-display text-3xl text-gold-text">
                     {String(idx + 1).padStart(2, "0")}
                   </p>
                   <div className="gold-divider mb-6 mt-2 w-10 opacity-50" />
@@ -198,7 +198,7 @@ export default function SobrePage() {
               />
             </div>
             <div>
-              <p className="mb-4 text-xs uppercase tracking-widest text-gold-dark">
+              <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
                 Localização
               </p>
               <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -244,7 +244,7 @@ export default function SobrePage() {
         <section className="bg-background px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="mx-auto max-w-3xl text-center">
             <div className="gold-divider mx-auto mb-10 w-16 opacity-50" />
-            <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+            <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
               Nosso compromisso
             </p>
             <h2 className="font-display mb-6 text-3xl font-normal tracking-tight text-foreground md:text-4xl">

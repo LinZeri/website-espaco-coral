@@ -29,7 +29,7 @@ export function AuthorBio({ name, bio }: AuthorBioProps) {
           </p>
           <Link
             href="/sobre"
-            className="mt-3 inline-block text-sm font-medium text-gold transition-colors hover:text-gold-dark"
+            className="mt-3 inline-block text-sm font-medium text-gold-text transition-colors hover:text-gold-dark"
           >
             Conheça o Espaço Coral →
           </Link>

@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     url: "https://coraleventos.com.br/contato",
     images: [
       {
-        url: "/og/contato.jpg",
+        url: "/og/home.jpg", // TODO: og/contato.jpg pendente (ver public/og/README.md)
         width: 1200,
         height: 630,
         alt: "Fachada do Espaço Coral ao entardecer em Batatais, SP",

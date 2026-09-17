@@ -28,7 +28,7 @@ export function RelatedPosts({
     <section className="bg-secondary/30 px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
       <div className="mx-auto max-w-6xl">
         <div className="mb-12 max-w-2xl">
-          <p className="mb-4 text-xs uppercase tracking-widest text-gold">{eyebrow}</p>
+          <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">{eyebrow}</p>
           <h2 className="font-display text-3xl font-normal tracking-tight text-foreground md:text-4xl">
             {title}
           </h2>

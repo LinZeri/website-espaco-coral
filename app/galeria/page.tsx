@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     url: "https://coraleventos.com.br/galeria",
     images: [
       {
-        url: "/og/galeria.jpg",
+        url: "/og/home.jpg", // TODO: og/galeria.jpg pendente (ver public/og/README.md)
         width: 1200,
         height: 630,
         alt: "Galeria de eventos realizados no Espaço Coral em Batatais, SP",

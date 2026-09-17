@@ -12,6 +12,7 @@ import { WhatsAppButton } from "@/components/layout/whatsapp-button";
 import { FaqSection } from "@/components/sections/faq-section";
 import { JsonLd } from "@/components/seo/json-ld";
 import { BlogPostMeta } from "@/components/blog/blog-post-meta";
+import { BlogPostTags } from "@/components/blog/blog-post-tags";
 import { AuthorBio } from "@/components/blog/author-bio";
 import { RelatedPosts } from "@/components/blog/related-posts";
 import { blogMdxComponents } from "@/components/blog/mdx-components";
@@ -166,6 +167,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
                 pillar={fm.pillar}
                 readingMinutes={post.readingMinutes}
               />
+              <BlogPostTags tags={fm.tags} className="mt-5" />
             </div>
           </header>
 

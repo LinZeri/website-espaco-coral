@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     url: "https://coraleventos.com.br/estrutura",
     images: [
       {
-        url: "/og/estrutura.jpg",
+        url: "/og/home.jpg", // TODO: og/estrutura.jpg pendente (ver public/og/README.md)
         width: 1200,
         height: 630,
         alt: "Vista panorâmica do salão do Espaço Coral em Batatais, SP",
@@ -157,7 +157,7 @@ export default function EstruturaPage() {
         {/* Mobiliário e Equipamentos */}
         <section className="bg-sand px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="mb-16">
-            <p className="text-xs uppercase tracking-widest text-gold-dark">
+            <p className="text-xs uppercase tracking-widest text-gold-text">
               Inclusos no espaço
             </p>
             <h2 className="font-display mt-4 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -172,7 +172,7 @@ export default function EstruturaPage() {
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             {equipamentos.map((grupo) => (
               <div key={grupo.categoria} className="border border-foreground/15 p-6">
-                <p className="mb-4 text-xs uppercase tracking-widest text-gold-dark">
+                <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
                   {grupo.categoria}
                 </p>
                 <ul className="space-y-2">
@@ -211,7 +211,7 @@ export default function EstruturaPage() {
               />
             </div>
             <div>
-              <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+              <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
                 Venha conhecer
               </p>
               <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">

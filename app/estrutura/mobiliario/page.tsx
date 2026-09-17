@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     url: "https://coraleventos.com.br/estrutura/mobiliario",
     images: [
       {
-        url: "/og/estrutura.jpg",
+        url: "/og/home.jpg", // TODO: og/estrutura.jpg pendente (ver public/og/README.md)
         width: 1200,
         height: 630,
         alt: "Salão do Espaço Coral montado com mesas e cadeiras em Batatais, SP",
@@ -116,7 +116,7 @@ export default function MobiliarioPage() {
                 delay={i * 90}
                 className="border border-foreground/15 p-6"
               >
-                <p className="mb-4 text-xs uppercase tracking-widest text-gold-dark">
+                <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
                   {grupo.categoria}
                 </p>
                 <ul className="space-y-2">
@@ -148,7 +148,7 @@ export default function MobiliarioPage() {
               />
             </div>
             <div>
-              <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+              <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
                 Conforto em cada ambiente
               </p>
               <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">

@@ -116,7 +116,7 @@ export default function CidadesPage() {
                     />
                   </div>
                   <div className="p-8">
-                    <p className="mb-3 text-xs uppercase tracking-widest text-gold">
+                    <p className="mb-3 text-xs uppercase tracking-widest text-gold-text">
                       {city.distance}
                     </p>
                     <h3 className="font-display mb-4 text-3xl font-normal tracking-tight text-foreground">

@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     url: "https://coraleventos.com.br/eventos/casamentos",
     images: [
       {
-        url: "/og/casamentos.jpg",
+        url: "/og/home.jpg", // TODO: og/casamentos.jpg pendente (ver public/og/README.md)
         width: 1200,
         height: 630,
         alt: "Cerimônia de casamento ao ar livre no Espaço Coral em Batatais, SP",
@@ -151,7 +151,7 @@ export default function CasamentosPage() {
         <section className="bg-secondary/40 px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="mx-auto max-w-4xl">
             <div className="mb-12 text-center">
-              <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+              <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
                 Diferenciais
               </p>
               <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -183,7 +183,7 @@ export default function CasamentosPage() {
                 },
               ].map((item) => (
                 <div key={item.title} className="border-l-2 border-gold pl-6">
-                  <p className="mb-2 text-xs uppercase tracking-wider text-gold">
+                  <p className="mb-2 text-xs uppercase tracking-wider text-gold-text">
                     {item.label}
                   </p>
                   <h3 className="font-display mb-3 text-2xl font-normal tracking-tight text-foreground">
@@ -211,7 +211,7 @@ export default function CasamentosPage() {
               />
             </div>
             <div>
-              <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+              <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
                 Ao Ar Livre
               </p>
               <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -244,7 +244,7 @@ export default function CasamentosPage() {
         <section className="bg-secondary/30 px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-2 md:gap-16 lg:gap-24">
             <div className="order-2 md:order-1">
-              <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+              <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
                 Exclusividade
               </p>
               <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -294,7 +294,7 @@ export default function CasamentosPage() {
               />
             </div>
             <div>
-              <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+              <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
                 Estrutura
               </p>
               <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -337,7 +337,7 @@ export default function CasamentosPage() {
         <section className="bg-secondary/40 px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="mx-auto max-w-4xl">
             <div className="mb-12">
-              <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+              <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
                 Formatos
               </p>
               <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -388,7 +388,7 @@ export default function CasamentosPage() {
         {/* Localização */}
         <section className="bg-background px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="mx-auto max-w-3xl">
-            <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+            <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
               Localização
             </p>
             <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -428,7 +428,7 @@ export default function CasamentosPage() {
         <section className="bg-sand px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="mx-auto max-w-3xl text-center">
             <div className="gold-divider mx-auto mb-10 w-16 opacity-50" />
-            <p className="mb-4 text-xs uppercase tracking-widest text-gold-dark">
+            <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
               Flexibilidade
             </p>
             <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -460,7 +460,7 @@ export default function CasamentosPage() {
         {/* Visita guiada */}
         <section className="bg-background px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="mx-auto max-w-3xl">
-            <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+            <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
               A visita
             </p>
             <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -495,7 +495,7 @@ export default function CasamentosPage() {
         {/* Como reservar */}
         <section className="bg-secondary/40 px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="mx-auto max-w-3xl">
-            <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+            <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
               Próximos passos
             </p>
             <h2 className="font-display mb-8 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -503,7 +503,7 @@ export default function CasamentosPage() {
             </h2>
             <ol className="space-y-6 text-base leading-relaxed text-muted-foreground">
               <li className="flex gap-4">
-                <span className="font-display shrink-0 text-2xl text-gold">01</span>
+                <span className="font-display shrink-0 text-2xl text-gold-text">01</span>
                 <span>
                   <strong className="text-foreground">Consulte a data pelo WhatsApp.</strong>{" "}
                   Envie a data desejada e o número estimado de convidados.
@@ -511,7 +511,7 @@ export default function CasamentosPage() {
                 </span>
               </li>
               <li className="flex gap-4">
-                <span className="font-display shrink-0 text-2xl text-gold">02</span>
+                <span className="font-display shrink-0 text-2xl text-gold-text">02</span>
                 <span>
                   <strong className="text-foreground">Agende uma visita guiada.</strong>{" "}
                   Conheça pessoalmente a área de cerimônia ao ar livre, o salão
@@ -520,7 +520,7 @@ export default function CasamentosPage() {
                 </span>
               </li>
               <li className="flex gap-4">
-                <span className="font-display shrink-0 text-2xl text-gold">03</span>
+                <span className="font-display shrink-0 text-2xl text-gold-text">03</span>
                 <span>
                   <strong className="text-foreground">Reserve a data com contrato.</strong>{" "}
                   Após a visita, formalizamos a reserva e seguimos com o suporte

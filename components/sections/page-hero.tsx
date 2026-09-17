@@ -45,7 +45,7 @@ export function PageHero({
         {subtitle && (
           <p
             className={cn(
-              "mb-4 text-xs font-semibold uppercase tracking-widest text-gold-dark",
+              "mb-4 text-xs font-semibold uppercase tracking-widest text-gold-text",
               subtitleClassName
             )}
           >

@@ -23,7 +23,7 @@ const CtaSection = dynamic(() =>
 export const metadata: Metadata = {
   title: "Espaço para Casamentos e Eventos perto de Ribeirão Preto",
   description:
-    "A 70 km de Ribeirão Preto, o Espaço Coral recebe casamentos, festas de 15 anos e eventos corporativos com estrutura premium fora da capital regional: cerimônia ao ar livre, salão climatizado para 320 convidados.",
+    "A 70 km de Ribeirão Preto, o Espaço Coral recebe casamentos, 15 anos e eventos corporativos: cerimônia ao ar livre, salão climatizado para 320 convidados.",
   keywords: [
     "espaço para casamento perto de Ribeirão Preto",
     "salão de festas próximo a Ribeirão Preto",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     url: "https://coraleventos.com.br/cidades/ribeirao-preto",
     images: [
       {
-        url: "/og/ribeirao-preto.jpg",
+        url: "/og/home.jpg", // TODO: og/ribeirao-preto.jpg pendente (ver public/og/README.md)
         width: 1200,
         height: 630,
         alt: "Espaço Coral em Batatais, espaço para eventos a 70 km de Ribeirão Preto",
@@ -144,7 +144,7 @@ export default function RibeiraoPretoPage() {
       <Header />
       <main>
         <PageHero
-          title="Espaço para Eventos para Ribeirão Preto"
+          title="Espaço para Eventos perto de Ribeirão Preto"
           subtitle="Espaço Coral, a 70 km, em Batatais"
           imageSrc="/images/scenes/fachada/fachada-entardecer.webp"
           imageAlt="Fachada do Espaço Coral em Batatais ao entardecer, espaço para eventos a 70 km de Ribeirão Preto"
@@ -178,7 +178,7 @@ export default function RibeiraoPretoPage() {
         {/* Tipos de evento: hub multi-vertical */}
         <section className="bg-secondary/30 px-6 pb-20 md:px-12 md:pb-28 lg:px-20 lg:pb-32">
           <div className="mx-auto max-w-4xl pt-20 md:pt-28 lg:pt-32">
-            <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+            <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
               Todos os tipos de evento
             </p>
             <h2 className="font-display mb-4 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -226,7 +226,7 @@ export default function RibeiraoPretoPage() {
               />
             </div>
             <div>
-              <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+              <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
                 Diferencial
               </p>
               <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -254,7 +254,7 @@ export default function RibeiraoPretoPage() {
         <section className="bg-secondary/30 px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-2 md:gap-16 lg:gap-24">
             <div className="order-2 md:order-1">
-              <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+              <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
                 Logística
               </p>
               <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -293,7 +293,7 @@ export default function RibeiraoPretoPage() {
         {/* FAQ */}
         <section className="bg-background px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="mx-auto max-w-3xl">
-            <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+            <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
               Perguntas frequentes
             </p>
             <h2 className="font-display mb-12 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -317,7 +317,7 @@ export default function RibeiraoPretoPage() {
         {/* Cluster: continue o planejamento */}
         <section className="bg-secondary/30 px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="mx-auto max-w-4xl">
-            <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+            <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
               Continue o planejamento
             </p>
             <h2 className="font-display mb-4 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -364,7 +364,7 @@ export default function RibeiraoPretoPage() {
         <section className="bg-sand px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="mx-auto max-w-3xl text-center">
             <div className="gold-divider mx-auto mb-10 w-16 opacity-50" />
-            <p className="mb-4 text-xs uppercase tracking-widest text-gold-dark">
+            <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
               Próximo passo
             </p>
             <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">

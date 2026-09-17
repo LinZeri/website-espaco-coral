@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     url: "https://coraleventos.com.br/eventos/15-anos",
     images: [
       {
-        url: "/og/15-anos.jpg",
+        url: "/og/home.jpg", // TODO: og/15-anos.jpg pendente (ver public/og/README.md)
         width: 1200,
         height: 630,
         alt: "Salão decorado para festa de 15 anos no Espaço Coral em Batatais, SP",
@@ -164,7 +164,7 @@ export default function QuinzeAnosPage() {
         <section className="bg-secondary/40 px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="mx-auto max-w-4xl">
             <div className="mb-12 text-center">
-              <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+              <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
                 Diferenciais
               </p>
               <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -196,7 +196,7 @@ export default function QuinzeAnosPage() {
                 },
               ].map((item) => (
                 <div key={item.title} className="border-l-2 border-gold pl-6">
-                  <p className="mb-2 text-xs uppercase tracking-wider text-gold">
+                  <p className="mb-2 text-xs uppercase tracking-wider text-gold-text">
                     {item.label}
                   </p>
                   <h3 className="font-display mb-3 text-2xl font-normal tracking-tight text-foreground">
@@ -224,7 +224,7 @@ export default function QuinzeAnosPage() {
               />
             </div>
             <div>
-              <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+              <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
                 Exclusividade
               </p>
               <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -257,7 +257,7 @@ export default function QuinzeAnosPage() {
         <section className="bg-secondary/30 px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-2 md:gap-16 lg:gap-24">
             <div className="order-2 md:order-1">
-              <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+              <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
                 Cuidado com todos
               </p>
               <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -303,7 +303,7 @@ export default function QuinzeAnosPage() {
               />
             </div>
             <div>
-              <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+              <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
                 Estrutura completa
               </p>
               <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -339,7 +339,7 @@ export default function QuinzeAnosPage() {
         {/* Decoração e personalização */}
         <section className="bg-background px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="mx-auto max-w-3xl">
-            <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+            <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
               Decoração
             </p>
             <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -367,7 +367,7 @@ export default function QuinzeAnosPage() {
         {/* Fornecedores */}
         <section className="bg-secondary/40 px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="mx-auto max-w-3xl">
-            <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+            <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
               Fornecedores
             </p>
             <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -392,7 +392,7 @@ export default function QuinzeAnosPage() {
         {/* Roteiro da noite */}
         <section className="bg-background px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="mx-auto max-w-3xl">
-            <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+            <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
               Roteiro
             </p>
             <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -405,7 +405,7 @@ export default function QuinzeAnosPage() {
             </p>
             <ol className="space-y-6 text-base leading-relaxed text-muted-foreground">
               <li className="flex gap-4">
-                <span className="font-display shrink-0 text-2xl text-gold">01</span>
+                <span className="font-display shrink-0 text-2xl text-gold-text">01</span>
                 <span>
                   <strong className="text-foreground">Recepção dos convidados.</strong>{" "}
                   Coquetel de boas-vindas no hall ou na área externa, enquanto
@@ -413,7 +413,7 @@ export default function QuinzeAnosPage() {
                 </span>
               </li>
               <li className="flex gap-4">
-                <span className="font-display shrink-0 text-2xl text-gold">02</span>
+                <span className="font-display shrink-0 text-2xl text-gold-text">02</span>
                 <span>
                   <strong className="text-foreground">Entrada e valsa.</strong>{" "}
                   Entrada principal no salão ou ao ar livre, seguida da
@@ -421,7 +421,7 @@ export default function QuinzeAnosPage() {
                 </span>
               </li>
               <li className="flex gap-4">
-                <span className="font-display shrink-0 text-2xl text-gold">03</span>
+                <span className="font-display shrink-0 text-2xl text-gold-text">03</span>
                 <span>
                   <strong className="text-foreground">Jantar e homenagens.</strong>{" "}
                   Jantar servido no salão climatizado, com discursos e
@@ -429,7 +429,7 @@ export default function QuinzeAnosPage() {
                 </span>
               </li>
               <li className="flex gap-4">
-                <span className="font-display shrink-0 text-2xl text-gold">04</span>
+                <span className="font-display shrink-0 text-2xl text-gold-text">04</span>
                 <span>
                   <strong className="text-foreground">Festa.</strong>{" "}
                   Pista de dança liberada, bar reforçado pelas 8 cervejeiras

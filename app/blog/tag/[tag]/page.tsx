@@ -90,7 +90,7 @@ export default function BlogTagPage({ params }: BlogTagPageProps) {
             >
               ← Voltar para o blog
             </Link>
-            <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+            <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
               Categoria
             </p>
             <h1 className="font-display mb-6 text-5xl font-normal tracking-tight text-foreground md:text-6xl">

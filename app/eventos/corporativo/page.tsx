@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     url: "https://coraleventos.com.br/eventos/corporativo",
     images: [
       {
-        url: "/og/corporativo.jpg",
+        url: "/og/home.jpg", // TODO: og/corporativo.jpg pendente (ver public/og/README.md)
         width: 1200,
         height: 630,
         alt: "Salão do Espaço Coral montado para evento corporativo em Batatais, SP",
@@ -172,7 +172,7 @@ export default function CorporativoPage() {
         <section className="bg-secondary/40 px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="mx-auto max-w-4xl">
             <div className="mb-12 text-center">
-              <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+              <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
                 Formatos atendidos
               </p>
               <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -232,7 +232,7 @@ export default function CorporativoPage() {
               />
             </div>
             <div>
-              <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+              <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
                 Infraestrutura
               </p>
               <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -248,7 +248,7 @@ export default function CorporativoPage() {
               <div className="grid grid-cols-2 gap-4">
                 {features.map((f) => (
                   <div key={f.label} className="border-l-2 border-gold pl-4">
-                    <p className="text-xs uppercase tracking-wider text-gold">
+                    <p className="text-xs uppercase tracking-wider text-gold-text">
                       {f.label}
                     </p>
                     <p className="mt-1 text-sm text-foreground">{f.value}</p>
@@ -269,7 +269,7 @@ export default function CorporativoPage() {
         <section className="bg-secondary/30 px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-2 md:gap-16 lg:gap-24">
             <div className="order-2 md:order-1">
-              <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+              <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
                 Exclusividade
               </p>
               <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -306,7 +306,7 @@ export default function CorporativoPage() {
         {/* Empresas que escolhem o Espaço Coral */}
         <section className="bg-background px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="mx-auto max-w-3xl">
-            <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+            <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
               Setores atendidos
             </p>
             <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -340,7 +340,7 @@ export default function CorporativoPage() {
         {/* Localização regional */}
         <section className="bg-background px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="mx-auto max-w-3xl">
-            <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+            <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
               Localização e acesso
             </p>
             <h2 className="font-display mb-6 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -374,7 +374,7 @@ export default function CorporativoPage() {
         {/* Processo de proposta */}
         <section className="bg-secondary/40 px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="mx-auto max-w-3xl">
-            <p className="mb-4 text-xs uppercase tracking-widest text-gold">
+            <p className="mb-4 text-xs uppercase tracking-widest text-gold-text">
               Próximos passos
             </p>
             <h2 className="font-display mb-8 text-4xl font-normal tracking-tight text-foreground md:text-5xl">
@@ -382,7 +382,7 @@ export default function CorporativoPage() {
             </h2>
             <ol className="space-y-6 text-base leading-relaxed text-muted-foreground">
               <li className="flex gap-4">
-                <span className="font-display shrink-0 text-2xl text-gold">01</span>
+                <span className="font-display shrink-0 text-2xl text-gold-text">01</span>
                 <span>
                   <strong className="text-foreground">Briefing inicial pelo WhatsApp.</strong>{" "}
                   Envie a data desejada, número estimado de participantes,
@@ -391,7 +391,7 @@ export default function CorporativoPage() {
                 </span>
               </li>
               <li className="flex gap-4">
-                <span className="font-display shrink-0 text-2xl text-gold">02</span>
+                <span className="font-display shrink-0 text-2xl text-gold-text">02</span>
                 <span>
                   <strong className="text-foreground">Proposta personalizada.</strong>{" "}
                   Nossa equipe retorna com a proposta: escopo, condições e
@@ -400,7 +400,7 @@ export default function CorporativoPage() {
                 </span>
               </li>
               <li className="flex gap-4">
-                <span className="font-display shrink-0 text-2xl text-gold">03</span>
+                <span className="font-display shrink-0 text-2xl text-gold-text">03</span>
                 <span>
                   <strong className="text-foreground">Visita técnica.</strong>{" "}
                   Visita guiada com responsáveis da empresa e, se quiser, com
@@ -409,7 +409,7 @@ export default function CorporativoPage() {
                 </span>
               </li>
               <li className="flex gap-4">
-                <span className="font-display shrink-0 text-2xl text-gold">04</span>
+                <span className="font-display shrink-0 text-2xl text-gold-text">04</span>
                 <span>
                   <strong className="text-foreground">Reserva e contrato.</strong>{" "}
                   Formalização da reserva via contrato, com nota fiscal e

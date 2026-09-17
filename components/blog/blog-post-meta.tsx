@@ -1,6 +1,11 @@
 import { Clock, Calendar, User } from "lucide-react";
 import Link from "next/link";
-import { pillarLabel, slugifyTag, type BlogPillar } from "@/lib/blog-utils";
+import {
+  getAllClusterSlugs,
+  pillarLabel,
+  slugifyTag,
+  type BlogPillar,
+} from "@/lib/blog-utils";
 
 interface BlogPostMetaProps {
   publishDate: string;
@@ -40,16 +45,26 @@ export function BlogPostMeta({
   const showUpdate =
     lastUpdated && lastUpdated !== publishDate && lastUpdated.length === 10;
 
+  // A página /blog/tag/[tag] só é gerada para clusters com >= 3 posts
+  // (getAllClusterSlugs). Pilares abaixo desse mínimo não têm página própria:
+  // linkar mesmo assim resultaria num 404.
+  const pillarSlug = slugifyTag(pillar);
+  const hasPillarPage = getAllClusterSlugs().includes(pillarSlug);
+  const pillarPill = (
+    <span className="inline-flex items-center bg-secondary px-3 py-1 text-xs font-medium uppercase tracking-wider text-foreground transition-colors hover:bg-gold hover:text-foreground">
+      {pillarLabel(pillar)}
+    </span>
+  );
+
   return (
     <div
       className={`flex flex-wrap items-center gap-x-6 gap-y-3 text-sm text-muted-foreground ${className}`}
     >
-      <Link
-        href={`/blog/tag/${slugifyTag(pillar)}`}
-        className="inline-flex items-center bg-secondary px-3 py-1 text-xs font-medium uppercase tracking-wider text-foreground transition-colors hover:bg-gold hover:text-foreground"
-      >
-        {pillarLabel(pillar)}
-      </Link>
+      {hasPillarPage ? (
+        <Link href={`/blog/tag/${pillarSlug}`}>{pillarPill}</Link>
+      ) : (
+        pillarPill
+      )}
 
       <span className="inline-flex items-center gap-2">
         <Calendar size={14} className="text-gold" aria-hidden="true" />
