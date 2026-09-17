@@ -16,11 +16,19 @@
   "drySentinel": "docs/.blog-loop-dry-run",
 
   "_cadenceTarget": "15 posts/mes (decidido 2026-07-08). Ajustar batchSize/scheduleCadence ao ativar o loop para nao passar disso; datas de publicacao sao atribuidas em dias uteis consecutivos pelo helper.",
-  "batchSize": 2,
-  "replenishThresholdMultiplier": 2,
+  "batchSize": 5,
+  "replenishThresholdMultiplier": 3,
 
   "reschedule": "auto",
   "scheduleCadence": "daily-09-central",
+
+  "verifyCommand": "npm run build",
+
+  "frontmatter": {
+    "_note": "Contrato real de lib/blog-utils.ts (BlogFrontmatter). publishDate e pillar sao obrigatorios; pillar so aceita casamento|15-anos|corporativo|estrutura|local (SEM valor 'mini-wedding': mapear o cluster mini-wedding para pillar 'casamento'). status default e 'published' quando ausente, mas escrever explicito para nao arriscar 'draft'.",
+    "fields": ["title", "description", "publishDate", "lastUpdated", "status", "author", "authorBio", "pillar", "tags", "keywordPrimary", "keywordSecondary", "metaTitle", "metaDescription", "coverImage", "coverImageAlt", "ogImage"]
+  },
+  "ctaPattern": "link/CTA para WhatsApp (16) 99129-4178 (ex: [WhatsApp (16) 99129-4178](https://wa.me/5516991294178?text=...)) ou para paginas internas de conversao (/estrutura, /eventos/*, /contato); nunca exibir precos",
 
   "preflight": {
     "enabled": false,

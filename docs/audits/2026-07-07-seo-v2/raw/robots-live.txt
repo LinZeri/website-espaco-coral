@@ -1,0 +1,9 @@
+User-Agent: *
+Allow: /
+Disallow: /lp/
+Disallow: /proposta/
+Disallow: /api/
+Disallow: /_next/
+
+Host: https://coraleventos.com.br
+Sitemap: https://coraleventos.com.br/sitemap.xml

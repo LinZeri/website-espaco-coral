@@ -1,0 +1,186 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://coraleventos.com.br/blog/eventos-corporativos-interior-sp-guia#article",
+      "headline": "Guia de Eventos Corporativos no Interior de SP",
+      "description": "Guia de eventos corporativos no interior de SP: tipos de evento, como escolher o espaço e por que um espaço verde em Batatais substitui o hotel de convenções.",
+      "url": "https://coraleventos.com.br/blog/eventos-corporativos-interior-sp-guia",
+      "inLanguage": "pt-BR",
+      "datePublished": "2026-07-15",
+      "dateModified": "2026-07-15",
+      "wordCount": 3161,
+      "keywords": "evento corporativo, eventos corporativos interior SP, espaço para evento corporativo, confraternização de fim de ano empresa, evento empresarial Ribeirão Preto",
+      "articleSection": "Corporativo",
+      "articleBody": "Todo gestor de RH, marketing ou administrativo no interior paulista uma hora enfrenta a mesma decisão: onde realizar o evento da empresa. Em 2024, o setor de eventos no Brasil movimentou R$ 813,5 bilhões, o equivalente a 4,6% do PIB, com cerca de 10,1 milhões de eventos e 12,7 milhões de empregos.",
+      "author": {
+        "@id": "https://coraleventos.com.br/sobre#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://coraleventos.com.br/#organization"
+      },
+      "image": {
+        "@id": "https://coraleventos.com.br/blog/eventos-corporativos-interior-sp-guia#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://coraleventos.com.br/blog/eventos-corporativos-interior-sp-guia#webpage"
+      },
+      "isPartOf": {
+        "@id": "https://coraleventos.com.br/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Evento corporativo"
+        },
+        {
+          "@type": "Thing",
+          "name": "Eventos corporativos no interior de São Paulo"
+        },
+        {
+          "@type": "Place",
+          "name": "Batatais, SP"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://coraleventos.com.br/sobre#lin-zeri",
+      "name": "Lin Zeri",
+      "url": "https://coraleventos.com.br/sobre",
+      "jobTitle": "Anfitriã e gestora do Espaço Coral",
+      "description": "Lin Zeri está à frente do Espaço Coral, em Batatais, SP, e coordena a recepção de confraternizações, formaturas e lançamentos de empresas da região. Escreve sobre eventos corporativos que fogem do trivial no interior paulista.",
+      "worksFor": {
+        "@id": "https://coraleventos.com.br/#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://coraleventos.com.br/#organization",
+      "name": "Espaço Coral",
+      "legalName": "Espaço Coral Eventos",
+      "url": "https://coraleventos.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://coraleventos.com.br/images/logo/logo-coral-completo.svg"
+      },
+      "sameAs": [
+        "https://www.instagram.com/espaco.coral",
+        "https://www.facebook.com/EspacoCoralEventos",
+        "https://maps.app.goo.gl/RRvRvYMonqZWbR1v8"
+      ]
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://coraleventos.com.br/blog#blog",
+      "url": "https://coraleventos.com.br/blog",
+      "name": "Blog do Espaço Coral",
+      "description": "Guias, dicas e referências para quem está planejando casamento, festa de 15 anos ou evento corporativo no interior de São Paulo.",
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@id": "https://coraleventos.com.br/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://coraleventos.com.br/blog/eventos-corporativos-interior-sp-guia#webpage",
+      "url": "https://coraleventos.com.br/blog/eventos-corporativos-interior-sp-guia",
+      "name": "Guia de Eventos Corporativos no Interior de SP",
+      "description": "Guia de eventos corporativos no interior de SP: tipos de evento, como escolher o espaço e por que um espaço verde em Batatais substitui o hotel de convenções.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://coraleventos.com.br/blog#blog"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://coraleventos.com.br/blog/eventos-corporativos-interior-sp-guia#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://coraleventos.com.br/blog/eventos-corporativos-interior-sp-guia#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://coraleventos.com.br/blog/eventos-corporativos-interior-sp-guia#primaryimage",
+      "url": "https://coraleventos.com.br/images/scenes/bancos-gerais/corporativo/espaco-coral-bancos-gerais-corporativo-01.webp",
+      "contentUrl": "https://coraleventos.com.br/images/scenes/bancos-gerais/corporativo/espaco-coral-bancos-gerais-corporativo-01.webp",
+      "width": 1080,
+      "height": 720,
+      "caption": "Salão do Espaço Coral montado para evento corporativo em Batatais SP"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://coraleventos.com.br/blog/eventos-corporativos-interior-sp-guia#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://coraleventos.com.br"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://coraleventos.com.br/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Guia de Eventos Corporativos no Interior de SP",
+          "item": "https://coraleventos.com.br/blog/eventos-corporativos-interior-sp-guia"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://coraleventos.com.br/blog/eventos-corporativos-interior-sp-guia#faq",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://coraleventos.com.br/blog/eventos-corporativos-interior-sp-guia#webpage"
+      },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "O que é considerado um evento corporativo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evento corporativo é qualquer encontro promovido por uma empresa com objetivo de negócio: integração, celebração, comunicação, treinamento ou geração de demanda. Inclui confraternização de fim de ano, formatura e premiação, lançamento de produto, convenção de vendas, treinamento e jantar de networking. O setor de eventos moveu R$ 813,5 bilhões no Brasil em 2024."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quais tipos de evento corporativo o espaço recebe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Confraternização de fim de ano, formatura e premiação corporativa, lançamento de produto, convenção de vendas ou kickoff, treinamento e jantar de negócios. O salão panorâmico climatizado, a sala privativa e a área verde se adaptam do formato mais cerimonial ao mais celebrativo, para até 320 convidados sentados."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O evento corporativo precisa ser em hotel ou centro de convenções?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. Um espaço verde climatizado no interior de SP entrega estrutura, estacionamento com orientadores e ambiente memorável sem o deslocamento à capital. Em 2025, São Paulo sediou 1.511 eventos B2B de grande porte, sinal de que a demanda por espaços fora do circuito tradicional cresce no estado."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O que já vem incluso para eventos corporativos no Espaço Coral?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "TVs, sistema de som ambiente e Wi-Fi para os convidados, além do salão panorâmico envidraçado climatizado, sala privativa, área verde e estacionamento com orientadores. Telão de LED e projetor não são do espaço: são fornecedor contratado pela própria empresa, quando o formato pede projeção."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual a capacidade e onde fica o espaço?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O Espaço Coral recebe até 320 convidados sentados e fica em Batatais, SP, a poucos minutos de Ribeirão Preto e da região de Franca e Sertãozinho. É o local do evento, não buffet: buffet, decoração e audiovisual são contratados livremente pela empresa. Para datas e valores, fale com a equipe pelo WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

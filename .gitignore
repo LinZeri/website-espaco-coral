@@ -38,15 +38,17 @@ next-env.d.ts
 # Assets brutos do cliente — nunca commitar
 _references/
 
-# Documentação interna de estratégia (negócio, marca, SEO, etc.) — não versionar
-CLAUDE.md
-/docs/
-
 # Claude Code: runtime/local files (mas permitir agents/skills compartilhados)
 .claude/scheduled_tasks.lock
 .claude/settings.local.json
 /memory/
 MEMORY.md
+
+# blog-loop: sentinel de dry-run é um toggle local efêmero, nunca versionar
+# (docs/.blog-loop.lock É versionado de propósito: é o transporte do lock
+# cross-ambiente entre execuções locais e as rotinas em nuvem, ver
+# .claude/skills/blog-loop/SKILL.md e docs/blog-loop-log.md)
+/docs/.blog-loop-dry-run
 
 # Artefatos intermediários do pipeline editorial — não versionar
 # (são regenerados a partir de docs/seo-plan/CONTENT-CALENDAR.md)

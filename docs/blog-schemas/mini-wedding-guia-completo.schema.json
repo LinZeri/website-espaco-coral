@@ -1,0 +1,183 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://coraleventos.com.br/blog/mini-wedding-guia-completo#article",
+      "headline": "Mini Wedding: Guia Completo para Organizar no Interior de SP",
+      "description": "Mini wedding é casamento intimista de 20 a 100 convidados com estrutura completa. Passo a passo para organizar no interior de SP: local, fornecedores, data e decoração.",
+      "datePublished": "2026-09-17",
+      "dateModified": "2026-09-17",
+      "inLanguage": "pt-BR",
+      "wordCount": 3200,
+      "keywords": [
+        "mini wedding",
+        "casamento intimista",
+        "interior de são paulo",
+        "Batatais",
+        "casamento",
+        "mini wedding interior de são paulo",
+        "casamento intimista completo",
+        "mini wedding sem mínimo de convidados"
+      ],
+      "articleSection": "Mini Wedding",
+      "articleBody": "Em 2024, o Brasil registrou 948,9 mil casamentos civis, alta de 0,9% sobre o ano anterior. O mini wedding nasceu da escolha deliberada de fazer menos, com mais atenção a cada detalhe. Não é casamento barato. É casamento com lista curada.",
+      "author": {
+        "@id": "https://coraleventos.com.br/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://coraleventos.com.br#organization"
+      },
+      "image": {
+        "@id": "https://coraleventos.com.br/blog/mini-wedding-guia-completo#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://coraleventos.com.br/blog/mini-wedding-guia-completo"
+      },
+      "isPartOf": {
+        "@id": "https://coraleventos.com.br/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Mini Wedding"
+        },
+        {
+          "@type": "Thing",
+          "name": "Casamento Intimista"
+        },
+        {
+          "@type": "Place",
+          "name": "Batatais",
+          "addressRegion": "SP",
+          "addressCountry": "BR"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://coraleventos.com.br/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Gestora do Espaço Coral",
+      "url": "https://coraleventos.com.br/sobre",
+      "worksFor": {
+        "@id": "https://coraleventos.com.br#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://coraleventos.com.br#organization",
+      "name": "Espaço Coral",
+      "url": "https://coraleventos.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://coraleventos.com.br/images/logo/espaco-coral-logo.svg"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://coraleventos.com.br/blog#blog",
+      "name": "Blog Espaço Coral",
+      "url": "https://coraleventos.com.br/blog",
+      "publisher": {
+        "@id": "https://coraleventos.com.br#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://coraleventos.com.br/blog/mini-wedding-guia-completo",
+      "url": "https://coraleventos.com.br/blog/mini-wedding-guia-completo",
+      "name": "Mini Wedding: Guia Completo para Organizar no Interior de SP",
+      "description": "Mini wedding é casamento intimista de 20 a 100 convidados com estrutura completa. Passo a passo para organizar no interior de SP: local, fornecedores, data e decoração.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://coraleventos.com.br/blog#blog"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://coraleventos.com.br/blog/mini-wedding-guia-completo#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://coraleventos.com.br/blog/mini-wedding-guia-completo#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://coraleventos.com.br/blog/mini-wedding-guia-completo#primaryimage",
+      "url": "https://coraleventos.com.br/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-02.webp",
+      "width": 1080,
+      "height": 720,
+      "caption": "Casal em casamento intimista mini wedding no Espaço Coral em Batatais SP"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://coraleventos.com.br/blog/mini-wedding-guia-completo#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://coraleventos.com.br"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://coraleventos.com.br/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Mini Wedding: Guia Completo para Organizar no Interior de SP",
+          "item": "https://coraleventos.com.br/blog/mini-wedding-guia-completo"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://coraleventos.com.br/blog/mini-wedding-guia-completo#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Qual a diferença entre mini wedding e casamento intimista?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Os dois termos coexistem no mercado brasileiro. Casamento intimista descreve o espírito: proximidade, presença real de cada convidado e personalização alta. Mini wedding é o formato com limite de lista, tipicamente de 20 a 100 convidados. Na prática, são usados de forma intercambiável e não há uma definição oficial que os separe."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mini wedding é mais barato que casamento tradicional?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O custo total tende a ser menor, mas o custo por convidado costuma ser mais alto. O buffet escala em volume: com lista enxuta, o valor por pessoa sobe. Em compensação, o orçamento vai para qualidade: cardápio mais elaborado, decoração curada, fotógrafo com mais tempo por casal. Mini wedding não é sinônimo de economia. É sinônimo de concentração de investimento onde importa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quantos convidados define um mini wedding?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sem norma oficial. O consenso do setor fica entre 20 e 100 convidados. Abaixo de 20 entra no território de micro wedding ou elopement. O que importa mais que o número é a lógica de curadoria da lista: apenas pessoas que fazem parte real da vida do casal, chamadas com intenção."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Precisa de cerimonialista em mini wedding?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Até 60 convidados, cerimonialista é opcional se um familiar próximo conseguir coordenar o dia. A partir de 60 a 70, a coordenação cresce e um profissional passa a fazer diferença real no fluxo do evento. Em espaços com equipe de apoio, parte da coordenação local já está coberta pela estrutura."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O Espaço Coral tem número mínimo de convidados para mini wedding?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. O Espaço Coral atende eventos de qualquer tamanho dentro da estrutura completa, sem número mínimo contratual. Sala privativa para a noiva, área verde para cerimônia ao céu aberto e salão envidraçado ficam disponíveis independente do tamanho da lista."
+          }
+        }
+      ]
+    }
+  ]
+}

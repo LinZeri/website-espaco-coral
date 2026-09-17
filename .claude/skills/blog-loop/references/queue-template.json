@@ -1,0 +1,10 @@
+{
+  "updated": "1970-01-01T00:00:00Z",
+  "description": "Execution ledger for the autonomous blog production loop. Each `item` is one article the loop will produce end-to-end. Statuses: pending -> in_progress -> published | failed. Author rotation enforces max 1 article per day per author by default (configurable via blog-loop config).",
+  "authors": [
+    "primary-author-slug",
+    "secondary-author-slug"
+  ],
+  "items": [],
+  "author_daily_counts": {}
+}

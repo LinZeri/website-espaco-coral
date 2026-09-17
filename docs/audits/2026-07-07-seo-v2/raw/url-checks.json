@@ -1,0 +1,205 @@
+[
+  {
+    "url": "https://coraleventos.com.br/",
+    "status": 200,
+    "final_url": "https://coraleventos.com.br/",
+    "canonical": "https://coraleventos.com.br",
+    "robots_meta": "index, follow"
+  },
+  {
+    "url": "https://coraleventos.com.br/eventos",
+    "status": 200,
+    "final_url": "https://coraleventos.com.br/eventos",
+    "canonical": "https://coraleventos.com.br/eventos",
+    "robots_meta": "index, follow"
+  },
+  {
+    "url": "https://coraleventos.com.br/eventos/casamentos",
+    "status": 200,
+    "final_url": "https://coraleventos.com.br/eventos/casamentos",
+    "canonical": "https://coraleventos.com.br/eventos/casamentos",
+    "robots_meta": "index, follow"
+  },
+  {
+    "url": "https://coraleventos.com.br/eventos/15-anos",
+    "status": 200,
+    "final_url": "https://coraleventos.com.br/eventos/15-anos",
+    "canonical": "https://coraleventos.com.br/eventos/15-anos",
+    "robots_meta": "index, follow"
+  },
+  {
+    "url": "https://coraleventos.com.br/eventos/corporativo",
+    "status": 200,
+    "final_url": "https://coraleventos.com.br/eventos/corporativo",
+    "canonical": "https://coraleventos.com.br/eventos/corporativo",
+    "robots_meta": "index, follow"
+  },
+  {
+    "url": "https://coraleventos.com.br/estrutura",
+    "status": 200,
+    "final_url": "https://coraleventos.com.br/estrutura",
+    "canonical": "https://coraleventos.com.br/estrutura",
+    "robots_meta": "index, follow"
+  },
+  {
+    "url": "https://coraleventos.com.br/estrutura/mobiliario",
+    "status": 200,
+    "final_url": "https://coraleventos.com.br/estrutura/mobiliario",
+    "canonical": "https://coraleventos.com.br/estrutura/mobiliario",
+    "robots_meta": "index, follow"
+  },
+  {
+    "url": "https://coraleventos.com.br/galeria",
+    "status": 200,
+    "final_url": "https://coraleventos.com.br/galeria",
+    "canonical": "https://coraleventos.com.br/galeria",
+    "robots_meta": "index, follow"
+  },
+  {
+    "url": "https://coraleventos.com.br/cidades",
+    "status": 200,
+    "final_url": "https://coraleventos.com.br/cidades",
+    "canonical": "https://coraleventos.com.br/cidades",
+    "robots_meta": "index, follow"
+  },
+  {
+    "url": "https://coraleventos.com.br/cidades/ribeirao-preto",
+    "status": 200,
+    "final_url": "https://coraleventos.com.br/cidades/ribeirao-preto",
+    "canonical": "https://coraleventos.com.br/cidades/ribeirao-preto",
+    "robots_meta": "index, follow"
+  },
+  {
+    "url": "https://coraleventos.com.br/cidades/franca",
+    "status": 200,
+    "final_url": "https://coraleventos.com.br/cidades/franca",
+    "canonical": "https://coraleventos.com.br/cidades/franca",
+    "robots_meta": "index, follow"
+  },
+  {
+    "url": "https://coraleventos.com.br/sobre",
+    "status": 200,
+    "final_url": "https://coraleventos.com.br/sobre",
+    "canonical": "https://coraleventos.com.br/sobre",
+    "robots_meta": "index, follow"
+  },
+  {
+    "url": "https://coraleventos.com.br/contato",
+    "status": 200,
+    "final_url": "https://coraleventos.com.br/contato",
+    "canonical": "https://coraleventos.com.br/contato",
+    "robots_meta": "index, follow"
+  },
+  {
+    "url": "https://coraleventos.com.br/blog",
+    "status": 200,
+    "final_url": "https://coraleventos.com.br/blog",
+    "canonical": "https://coraleventos.com.br/blog",
+    "robots_meta": "index, follow"
+  },
+  {
+    "url": "https://coraleventos.com.br/blog/casamento-pequeno-vs-grande",
+    "status": 200,
+    "final_url": "https://coraleventos.com.br/blog/casamento-pequeno-vs-grande",
+    "canonical": "https://coraleventos.com.br/blog/casamento-pequeno-vs-grande",
+    "robots_meta": null
+  },
+  {
+    "url": "https://coraleventos.com.br/blog/guia-casamento-batatais-2027",
+    "status": 200,
+    "final_url": "https://coraleventos.com.br/blog/guia-casamento-batatais-2027",
+    "canonical": "https://coraleventos.com.br/blog/guia-casamento-batatais-2027",
+    "robots_meta": null
+  },
+  {
+    "url": "https://coraleventos.com.br/blog/casamento-ar-livre-batatais",
+    "status": 200,
+    "final_url": "https://coraleventos.com.br/blog/casamento-ar-livre-batatais",
+    "canonical": "https://coraleventos.com.br/blog/casamento-ar-livre-batatais",
+    "robots_meta": null
+  },
+  {
+    "url": "https://coraleventos.com.br/blog/quanto-custa-casar-batatais",
+    "status": 200,
+    "final_url": "https://coraleventos.com.br/blog/quanto-custa-casar-batatais",
+    "canonical": "https://coraleventos.com.br/blog/quanto-custa-casar-batatais",
+    "robots_meta": null
+  },
+  {
+    "url": "https://coraleventos.com.br/blog/como-escolher-espaco-casamento-interior-sp",
+    "status": 200,
+    "final_url": "https://coraleventos.com.br/blog/como-escolher-espaco-casamento-interior-sp",
+    "canonical": "https://coraleventos.com.br/blog/como-escolher-espaco-casamento-interior-sp",
+    "robots_meta": null
+  },
+  {
+    "url": "https://coraleventos.com.br/blog/tag/casamento",
+    "status": 200,
+    "final_url": "https://coraleventos.com.br/blog/tag/casamento",
+    "canonical": "https://coraleventos.com.br/blog/tag/casamento",
+    "robots_meta": "index, follow"
+  },
+  {
+    "url": "https://coraleventos.com.br/blog/tag/batatais",
+    "status": 200,
+    "final_url": "https://coraleventos.com.br/blog/tag/batatais",
+    "canonical": "https://coraleventos.com.br/blog/tag/batatais",
+    "robots_meta": "index, follow"
+  },
+  {
+    "url": "https://coraleventos.com.br/blog/tag/corporativo",
+    "status": 200,
+    "final_url": "https://coraleventos.com.br/blog/tag/corporativo",
+    "canonical": "https://coraleventos.com.br/blog/tag/corporativo",
+    "robots_meta": "index, follow"
+  },
+  {
+    "url": "https://coraleventos.com.br/blog/tag/evento-corporativo",
+    "status": 200,
+    "final_url": "https://coraleventos.com.br/blog/tag/evento-corporativo",
+    "canonical": "https://coraleventos.com.br/blog/tag/evento-corporativo",
+    "robots_meta": "index, follow"
+  },
+  {
+    "url": "https://coraleventos.com.br/blog/tag/estrutura",
+    "status": 200,
+    "final_url": "https://coraleventos.com.br/blog/tag/estrutura",
+    "canonical": "https://coraleventos.com.br/blog/tag/estrutura",
+    "robots_meta": "index, follow"
+  },
+  {
+    "url": "https://coraleventos.com.br/blog/tag/ribeirao-preto",
+    "status": 200,
+    "final_url": "https://coraleventos.com.br/blog/tag/ribeirao-preto",
+    "canonical": "https://coraleventos.com.br/blog/tag/ribeirao-preto",
+    "robots_meta": "index, follow"
+  },
+  {
+    "url": "https://coraleventos.com.br/blog/tag/15-anos",
+    "status": 200,
+    "final_url": "https://coraleventos.com.br/blog/tag/15-anos",
+    "canonical": "https://coraleventos.com.br/blog/tag/15-anos",
+    "robots_meta": "index, follow"
+  },
+  {
+    "url": "https://coraleventos.com.br/blog/tag/decoracao",
+    "status": 200,
+    "final_url": "https://coraleventos.com.br/blog/tag/decoracao",
+    "canonical": "https://coraleventos.com.br/blog/tag/decoracao",
+    "robots_meta": "index, follow"
+  },
+  {
+    "url": "https://coraleventos.com.br/blog/tag/interior-de-sp",
+    "status": 200,
+    "final_url": "https://coraleventos.com.br/blog/tag/interior-de-sp",
+    "canonical": "https://coraleventos.com.br/blog/tag/interior-de-sp",
+    "robots_meta": "index, follow"
+  },
+  {
+    "url": "https://coraleventos.com.br/proposta/buffet/grand-coral",
+    "status": 200,
+    "final_url": "https://coraleventos.com.br/proposta/buffet/grand-coral",
+    "canonical": "https://coraleventos.com.br",
+    "robots_meta": "noindex, nofollow"
+  }
+]

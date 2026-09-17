@@ -1,0 +1,723 @@
+{
+  "updated": "2026-09-17T17:45:02.155220+00:00",
+  "description": "Fila de produção do blog-loop do Espaço Coral. Reabastecida em 17/09/2026 com os itens 2,3,5-13 do backlog priorizado de docs/blog-strategy.md (revisão 17/09): confraternização, mini wedding (hub + 4 spokes), padrinhos, 15 anos intimista/vestido/entrada, convenção de vendas, lista de convidados, renovação de votos. Itens 1 e 4 do backlog são refresh de posts publicados, tratados fora da fila. Status: pending -> in_progress -> published | failed. Autor único (Lin Zeri). Guardrails por item em notes; regras completas em docs/diretrizes-blog.md.",
+  "authors": [
+    "lin-zeri"
+  ],
+  "items": [
+    {
+      "id": "p3-hub",
+      "slug": "festa-de-15-anos-guia-completo",
+      "title": "Guia Completo da Festa de 15 Anos: Planejamento, Roteiro e Escolhas",
+      "template": "pillar-page",
+      "target_keyword": "festa de 15 anos",
+      "secondary_keywords": [
+        "como organizar festa de 15 anos",
+        "planejamento 15 anos",
+        "festa de debutante"
+      ],
+      "word_count": 3200,
+      "internal_links": [
+        "/eventos/15-anos",
+        "/blog/checklist-festa-15-anos-planejamento",
+        "/blog/tema-15-anos-ideias-modernas",
+        "/blog/valsa-15-anos-organizar",
+        "/estrutura",
+        "WhatsApp (16) 99129-4178"
+      ],
+      "coverImage": "/images/scenes/quinze-anos/espaco-coral-quinze-anos-02.webp",
+      "inlineImages": [
+        "/images/scenes/quinze-anos/espaco-coral-quinze-anos-03.webp",
+        "/images/scenes/quinze-anos/espaco-coral-quinze-anos-05.webp"
+      ],
+      "cluster": "15-anos",
+      "notes": "HUB do cluster de 15 anos. Deve linkar os 3 spokes existentes (checklist, temas, valsa) e ser o destino de relink deles. Pode narrar o case real dos 15 anos da Mel (autorizado, ver diretrizes 2026-07-08). Diferenciais concretos: sala privativa da debutante, espaço kids, capacidade 320, liberdade de fornecedores. Estacionamento com orientadores sem número de vagas. Artigos não tocam em regras da casa. Sem preços, CTA WhatsApp. Sem travessão.",
+      "status": "published",
+      "attempts": 1,
+      "last_error": null,
+      "started_at": "2026-05-21T00:00:00Z",
+      "last_score": 94,
+      "publish_date": "2026-05-21",
+      "author": "lin-zeri"
+    },
+    {
+      "id": "p3-espaco",
+      "slug": "como-escolher-espaco-festa-15-anos",
+      "title": "Como Escolher o Espaço para a Festa de 15 Anos",
+      "template": "how-to-guide",
+      "target_keyword": "espaço festa 15 anos",
+      "secondary_keywords": [
+        "salão festa 15 anos",
+        "espaço para debutante",
+        "escolher local festa 15 anos"
+      ],
+      "word_count": 1900,
+      "internal_links": [
+        "/eventos/15-anos",
+        "/blog/festa-de-15-anos-guia-completo",
+        "/blog/capacidade-espaco-casamento-calculo",
+        "/estrutura",
+        "WhatsApp (16) 99129-4178"
+      ],
+      "coverImage": "/images/scenes/quinze-anos/espaco-coral-quinze-anos-07.webp",
+      "inlineImages": [
+        "/images/scenes/quinze-anos/espaco-coral-quinze-anos-08.webp"
+      ],
+      "cluster": "15-anos",
+      "notes": "Spoke, linka o hub. Diferenciais reais: sala privativa da debutante, capacidade 320, área verde, liberdade de fornecedores. Estacionamento com orientadores sem número de vagas. Sem preços, CTA WhatsApp. Sem travessão.",
+      "status": "published",
+      "attempts": 1,
+      "last_error": null,
+      "started_at": "2026-05-25T00:00:00Z",
+      "last_score": 89,
+      "publish_date": "2026-05-25",
+      "author": "lin-zeri"
+    },
+    {
+      "id": "p3-roteiro",
+      "slug": "festa-15-anos-roteiro-hora-a-hora",
+      "title": "Roteiro da Festa de 15 Anos: Cronograma Hora a Hora",
+      "template": "tutorial",
+      "target_keyword": "cronograma festa 15 anos",
+      "secondary_keywords": [
+        "roteiro festa 15 anos",
+        "ordem festa debutante",
+        "programação 15 anos"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/eventos/15-anos",
+        "/blog/festa-de-15-anos-guia-completo",
+        "/blog/valsa-15-anos-organizar",
+        "WhatsApp (16) 99129-4178"
+      ],
+      "coverImage": "/images/scenes/quinze-anos/espaco-coral-quinze-anos-09.webp",
+      "inlineImages": [
+        "/images/scenes/quinze-anos/espaco-coral-quinze-anos-10.webp",
+        "/images/scenes/quinze-anos/espaco-coral-quinze-anos-11.webp"
+      ],
+      "cluster": "15-anos",
+      "notes": "Spoke, linka o hub e o post da valsa. Pode usar case da Mel (autorizado) para ilustrar momentos. Artigos não tocam em horário limite/regras da casa. Sem preços, CTA WhatsApp. Sem travessão.",
+      "status": "published",
+      "attempts": 1,
+      "last_error": null,
+      "started_at": "2026-06-03T00:00:00Z",
+      "last_score": 93,
+      "publish_date": "2026-06-03",
+      "author": "lin-zeri"
+    },
+    {
+      "id": "p3-orcamento",
+      "slug": "quanto-custa-festa-15-anos",
+      "title": "Quanto Custa uma Festa de 15 Anos: Guia de Investimento por Categoria",
+      "template": "data-research",
+      "target_keyword": "quanto custa festa de 15 anos",
+      "secondary_keywords": [
+        "orçamento festa 15 anos",
+        "custo debutante",
+        "distribuição orçamento 15 anos"
+      ],
+      "word_count": 1900,
+      "internal_links": [
+        "/blog/festa-de-15-anos-guia-completo",
+        "/blog/checklist-festa-15-anos-planejamento",
+        "/eventos/15-anos",
+        "WhatsApp (16) 99129-4178"
+      ],
+      "coverImage": "/images/scenes/quinze-anos/espaco-coral-quinze-anos-12.webp",
+      "inlineImages": [
+        "/images/scenes/quinze-anos/espaco-coral-quinze-anos-13.webp"
+      ],
+      "cluster": "15-anos",
+      "notes": "Spoke, linka o hub. NUNCA exibir preços do Espaço Coral: falar de distribuição percentual do orçamento e variáveis, direcionar valores ao WhatsApp. Espelhar a abordagem de quanto-custa-casar-batatais. Sem travessão.",
+      "status": "published",
+      "attempts": 1,
+      "last_error": null,
+      "started_at": "2026-05-30T00:00:00Z",
+      "last_score": 90,
+      "publish_date": "2026-05-30",
+      "author": "lin-zeri"
+    },
+    {
+      "id": "p3-tendencias",
+      "slug": "tendencias-festa-15-anos-2027",
+      "title": "Tendências de Festa de 15 Anos para 2027",
+      "template": "news-analysis",
+      "target_keyword": "tendências festa 15 anos",
+      "secondary_keywords": [
+        "tendências debutante 2027",
+        "temas 15 anos 2027",
+        "festa de 15 anos moderna"
+      ],
+      "word_count": 1700,
+      "internal_links": [
+        "/blog/festa-de-15-anos-guia-completo",
+        "/blog/tema-15-anos-ideias-modernas",
+        "/eventos/15-anos",
+        "WhatsApp (16) 99129-4178"
+      ],
+      "coverImage": "/images/scenes/quinze-anos/espaco-coral-quinze-anos-14.webp",
+      "inlineImages": [
+        "/images/scenes/quinze-anos/espaco-coral-quinze-anos-15.webp"
+      ],
+      "cluster": "15-anos",
+      "notes": "Spoke, linka o hub e o post de temas. Curadoria editorial sem hype, tom da marca. Sem preços, CTA WhatsApp. Sem travessão.",
+      "status": "published",
+      "attempts": 1,
+      "last_error": null,
+      "started_at": "2026-06-12T00:00:00Z",
+      "last_score": 93,
+      "publish_date": "2026-06-12",
+      "author": "lin-zeri"
+    },
+    {
+      "id": "p3-mae",
+      "slug": "guia-mae-da-debutante",
+      "title": "Guia da Mãe da Debutante: Como Conduzir o Planejamento dos 15 Anos",
+      "template": "thought-leadership",
+      "target_keyword": "como organizar festa de 15 anos da filha",
+      "secondary_keywords": [
+        "mãe da debutante",
+        "planejar 15 anos da filha",
+        "papel da mãe festa 15 anos"
+      ],
+      "word_count": 1700,
+      "internal_links": [
+        "/blog/festa-de-15-anos-guia-completo",
+        "/blog/checklist-festa-15-anos-planejamento",
+        "/eventos/15-anos",
+        "WhatsApp (16) 99129-4178"
+      ],
+      "coverImage": "/images/scenes/quinze-anos/espaco-coral-quinze-anos-16.webp",
+      "inlineImages": [
+        "/images/scenes/quinze-anos/espaco-coral-quinze-anos-17.webp"
+      ],
+      "cluster": "15-anos",
+      "notes": "Spoke, linka o hub. Público: mãe da debutante. Equilíbrio entre voz da aniversariante e curadoria da mãe. Pode citar case da Mel. Sem preços, CTA WhatsApp. Sem travessão.",
+      "status": "published",
+      "attempts": 1,
+      "last_error": null,
+      "started_at": "2026-06-08T00:00:00Z",
+      "last_score": 90,
+      "publish_date": "2026-06-08",
+      "author": "lin-zeri"
+    },
+    {
+      "id": "p2-hub",
+      "slug": "casamento-ao-ar-livre-interior-sp-guia",
+      "title": "Casamento ao Ar Livre no Interior de SP: Guia Completo",
+      "template": "pillar-page",
+      "target_keyword": "casamento ao ar livre",
+      "secondary_keywords": [
+        "casamento ao ar livre interior SP",
+        "cerimônia ao ar livre",
+        "casar ao ar livre"
+      ],
+      "word_count": 3200,
+      "internal_links": [
+        "/blog/casamento-ar-livre-batatais",
+        "/blog/cerimonia-por-do-sol-batatais",
+        "/blog/casamento-primavera-batatais",
+        "/blog/decoracao-casamento-outono",
+        "/blog/casamento-dia-noite-comparacao",
+        "/eventos/casamentos",
+        "WhatsApp (16) 99129-4178"
+      ],
+      "coverImage": "/images/scenes/cerimonia/espaco-coral-cerimonia-03.webp",
+      "inlineImages": [
+        "/images/scenes/decoracao/espaco-coral-decoracao-cerimonia-ar-livre-01.webp",
+        "/images/scenes/terraco/espaco-coral-terraco-01.webp"
+      ],
+      "cluster": "ar-livre",
+      "notes": "HUB do cluster ar livre. Destino de relink dos 5 spokes existentes (ar-livre-batatais, por-do-sol, primavera, outono, dia-noite). Clima: junho/julho/agosto secos e inverno AMENO em Batatais; não dramatizar frio, não sugerir aquecimento, conforto = salão climatizado. Sem seção de plano B (tratar só se inevitável em FAQ, 1-2 frases positivas sobre salão envidraçado). Reusar apenas estatísticas já citadas nos posts existentes (ABRAFESTA 1,3 mi casamentos 2026). Sem preços, CTA WhatsApp. Sem travessão.",
+      "status": "published",
+      "attempts": 1,
+      "last_error": null,
+      "started_at": "2026-05-12T00:00:00Z",
+      "last_score": 94,
+      "publish_date": "2026-05-12",
+      "author": "lin-zeri"
+    },
+    {
+      "id": "p2-inverno",
+      "slug": "casamento-inverno-interior-sp",
+      "title": "Casamento de Inverno no Interior de SP: A Estação Seca de Batatais",
+      "template": "thought-leadership",
+      "target_keyword": "casamento no inverno",
+      "secondary_keywords": [
+        "casar no inverno interior SP",
+        "casamento junho julho agosto",
+        "melhor mês para casar ao ar livre"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/blog/casamento-ao-ar-livre-interior-sp-guia",
+        "/blog/casamento-ar-livre-batatais",
+        "/blog/cerimonia-por-do-sol-batatais",
+        "/eventos/casamentos",
+        "WhatsApp (16) 99129-4178"
+      ],
+      "coverImage": "/images/scenes/cerimonia/espaco-coral-cerimonia-04.webp",
+      "inlineImages": [
+        "/images/scenes/terraco/espaco-coral-terraco-03.webp"
+      ],
+      "cluster": "ar-livre",
+      "notes": "Spoke, linka o hub. Ângulo: junho/julho/agosto = estação seca, menor chance de chuva, inverno AMENO em Batatais. NÃO dramatizar frio noturno, NÃO sugerir aquecimento, NÃO dizer que a cerimônia é curta. Conforto = salão climatizado. Sem seção de plano B. Sem preços, CTA WhatsApp. Sem travessão.",
+      "status": "published",
+      "attempts": 1,
+      "last_error": null,
+      "started_at": "2026-07-08T00:00:00Z",
+      "last_score": 90,
+      "publish_date": "2026-07-08",
+      "author": "lin-zeri"
+    },
+    {
+      "id": "p2-campo",
+      "slug": "casamento-no-campo-interior-sp",
+      "title": "Casamento no Campo Sem Sair de SP: Área Verde e Estrutura Completa",
+      "template": "listicle",
+      "target_keyword": "casamento no campo",
+      "secondary_keywords": [
+        "casamento no campo interior SP",
+        "casamento rústico ao ar livre",
+        "casar no campo perto de Ribeirão Preto"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/blog/casamento-ao-ar-livre-interior-sp-guia",
+        "/blog/casamento-ar-livre-batatais",
+        "/cidades/ribeirao-preto",
+        "/eventos/casamentos",
+        "WhatsApp (16) 99129-4178"
+      ],
+      "coverImage": "/images/scenes/terraco/espaco-coral-terraco-04.webp",
+      "inlineImages": [
+        "/images/scenes/ambientes/espaco-coral-ambientes-area-verde-01.webp"
+      ],
+      "cluster": "ar-livre",
+      "notes": "Spoke, linka o hub. Ângulo: clima de campo com estrutura completa (salão climatizado, sala da noiva, estacionamento com orientadores), sem abrir mão de conforto. Liberdade de fornecedores. Sem preços, CTA WhatsApp. Sem travessão.",
+      "status": "published",
+      "attempts": 1,
+      "last_error": null,
+      "started_at": "2026-06-25T00:00:00Z",
+      "last_score": 93,
+      "publish_date": "2026-06-25",
+      "author": "lin-zeri"
+    },
+    {
+      "id": "p2-golden",
+      "slug": "golden-hour-fotografia-casamento-batatais",
+      "title": "Golden Hour: Luz e Fotografia de Casamento no Interior Paulista",
+      "template": "how-to-guide",
+      "target_keyword": "horário fotos casamento",
+      "secondary_keywords": [
+        "golden hour casamento",
+        "luz do fim de tarde casamento",
+        "melhor horário fotos casamento ar livre"
+      ],
+      "word_count": 1700,
+      "internal_links": [
+        "/blog/casamento-ao-ar-livre-interior-sp-guia",
+        "/blog/cerimonia-por-do-sol-batatais",
+        "/eventos/casamentos",
+        "WhatsApp (16) 99129-4178"
+      ],
+      "coverImage": "/images/scenes/cerimonia/espaco-coral-cerimonia-05.webp",
+      "inlineImages": [
+        "/images/scenes/terraco/espaco-coral-terraco-05.webp"
+      ],
+      "cluster": "ar-livre",
+      "notes": "Spoke, linka o hub. DIFERENCIAR do post de pôr do sol: aqui o foco é FOTOGRAFIA e luz (não cronometragem da cerimônia). Evitar canibalizar cerimonia-por-do-sol. Sem preços, CTA WhatsApp. Sem travessão.",
+      "status": "published",
+      "attempts": 1,
+      "last_error": null,
+      "started_at": "2026-06-29T00:00:00Z",
+      "last_score": 89,
+      "publish_date": "2026-06-29",
+      "author": "lin-zeri"
+    },
+    {
+      "id": "p1-calendario",
+      "slug": "calendario-casamento-regiao-ribeirao-datas",
+      "title": "Calendário de Casamento na Região de Ribeirão Preto: Datas para Marcar e Evitar",
+      "template": "listicle",
+      "target_keyword": "melhor data casamento interior SP",
+      "secondary_keywords": [
+        "quando casar região Ribeirão Preto",
+        "datas para evitar casamento",
+        "calendário casamento Batatais"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/blog/guia-casamento-batatais-2027",
+        "/blog/quando-reservar-espaco-casamento",
+        "/blog/casamento-ribeirao-preto-regiao",
+        "/cidades/ribeirao-preto",
+        "WhatsApp (16) 99129-4178"
+      ],
+      "coverImage": "/images/scenes/casamentos/espaco-coral-casamento-brinde-01.webp",
+      "inlineImages": [
+        "/images/scenes/decoracao-mesas/espaco-coral-decoracao-mesa-posta-02.webp"
+      ],
+      "cluster": "casamento",
+      "notes": "Spoke do cluster Batatais, linka o hub existente (guia-casamento-batatais-2027). Ângulo distinto do post do Ribeirão: calendário local (Agrishow em Ribeirão, feriados prolongados, alta/baixa temporada, impacto em hospedagem e fornecedores). NÃO repetir a comparação cidade vs interior nem logística de convidados (já cobertos por casamento-ribeirao-preto-regiao). Clima: inverno ameno, sem aquecimento. Sem preços, CTA WhatsApp. Sem travessão.",
+      "status": "published",
+      "attempts": 1,
+      "last_error": null,
+      "started_at": "2026-06-21T00:00:00Z",
+      "last_score": 92,
+      "publish_date": "2026-06-21",
+      "author": "lin-zeri"
+    },
+    {
+      "id": "p4-hub",
+      "slug": "eventos-corporativos-interior-sp-guia",
+      "title": "Guia de Eventos Corporativos no Interior de SP",
+      "template": "pillar-page",
+      "target_keyword": "evento corporativo",
+      "cluster": "corporativo",
+      "notes": "HUB do cluster corporativo (produzido via dry-run do blog-loop em 09/07, score 91, factcheck 3/3). Linka os 3 spokes existentes.",
+      "status": "published",
+      "attempts": 1,
+      "last_error": null,
+      "started_at": "2026-07-15T00:00:00Z",
+      "last_score": 91,
+      "publish_date": "2026-07-15",
+      "author": "lin-zeri"
+    },
+    {
+      "id": "p4-ideias",
+      "slug": "ideias-confraternizacao-fim-de-ano-empresa",
+      "title": "Ideias para a Confraternização de Fim de Ano da Empresa: Formato e Programação",
+      "template": "listicle",
+      "target_keyword": "ideias para confraternização de fim de ano empresa",
+      "secondary_keywords": [
+        "programação confraternização empresa",
+        "como organizar festa de fim de ano empresa",
+        "atividades para confraternização corporativa"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/blog/confraternizacao-fim-ano-espaco-empresa",
+        "/blog/eventos-corporativos-interior-sp-guia",
+        "/blog/lancamento-produto-evento",
+        "/estrutura",
+        "WhatsApp (16) 99129-4178"
+      ],
+      "cluster": "corporativo",
+      "notes": "Spoke do cluster corporativo, prioridade máxima, publicar até 10/10. Intenção distinta do spoke confraternizacao-fim-ano-espaco-empresa (que responde 'como escolher o espaço'): este responde 'que formato e programação escolher'. Linkar o hub eventos-corporativos-interior-sp-guia. Sem preços, CTA WhatsApp. Sem travessão.",
+      "status": "published",
+      "attempts": 2,
+      "last_error": null,
+      "started_at": "2026-09-17T14:13:24.920876+00:00",
+      "last_score": 82,
+      "publish_date": "2026-09-17",
+      "author": "lin-zeri",
+      "iteration_id": "5a555d61",
+      "commit_sha": "1b261e369f54b4f6c5351f7bd095db8185b1a524",
+      "published_date": "2026-09-17"
+    },
+    {
+      "id": "p5-hub",
+      "slug": "mini-wedding-guia-completo",
+      "title": "Mini Wedding: Guia Completo para Organizar no Interior de SP",
+      "template": "pillar-page",
+      "target_keyword": "mini wedding",
+      "secondary_keywords": [
+        "mini wedding interior de são paulo",
+        "casamento intimista completo",
+        "mini wedding sem mínimo de convidados"
+      ],
+      "word_count": 3200,
+      "internal_links": [
+        "/blog/casamento-pequeno-vs-grande",
+        "/blog/capacidade-espaco-casamento-calculo",
+        "/blog/casamento-intimista-interior-sp",
+        "/blog/decoracao-mini-wedding",
+        "/blog/renovacao-de-votos-cerimonia",
+        "/estrutura",
+        "WhatsApp (16) 99129-4178"
+      ],
+      "cluster": "mini-wedding",
+      "notes": "HUB do Pilar 5 (mini wedding e casamento intimista), prioridade máxima, publicar até 15/10. Ângulo único: estrutura completa sem restrição de número mínimo de convidados (fato cravado 08/07/2026, ver diretrizes-blog.md). O interior como alternativa aos espaços pequenos da capital. Atenção à canibalização: casamento-pequeno-vs-grande responde 'qual tamanho escolher', capacidade-espaco-casamento-calculo responde 'quantos cabem'; este hub responde 'o que é e como fazer'. Relinkar os 2 posts publicados do cluster para o hub assim que publicado. Rodar /blog cannibalization depois. Sem preços, CTA WhatsApp. Sem travessão.",
+      "status": "published",
+      "attempts": 2,
+      "last_error": null,
+      "started_at": "2026-09-17T14:13:25.011800+00:00",
+      "last_score": 80,
+      "publish_date": "2026-09-18",
+      "author": "lin-zeri",
+      "iteration_id": "5a555d61",
+      "commit_sha": "492074d85a796470765f6a3799486df6eb26c105",
+      "published_date": "2026-09-18"
+    },
+    {
+      "id": "p5-intimista",
+      "slug": "casamento-intimista-interior-sp",
+      "title": "Casamento Intimista no Interior de SP: Por Que Vale a Pena",
+      "template": "thought-leadership",
+      "target_keyword": "casamento intimista",
+      "secondary_keywords": [
+        "casamento intimista interior de são paulo",
+        "vantagens do casamento intimista",
+        "mini wedding vs casamento intimista"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/blog/mini-wedding-guia-completo",
+        "/blog/casamento-pequeno-vs-grande",
+        "/blog/sala-da-noiva-importancia",
+        "/estrutura",
+        "WhatsApp (16) 99129-4178"
+      ],
+      "cluster": "mini-wedding",
+      "notes": "Spoke do Pilar 5, prioridade alta. Linkar o hub mini-wedding-guia-completo assim que publicado. Reforçar estrutura completa sem número mínimo de convidados. Sem preços, CTA WhatsApp. Sem travessão.",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null,
+      "publish_date": null,
+      "author": null
+    },
+    {
+      "id": "p1-padrinhos",
+      "slug": "padrinhos-de-casamento-guia",
+      "title": "Padrinhos de Casamento: Quantos Escolher, Como Convidar e Onde Entram na Cerimônia",
+      "template": "how-to-guide",
+      "target_keyword": "padrinhos de casamento",
+      "secondary_keywords": [
+        "quantos padrinhos de casamento",
+        "como convidar padrinhos de casamento",
+        "posição dos padrinhos na cerimônia"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/blog/guia-casamento-batatais-2027",
+        "/blog/roteiro-casamento-cronograma-hora-a-hora",
+        "/blog/lista-de-convidados-casamento",
+        "/estrutura",
+        "WhatsApp (16) 99129-4178"
+      ],
+      "cluster": "casamento",
+      "notes": "Spoke do cluster Batatais (Pilar 1), prioridade alta. Linkar o hub guia-casamento-batatais-2027 e o roteiro hora a hora. Sem preços, CTA WhatsApp. Sem travessão.",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null,
+      "publish_date": null,
+      "author": null
+    },
+    {
+      "id": "p3-intimista",
+      "slug": "festa-15-anos-intimista",
+      "title": "Festa de 15 Anos Intimista: Menos Convidados, Mesma Estrutura",
+      "template": "how-to-guide",
+      "target_keyword": "festa de 15 anos simples",
+      "secondary_keywords": [
+        "festa de 15 anos com poucos convidados",
+        "festa de 15 anos intimista",
+        "festa de 15 anos enxuta"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/blog/festa-de-15-anos-guia-completo",
+        "/blog/como-escolher-espaco-festa-15-anos",
+        "/blog/quanto-custa-festa-15-anos",
+        "/estrutura",
+        "WhatsApp (16) 99129-4178"
+      ],
+      "cluster": "15-anos",
+      "notes": "Spoke do Pilar 3, prioridade máxima. Ângulo 'simples' = enxuta e bem feita, nunca 'barata'. Regra 'sem número mínimo de convidados' confirmada para 15 anos em 17/09/2026 (ver diretrizes-blog.md). Linkar o hub festa-de-15-anos-guia-completo. Sem preços, CTA WhatsApp. Sem travessão.",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null,
+      "publish_date": null,
+      "author": null
+    },
+    {
+      "id": "p3-vestido",
+      "slug": "vestido-15-anos-festa",
+      "title": "Vestido de 15 Anos Pensado para a Noite Inteira: Troca, Valsa e Sala Privativa",
+      "template": "listicle",
+      "target_keyword": "vestido de 15 anos",
+      "secondary_keywords": [
+        "troca de vestido festa 15 anos",
+        "vestido de 15 anos para valsa",
+        "sala privativa da debutante"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/blog/valsa-15-anos-organizar",
+        "/blog/festa-15-anos-roteiro-hora-a-hora",
+        "/blog/festa-de-15-anos-guia-completo",
+        "/estrutura",
+        "WhatsApp (16) 99129-4178"
+      ],
+      "cluster": "15-anos",
+      "notes": "Spoke do Pilar 3, prioridade alta. Ângulo de venue, não de moda: a troca de vestido acontece na sala privativa da debutante, não é matéria de estilismo. Linkar valsa-15-anos-organizar e o hub. Sem preços, CTA WhatsApp. Sem travessão.",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null,
+      "publish_date": null,
+      "author": null
+    },
+    {
+      "id": "p4-convencao",
+      "slug": "convencao-de-vendas-como-organizar",
+      "title": "Convenção de Vendas: Como Organizar no Interior de SP",
+      "template": "how-to-guide",
+      "target_keyword": "convenção de vendas",
+      "secondary_keywords": [
+        "como organizar convenção de vendas",
+        "espaço para convenção de vendas",
+        "convenção de vendas empresarial"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/blog/eventos-corporativos-interior-sp-guia",
+        "/blog/formatura-empresarial-roteiro",
+        "/estrutura",
+        "WhatsApp (16) 99129-4178"
+      ],
+      "cluster": "corporativo",
+      "notes": "Spoke do cluster corporativo, prioridade alta, publicar até 15/11 (pico de buscas em janeiro, maior valor comercial do cluster). Linkar o hub eventos-corporativos-interior-sp-guia. Sem preços, CTA WhatsApp. Sem travessão.",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null,
+      "publish_date": null,
+      "author": null
+    },
+    {
+      "id": "p1-convidados",
+      "slug": "lista-de-convidados-casamento",
+      "title": "Lista de Convidados do Casamento: Como Montar e Cortar sem Briga",
+      "template": "how-to-guide",
+      "target_keyword": "lista de convidados casamento",
+      "secondary_keywords": [
+        "como montar lista de convidados casamento",
+        "como cortar lista de convidados",
+        "quem convidar para o casamento"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/blog/capacidade-espaco-casamento-calculo",
+        "/blog/guia-casamento-batatais-2027",
+        "/blog/acabei-de-noivar-primeiros-passos",
+        "/estrutura",
+        "WhatsApp (16) 99129-4178"
+      ],
+      "cluster": "casamento",
+      "notes": "Spoke do Pilar 1. Diferenciar de capacidade-espaco-casamento-calculo (aquele responde 'quantos cabem', este responde 'quem entra'). Linkar o hub guia-casamento-batatais-2027. Sem preços, CTA WhatsApp. Sem travessão.",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null,
+      "publish_date": null,
+      "author": null
+    },
+    {
+      "id": "p5-votos",
+      "slug": "renovacao-de-votos-cerimonia",
+      "title": "Renovação de Votos: Como Organizar a Cerimônia",
+      "template": "how-to-guide",
+      "target_keyword": "renovação de votos",
+      "secondary_keywords": [
+        "cerimônia de renovação de votos",
+        "como organizar renovação de votos",
+        "renovação de votos ao ar livre"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/blog/mini-wedding-guia-completo",
+        "/blog/casamento-ao-ar-livre-interior-sp-guia",
+        "/blog/cerimonia-por-do-sol-batatais",
+        "/estrutura",
+        "WhatsApp (16) 99129-4178"
+      ],
+      "cluster": "mini-wedding",
+      "notes": "Spoke do Pilar 5, prioridade média. Cerimônia ao ar livre, recomendar junho a agosto (melhores meses; nunca recomendar céu aberto de novembro a fevereiro). Linkar o hub mini-wedding-guia-completo. Sem preços, CTA WhatsApp. Sem travessão.",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null,
+      "publish_date": null,
+      "author": null
+    },
+    {
+      "id": "p3-entrada",
+      "slug": "entrada-debutante-cerimonial",
+      "title": "Entrada da Debutante: Cerimonial, 15 Velas e Homenagens",
+      "template": "tutorial",
+      "target_keyword": "entrada da debutante",
+      "secondary_keywords": [
+        "cerimonial de 15 anos entrada",
+        "valsa das 15 velas",
+        "homenagens festa de 15 anos"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/blog/festa-15-anos-roteiro-hora-a-hora",
+        "/blog/valsa-15-anos-organizar",
+        "/blog/festa-de-15-anos-guia-completo",
+        "/estrutura",
+        "WhatsApp (16) 99129-4178"
+      ],
+      "cluster": "15-anos",
+      "notes": "Spoke do Pilar 3, prioridade média. Validar volumes das variantes de keyword antes do brief (entrada da debutante + variantes). Linkar o roteiro hora a hora e o hub. Sem preços, CTA WhatsApp. Sem travessão.",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null,
+      "publish_date": null,
+      "author": null
+    },
+    {
+      "id": "p5-decoracao",
+      "slug": "decoracao-mini-wedding",
+      "title": "Decoração de Mini Wedding: Ideias para um Casamento Intimista",
+      "template": "listicle",
+      "target_keyword": "decoração mini wedding",
+      "secondary_keywords": [
+        "ideias de decoração para mini wedding",
+        "decoração casamento intimista",
+        "decoração para poucos convidados"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/blog/mini-wedding-guia-completo",
+        "/blog/casamento-intimista-interior-sp",
+        "/blog/decoracao-casamento-outono",
+        "/estrutura",
+        "WhatsApp (16) 99129-4178"
+      ],
+      "cluster": "mini-wedding",
+      "notes": "Spoke do Pilar 5, prioridade média. Fotos de decoracao-mesas e decoracao-flores (public/images/scenes/decoracao/). Linkar o hub mini-wedding-guia-completo. Sem preços, CTA WhatsApp. Sem travessão.",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null,
+      "publish_date": null,
+      "author": null
+    }
+  ],
+  "author_daily_counts": {
+    "2026-09-17": {
+      "lin-zeri": 1
+    },
+    "2026-09-18": {
+      "lin-zeri": 1
+    }
+  }
+}

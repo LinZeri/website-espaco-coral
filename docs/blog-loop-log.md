@@ -1,0 +1,2 @@
+| 2026-09-17T17:45:02Z | ideias-confraternizacao-fim-de-ano-empresa | corporativo | lin-zeri | 82 | 1 | 2026-09-17 | 1b261e369f54b4f6c5351f7bd095db8185b1a524 | 0 | blog_loop_cli_backend,batch_1,factcheck_year_fix_manual |
+| 2026-09-17T17:45:02Z | mini-wedding-guia-completo | mini-wedding | lin-zeri | 80 | 1 | 2026-09-18 | 492074d85a796470765f6a3799486df6eb26c105 | 0 | blog_loop_cli_backend,batch_1,frontmatter_pillar_status_fix_manual,mdx_comment_fix_manual |

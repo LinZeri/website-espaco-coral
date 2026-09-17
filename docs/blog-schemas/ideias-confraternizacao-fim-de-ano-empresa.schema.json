@@ -1,0 +1,175 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://coraleventos.com.br/blog/ideias-confraternizacao-fim-de-ano-empresa#article",
+      "headline": "Ideias para Confraternização de Fim de Ano: 6 Formatos com Programação",
+      "description": "6 formatos de confraternização de fim de ano para empresas: jantar de gala, happy hour temático, estações ao ar livre e mais. Com roteiro de programação por tipo de equipe.",
+      "datePublished": "2026-09-17",
+      "dateModified": "2026-09-17",
+      "inLanguage": "pt-BR",
+      "wordCount": 1800,
+      "keywords": [
+        "confraternização de fim de ano",
+        "programação confraternização empresa",
+        "como organizar festa de fim de ano empresa",
+        "atividades para confraternização corporativa",
+        "eventos corporativos interior SP"
+      ],
+      "articleSection": "Eventos Corporativos",
+      "articleBody": "Todo gestor de RH, eventos ou administrativo chega a setembro com a mesma pergunta: o que fazer na confraternização deste ano? Este artigo apresenta 6 formatos de confraternização de fim de ano com roteiro de programação real, para empresas de diferentes tamanhos e perfis no interior de SP.",
+      "author": {
+        "@id": "https://coraleventos.com.br/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://coraleventos.com.br#organization"
+      },
+      "image": {
+        "@id": "https://coraleventos.com.br/blog/ideias-confraternizacao-fim-de-ano-empresa#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://coraleventos.com.br/blog/ideias-confraternizacao-fim-de-ano-empresa"
+      },
+      "isPartOf": {
+        "@id": "https://coraleventos.com.br/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Confraternização de fim de ano"
+        },
+        {
+          "@type": "Thing",
+          "name": "Eventos corporativos"
+        },
+        {
+          "@type": "Thing",
+          "name": "Programação de eventos"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://coraleventos.com.br/sobre#person",
+      "name": "Lin Zeri",
+      "url": "https://coraleventos.com.br/sobre"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://coraleventos.com.br#organization",
+      "name": "Espaço Coral",
+      "url": "https://coraleventos.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://coraleventos.com.br/images/logo/logo-coral-completo.svg"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://coraleventos.com.br#website",
+      "url": "https://coraleventos.com.br",
+      "name": "Espaço Coral",
+      "publisher": {
+        "@id": "https://coraleventos.com.br#organization"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://coraleventos.com.br/blog#blog",
+      "name": "Blog Espaço Coral",
+      "url": "https://coraleventos.com.br/blog",
+      "publisher": {
+        "@id": "https://coraleventos.com.br#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://coraleventos.com.br/blog/ideias-confraternizacao-fim-de-ano-empresa",
+      "url": "https://coraleventos.com.br/blog/ideias-confraternizacao-fim-de-ano-empresa",
+      "name": "Ideias para Confraternização de Fim de Ano: 6 Formatos com Programação",
+      "description": "6 formatos de confraternização de fim de ano para empresas: jantar de gala, happy hour temático, estações ao ar livre e mais. Com roteiro de programação por tipo de equipe.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://coraleventos.com.br#website"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://coraleventos.com.br/blog/ideias-confraternizacao-fim-de-ano-empresa#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://coraleventos.com.br/blog/ideias-confraternizacao-fim-de-ano-empresa#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://coraleventos.com.br/blog/ideias-confraternizacao-fim-de-ano-empresa#primaryimage",
+      "url": "https://coraleventos.com.br/images/scenes/bancos-gerais/corporativo/espaco-coral-bancos-gerais-corporativo-02.webp",
+      "width": 1080,
+      "height": 720,
+      "caption": "Salão do Espaço Coral montado para confraternização corporativa em Batatais SP"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://coraleventos.com.br/blog/ideias-confraternizacao-fim-de-ano-empresa#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://coraleventos.com.br"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://coraleventos.com.br/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Ideias para Confraternização de Fim de Ano: 6 Formatos com Programação",
+          "item": "https://coraleventos.com.br/blog/ideias-confraternizacao-fim-de-ano-empresa"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://coraleventos.com.br/blog/ideias-confraternizacao-fim-de-ano-empresa#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Qual a duração ideal de uma confraternização de fim de ano?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "4 a 6 horas para eventos completos com jantar e atração; 3 a 4 horas para happy hour corporativo. Definir o horário de encerramento antes de começar é tão importante quanto o de abertura. Eventos sem encerramento planejado tendem a se arrastar ou a terminar de forma abrupta, deixando impressão negativa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A empresa precisa contratar cerimonialista para confraternização?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Em eventos acima de 80 participantes com múltiplos fornecedores (buffet, decoração, som, atração), cerimonialista corporativo coordena o cronograma e gerencia imprevistos no dia. Para confraternizações menores, gestor de RH com checklist detalhado consegue coordenar sem terceirizar a função."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Buffet incluso no espaço ou contratado separadamente?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No interior de SP, o modelo dominante é buffet contratado separadamente do espaço. A empresa escolhe o estilo (servido, self-service ou estações), o cardápio e a equipe. O espaço fornece a estrutura física; o buffet entrega a experiência gastronômica. Essa liberdade evita cardápios engessados e permite adequar o custo ao perfil do evento."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O estacionamento precisa ser próprio para confraternização corporativa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim, especialmente no interior, onde confraternizações raramente têm traslado organizado. Cada colaborador vai e vem com carro próprio. Estacionamento com orientadores é diferencial operacional que reduz o stress de chegada e garante saída organizada."
+          }
+        }
+      ]
+    }
+  ]
+}
