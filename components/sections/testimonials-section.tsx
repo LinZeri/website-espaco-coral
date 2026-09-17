@@ -126,7 +126,7 @@ export function TestimonialsSection() {
       <div className="px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
         {/* Cabeçalho */}
         <div className="mx-auto max-w-2xl text-center">
-          <p className="mb-4 text-xs uppercase tracking-widest text-muted-foreground">
+          <p className="mb-4 text-xs uppercase tracking-widest text-foreground/70">
             Avaliações reais
           </p>
           <h2 className="text-3xl font-medium tracking-tight text-foreground md:text-4xl lg:text-5xl">
