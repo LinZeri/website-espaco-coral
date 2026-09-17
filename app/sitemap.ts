@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getAllPostSummaries, getAllClusterSlugs, getPostsByTag } from "@/lib/blog-utils";
+import { getAllCaseStudySummaries } from "@/lib/case-studies";
 import { SITE_URL } from "@/lib/seo-config";
 
 /**
@@ -21,6 +22,7 @@ const STATIC_PATHS = [
   "/estrutura",
   "/estrutura/mobiliario",
   "/galeria",
+  "/eventos-realizados",
   "/cidades",
   "/cidades/ribeirao-preto",
   "/cidades/franca",
@@ -44,6 +46,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(post.lastUpdated ?? post.publishDate),
   }));
 
+  // Estudos de caso publicados: getAllCaseStudySummaries filtra status + publishDate.
+  // Drafts e cases com publishDate futura não entram no sitemap.
+  const caseStudies: MetadataRoute.Sitemap = getAllCaseStudySummaries({
+    includeDrafts: false,
+  }).map((item) => ({
+    url: `${SITE_URL}/eventos-realizados/${item.slug}`,
+    lastModified: new Date(item.lastUpdated ?? item.publishDate),
+  }));
+
   // Cluster pages (tags + pilares): só inclui se houver posts publicados
   // (getAllClusterSlugs() já consulta posts publicados e filtra por threshold).
   // lastmod real: a data mais recente entre os posts do cluster.
@@ -58,5 +69,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     };
   });
 
-  return [...staticEntries, ...blogPosts, ...tagPages];
+  return [...staticEntries, ...caseStudies, ...blogPosts, ...tagPages];
 }

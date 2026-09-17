@@ -2,7 +2,7 @@
  * Geradores de Schema.org JSON-LD reutilizáveis.
  *
  * Estratégia: usar @graph para encadear múltiplas entidades por página
- * (ex: home tem EventVenue + LocalBusiness + AggregateRating + WebSite + BreadcrumbList).
+ * (ex: home tem EventVenue + LocalBusiness + WebSite + BreadcrumbList).
  *
  * Validar sempre em https://search.google.com/test/rich-results após mudanças.
  */
@@ -14,7 +14,6 @@ import {
   CONTACT,
   GEO,
   OPENING_HOURS,
-  REVIEWS,
   SITE_URL,
   SOCIAL,
   VENUE,
@@ -41,13 +40,16 @@ const geoCoordinates = {
   longitude: GEO.longitude,
 };
 
-const aggregateRating = {
-  "@type": "AggregateRating",
-  ratingValue: REVIEWS.ratingValue,
-  reviewCount: REVIEWS.reviewCount,
-  bestRating: REVIEWS.bestRating,
-  worstRating: REVIEWS.worstRating,
-};
+// `aggregateRating` foi removido do venue() (ver git log): os valores que
+// alimentavam esse bloco, em REVIEWS (lib/seo-config.ts), são as notas do
+// Google Business Profile copiadas para dentro do nosso próprio schema. As
+// diretrizes do Google tratam isso como review markup de fonte terceira
+// ("don't use review markup... that reflects ratings pulled from another
+// site"), independente de a nota ser real, e o valor também já estava
+// desatualizado (última sync documentada: 08/07/2026). Reintroduzir só com
+// uma fonte de avaliação própria de primeira parte (ex: formulário no site)
+// ou uma sincronização automatizada com a API do Google Business Profile.
+// Ver auditoria SEO de 16/09/2026.
 
 const amenityFeatures = VENUE.amenities.map((name) => ({
   "@type": "LocationFeatureSpecification",
@@ -102,7 +104,6 @@ function venue() {
     maximumAttendeeCapacity: VENUE.maxAttendeeCapacity,
     areaServed: AREAS_SERVED as unknown as string[],
     amenityFeature: amenityFeatures,
-    aggregateRating,
     sameAs: [SOCIAL.instagram, SOCIAL.facebook],
     foundingDate: BUSINESS.founded,
   };
@@ -358,8 +359,7 @@ export function galeriaSchema() {
  * /sobre: AboutPage + Organization + EventVenue + Breadcrumb.
  *
  * Reforça sinais de E-E-A-T: identidade do negócio, localização,
- * histórico (foundingDate), prova social (aggregateRating via venue),
- * e relação com a página através de `mainEntity`.
+ * histórico (foundingDate) e relação com a página através de `mainEntity`.
  */
 export function sobreSchema() {
   return {
@@ -628,6 +628,158 @@ export function blogTagSchema(
         },
       },
       breadcrumb(breadcrumbItems),
+    ],
+  };
+}
+
+/**
+ * Estudo de caso de evento real: `/eventos-realizados/<slug>`.
+ *
+ * Modelado como `Article` (relato experiencial em primeira pessoa) + `ImageGallery`
+ * das fotos do evento + `BreadcrumbList`. O autor é uma `Person` que `worksFor` a
+ * Organization, e o artigo aponta (`about`/`locationCreated`) para o `@id` do venue,
+ * amarrando a experiência ao espaço físico.
+ *
+ * Não usa `Event`: schema.org/Event serve para eventos futuros/descobríveis, não
+ * para um evento privado passado.
+ */
+export interface CaseStudySchemaInput {
+  url: string;
+  headline: string;
+  description: string;
+  image?: string;
+  imageAlt?: string;
+  imageWidth?: number;
+  imageHeight?: number;
+  datePublished: string;
+  dateModified?: string;
+  authorName?: string;
+  authorBio?: string;
+  keywords?: string[];
+  wordCount?: number;
+  /** Fotos do evento para o ImageGallery. */
+  photos?: Array<{ url: string; caption: string }>;
+}
+
+export function caseStudySchema(
+  input: CaseStudySchemaInput,
+  breadcrumbItems: BreadcrumbItem[],
+  faqs?: FaqPair[]
+) {
+  const absoluteUrl = input.url.startsWith("http")
+    ? input.url
+    : `${SITE_URL}${input.url}`;
+  const toAbsolute = (src: string) =>
+    src.startsWith("http") ? src : `${SITE_URL}${src}`;
+
+  const article: Record<string, unknown> = {
+    "@type": "Article",
+    "@id": `${absoluteUrl}#article`,
+    headline: input.headline.slice(0, 110),
+    description: input.description,
+    url: absoluteUrl,
+    inLanguage: "pt-BR",
+    datePublished: input.datePublished,
+    dateModified: input.dateModified ?? input.datePublished,
+    mainEntityOfPage: { "@type": "WebPage", "@id": absoluteUrl },
+    publisher: { "@id": ORG_ID },
+    about: { "@id": VENUE_ID },
+    locationCreated: { "@id": VENUE_ID },
+    author: input.authorName
+      ? {
+          "@type": "Person",
+          name: input.authorName,
+          url: `${SITE_URL}/sobre`,
+          description: input.authorBio,
+          worksFor: { "@id": ORG_ID },
+        }
+      : { "@id": ORG_ID },
+  };
+
+  if (input.image) {
+    const imageObject: Record<string, unknown> = {
+      "@type": "ImageObject",
+      url: toAbsolute(input.image),
+      caption: input.imageAlt,
+    };
+    if (input.imageWidth && input.imageHeight) {
+      imageObject.width = input.imageWidth;
+      imageObject.height = input.imageHeight;
+    }
+    article.image = imageObject;
+  }
+  if (input.keywords && input.keywords.length > 0) {
+    article.keywords = input.keywords.join(", ");
+  }
+  if (typeof input.wordCount === "number") {
+    article.wordCount = input.wordCount;
+  }
+
+  const graph: Array<Record<string, unknown>> = [organization(), venue(), article];
+
+  if (input.photos && input.photos.length > 0) {
+    graph.push({
+      "@type": "ImageGallery",
+      "@id": `${absoluteUrl}#gallery`,
+      name: input.headline,
+      url: absoluteUrl,
+      isPartOf: { "@id": `${absoluteUrl}#article` },
+      publisher: { "@id": ORG_ID },
+      image: input.photos.map((photo) => ({
+        "@type": "ImageObject",
+        url: toAbsolute(photo.url),
+        caption: photo.caption,
+      })),
+    });
+  }
+
+  graph.push(breadcrumb(breadcrumbItems));
+
+  if (faqs && faqs.length > 0) {
+    graph.push(faqPage(absoluteUrl, faqs));
+  }
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": graph,
+  };
+}
+
+/**
+ * Índice `/eventos-realizados`: CollectionPage + ItemList + Breadcrumb.
+ * Espelha o padrão de blogTagSchema.
+ */
+export function eventosRealizadosHubSchema(
+  cases: Array<{ url: string; headline: string; datePublished: string }>
+) {
+  const absoluteUrl = `${SITE_URL}/eventos-realizados`;
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      organization(),
+      venue(),
+      {
+        "@type": "CollectionPage",
+        "@id": `${absoluteUrl}#collection`,
+        url: absoluteUrl,
+        name: `Eventos realizados no ${BUSINESS.name}`,
+        description: `Estudos de caso de casamentos, festas de 15 anos e eventos reais realizados no ${BUSINESS.name}, em ${ADDRESS.addressLocality}, ${ADDRESS.addressRegion}.`,
+        inLanguage: "pt-BR",
+        isPartOf: { "@id": WEBSITE_ID },
+        mainEntity: {
+          "@type": "ItemList",
+          itemListElement: cases.map((item, i) => ({
+            "@type": "ListItem",
+            position: i + 1,
+            url: item.url.startsWith("http") ? item.url : `${SITE_URL}${item.url}`,
+            name: item.headline,
+          })),
+        },
+      },
+      breadcrumb([
+        { name: "Início", url: "/" },
+        { name: "Eventos realizados", url: "/eventos-realizados" },
+      ]),
     ],
   };
 }

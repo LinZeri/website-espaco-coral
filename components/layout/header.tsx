@@ -21,6 +21,7 @@ const navLinks: NavLink[] = [
       { label: "Casamentos", href: "/eventos/casamentos" },
       { label: "Festas de 15 Anos", href: "/eventos/15-anos" },
       { label: "Corporativo", href: "/eventos/corporativo" },
+      { label: "Eventos Realizados", href: "/eventos-realizados" },
     ],
   },
   { label: "Galeria", href: "/galeria" },

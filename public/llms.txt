@@ -49,6 +49,7 @@
 - [Festas de 15 Anos](https://coraleventos.com.br/eventos/15-anos): debutantes em Batatais e região
 - [Eventos Corporativos](https://coraleventos.com.br/eventos/corporativo): confraternizações, formaturas e eventos empresariais
 - [Galeria](https://coraleventos.com.br/galeria): fotos de eventos realizados no espaço
+- [Eventos Realizados](https://coraleventos.com.br/eventos-realizados): estudos de caso de casamentos e festas reais no espaço, com relato e fotos
 - [Cidades atendidas](https://coraleventos.com.br/cidades): hub das cidades da região atendidas pelo espaço
 - [Ribeirão Preto](https://coraleventos.com.br/cidades/ribeirao-preto): informações para quem vem de Ribeirão Preto (70 km, ~50 min pela Anhanguera)
 - [Franca](https://coraleventos.com.br/cidades/franca): informações para quem vem de Franca (95 km, ~1h15 pela SP-345)
