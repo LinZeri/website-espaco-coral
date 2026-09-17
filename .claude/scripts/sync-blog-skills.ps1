@@ -53,5 +53,20 @@ foreach ($f in $Scripts) {
   Write-Host "synced script: $f"
 }
 
+# blog-loop.js: usado pela tool Workflow nativa DENTRO das rotinas em nuvem
+# (confirmado disponivel la via smoke test em 17/09/2026; nao existe neste
+# harness local VSCode extension, que por isso usa blog_loop_agent_cli.py).
+$SrcWorkflows = Join-Path $env:USERPROFILE ".claude\workflows"
+$DstWorkflows = Join-Path $PSScriptRoot "..\workflows"
+New-Item -ItemType Directory -Force -Path $DstWorkflows | Out-Null
+$wfFrom = Join-Path $SrcWorkflows "blog-loop.js"
+$wfTo = Join-Path $DstWorkflows "blog-loop.js"
+if (Test-Path $wfFrom) {
+  Copy-Item -Force $wfFrom $wfTo
+  Write-Host "synced workflow: blog-loop.js"
+} else {
+  Write-Warning "workflow nao encontrado em $wfFrom, pulando"
+}
+
 Write-Host ""
-Write-Host "Done. Revise com 'git status' / 'git diff' dentro de .claude/skills/ e .claude/scripts/, e comite manualmente."
+Write-Host "Done. Revise com 'git status' / 'git diff' dentro de .claude/skills/, .claude/scripts/ e .claude/workflows/, e comite manualmente."
