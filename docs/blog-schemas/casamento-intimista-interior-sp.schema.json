@@ -1,0 +1,175 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://coraleventos.com.br/blog/casamento-intimista-interior-sp#article",
+      "headline": "Casamento Intimista no Interior de SP: Por Que Vale a Pena",
+      "description": "Casamento intimista no interior de SP: mais experiência por convidado, menos pressão de lista e cenário natural que a capital não oferece. Veja por que vale a pena.",
+      "datePublished": "2026-09-21",
+      "dateModified": "2026-09-21",
+      "inLanguage": "pt-BR",
+      "wordCount": 1851,
+      "keywords": [
+        "casamento intimista",
+        "casamento intimista interior de são paulo",
+        "vantagens do casamento intimista",
+        "mini wedding vs casamento intimista",
+        "mini wedding",
+        "interior de são paulo",
+        "Batatais",
+        "casamento"
+      ],
+      "articleSection": "Casamento",
+      "articleBody": "Em 2024, o Brasil registrou 948,9 mil casamentos civis, alta de 0,9% sobre o ano anterior. Dentro desse volume, cresce a fatia de casais que decide fazer menos, e melhor. Casamento intimista não é casamento reduzido, é escolha deliberada de qualidade por convidado.",
+      "author": {
+        "@id": "https://coraleventos.com.br/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://coraleventos.com.br#organization"
+      },
+      "image": {
+        "@id": "https://coraleventos.com.br/blog/casamento-intimista-interior-sp#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://coraleventos.com.br/blog/casamento-intimista-interior-sp"
+      },
+      "isPartOf": {
+        "@id": "https://coraleventos.com.br/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Casamento Intimista"
+        },
+        {
+          "@type": "Thing",
+          "name": "Mini Wedding"
+        },
+        {
+          "@type": "Place",
+          "name": "Batatais",
+          "addressRegion": "SP",
+          "addressCountry": "BR"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://coraleventos.com.br/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Gestora do Espaço Coral",
+      "url": "https://coraleventos.com.br/sobre",
+      "worksFor": {
+        "@id": "https://coraleventos.com.br#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://coraleventos.com.br#organization",
+      "name": "Espaço Coral",
+      "url": "https://coraleventos.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://coraleventos.com.br/images/logo/espaco-coral-logo.svg"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://coraleventos.com.br/blog#blog",
+      "name": "Blog Espaço Coral",
+      "url": "https://coraleventos.com.br/blog",
+      "publisher": {
+        "@id": "https://coraleventos.com.br#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://coraleventos.com.br/blog/casamento-intimista-interior-sp",
+      "url": "https://coraleventos.com.br/blog/casamento-intimista-interior-sp",
+      "name": "Casamento Intimista no Interior de SP: Por Que Vale a Pena",
+      "description": "Casamento intimista no interior de SP: mais experiência por convidado, menos pressão de lista e cenário natural que a capital não oferece. Veja por que vale a pena.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://coraleventos.com.br/blog#blog"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://coraleventos.com.br/blog/casamento-intimista-interior-sp#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://coraleventos.com.br/blog/casamento-intimista-interior-sp#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://coraleventos.com.br/blog/casamento-intimista-interior-sp#primaryimage",
+      "url": "https://coraleventos.com.br/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-02.webp",
+      "width": 1080,
+      "height": 720,
+      "caption": "Casal em momento intimista no Espaço Coral, em Batatais SP"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://coraleventos.com.br/blog/casamento-intimista-interior-sp#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://coraleventos.com.br"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://coraleventos.com.br/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Casamento Intimista no Interior de SP: Por Que Vale a Pena",
+          "item": "https://coraleventos.com.br/blog/casamento-intimista-interior-sp"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://coraleventos.com.br/blog/casamento-intimista-interior-sp#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Casamento intimista é mais barato que um casamento grande?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O custo total tende a ser menor, mas o custo por convidado costuma ser maior, porque buffet e decoração escalam por pessoa. O dinheiro que sobra de não ter uma lista de 200 pessoas geralmente vira experiência, não economia no orçamento final."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual a diferença entre mini wedding e casamento intimista?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Na prática os termos coexistem. Casamento intimista descreve o espírito: proximidade e personalização. Mini wedding é o formato com lista de 20 a 100 convidados. Para a definição completa e o passo a passo de organização, veja o guia completo de mini wedding."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como decidir quem entra na lista de convidados de um casamento intimista?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O critério prático é presença real na vida do casal, não obrigação social. Conversas difíceis sobre cortar nomes ficam mais fáceis quando a decisão parte dos dois, não de terceiros tentando equilibrar listas de família."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O Espaço Coral tem número mínimo de convidados para casamento intimista?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. A mesma estrutura completa, sala privativa, área verde, salão envidraçado e estacionamento com orientadores, atende qualquer tamanho de lista, de 30 a 320 convidados sentados."
+          }
+        }
+      ]
+    }
+  ]
+}
