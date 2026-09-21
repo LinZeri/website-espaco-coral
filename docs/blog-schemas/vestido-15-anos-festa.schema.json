@@ -1,0 +1,180 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://coraleventos.com.br/blog/vestido-15-anos-festa#article",
+      "headline": "Vestido de 15 Anos: Guia da Troca e da Sala Privativa",
+      "description": "Vestido de 15 anos pensado para a noite toda: como funciona a troca, por que a sala privativa da debutante facilita tudo e o que considerar para dançar a valsa.",
+      "datePublished": "2026-09-24",
+      "dateModified": "2026-09-24",
+      "inLanguage": "pt-BR",
+      "wordCount": 1675,
+      "keywords": [
+        "vestido de 15 anos",
+        "troca de vestido festa 15 anos",
+        "vestido de 15 anos para valsa",
+        "sala privativa da debutante",
+        "15 anos",
+        "vestido de debutante",
+        "troca de vestido",
+        "sala privativa",
+        "Batatais"
+      ],
+      "articleSection": "Vestido de 15 Anos",
+      "articleBody": "A maioria dos guias de vestido de 15 anos fala de tecido, corte e cor da estação. Poucos param para pensar na logística da noite. Se a debutante troca de vestido para dançar a valsa ou abrir a pista, onde e como isso acontece sem expor a festa? A resposta muda o jeito de escolher o vestido desde o início.",
+      "author": {
+        "@id": "https://coraleventos.com.br/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://coraleventos.com.br#organization"
+      },
+      "image": {
+        "@id": "https://coraleventos.com.br/blog/vestido-15-anos-festa#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://coraleventos.com.br/blog/vestido-15-anos-festa"
+      },
+      "isPartOf": {
+        "@id": "https://coraleventos.com.br/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Vestido de 15 Anos"
+        },
+        {
+          "@type": "Thing",
+          "name": "Troca de Vestido"
+        },
+        {
+          "@type": "Thing",
+          "name": "Sala Privativa da Debutante"
+        },
+        {
+          "@type": "Place",
+          "name": "Batatais",
+          "addressRegion": "SP",
+          "addressCountry": "BR"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://coraleventos.com.br/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Gestora do Espaço Coral",
+      "url": "https://coraleventos.com.br/sobre",
+      "worksFor": {
+        "@id": "https://coraleventos.com.br#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://coraleventos.com.br#organization",
+      "name": "Espaço Coral",
+      "url": "https://coraleventos.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://coraleventos.com.br/images/logo/espaco-coral-logo.svg"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://coraleventos.com.br/blog#blog",
+      "name": "Blog Espaço Coral",
+      "url": "https://coraleventos.com.br/blog",
+      "publisher": {
+        "@id": "https://coraleventos.com.br#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://coraleventos.com.br/blog/vestido-15-anos-festa",
+      "url": "https://coraleventos.com.br/blog/vestido-15-anos-festa",
+      "name": "Vestido de 15 Anos: Guia da Troca e da Sala Privativa",
+      "description": "Vestido de 15 anos pensado para a noite toda: como funciona a troca, por que a sala privativa da debutante facilita tudo e o que considerar para dançar a valsa.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://coraleventos.com.br/blog#blog"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://coraleventos.com.br/blog/vestido-15-anos-festa#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://coraleventos.com.br/blog/vestido-15-anos-festa#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://coraleventos.com.br/blog/vestido-15-anos-festa#primaryimage",
+      "url": "https://coraleventos.com.br/images/scenes/quinze-anos/espaco-coral-quinze-anos-21.webp",
+      "width": 1600,
+      "height": 1068,
+      "caption": "Debutante com vestido curto e chapéu de cowboy dançando na pista da festa de 15 anos no Espaço Coral em Batatais SP"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://coraleventos.com.br/blog/vestido-15-anos-festa#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://coraleventos.com.br"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://coraleventos.com.br/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Vestido de 15 Anos: Guia da Troca e da Sala Privativa",
+          "item": "https://coraleventos.com.br/blog/vestido-15-anos-festa"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://coraleventos.com.br/blog/vestido-15-anos-festa#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Precisa trocar de vestido na festa de 15 anos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não é obrigatório. É uma escolha cada vez mais comum entre as famílias que recebemos, mas a festa funciona completa com um único vestido do início ao fim. A decisão depende do conforto da debutante e do estilo que ela quer para cada momento da noite."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Onde a debutante troca de vestido na festa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No Espaço Coral, a troca acontece na sala privativa exclusiva da homenageada, com banheiro e chuveiro, sem precisar sair do espaço ou improvisar um canto reservado. A debutante tem privacidade total para se trocar e retocar a produção."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pode dançar a valsa de vestido longo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pode, mas vale escolher um caimento com espaço para giro e um salto confortável, já que a valsa envolve movimento e troca de par. Saias muito armadas ou com muita anágua pedem mais atenção na hora da coreografia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quantos vestidos a debutante costuma usar na festa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Varia por família. Algumas debutantes optam por um único vestido do início ao fim da festa, outras trocam entre a entrada e a valsa ou a pista de dança. Não existe número certo: a escolha acompanha o roteiro que a família planejou."
+          }
+        }
+      ]
+    }
+  ]
+}
