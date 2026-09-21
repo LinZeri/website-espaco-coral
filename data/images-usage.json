@@ -1,423 +1,868 @@
 {
   "/images/events/casamento-nathalia-e-lin/01-noivo-se-arrumando-barbeiro.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 20,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/02-terno-noivo-close.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 22,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/03-terno-noivo.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 24,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/04-terno-noivo-detalhe.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 26,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/05-noivo-terno-via-monte.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 28,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/06-colete-noivo-tratto-sotile.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 30,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/07-sapato-noivo-tarragona.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 32,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/08-buque-surpresa-do-noivo.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 34,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/09-noiva-sala-da-noiva.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 36,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/10-noiva-sala-da-noiva-2.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 38,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/11-noiva-mae-e-irma-sala-da-noiva.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 40,
+        "as": "inline"
+      },
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 273,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 2
   },
   "/images/events/casamento-nathalia-e-lin/12-maquiagem-noiva-maria-maroca.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 42,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/13-cabelo-noiva-maria-maroca.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 44,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/14-vestido-madame-bovary.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 46,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/15-noiva-miniatura-do-vestido.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 48,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/16-sapato-da-noiva.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 50,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/17-tenis-customizado-noiva.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 52,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/18-leques-personalizados.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 54,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/19-convites-e-livro-de-votos.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 56,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/20-aliancas-e-bastidor.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 58,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/21-decoracao-cerimonia-ar-livre.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 60,
+        "as": "inline"
+      },
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 261,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 2
   },
   "/images/events/casamento-nathalia-e-lin/22-buque-armazem-das-flores.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 62,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/23-receptivo-na-cerimonia.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 64,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/24-celebrante-wagner.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 66,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/25-entrada-dos-pajens.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 68,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/26-noiva-e-pai-na-entrada.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 70,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/27-noivo-busca-a-noiva-1.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 72,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/28-noivo-busca-a-noiva-2.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 74,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/29-noivos-durante-a-cerimonia.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 76,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/30-leitura-de-votos.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 78,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/31-orquestra-sublime.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 80,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/32-casal-destaque-1.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 82,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/33-casal-destaque-2.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 84,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/34-casal-destaque-3.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 86,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/35-fotos-protocolares.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 88,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/36-decoracao-entrada-do-salao.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 90,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/37-lounge-entrada-do-salao.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 92,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/38-detalhe-decoracao-estatua.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 94,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/39-painel-instagramavel.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 96,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/40-mesa-de-convidados.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 98,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/41-mesa-de-convidados-2.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 100,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/42-mesa-de-convidados-3.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 102,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/43-decoracao-pista-de-danca.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 104,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/44-mesa-do-bolo.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 106,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/45-bolo-fake.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 108,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/46-noivos-na-mesa-do-bolo.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 110,
+        "as": "inline"
+      },
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 281,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 2
   },
   "/images/events/casamento-nathalia-e-lin/47-balcao-do-bar.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 112,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/48-menu-de-drinks.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 114,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/49-bem-casados-doce-receita.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 116,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/50-bem-casados.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 118,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/51-mesa-de-doces.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 120,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/52-a-sua-banda.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 122,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/53-palco-e-painel-led.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 124,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/54-animacao-na-pista.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 126,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/55-valsa-dos-noivos.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 128,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/56-danca-da-cordinha.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 130,
+        "as": "inline"
+      },
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 295,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 2
   },
   "/images/events/casamento-nathalia-e-lin/57-danca-da-cordinha-2.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 132,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/58-jogar-o-buque.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 134,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/59-brincadeira-do-uisque-1.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 136,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/60-brincadeira-do-uisque-2.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 138,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/61-quebra-de-pratos.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 140,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/62-fofao-animando-a-festa-1.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 142,
+        "as": "inline"
+      },
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 299,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 2
   },
   "/images/events/casamento-nathalia-e-lin/63-fofao-animando-a-festa-2.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 144,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/64-maquina-de-pelucias.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 146,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/65-maquina-de-pelucias-2.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 148,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/66-pelucias-da-maquina.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 150,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/67-livro-de-fotos-instantaneas.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 152,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/68-massagem-baruck-terapias.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 154,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/69-cerimonialista-seixas.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 156,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/events/casamento-nathalia-e-lin/cover.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
+        "line": 17,
+        "as": "inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/hero/espaco-coral-hero-cerimonia-ao-ar-livre-01.webp": {
     "usedIn": [
@@ -428,7 +873,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/hero/espaco-coral-hero-decoracao-luxo-01.webp": {
@@ -440,7 +885,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/hero/espaco-coral-hero-espaco-elegante-01.webp": {
@@ -452,7 +897,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/hero/espaco-coral-hero-salao-panoramico-01.webp": {
@@ -470,7 +915,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/hero/espaco-coral-hero-salao-sofas-cerejeiras-02.webp": {
@@ -482,7 +927,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/logo/logo-coral-completo.svg": {
@@ -499,12 +944,12 @@
       },
       {
         "path": "lib/schema.ts",
-        "line": 27,
+        "line": 26,
         "as": "inline"
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 3
   },
   "/images/logo/logo-coral-logotipia.svg": {
@@ -528,7 +973,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/proposta/buffet/cafe-buffet.webp": {
@@ -540,7 +985,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/proposta/buffet/cerveja-gelada.webp": {
@@ -552,7 +997,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/proposta/buffet/hero-botequim.webp": {
@@ -564,7 +1009,7 @@
       }
     ],
     "firstUsedAt": "2026-07-07",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/proposta/buffet/hero-grand.webp": {
@@ -576,7 +1021,7 @@
       }
     ],
     "firstUsedAt": "2026-07-07",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/proposta/buffet/hero-selecao.webp": {
@@ -588,7 +1033,7 @@
       }
     ],
     "firstUsedAt": "2026-07-07",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/proposta/buffet/roll-bufala-pesto.webp": {
@@ -600,7 +1045,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/proposta/buffet/rondelli.webp": {
@@ -618,7 +1063,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/proposta/decoracao/altar-cerimonia-gramado.webp": {
@@ -630,7 +1075,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/proposta/decoracao/arranjo-aereo.webp": {
@@ -642,7 +1087,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/proposta/decoracao/arranjo-alto-mesas.webp": {
@@ -654,7 +1099,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/proposta/decoracao/arranjo-mesa-pais.webp": {
@@ -672,7 +1117,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/proposta/decoracao/arvore-francesa.webp": {
@@ -684,7 +1129,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/proposta/decoracao/bolo-mesa.webp": {
@@ -696,7 +1141,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/proposta/decoracao/cerimonia-ceu-aberto.webp": {
@@ -726,7 +1171,7 @@
       }
     ],
     "firstUsedAt": "2026-07-07",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/proposta/decoracao/vasos-pequenos.webp": {
@@ -738,7 +1183,7 @@
       }
     ],
     "firstUsedAt": "2026-06-17",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/ambientes/area-verde/espaco-coral-ambientes-area-verde-01.webp": {
@@ -747,17 +1192,28 @@
         "path": "content/blog/casamento-no-campo-interior-sp.mdx",
         "line": 54,
         "as": "mdx-inline"
+      },
+      {
+        "path": "content/blog/ideias-confraternizacao-fim-de-ano-empresa.mdx",
+        "line": 80,
+        "as": "mdx-inline"
       }
     ],
     "firstUsedAt": "2026-07-09",
-    "lastUsedAt": "2026-07-13",
-    "totalUses": 1
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 2
   },
   "/images/scenes/ambientes/entrada-salao/espaco-coral-ambientes-entrada-salao-01.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/blog/convencao-de-vendas-como-organizar.mdx",
+        "line": 59,
+        "as": "mdx-inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/scenes/ambientes/entrada-salao/espaco-coral-ambientes-entrada-salao-02.webp": {
     "usedIn": [],
@@ -797,7 +1253,7 @@
       }
     ],
     "firstUsedAt": "2026-07-07",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 2
   },
   "/images/scenes/ambientes/espaco-kids/espaco-coral-ambientes-espaco-kids-02.webp": {
@@ -809,14 +1265,20 @@
       }
     ],
     "firstUsedAt": "2026-07-09",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/ambientes/gramado/espaco-coral-ambientes-gramado-01.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/blog/mini-wedding-guia-completo.mdx",
+        "line": 159,
+        "as": "mdx-inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/scenes/ambientes/marquise/espaco-coral-ambientes-marquise-01.webp": {
     "usedIn": [],
@@ -843,16 +1305,43 @@
     "totalUses": 0
   },
   "/images/scenes/ambientes/salao/espaco-coral-ambientes-salao-01.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/blog/convencao-de-vendas-como-organizar.mdx",
+        "line": 23,
+        "as": "coverImage"
+      },
+      {
+        "path": "content/blog/convencao-de-vendas-como-organizar.mdx",
+        "line": 25,
+        "as": "ogImage"
+      },
+      {
+        "path": "content/blog/ideias-confraternizacao-fim-de-ano-empresa.mdx",
+        "line": 45,
+        "as": "mdx-inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 3
   },
   "/images/scenes/ambientes/varanda/espaco-coral-ambientes-varanda-01.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/blog/casamento-intimista-interior-sp.mdx",
+        "line": 79,
+        "as": "mdx-inline"
+      },
+      {
+        "path": "content/blog/ideias-confraternizacao-fim-de-ano-empresa.mdx",
+        "line": 64,
+        "as": "mdx-inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 2
   },
   "/images/scenes/ambientes/varanda/espaco-coral-ambientes-varanda-02.webp": {
     "usedIn": [],
@@ -947,7 +1436,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/atracoes-musica/espaco-coral-atracoes-musica-02.webp": {
@@ -959,7 +1448,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/atracoes-musica/espaco-coral-atracoes-musica-03.webp": {
@@ -971,7 +1460,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/atracoes-musica/espaco-coral-atracoes-musica-04.webp": {
@@ -1199,7 +1688,7 @@
       }
     ],
     "firstUsedAt": "2026-07-07",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/atracoes/maquina-pelucias/espaco-coral-atracoes-maquina-pelucias-02.webp": {
@@ -1342,7 +1831,7 @@
       }
     ],
     "firstUsedAt": "2026-07-09",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 2
   },
   "/images/scenes/bancos-gerais/corporativo/espaco-coral-bancos-gerais-corporativo-02.webp": {
@@ -1351,11 +1840,21 @@
         "path": "content/blog/eventos-corporativos-interior-sp-guia.mdx",
         "line": 56,
         "as": "mdx-inline"
+      },
+      {
+        "path": "content/blog/ideias-confraternizacao-fim-de-ano-empresa.mdx",
+        "line": 23,
+        "as": "coverImage"
+      },
+      {
+        "path": "content/blog/ideias-confraternizacao-fim-de-ano-empresa.mdx",
+        "line": 25,
+        "as": "ogImage"
       }
     ],
     "firstUsedAt": "2026-07-09",
-    "lastUsedAt": "2026-07-13",
-    "totalUses": 1
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 3
   },
   "/images/scenes/bar-de-drinks/espaco-coral-bar-de-drinks-01.webp": {
     "usedIn": [],
@@ -1446,7 +1945,7 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 5
   },
   "/images/scenes/casamentos/casamento-confetti.webp": {
@@ -1468,7 +1967,7 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 3
   },
   "/images/scenes/casamentos/casamento-veu.webp": {
@@ -1480,7 +1979,7 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/casamentos/cerimonia-entrada-noiva.webp": {
@@ -1492,7 +1991,7 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/casamentos/espaco-coral-casamento-brinde-01.webp": {
@@ -1509,32 +2008,20 @@
       }
     ],
     "firstUsedAt": "2026-07-09",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 2
   },
   "/images/scenes/casamentos/espaco-coral-casamento-cerimonia-01.webp": {
-    "usedIn": [
-      {
-        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
-        "line": 17,
-        "as": "inline"
-      }
-    ],
-    "firstUsedAt": "2026-07-10",
+    "usedIn": [],
+    "firstUsedAt": null,
     "lastUsedAt": "2026-07-13",
-    "totalUses": 1
+    "totalUses": 0
   },
   "/images/scenes/casamentos/espaco-coral-casamento-cerimonia-02.webp": {
-    "usedIn": [
-      {
-        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
-        "line": 22,
-        "as": "inline"
-      }
-    ],
-    "firstUsedAt": "2026-07-10",
+    "usedIn": [],
+    "firstUsedAt": null,
     "lastUsedAt": "2026-07-13",
-    "totalUses": 1
+    "totalUses": 0
   },
   "/images/scenes/casamentos/espaco-coral-casamento-cerimonia-03.webp": {
     "usedIn": [],
@@ -1551,7 +2038,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/casamentos/espaco-coral-casamento-decoracao-02.webp": {
@@ -1593,7 +2080,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/casamentos/espaco-coral-casamento-momento-01.webp": {
@@ -1610,7 +2097,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 2
   },
   "/images/scenes/casamentos/espaco-coral-casamento-noiva-01.webp": {
@@ -1636,16 +2123,11 @@
         "path": "content/blog/sala-da-noiva-importancia.mdx",
         "line": 26,
         "as": "ogImage"
-      },
-      {
-        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
-        "line": 24,
-        "as": "inline"
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
-    "totalUses": 3
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 2
   },
   "/images/scenes/casamentos/espaco-coral-casamento-noiva-neon-costas-03.webp": {
     "usedIn": [
@@ -1656,7 +2138,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/casamentos/espaco-coral-casamento-noiva-pb-01.webp": {
@@ -1696,16 +2178,10 @@
     "totalUses": 0
   },
   "/images/scenes/casamentos/espaco-coral-casamento-noivos-01.webp": {
-    "usedIn": [
-      {
-        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
-        "line": 20,
-        "as": "inline"
-      }
-    ],
-    "firstUsedAt": "2026-07-10",
+    "usedIn": [],
+    "firstUsedAt": null,
     "lastUsedAt": "2026-07-13",
-    "totalUses": 1
+    "totalUses": 0
   },
   "/images/scenes/casamentos/espaco-coral-casamento-noivos-02.webp": {
     "usedIn": [],
@@ -1748,16 +2224,11 @@
         "path": "content/blog/como-escolher-espaco-casamento-interior-sp.mdx",
         "line": 220,
         "as": "mdx-inline"
-      },
-      {
-        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
-        "line": 26,
-        "as": "inline"
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
-    "totalUses": 3
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 2
   },
   "/images/scenes/casamentos/espaco-coral-casamento-recepcao-02.webp": {
     "usedIn": [
@@ -1768,7 +2239,7 @@
       }
     ],
     "firstUsedAt": "2026-07-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/casamentos/espaco-coral-casamento-salao-02.webp": {
@@ -1785,7 +2256,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 2
   },
   "/images/scenes/casamentos/espaco-coral-casamento-salao-03.webp": {
@@ -1803,7 +2274,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/casamentos/mesa-bolo-flores.webp": {
@@ -1815,7 +2286,7 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/casamentos/mesa-branca-dourada.webp": {
@@ -1843,7 +2314,7 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 3
   },
   "/images/scenes/casamentos/salao-decorado.webp": {
@@ -1870,7 +2341,7 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 4
   },
   "/images/scenes/cerimonia/cerimonia-arco.webp": {
@@ -1917,12 +2388,12 @@
       },
       {
         "path": "lib/schema.ts",
-        "line": 91,
+        "line": 125,
         "as": "inline"
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 9
   },
   "/images/scenes/cerimonia/cerimonia-palmeiras.webp": {
@@ -1949,7 +2420,7 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 4
   },
   "/images/scenes/cerimonia/espaco-coral-cerimonia-01.webp": {
@@ -1961,7 +2432,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/cerimonia/espaco-coral-cerimonia-02.webp": {
@@ -1973,7 +2444,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/cerimonia/espaco-coral-cerimonia-03.webp": {
@@ -1990,7 +2461,7 @@
       }
     ],
     "firstUsedAt": "2026-07-09",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 2
   },
   "/images/scenes/cerimonia/espaco-coral-cerimonia-04.webp": {
@@ -2007,7 +2478,7 @@
       }
     ],
     "firstUsedAt": "2026-07-09",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 2
   },
   "/images/scenes/cerimonia/espaco-coral-cerimonia-05.webp": {
@@ -2024,7 +2495,7 @@
       }
     ],
     "firstUsedAt": "2026-07-09",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 2
   },
   "/images/scenes/cerimonia/espaco-coral-cerimonia-06.webp": {
@@ -2047,7 +2518,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 2
   },
   "/images/scenes/cerimonia/espaco-coral-cerimonia-palmeiras-panoramica-08.webp": {
@@ -2074,7 +2545,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 4
   },
   "/images/scenes/decoracao-flores/espaco-coral-decoracao-arco-flores-coloridas-09.webp": {
@@ -2091,7 +2562,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 2
   },
   "/images/scenes/decoracao-flores/espaco-coral-decoracao-bolo-orquideas-laranja-10.webp": {
@@ -2114,7 +2585,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 2
   },
   "/images/scenes/decoracao-flores/espaco-coral-decoracao-flores-02.webp": {
@@ -2126,7 +2597,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/decoracao-flores/espaco-coral-decoracao-flores-03.webp": {
@@ -2138,7 +2609,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/decoracao-flores/espaco-coral-decoracao-flores-04.webp": {
@@ -2150,7 +2621,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/decoracao-flores/espaco-coral-decoracao-flores-05.webp": {
@@ -2162,7 +2633,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/decoracao-flores/espaco-coral-decoracao-flores-06.webp": {
@@ -2240,7 +2711,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/decoracao-instagramavel/espaco-coral-decoracao-instagramavel-06.webp": {
@@ -2282,7 +2753,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/decoracao-instagramavel/espaco-coral-decoracao-neon-all-you-need-is-love-15.webp": {
@@ -2299,7 +2770,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 2
   },
   "/images/scenes/decoracao-instagramavel/espaco-coral-decoracao-neon-noiva-backdrop-16.webp": {
@@ -2311,7 +2782,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/decoracao-instagramavel/espaco-coral-decoracao-painel-musgo-neon-escada-18.webp": {
@@ -2323,7 +2794,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/decoracao-mesas/espaco-coral-decoracao-mesa-bolo-casamento-09.webp": {
@@ -2335,7 +2806,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/decoracao-mesas/espaco-coral-decoracao-mesa-candelabro-flores-12.webp": {
@@ -2352,7 +2823,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 2
   },
   "/images/scenes/decoracao-mesas/espaco-coral-decoracao-mesa-charger-verde-salmao-10.webp": {
@@ -2375,7 +2846,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 2
   },
   "/images/scenes/decoracao-mesas/espaco-coral-decoracao-mesa-posta-02.webp": {
@@ -2387,7 +2858,7 @@
       }
     ],
     "firstUsedAt": "2026-07-09",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/decoracao-mesas/espaco-coral-decoracao-mesa-posta-03.webp": {
@@ -2399,7 +2870,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/decoracao-mesas/espaco-coral-decoracao-mesa-posta-04.webp": {
@@ -2441,7 +2912,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/decoracao/cerimonia-ar-livre/espaco-coral-decoracao-cerimonia-ar-livre-01.webp": {
@@ -2453,14 +2924,20 @@
       }
     ],
     "firstUsedAt": "2026-07-09",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/decoracao/cerimonia-ar-livre/espaco-coral-decoracao-cerimonia-ar-livre-02.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/blog/mini-wedding-guia-completo.mdx",
+        "line": 230,
+        "as": "mdx-inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/scenes/decoracao/cerimonia-ar-livre/espaco-coral-decoracao-cerimonia-ar-livre-03.webp": {
     "usedIn": [],
@@ -2516,16 +2993,11 @@
         "path": "content/blog/fornecedores-casamento-batatais-ribeirao.mdx",
         "line": 102,
         "as": "mdx-inline"
-      },
-      {
-        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
-        "line": 30,
-        "as": "inline"
       }
     ],
     "firstUsedAt": "2026-06-26",
-    "lastUsedAt": "2026-07-13",
-    "totalUses": 2
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/scenes/decoracao/decoracao-flores/espaco-coral-decoracao-decoracao-flores-02.webp": {
     "usedIn": [],
@@ -2552,10 +3024,16 @@
     "totalUses": 0
   },
   "/images/scenes/decoracao/decoracao-mesas/espaco-coral-decoracao-decoracao-mesas-01.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/blog/mini-wedding-guia-completo.mdx",
+        "line": 193,
+        "as": "mdx-inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/scenes/decoracao/decoracao-mesas/espaco-coral-decoracao-decoracao-mesas-02.webp": {
     "usedIn": [],
@@ -3007,7 +3485,7 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 4
   },
   "/images/scenes/entrada/espaco-coral-entrada-01.webp": {
@@ -3061,7 +3539,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/entrada/espaco-coral-fachada-logo-dia-08.webp": {
@@ -3079,7 +3557,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/fachada/fachada-dia.webp": {
@@ -3096,14 +3574,14 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 2
   },
   "/images/scenes/fachada/fachada-entardecer.webp": {
     "usedIn": [
       {
         "path": "app/blog/page.tsx",
-        "line": 71,
+        "line": 77,
         "as": "imageSrc"
       },
       {
@@ -3143,12 +3621,12 @@
       },
       {
         "path": "lib/schema.ts",
-        "line": 89,
+        "line": 123,
         "as": "inline"
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 9
   },
   "/images/scenes/fachada/fachada-noite.webp": {
@@ -3170,7 +3648,7 @@
       },
       {
         "path": "app/sobre/page.tsx",
-        "line": 193,
+        "line": 238,
         "as": "inline"
       },
       {
@@ -3180,7 +3658,7 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 5
   },
   "/images/scenes/inauguracao/espaco-coral-inauguracao-ambiente-01.webp": {
@@ -3234,7 +3712,7 @@
       }
     ],
     "firstUsedAt": "2026-07-10",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/inauguracao/espaco-coral-inauguracao-recepcao-01.webp": {
@@ -3269,20 +3747,57 @@
       }
     ],
     "firstUsedAt": "2026-06-26",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 2
   },
   "/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-02.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/blog/casamento-intimista-interior-sp.mdx",
+        "line": 23,
+        "as": "coverImage"
+      },
+      {
+        "path": "content/blog/casamento-intimista-interior-sp.mdx",
+        "line": 25,
+        "as": "ogImage"
+      },
+      {
+        "path": "content/blog/casamento-intimista-interior-sp.mdx",
+        "line": 54,
+        "as": "mdx-inline"
+      },
+      {
+        "path": "content/blog/mini-wedding-guia-completo.mdx",
+        "line": 22,
+        "as": "coverImage"
+      },
+      {
+        "path": "content/blog/mini-wedding-guia-completo.mdx",
+        "line": 24,
+        "as": "ogImage"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 5
   },
   "/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-03.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/blog/casamento-intimista-interior-sp.mdx",
+        "line": 99,
+        "as": "mdx-inline"
+      },
+      {
+        "path": "content/blog/mini-wedding-guia-completo.mdx",
+        "line": 71,
+        "as": "mdx-inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 2
   },
   "/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-04.webp": {
     "usedIn": [],
@@ -3323,7 +3838,7 @@
       }
     ],
     "firstUsedAt": "2026-06-26",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-10.webp": {
@@ -3347,7 +3862,7 @@
       }
     ],
     "firstUsedAt": "2026-06-26",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-13.webp": {
@@ -3437,7 +3952,7 @@
       }
     ],
     "firstUsedAt": "2026-06-26",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/pessoas/dia-da-noiva/espaco-coral-pessoas-dia-da-noiva-02.webp": {
@@ -3771,22 +4286,45 @@
     "totalUses": 0
   },
   "/images/scenes/pessoas/padrinhos/espaco-coral-pessoas-padrinhos-01.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/blog/padrinhos-de-casamento-guia.mdx",
+        "line": 23,
+        "as": "coverImage"
+      },
+      {
+        "path": "content/blog/padrinhos-de-casamento-guia.mdx",
+        "line": 25,
+        "as": "ogImage"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 2
   },
   "/images/scenes/pessoas/padrinhos/espaco-coral-pessoas-padrinhos-02.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/blog/padrinhos-de-casamento-guia.mdx",
+        "line": 60,
+        "as": "mdx-inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/scenes/pessoas/padrinhos/espaco-coral-pessoas-padrinhos-03.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/blog/padrinhos-de-casamento-guia.mdx",
+        "line": 103,
+        "as": "mdx-inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/scenes/pessoas/padrinhos/espaco-coral-pessoas-padrinhos-04.webp": {
     "usedIn": [],
@@ -3809,7 +4347,7 @@
       }
     ],
     "firstUsedAt": "2026-07-07",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/pessoas/pajens/espaco-coral-pessoas-pajens-02.webp": {
@@ -3941,7 +4479,7 @@
       }
     ],
     "firstUsedAt": "2026-07-07",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-02.webp": {
@@ -3958,7 +4496,7 @@
       }
     ],
     "firstUsedAt": "2026-07-09",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 2
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-03.webp": {
@@ -3970,7 +4508,7 @@
       }
     ],
     "firstUsedAt": "2026-07-09",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-04.webp": {
@@ -3987,7 +4525,7 @@
       }
     ],
     "firstUsedAt": "2026-07-07",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 2
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-05.webp": {
@@ -3999,7 +4537,7 @@
       }
     ],
     "firstUsedAt": "2026-07-09",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-06.webp": {
@@ -4011,7 +4549,7 @@
       }
     ],
     "firstUsedAt": "2026-07-07",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-07.webp": {
@@ -4028,7 +4566,7 @@
       }
     ],
     "firstUsedAt": "2026-07-09",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 2
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-08.webp": {
@@ -4040,7 +4578,7 @@
       }
     ],
     "firstUsedAt": "2026-07-09",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-09.webp": {
@@ -4057,7 +4595,7 @@
       }
     ],
     "firstUsedAt": "2026-07-09",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 2
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-10.webp": {
@@ -4069,7 +4607,7 @@
       }
     ],
     "firstUsedAt": "2026-07-09",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-11.webp": {
@@ -4081,7 +4619,7 @@
       }
     ],
     "firstUsedAt": "2026-07-09",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-12.webp": {
@@ -4108,7 +4646,7 @@
       }
     ],
     "firstUsedAt": "2026-07-07",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 4
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-13.webp": {
@@ -4120,7 +4658,7 @@
       }
     ],
     "firstUsedAt": "2026-07-09",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-14.webp": {
@@ -4137,7 +4675,7 @@
       }
     ],
     "firstUsedAt": "2026-07-09",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 2
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-15.webp": {
@@ -4149,7 +4687,7 @@
       }
     ],
     "firstUsedAt": "2026-07-09",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-16.webp": {
@@ -4171,7 +4709,7 @@
       }
     ],
     "firstUsedAt": "2026-07-07",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 3
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-17.webp": {
@@ -4183,44 +4721,90 @@
       }
     ],
     "firstUsedAt": "2026-07-09",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-18.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/blog/festa-15-anos-intimista.mdx",
+        "line": 23,
+        "as": "coverImage"
+      },
+      {
+        "path": "content/blog/festa-15-anos-intimista.mdx",
+        "line": 25,
+        "as": "ogImage"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 2
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-19.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/blog/festa-15-anos-intimista.mdx",
+        "line": 54,
+        "as": "mdx-inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-20.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/blog/festa-15-anos-intimista.mdx",
+        "line": 74,
+        "as": "mdx-inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-21.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/blog/vestido-15-anos-festa.mdx",
+        "line": 23,
+        "as": "coverImage"
+      },
+      {
+        "path": "content/blog/vestido-15-anos-festa.mdx",
+        "line": 25,
+        "as": "ogImage"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 2
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-22.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/blog/vestido-15-anos-festa.mdx",
+        "line": 48,
+        "as": "mdx-inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-23.webp": {
-    "usedIn": [],
-    "firstUsedAt": null,
-    "lastUsedAt": null,
-    "totalUses": 0
+    "usedIn": [
+      {
+        "path": "content/blog/vestido-15-anos-festa.mdx",
+        "line": 101,
+        "as": "mdx-inline"
+      }
+    ],
+    "firstUsedAt": "2026-09-21",
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 1
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-24.webp": {
     "usedIn": [],
@@ -4267,7 +4851,7 @@
       }
     ],
     "firstUsedAt": "2026-07-07",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-31.webp": {
@@ -4296,7 +4880,7 @@
       }
     ],
     "firstUsedAt": "2026-07-07",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 2
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-34.webp": {
@@ -4344,7 +4928,7 @@
       }
     ],
     "firstUsedAt": "2026-07-10",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/quinze-anos/espaco-coral-quinze-anos-41.webp": {
@@ -4356,7 +4940,7 @@
       }
     ],
     "firstUsedAt": "2026-07-10",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/salao/espaco-coral-salao-bar-arvore-12.webp": {
@@ -4368,7 +4952,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/salao/espaco-coral-salao-cerejeiras-panoramico-13.webp": {
@@ -4395,7 +4979,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 4
   },
   "/images/scenes/salao/espaco-coral-salao-decoracao-completa-15.webp": {
@@ -4407,7 +4991,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/salao/espaco-coral-salao-mesas-casamento-11.webp": {
@@ -4424,7 +5008,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 2
   },
   "/images/scenes/salao/espaco-coral-salao-palco-banda-14.webp": {
@@ -4446,7 +5030,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 3
   },
   "/images/scenes/salao/espaco-coral-salao-principal-01.webp": {
@@ -4470,16 +5054,11 @@
         "path": "content/blog/como-escolher-espaco-casamento-interior-sp.mdx",
         "line": 26,
         "as": "ogImage"
-      },
-      {
-        "path": "content/eventos-realizados/casamento-nathalia-e-lin.mdx",
-        "line": 28,
-        "as": "inline"
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
-    "totalUses": 5
+    "lastUsedAt": "2026-09-21",
+    "totalUses": 4
   },
   "/images/scenes/salao/espaco-coral-salao-principal-02.webp": {
     "usedIn": [
@@ -4495,7 +5074,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 2
   },
   "/images/scenes/salao/espaco-coral-salao-principal-03.webp": {
@@ -4512,7 +5091,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 2
   },
   "/images/scenes/salao/espaco-coral-salao-principal-04.webp": {
@@ -4529,7 +5108,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 2
   },
   "/images/scenes/salao/espaco-coral-salao-principal-05.webp": {
@@ -4546,7 +5125,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 2
   },
   "/images/scenes/salao/espaco-coral-salao-principal-06.webp": {
@@ -4558,7 +5137,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/salao/espaco-coral-salao-principal-07.webp": {
@@ -4570,7 +5149,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/salao/espaco-coral-salao-principal-08.webp": {
@@ -4582,7 +5161,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/salao/espaco-coral-salao-principal-09.webp": {
@@ -4600,7 +5179,7 @@
       }
     ],
     "firstUsedAt": "2026-06-08",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/salao/salao-mesa-flores.webp": {
@@ -4622,7 +5201,7 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 3
   },
   "/images/scenes/salao/salao-mesa.webp": {
@@ -4659,7 +5238,7 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 6
   },
   "/images/scenes/salao/salao-panoramica.webp": {
@@ -4701,12 +5280,12 @@
       },
       {
         "path": "lib/schema.ts",
-        "line": 90,
+        "line": 124,
         "as": "inline"
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 8
   },
   "/images/scenes/terraco/espaco-coral-terraco-01.webp": {
@@ -4718,7 +5297,7 @@
       }
     ],
     "firstUsedAt": "2026-07-09",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/terraco/espaco-coral-terraco-02.webp": {
@@ -4730,7 +5309,7 @@
       }
     ],
     "firstUsedAt": "2026-06-16",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/terraco/espaco-coral-terraco-03.webp": {
@@ -4742,7 +5321,7 @@
       }
     ],
     "firstUsedAt": "2026-07-09",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/terraco/espaco-coral-terraco-04.webp": {
@@ -4759,7 +5338,7 @@
       }
     ],
     "firstUsedAt": "2026-07-09",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 2
   },
   "/images/scenes/terraco/espaco-coral-terraco-05.webp": {
@@ -4771,7 +5350,7 @@
       }
     ],
     "firstUsedAt": "2026-07-09",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/scenes/terraco/espaco-coral-terraco-06.webp": {
@@ -4805,7 +5384,7 @@
       }
     ],
     "firstUsedAt": "2026-05-26",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 3
   },
   "/images/scenes/vestido-noiva/espaco-coral-vestido-noiva-01.webp": {
@@ -4829,7 +5408,7 @@
       }
     ],
     "firstUsedAt": "2026-07-10",
-    "lastUsedAt": "2026-07-13",
+    "lastUsedAt": "2026-09-21",
     "totalUses": 1
   },
   "/images/testimonials/espaco-coral-depoimento-cassio-pupin.webp": {
