@@ -1,0 +1,175 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://coraleventos.com.br/blog/padrinhos-de-casamento-guia#article",
+      "headline": "Padrinhos de Casamento: Quantos Escolher e Como Convidar",
+      "description": "Padrinhos de casamento: quantos escolher, como convidar sem constranger e onde entram no cortejo e no altar. Guia prático para montar a lista.",
+      "datePublished": "2026-09-22",
+      "dateModified": "2026-09-22",
+      "inLanguage": "pt-BR",
+      "wordCount": 1750,
+      "keywords": [
+        "padrinhos de casamento",
+        "quantos padrinhos de casamento",
+        "como convidar padrinhos de casamento",
+        "posição dos padrinhos na cerimônia",
+        "casamento",
+        "cerimônia",
+        "convidados",
+        "Batatais"
+      ],
+      "articleSection": "Padrinhos de Casamento",
+      "articleBody": "Em 2026, o Brasil já soma quase 1 milhão de casamentos por ano: foram 948,9 mil casamentos civis em 2024, alta de 0,9% sobre 2023. Por trás de cada um desses casamentos, o casal passou pela mesma dúvida prática: quantos padrinhos escolher e como fazer o convite sem magoar quem ficar de fora.",
+      "author": {
+        "@id": "https://coraleventos.com.br/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://coraleventos.com.br#organization"
+      },
+      "image": {
+        "@id": "https://coraleventos.com.br/blog/padrinhos-de-casamento-guia#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://coraleventos.com.br/blog/padrinhos-de-casamento-guia"
+      },
+      "isPartOf": {
+        "@id": "https://coraleventos.com.br/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Padrinhos de Casamento"
+        },
+        {
+          "@type": "Thing",
+          "name": "Cerimônia de Casamento"
+        },
+        {
+          "@type": "Place",
+          "name": "Batatais",
+          "addressRegion": "SP",
+          "addressCountry": "BR"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://coraleventos.com.br/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Gestora do Espaço Coral",
+      "url": "https://coraleventos.com.br/sobre",
+      "worksFor": {
+        "@id": "https://coraleventos.com.br#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://coraleventos.com.br#organization",
+      "name": "Espaço Coral",
+      "url": "https://coraleventos.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://coraleventos.com.br/images/logo/espaco-coral-logo.svg"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://coraleventos.com.br/blog#blog",
+      "name": "Blog Espaço Coral",
+      "url": "https://coraleventos.com.br/blog",
+      "publisher": {
+        "@id": "https://coraleventos.com.br#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://coraleventos.com.br/blog/padrinhos-de-casamento-guia",
+      "url": "https://coraleventos.com.br/blog/padrinhos-de-casamento-guia",
+      "name": "Padrinhos de Casamento: Quantos Escolher e Como Convidar",
+      "description": "Padrinhos de casamento: quantos escolher, como convidar sem constranger e onde entram no cortejo e no altar. Guia prático para montar a lista.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://coraleventos.com.br/blog#blog"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://coraleventos.com.br/blog/padrinhos-de-casamento-guia#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://coraleventos.com.br/blog/padrinhos-de-casamento-guia#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://coraleventos.com.br/blog/padrinhos-de-casamento-guia#primaryimage",
+      "url": "https://coraleventos.com.br/images/scenes/pessoas/padrinhos/espaco-coral-pessoas-padrinhos-01.webp",
+      "width": 2048,
+      "height": 1363,
+      "caption": "Casal de padrinhos durante cerimônia de casamento no Espaço Coral em Batatais SP"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://coraleventos.com.br/blog/padrinhos-de-casamento-guia#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://coraleventos.com.br"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://coraleventos.com.br/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Padrinhos de Casamento: Quantos Escolher e Como Convidar",
+          "item": "https://coraleventos.com.br/blog/padrinhos-de-casamento-guia"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://coraleventos.com.br/blog/padrinhos-de-casamento-guia#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quantos padrinhos posso escolher no casamento?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não há limite oficial. O mínimo prático é um casal, já que a lei exige ao menos duas testemunhas. O máximo depende do espaço da cerimônia e do estilo da festa. Prefira escolher por proximidade real, não por número redondo ou para agradar todo mundo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como convidar os padrinhos de casamento sem constranger ninguém?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Convide com 3 a 6 meses de antecedência, antes de qualquer outro convidado saber da festa, e trate o convite como um momento à parte: encontro pessoal ou ligação, nunca mensagem em grupo. Defina o número de casais antes de começar a convidar, para não criar expectativa desigual."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual a diferença entre padrinho e madrinha de casamento?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Formam um casal de proximidade com os noivos e cumprem a mesma função simbólica e prática, sem distinção hierárquica entre os papéis. Hoje é comum formar casais de padrinhos por amizade, sem seguir estritamente a divisão tradicional por gênero."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Onde os padrinhos ficam durante a cerimônia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Entram no cortejo antes dos noivos e se posicionam em lados opostos do altar, geralmente por proximidade e ordem de idade. Em cerimônia ao ar livre, o arranjo tende a ser mais flexível do que numa igreja tradicional."
+          }
+        }
+      ]
+    }
+  ]
+}
