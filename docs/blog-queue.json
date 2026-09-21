@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T17:45:02.155220+00:00",
+  "updated": "2026-09-21T14:24:27.960511+00:00",
   "description": "Fila de produção do blog-loop do Espaço Coral. Reabastecida em 17/09/2026 com os itens 2,3,5-13 do backlog priorizado de docs/blog-strategy.md (revisão 17/09): confraternização, mini wedding (hub + 4 spokes), padrinhos, 15 anos intimista/vestido/entrada, convenção de vendas, lista de convidados, renovação de votos. Itens 1 e 4 do backlog são refresh de posts publicados, tratados fora da fila. Status: pending -> in_progress -> published | failed. Autor único (Lin Zeri). Guardrails por item em notes; regras completas em docs/diretrizes-blog.md.",
   "authors": [
     "lin-zeri"
@@ -710,6 +710,97 @@
       "last_score": null,
       "publish_date": null,
       "author": null
+    },
+    {
+      "id": "p4-tipos",
+      "slug": "tipos-eventos-corporativos",
+      "title": "Convenção, Treinamento ou Confraternização: Qual Formato Escolher",
+      "template": "comparison",
+      "target_keyword": "tipos de eventos corporativos",
+      "secondary_keywords": [
+        "diferença entre convenção e confraternização",
+        "formatos de evento corporativo",
+        "qual evento corporativo fazer",
+        "evento corporativo interior de SP"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/blog/eventos-corporativos-interior-sp-guia",
+        "/blog/convencao-de-vendas-como-organizar",
+        "/blog/ideias-confraternizacao-fim-de-ano-empresa",
+        "/eventos/corporativo",
+        "/estrutura",
+        "WhatsApp (16) 99129-4178"
+      ],
+      "cluster": "corporativo",
+      "notes": "Backlog item 16 da revisao 2 da estrategia (Pilar 4, spoke 6): prioridade baixa, produzir quando houver folga. Comparativo de FORMATOS, nao de local: diferenciar claramente do spoke 1 (confraternizacao-fim-ano-espaco-empresa, que responde 'como escolher o espaco') e do spoke 4 (ideias-confraternizacao-fim-de-ano-empresa, que responde 'o que fazer na programacao'). Aqui a pergunta e 'que tipo de evento minha empresa deveria fazer'. Estrutura que pode ser prometida (diretrizes 08/07/2026): TVs, som ambiente e Wi-Fi inclusos. NUNCA prometer telao de LED nem projetor (sao fornecedor contratado pelo cliente, mesmo havendo fotos de telao no banco). O Espaco Coral e o local, nao buffet: fornecedores sao contratados livremente pelo cliente (sem exclusividade, diferencial de venda). Capacidade ate 320 convidados sentados. Estacionamento com orientadores, sem citar numero de vagas e sem cruzar vagas com capacidade. Nunca citar concorrentes nominalmente. Sem precos, CTA sempre WhatsApp. Sem travessao (em dash). Gargalo de imagem: scenes/bancos-gerais/corporativo tem poucas fotos, consultar data/images-usage.json e usar salao e ambientes vazios se preciso.",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "p4-ar-livre",
+      "slug": "evento-corporativo-ar-livre",
+      "title": "Evento Corporativo ao Ar Livre: Quando Faz Sentido",
+      "template": "comparison",
+      "target_keyword": "evento corporativo ao ar livre",
+      "secondary_keywords": [
+        "confraternizacao ao ar livre",
+        "evento empresarial em area verde",
+        "espaco ao ar livre para empresa"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/blog/eventos-corporativos-interior-sp-guia",
+        "/blog/tipos-eventos-corporativos",
+        "/blog/confraternizacao-fim-ano-espaco-empresa",
+        "/eventos/corporativo",
+        "/estrutura",
+        "WhatsApp (16) 99129-4178"
+      ],
+      "cluster": "corporativo",
+      "notes": "Pilar 4, spoke 7 da revisao 2 da estrategia. PRAZO ESPECIFICO: publicar em marco de 2027, mirando eventos de junho a agosto. Nao produzir antes disso se houver item com prazo mais curto na fila. Regra climatica cravada: melhores meses ao ar livre sao junho, julho e agosto (epoca seca); depois maio, setembro e outubro; NUNCA recomendar ceu aberto de novembro a fevereiro (alta temporada de chuvas). Inverno em Batatais e ameno: nao dramatizar frio noturno nem sugerir aquecimento externo. Regra do plano B (diretrizes-blog.md): o tema chuva nao ganha secao dedicada nem subtitulo; se aparecer numa FAQ, tratar em uma ou duas frases positivas citando o salao envidracado climatizado, sem dramatizar. NUNCA mencionar tenda externa (o espaco nao oferece). Estrutura inclusa: TVs, som ambiente e Wi-Fi; telao de LED e projetor NAO sao do espaco. Capacidade ate 320 sentados. Nunca citar concorrentes nominalmente. Sem precos, CTA WhatsApp. Sem travessao.",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "p5-capital",
+      "slug": "mini-wedding-convidados-capital-interior",
+      "title": "Mini Wedding no Interior com Convidados que Vêm da Capital",
+      "template": "thought-leadership",
+      "target_keyword": "casamento no interior convidados da capital",
+      "secondary_keywords": [
+        "mini wedding interior de sao paulo",
+        "casamento no interior com convidados de fora",
+        "mini wedding fora da capital"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/blog/mini-wedding-guia-completo",
+        "/blog/casamento-intimista-interior-sp",
+        "/blog/casamento-pequeno-vs-grande",
+        "/eventos/casamentos",
+        "/estrutura",
+        "WhatsApp (16) 99129-4178"
+      ],
+      "cluster": "mini-wedding",
+      "notes": "Backlog item 17 da revisao 2 (Pilar 5, spoke 6): prioridade baixa, volume de busca nao medido, produzir quando houver folga. ATENCAO AO FRONTMATTER: o campo pillar so aceita casamento|15-anos|corporativo|estrutura|local. Nao existe pillar 'mini-wedding' no schema do site, entao usar pillar: casamento (o cluster mini-wedding vive no frontmatter como casamento). Angulo da estrategia: o interior como alternativa real aos espacos pequenos da capital, que dominam a SERP de 'mini wedding' sem nenhuma presenca da regiao de Ribeirao Preto. Fato cravado (08/07/2026): o espaco atende mini wedding e casamento intimista SEM restricao de numero minimo de convidados, com a mesma estrutura completa (sala privativa da noiva, area verde, estacionamento) independentemente do tamanho. Liberdade total de fornecedores, sem exclusividade. Estacionamento com orientadores, sem citar numero de vagas; pode citar o bairro tranquilo e vagas na rua em frente. Cuidado com canibalizacao: o hub mini-wedding-guia-completo responde 'o que e e como fazer', casamento-pequeno-vs-grande responde 'qual tamanho escolher' e capacidade-espaco-casamento-calculo responde 'quantos cabem'. Este post responde a logistica de quem traz convidados de fora. Nunca citar concorrentes nominalmente. Sem precos, CTA WhatsApp. Sem travessao.",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
     }
   ],
   "author_daily_counts": {
