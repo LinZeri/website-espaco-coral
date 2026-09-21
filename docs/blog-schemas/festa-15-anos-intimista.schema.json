@@ -1,0 +1,168 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://coraleventos.com.br/blog/festa-15-anos-intimista#article",
+      "headline": "Festa de 15 Anos Intimista: Guia Prático com Menos Convidados",
+      "description": "Festa de 15 anos simples é lista enxuta, não estrutura menor. Veja como manter sala privativa, valsa e área verde com poucos convidados. Fale no WhatsApp.",
+      "datePublished": "2026-09-23",
+      "dateModified": "2026-09-23",
+      "inLanguage": "pt-BR",
+      "wordCount": 1770,
+      "keywords": [
+        "festa de 15 anos simples",
+        "festa de 15 anos com poucos convidados",
+        "festa de 15 anos intimista",
+        "festa de 15 anos enxuta",
+        "15 anos",
+        "festa de debutante",
+        "festa intimista",
+        "poucos convidados",
+        "Batatais"
+      ],
+      "articleSection": "Festa de 15 Anos",
+      "articleBody": "A palavra simples assusta quem já imaginou a festa de 15 anos completa: salão decorado, valsa emocionante, área verde para fotos. Mas simples, nesse contexto, é uma lista de convidados enxuta, com a mesma estrutura por trás. A decisão está na lista, não no espaço.",
+      "author": {
+        "@id": "https://coraleventos.com.br/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://coraleventos.com.br#organization"
+      },
+      "image": {
+        "@id": "https://coraleventos.com.br/blog/festa-15-anos-intimista#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://coraleventos.com.br/blog/festa-15-anos-intimista"
+      },
+      "isPartOf": {
+        "@id": "https://coraleventos.com.br/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Festa de 15 Anos"
+        },
+        {
+          "@type": "Thing",
+          "name": "Festa de 15 Anos Intimista"
+        },
+        {
+          "@type": "Place",
+          "name": "Batatais",
+          "addressRegion": "SP",
+          "addressCountry": "BR"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://coraleventos.com.br/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Gestora do Espaço Coral",
+      "url": "https://coraleventos.com.br/sobre",
+      "worksFor": {
+        "@id": "https://coraleventos.com.br#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://coraleventos.com.br#organization",
+      "name": "Espaço Coral",
+      "url": "https://coraleventos.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://coraleventos.com.br/images/logo/espaco-coral-logo.svg"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://coraleventos.com.br/blog#blog",
+      "name": "Blog Espaço Coral",
+      "url": "https://coraleventos.com.br/blog",
+      "publisher": {
+        "@id": "https://coraleventos.com.br#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://coraleventos.com.br/blog/festa-15-anos-intimista",
+      "url": "https://coraleventos.com.br/blog/festa-15-anos-intimista",
+      "name": "Festa de 15 Anos Intimista: Guia com Poucos Convidados",
+      "description": "Festa de 15 anos simples é lista enxuta, não estrutura menor. Veja como manter sala privativa, valsa e área verde com poucos convidados. Fale no WhatsApp.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://coraleventos.com.br/blog#blog"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://coraleventos.com.br/blog/festa-15-anos-intimista#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://coraleventos.com.br/blog/festa-15-anos-intimista#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://coraleventos.com.br/blog/festa-15-anos-intimista#primaryimage",
+      "url": "https://coraleventos.com.br/images/scenes/quinze-anos/espaco-coral-quinze-anos-18.webp",
+      "width": 1068,
+      "height": 1600,
+      "caption": "Debutante em momento intimista da festa de 15 anos no Espaço Coral, em Batatais SP"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://coraleventos.com.br/blog/festa-15-anos-intimista#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://coraleventos.com.br"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://coraleventos.com.br/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Festa de 15 Anos Intimista: Guia Prático com Menos Convidados",
+          "item": "https://coraleventos.com.br/blog/festa-15-anos-intimista"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://coraleventos.com.br/blog/festa-15-anos-intimista#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Festa de 15 anos simples precisa de espaço menor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. No Espaço Coral, a estrutura (sala privativa da debutante, área verde e salão climatizado) é a mesma, independentemente do tamanho da lista de convidados. Simples se refere à quantidade de convidados, não ao tamanho ou à qualidade do espaço contratado."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quantos convidados tem uma festa de 15 anos intimista?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não existe um número fixo. Cada família define a lista pela proximidade real com os convidados, e o Espaço Coral não exige número mínimo para festa de 15 anos. Para entender como calcular o tamanho ideal da lista para o espaço escolhido, veja o guia de como escolher o espaço da festa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dá para fazer valsa e cerimonial numa festa de 15 anos pequena?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. O roteiro (entrada da debutante, valsa, brinde, momentos especiais) se adapta ao tamanho da festa sem perder formalidade. Para ver como esse roteiro funciona bloco a bloco, veja também como funciona o orçamento da festa de 15 anos, já que a lista de convidados é a variável que mais influencia o investimento por categoria."
+          }
+        }
+      ]
+    }
+  ]
+}
