@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T14:24:27.960511+00:00",
+  "updated": "2026-09-21T23:05:21.098431+00:00",
   "description": "Fila de produção do blog-loop do Espaço Coral. Reabastecida em 17/09/2026 com os itens 2,3,5-13 do backlog priorizado de docs/blog-strategy.md (revisão 17/09): confraternização, mini wedding (hub + 4 spokes), padrinhos, 15 anos intimista/vestido/entrada, convenção de vendas, lista de convidados, renovação de votos. Itens 1 e 4 do backlog são refresh de posts publicados, tratados fora da fila. Status: pending -> in_progress -> published | failed. Autor único (Lin Zeri). Guardrails por item em notes; regras completas em docs/diretrizes-blog.md.",
   "authors": [
     "lin-zeri"
@@ -472,13 +472,19 @@
       ],
       "cluster": "mini-wedding",
       "notes": "Spoke do Pilar 5, prioridade alta. Linkar o hub mini-wedding-guia-completo assim que publicado. Reforçar estrutura completa sem número mínimo de convidados. Sem preços, CTA WhatsApp. Sem travessão.",
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
+      "started_at": "2026-09-21T23:05:20.957560+00:00",
       "last_score": null,
-      "publish_date": null,
-      "author": null
+      "publish_date": "2026-09-21",
+      "author": "lin-zeri",
+      "iteration_id": "cloud-producer-b4f7ccf1",
+      "coverImage": "/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-02.webp",
+      "inlineImages": [
+        "/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-03.webp",
+        "/images/scenes/ambientes/varanda/espaco-coral-ambientes-varanda-01.webp"
+      ]
     },
     {
       "id": "p1-padrinhos",
@@ -501,13 +507,19 @@
       ],
       "cluster": "casamento",
       "notes": "Spoke do cluster Batatais (Pilar 1), prioridade alta. Linkar o hub guia-casamento-batatais-2027 e o roteiro hora a hora. Sem preços, CTA WhatsApp. Sem travessão.",
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
+      "started_at": "2026-09-21T23:05:20.992017+00:00",
       "last_score": null,
-      "publish_date": null,
-      "author": null
+      "publish_date": "2026-09-22",
+      "author": "lin-zeri",
+      "iteration_id": "cloud-producer-b4f7ccf1",
+      "coverImage": "/images/scenes/pessoas/padrinhos/espaco-coral-pessoas-padrinhos-01.webp",
+      "inlineImages": [
+        "/images/scenes/pessoas/padrinhos/espaco-coral-pessoas-padrinhos-02.webp",
+        "/images/scenes/pessoas/padrinhos/espaco-coral-pessoas-padrinhos-03.webp"
+      ]
     },
     {
       "id": "p3-intimista",
@@ -530,13 +542,19 @@
       ],
       "cluster": "15-anos",
       "notes": "Spoke do Pilar 3, prioridade máxima. Ângulo 'simples' = enxuta e bem feita, nunca 'barata'. Regra 'sem número mínimo de convidados' confirmada para 15 anos em 17/09/2026 (ver diretrizes-blog.md). Linkar o hub festa-de-15-anos-guia-completo. Sem preços, CTA WhatsApp. Sem travessão.",
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
+      "started_at": "2026-09-21T23:05:21.027694+00:00",
       "last_score": null,
-      "publish_date": null,
-      "author": null
+      "publish_date": "2026-09-23",
+      "author": "lin-zeri",
+      "iteration_id": "cloud-producer-b4f7ccf1",
+      "coverImage": "/images/scenes/quinze-anos/espaco-coral-quinze-anos-18.webp",
+      "inlineImages": [
+        "/images/scenes/quinze-anos/espaco-coral-quinze-anos-19.webp",
+        "/images/scenes/quinze-anos/espaco-coral-quinze-anos-20.webp"
+      ]
     },
     {
       "id": "p3-vestido",
@@ -559,13 +577,19 @@
       ],
       "cluster": "15-anos",
       "notes": "Spoke do Pilar 3, prioridade alta. Ângulo de venue, não de moda: a troca de vestido acontece na sala privativa da debutante, não é matéria de estilismo. Linkar valsa-15-anos-organizar e o hub. Sem preços, CTA WhatsApp. Sem travessão.",
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
+      "started_at": "2026-09-21T23:05:21.062490+00:00",
       "last_score": null,
-      "publish_date": null,
-      "author": null
+      "publish_date": "2026-09-24",
+      "author": "lin-zeri",
+      "iteration_id": "cloud-producer-b4f7ccf1",
+      "coverImage": "/images/scenes/quinze-anos/espaco-coral-quinze-anos-21.webp",
+      "inlineImages": [
+        "/images/scenes/quinze-anos/espaco-coral-quinze-anos-22.webp",
+        "/images/scenes/quinze-anos/espaco-coral-quinze-anos-23.webp"
+      ]
     },
     {
       "id": "p4-convencao",
@@ -586,14 +610,20 @@
         "WhatsApp (16) 99129-4178"
       ],
       "cluster": "corporativo",
-      "notes": "Spoke do cluster corporativo, prioridade alta, publicar até 15/11 (pico de buscas em janeiro, maior valor comercial do cluster). Linkar o hub eventos-corporativos-interior-sp-guia. Sem preços, CTA WhatsApp. Sem travessão.",
-      "status": "pending",
-      "attempts": 0,
+      "notes": "Spoke do cluster corporativo, prioridade alta, publicar até 15/11 (pico de buscas em janeiro, maior valor comercial do cluster). Linkar o hub eventos-corporativos-interior-sp-guia. Sem preços, CTA WhatsApp. Sem travessão. [cloud-producer 2026-09-21] Categoria scenes/bancos-gerais/corporativo esgotada (2/2 fotos ja usadas no post eventos-corporativos-interior-sp-guia). Usada foto geral do salao (ambientes/salao) como capa e reaproveitada a 02 do banco corporativo como imagem inline. Revisar producao de fotos corporativas novas com o fotografo.",
+      "status": "in_progress",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
+      "started_at": "2026-09-21T23:05:21.098394+00:00",
       "last_score": null,
-      "publish_date": null,
-      "author": null
+      "publish_date": "2026-09-25",
+      "author": "lin-zeri",
+      "iteration_id": "cloud-producer-b4f7ccf1",
+      "coverImage": "/images/scenes/ambientes/salao/espaco-coral-ambientes-salao-01.webp",
+      "inlineImages": [
+        "/images/scenes/ambientes/entrada-salao/espaco-coral-ambientes-entrada-salao-01.webp",
+        "/images/scenes/bancos-gerais/corporativo/espaco-coral-bancos-gerais-corporativo-02.webp"
+      ]
     },
     {
       "id": "p1-convidados",
