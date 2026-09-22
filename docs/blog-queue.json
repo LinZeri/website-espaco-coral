@@ -663,7 +663,12 @@
       "last_score": null,
       "publish_date": "2026-09-28",
       "author": "lin-zeri",
-      "iteration_id": "cloud-producer-f660fa23"
+      "iteration_id": "cloud-producer-f660fa23",
+      "coverImage": "/images/scenes/pessoas/convidados/espaco-coral-pessoas-convidados-04.webp",
+      "inlineImages": [
+        "/images/scenes/pessoas/convidados/espaco-coral-pessoas-convidados-05.webp",
+        "/images/scenes/pessoas/casal/espaco-coral-pessoas-casal-04.webp"
+      ]
     },
     {
       "id": "p5-votos",
@@ -693,7 +698,12 @@
       "last_score": null,
       "publish_date": "2026-09-29",
       "author": "lin-zeri",
-      "iteration_id": "cloud-producer-f660fa23"
+      "iteration_id": "cloud-producer-f660fa23",
+      "coverImage": "/images/scenes/decoracao/cerimonia-ar-livre/espaco-coral-decoracao-cerimonia-ar-livre-05.webp",
+      "inlineImages": [
+        "/images/scenes/decoracao/cerimonia-ar-livre/espaco-coral-decoracao-cerimonia-ar-livre-06.webp",
+        "/images/scenes/decoracao/cerimonia-ar-livre/espaco-coral-decoracao-cerimonia-ar-livre-07.webp"
+      ]
     },
     {
       "id": "p3-entrada",
@@ -715,7 +725,7 @@
         "WhatsApp (16) 99129-4178"
       ],
       "cluster": "15-anos",
-      "notes": "Spoke do Pilar 3, prioridade média. Validar volumes das variantes de keyword antes do brief (entrada da debutante + variantes). Linkar o roteiro hora a hora e o hub. Sem preços, CTA WhatsApp. Sem travessão.",
+      "notes": "Spoke do Pilar 3, prioridade média. Validar volumes das variantes de keyword antes do brief (entrada da debutante + variantes). Linkar o roteiro hora a hora e o hub. Sem preços, CTA WhatsApp. Sem travessão. [cloud-producer 2026-09-22] AVISO: categoria scenes/quinze-anos ja estava em 73% de uso ativo (30/41) antes deste post; apos este post sobe para ~80% (33/41). Fotos escolhidas sao todas de uso zero (24,27,29) para nao forcar 3a reutilizacao de nenhuma imagem, mas a categoria esta se esgotando: considerar pedir fotos novas de 15 anos ao fotografo em breve.",
       "status": "in_progress",
       "attempts": 1,
       "last_error": null,
@@ -723,7 +733,12 @@
       "last_score": null,
       "publish_date": "2026-09-30",
       "author": "lin-zeri",
-      "iteration_id": "cloud-producer-f660fa23"
+      "iteration_id": "cloud-producer-f660fa23",
+      "coverImage": "/images/scenes/quinze-anos/espaco-coral-quinze-anos-24.webp",
+      "inlineImages": [
+        "/images/scenes/quinze-anos/espaco-coral-quinze-anos-27.webp",
+        "/images/scenes/quinze-anos/espaco-coral-quinze-anos-29.webp"
+      ]
     },
     {
       "id": "p5-decoracao",
@@ -753,7 +768,12 @@
       "last_score": null,
       "publish_date": "2026-10-01",
       "author": "lin-zeri",
-      "iteration_id": "cloud-producer-f660fa23"
+      "iteration_id": "cloud-producer-f660fa23",
+      "coverImage": "/images/scenes/decoracao/decoracao-mesas/espaco-coral-decoracao-decoracao-mesas-05.webp",
+      "inlineImages": [
+        "/images/scenes/decoracao/decoracao-mesas/espaco-coral-decoracao-decoracao-mesas-06.webp",
+        "/images/scenes/decoracao/decoracao-flores/espaco-coral-decoracao-decoracao-flores-03.webp"
+      ]
     },
     {
       "id": "p4-tipos",
@@ -777,7 +797,7 @@
         "WhatsApp (16) 99129-4178"
       ],
       "cluster": "corporativo",
-      "notes": "Backlog item 16 da revisao 2 da estrategia (Pilar 4, spoke 6): prioridade baixa, produzir quando houver folga. Comparativo de FORMATOS, nao de local: diferenciar claramente do spoke 1 (confraternizacao-fim-ano-espaco-empresa, que responde 'como escolher o espaco') e do spoke 4 (ideias-confraternizacao-fim-de-ano-empresa, que responde 'o que fazer na programacao'). Aqui a pergunta e 'que tipo de evento minha empresa deveria fazer'. Estrutura que pode ser prometida (diretrizes 08/07/2026): TVs, som ambiente e Wi-Fi inclusos. NUNCA prometer telao de LED nem projetor (sao fornecedor contratado pelo cliente, mesmo havendo fotos de telao no banco). O Espaco Coral e o local, nao buffet: fornecedores sao contratados livremente pelo cliente (sem exclusividade, diferencial de venda). Capacidade ate 320 convidados sentados. Estacionamento com orientadores, sem citar numero de vagas e sem cruzar vagas com capacidade. Nunca citar concorrentes nominalmente. Sem precos, CTA sempre WhatsApp. Sem travessao (em dash). Gargalo de imagem: scenes/bancos-gerais/corporativo tem poucas fotos, consultar data/images-usage.json e usar salao e ambientes vazios se preciso.",
+      "notes": "Backlog item 16 da revisao 2 da estrategia (Pilar 4, spoke 6): prioridade baixa, produzir quando houver folga. Comparativo de FORMATOS, nao de local: diferenciar claramente do spoke 1 (confraternizacao-fim-ano-espaco-empresa, que responde 'como escolher o espaco') e do spoke 4 (ideias-confraternizacao-fim-de-ano-empresa, que responde 'o que fazer na programacao'). Aqui a pergunta e 'que tipo de evento minha empresa deveria fazer'. Estrutura que pode ser prometida (diretrizes 08/07/2026): TVs, som ambiente e Wi-Fi inclusos. NUNCA prometer telao de LED nem projetor (sao fornecedor contratado pelo cliente, mesmo havendo fotos de telao no banco). O Espaco Coral e o local, nao buffet: fornecedores sao contratados livremente pelo cliente (sem exclusividade, diferencial de venda). Capacidade ate 320 convidados sentados. Estacionamento com orientadores, sem citar numero de vagas e sem cruzar vagas com capacidade. Nunca citar concorrentes nominalmente. Sem precos, CTA sempre WhatsApp. Sem travessao (em dash). Gargalo de imagem: scenes/bancos-gerais/corporativo tem poucas fotos, consultar data/images-usage.json e usar salao e ambientes vazios se preciso. [cloud-producer 2026-09-22] scenes/bancos-gerais/corporativo confirmado esgotado (2/2 fotos, ja com 2 e 3 usos cada). Substituida por fotos gerais de ambientes/marquise (uso zero) como capa e inline, seguindo o precedente do post convencao-de-vendas-como-organizar.",
       "publish_date": "2026-10-02",
       "author": "lin-zeri",
       "status": "in_progress",
@@ -785,7 +805,12 @@
       "last_error": null,
       "started_at": "2026-09-22T23:18:53.228459+00:00",
       "last_score": null,
-      "iteration_id": "cloud-producer-f660fa23"
+      "iteration_id": "cloud-producer-f660fa23",
+      "coverImage": "/images/scenes/ambientes/marquise/espaco-coral-ambientes-marquise-01.webp",
+      "inlineImages": [
+        "/images/scenes/ambientes/marquise/espaco-coral-ambientes-marquise-02.webp",
+        "/images/scenes/ambientes/entrada-salao/espaco-coral-ambientes-entrada-salao-03.webp"
+      ]
     },
     {
       "id": "p4-ar-livre",
