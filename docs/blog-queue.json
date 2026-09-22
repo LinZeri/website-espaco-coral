@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T23:40:33.952464+00:00",
+  "updated": "2026-09-22T23:18:53.228508+00:00",
   "description": "Fila de produção do blog-loop do Espaço Coral. Reabastecida em 17/09/2026 com os itens 2,3,5-13 do backlog priorizado de docs/blog-strategy.md (revisão 17/09): confraternização, mini wedding (hub + 4 spokes), padrinhos, 15 anos intimista/vestido/entrada, convenção de vendas, lista de convidados, renovação de votos. Itens 1 e 4 do backlog são refresh de posts publicados, tratados fora da fila. Status: pending -> in_progress -> published | failed. Autor único (Lin Zeri). Guardrails por item em notes; regras completas em docs/diretrizes-blog.md.",
   "authors": [
     "lin-zeri"
@@ -656,13 +656,14 @@
       ],
       "cluster": "casamento",
       "notes": "Spoke do Pilar 1. Diferenciar de capacidade-espaco-casamento-calculo (aquele responde 'quantos cabem', este responde 'quem entra'). Linkar o hub guia-casamento-batatais-2027. Sem preços, CTA WhatsApp. Sem travessão.",
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
+      "started_at": "2026-09-22T23:18:53.029180+00:00",
       "last_score": null,
-      "publish_date": null,
-      "author": null
+      "publish_date": "2026-09-28",
+      "author": "lin-zeri",
+      "iteration_id": "cloud-producer-f660fa23"
     },
     {
       "id": "p5-votos",
@@ -685,13 +686,14 @@
       ],
       "cluster": "mini-wedding",
       "notes": "Spoke do Pilar 5, prioridade média. Cerimônia ao ar livre, recomendar junho a agosto (melhores meses; nunca recomendar céu aberto de novembro a fevereiro). Linkar o hub mini-wedding-guia-completo. Sem preços, CTA WhatsApp. Sem travessão.",
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
+      "started_at": "2026-09-22T23:18:53.082396+00:00",
       "last_score": null,
-      "publish_date": null,
-      "author": null
+      "publish_date": "2026-09-29",
+      "author": "lin-zeri",
+      "iteration_id": "cloud-producer-f660fa23"
     },
     {
       "id": "p3-entrada",
@@ -714,13 +716,14 @@
       ],
       "cluster": "15-anos",
       "notes": "Spoke do Pilar 3, prioridade média. Validar volumes das variantes de keyword antes do brief (entrada da debutante + variantes). Linkar o roteiro hora a hora e o hub. Sem preços, CTA WhatsApp. Sem travessão.",
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
+      "started_at": "2026-09-22T23:18:53.139230+00:00",
       "last_score": null,
-      "publish_date": null,
-      "author": null
+      "publish_date": "2026-09-30",
+      "author": "lin-zeri",
+      "iteration_id": "cloud-producer-f660fa23"
     },
     {
       "id": "p5-decoracao",
@@ -743,13 +746,14 @@
       ],
       "cluster": "mini-wedding",
       "notes": "Spoke do Pilar 5, prioridade média. Fotos de decoracao-mesas e decoracao-flores (public/images/scenes/decoracao/). Linkar o hub mini-wedding-guia-completo. Sem preços, CTA WhatsApp. Sem travessão.",
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
+      "started_at": "2026-09-22T23:18:53.182241+00:00",
       "last_score": null,
-      "publish_date": null,
-      "author": null
+      "publish_date": "2026-10-01",
+      "author": "lin-zeri",
+      "iteration_id": "cloud-producer-f660fa23"
     },
     {
       "id": "p4-tipos",
@@ -774,13 +778,14 @@
       ],
       "cluster": "corporativo",
       "notes": "Backlog item 16 da revisao 2 da estrategia (Pilar 4, spoke 6): prioridade baixa, produzir quando houver folga. Comparativo de FORMATOS, nao de local: diferenciar claramente do spoke 1 (confraternizacao-fim-ano-espaco-empresa, que responde 'como escolher o espaco') e do spoke 4 (ideias-confraternizacao-fim-de-ano-empresa, que responde 'o que fazer na programacao'). Aqui a pergunta e 'que tipo de evento minha empresa deveria fazer'. Estrutura que pode ser prometida (diretrizes 08/07/2026): TVs, som ambiente e Wi-Fi inclusos. NUNCA prometer telao de LED nem projetor (sao fornecedor contratado pelo cliente, mesmo havendo fotos de telao no banco). O Espaco Coral e o local, nao buffet: fornecedores sao contratados livremente pelo cliente (sem exclusividade, diferencial de venda). Capacidade ate 320 convidados sentados. Estacionamento com orientadores, sem citar numero de vagas e sem cruzar vagas com capacidade. Nunca citar concorrentes nominalmente. Sem precos, CTA sempre WhatsApp. Sem travessao (em dash). Gargalo de imagem: scenes/bancos-gerais/corporativo tem poucas fotos, consultar data/images-usage.json e usar salao e ambientes vazios se preciso.",
-      "publish_date": null,
-      "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "publish_date": "2026-10-02",
+      "author": "lin-zeri",
+      "status": "in_progress",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-09-22T23:18:53.228459+00:00",
+      "last_score": null,
+      "iteration_id": "cloud-producer-f660fa23"
     },
     {
       "id": "p4-ar-livre",
