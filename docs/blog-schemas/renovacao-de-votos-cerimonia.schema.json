@@ -1,0 +1,183 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://coraleventos.com.br/blog/renovacao-de-votos-cerimonia#article",
+      "headline": "Renovação de Votos: Como Organizar a Cerimônia",
+      "description": "Renovação de votos: como organizar a cerimônia, escolher celebrante, decidir a data e montar o roteiro. Guia completo para casais que querem reafirmar o compromisso ao ar livre.",
+      "datePublished": "2026-09-29",
+      "dateModified": "2026-09-29",
+      "inLanguage": "pt-BR",
+      "wordCount": 1949,
+      "keywords": [
+        "renovação de votos",
+        "cerimônia de renovação de votos",
+        "como organizar renovação de votos",
+        "renovação de votos ao ar livre",
+        "cerimônia",
+        "casamento intimista",
+        "interior de são paulo",
+        "Batatais"
+      ],
+      "articleSection": "Casamento",
+      "articleBody": "Renovação de votos não é casamento pequeno, é um casal já casado reafirmando o compromisso do jeito que quiser. Essa diferença muda tudo no planejamento: não existe cartório, não existe rito obrigatório, não existe protocolo herdado de outro evento.",
+      "author": {
+        "@id": "https://coraleventos.com.br/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://coraleventos.com.br#organization"
+      },
+      "image": {
+        "@id": "https://coraleventos.com.br/blog/renovacao-de-votos-cerimonia#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://coraleventos.com.br/blog/renovacao-de-votos-cerimonia"
+      },
+      "isPartOf": {
+        "@id": "https://coraleventos.com.br/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Renovação de Votos"
+        },
+        {
+          "@type": "Thing",
+          "name": "Cerimônia de Casamento"
+        },
+        {
+          "@type": "Place",
+          "name": "Batatais",
+          "addressRegion": "SP",
+          "addressCountry": "BR"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://coraleventos.com.br/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Gestora do Espaço Coral",
+      "url": "https://coraleventos.com.br/sobre",
+      "worksFor": {
+        "@id": "https://coraleventos.com.br#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://coraleventos.com.br#organization",
+      "name": "Espaço Coral",
+      "url": "https://coraleventos.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://coraleventos.com.br/images/logo/espaco-coral-logo.svg"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://coraleventos.com.br/blog#blog",
+      "name": "Blog Espaço Coral",
+      "url": "https://coraleventos.com.br/blog",
+      "publisher": {
+        "@id": "https://coraleventos.com.br#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://coraleventos.com.br/blog/renovacao-de-votos-cerimonia",
+      "url": "https://coraleventos.com.br/blog/renovacao-de-votos-cerimonia",
+      "name": "Renovação de Votos: Como Organizar a Cerimônia",
+      "description": "Renovação de votos: como organizar a cerimônia, escolher celebrante, decidir a data e montar o roteiro. Guia completo para casais que querem reafirmar o compromisso ao ar livre.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://coraleventos.com.br/blog#blog"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://coraleventos.com.br/blog/renovacao-de-votos-cerimonia#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://coraleventos.com.br/blog/renovacao-de-votos-cerimonia#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://coraleventos.com.br/blog/renovacao-de-votos-cerimonia#primaryimage",
+      "url": "https://coraleventos.com.br/images/scenes/decoracao/cerimonia-ar-livre/espaco-coral-decoracao-cerimonia-ar-livre-05.webp",
+      "width": 2048,
+      "height": 1363,
+      "caption": "Cerimônia de renovação de votos ao ar livre no Espaço Coral em Batatais SP"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://coraleventos.com.br/blog/renovacao-de-votos-cerimonia#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://coraleventos.com.br"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://coraleventos.com.br/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Renovação de Votos: Como Organizar a Cerimônia",
+          "item": "https://coraleventos.com.br/blog/renovacao-de-votos-cerimonia"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://coraleventos.com.br/blog/renovacao-de-votos-cerimonia#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "O que é a renovação de votos de casamento?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "É uma cerimônia simbólica em que um casal já casado reafirma o compromisso, sem valor civil ou religioso formal. O casal define data, roteiro e celebrante com total liberdade, sem seguir o rito obrigatório do casamento civil ou religioso original."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Precisa de celebrante para renovar os votos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não há exigência legal de celebrante. O casal escolhe livremente quem conduz a cerimônia: um oficiante contratado, um líder religioso de confiança ou alguém querido, como um familiar ou amigo próximo, convidado especialmente para o papel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Com quanto tempo de antecedência organizar a renovação de votos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Seis meses de antecedência costuma bastar para uma renovação de porte médio, com celebrante, decoração e fornecedores essenciais. Para um evento maior, com festa completa depois da cerimônia, o ideal é começar com 12 meses de antecedência."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dá para fazer a renovação de votos ao ar livre?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. No interior leste de SP, agosto é o mês mais seco do ano, com cerca de 19 mm de chuva, seguido de julho e junho (Climatempo, climatologia de Ribeirão Preto, acesso em set. 2026). Essa é a janela mais segura para uma cerimônia a céu aberto."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A renovação de votos tem valor legal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. É uma celebração simbólica, sem efeito civil ou religioso formal, diferente do casamento. O casal continua legalmente casado do mesmo jeito que estava antes, e a renovação existe só para reafirmar o compromisso perante quem eles escolherem reunir."
+          }
+        }
+      ]
+    }
+  ]
+}
