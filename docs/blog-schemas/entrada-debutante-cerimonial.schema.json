@@ -1,0 +1,179 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://coraleventos.com.br/blog/entrada-debutante-cerimonial#article",
+      "headline": "Entrada da Debutante: Cerimonial, 15 Velas e Homenagens",
+      "description": "Como organizar a entrada da debutante: tipos de entrada, ordem do cerimonial, homenagens e o ritual das 15 velas. Guia prático para a festa de 15 anos.",
+      "datePublished": "2026-09-30",
+      "dateModified": "2026-09-30",
+      "inLanguage": "pt-BR",
+      "wordCount": 1692,
+      "keywords": [
+        "entrada da debutante",
+        "cerimonial de 15 anos entrada",
+        "valsa das 15 velas",
+        "homenagens festa de 15 anos",
+        "15 anos",
+        "cerimonial",
+        "15 velas",
+        "Batatais"
+      ],
+      "articleSection": "Festa de 15 Anos",
+      "articleBody": "A entrada é o momento em que todos os olhares se voltam para a debutante, quando a festa realmente \"começa de verdade\" aos olhos dos convidados. Mas até chegar ali, muitas famílias travam nos detalhes: quantos formatos de entrada existem, como encaixar homenagens sem alongar demais o cerimonial e o que fazer com a tradição das 15 velas.",
+      "author": {
+        "@id": "https://coraleventos.com.br/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://coraleventos.com.br#organization"
+      },
+      "image": {
+        "@id": "https://coraleventos.com.br/blog/entrada-debutante-cerimonial#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://coraleventos.com.br/blog/entrada-debutante-cerimonial"
+      },
+      "isPartOf": {
+        "@id": "https://coraleventos.com.br/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Entrada da Debutante"
+        },
+        {
+          "@type": "Thing",
+          "name": "Cerimonial de 15 Anos"
+        },
+        {
+          "@type": "Thing",
+          "name": "15 Velas"
+        },
+        {
+          "@type": "Place",
+          "name": "Batatais",
+          "addressRegion": "SP",
+          "addressCountry": "BR"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://coraleventos.com.br/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Gestora do Espaço Coral",
+      "url": "https://coraleventos.com.br/sobre",
+      "worksFor": {
+        "@id": "https://coraleventos.com.br#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://coraleventos.com.br#organization",
+      "name": "Espaço Coral",
+      "url": "https://coraleventos.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://coraleventos.com.br/images/logo/espaco-coral-logo.svg"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://coraleventos.com.br/blog#blog",
+      "name": "Blog Espaço Coral",
+      "url": "https://coraleventos.com.br/blog",
+      "publisher": {
+        "@id": "https://coraleventos.com.br#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://coraleventos.com.br/blog/entrada-debutante-cerimonial",
+      "url": "https://coraleventos.com.br/blog/entrada-debutante-cerimonial",
+      "name": "Entrada da Debutante: Cerimonial e 15 Velas",
+      "description": "Como organizar a entrada da debutante: tipos de entrada, ordem do cerimonial, homenagens e o ritual das 15 velas. Guia prático para a festa de 15 anos.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://coraleventos.com.br/blog#blog"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://coraleventos.com.br/blog/entrada-debutante-cerimonial#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://coraleventos.com.br/blog/entrada-debutante-cerimonial#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://coraleventos.com.br/blog/entrada-debutante-cerimonial#primaryimage",
+      "url": "https://coraleventos.com.br/images/scenes/quinze-anos/espaco-coral-quinze-anos-24.webp",
+      "width": 1600,
+      "height": 1068,
+      "caption": "Debutante no momento da entrada do cerimonial de 15 anos no Espaço Coral em Batatais SP"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://coraleventos.com.br/blog/entrada-debutante-cerimonial#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://coraleventos.com.br"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://coraleventos.com.br/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Entrada da Debutante: Cerimonial, 15 Velas e Homenagens",
+          "item": "https://coraleventos.com.br/blog/entrada-debutante-cerimonial"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://coraleventos.com.br/blog/entrada-debutante-cerimonial#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quanto tempo dura a entrada e o cerimonial de homenagens?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pela experiência do Espaço Coral, a entrada com apresentação costuma ficar entre 15 e 20 minutos. Homenagens e 15 velas, quando bem cronometradas, somam mais 15 a 20 minutos. No total, o cerimonial completo gira em torno de 30 a 40 minutos, sem contar a valsa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "É obrigatório fazer as 15 velas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. O ritual das 15 velas é uma tradição opcional, não uma exigência do cerimonial. Muitas famílias optam por uma versão reduzida, com menos pessoas na lista, ou substituem o momento por outro formato de homenagem mais rápido."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A entrada da debutante pode ser sem o pai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim, e é cada vez mais comum. A entrada pode ser feita com a mãe, com padrinhos, em grupo com amigos próximos ou até solo, sem perder o significado do momento. O que importa é que a debutante se sinta representada por quem escolher para abrir a festa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "E se chover no dia da festa de 15 anos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No Espaço Coral, o salão principal é panorâmico e todo envidraçado, além de climatizado. Em caso de chuva, a entrada e o cerimonial acontecem com conforto dentro dele, sem perder o clima de celebração."
+          }
+        }
+      ]
+    }
+  ]
+}
