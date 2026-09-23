@@ -1,0 +1,176 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://coraleventos.com.br/blog/decoracao-mini-wedding#article",
+      "headline": "Decoração de Mini Wedding: Ideias para um Casamento Intimista",
+      "description": "Decoração de mini wedding: 10 ideias de paleta, arranjos, mesa dos doces e iluminação para casamento intimista. Veja como aplicar no Espaço Coral, em Batatais SP.",
+      "datePublished": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "inLanguage": "pt-BR",
+      "wordCount": 1684,
+      "keywords": [
+        "decoração mini wedding",
+        "mini wedding",
+        "decoração",
+        "casamento intimista",
+        "Batatais",
+        "casamento",
+        "ideias de decoração para mini wedding",
+        "decoração casamento intimista",
+        "decoração para poucos convidados"
+      ],
+      "articleSection": "Casamento",
+      "articleBody": "Mini wedding não é casamento grande em miniatura. É uma lista curada, e a decoração precisa refletir essa lógica desde o primeiro esboço, concentrando impacto em poucos pontos em vez de diluir o orçamento por um salão inteiro.",
+      "author": {
+        "@id": "https://coraleventos.com.br/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://coraleventos.com.br#organization"
+      },
+      "image": {
+        "@id": "https://coraleventos.com.br/blog/decoracao-mini-wedding#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://coraleventos.com.br/blog/decoracao-mini-wedding"
+      },
+      "isPartOf": {
+        "@id": "https://coraleventos.com.br/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Decoração de Mini Wedding"
+        },
+        {
+          "@type": "Thing",
+          "name": "Casamento Intimista"
+        },
+        {
+          "@type": "Place",
+          "name": "Batatais",
+          "addressRegion": "SP",
+          "addressCountry": "BR"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://coraleventos.com.br/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Gestora do Espaço Coral",
+      "url": "https://coraleventos.com.br/sobre",
+      "worksFor": {
+        "@id": "https://coraleventos.com.br#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://coraleventos.com.br#organization",
+      "name": "Espaço Coral",
+      "url": "https://coraleventos.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://coraleventos.com.br/images/logo/espaco-coral-logo.svg"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://coraleventos.com.br/blog#blog",
+      "name": "Blog Espaço Coral",
+      "url": "https://coraleventos.com.br/blog",
+      "publisher": {
+        "@id": "https://coraleventos.com.br#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://coraleventos.com.br/blog/decoracao-mini-wedding",
+      "url": "https://coraleventos.com.br/blog/decoracao-mini-wedding",
+      "name": "Decoração de Mini Wedding: Ideias para um Casamento Intimista",
+      "description": "Decoração de mini wedding: 10 ideias de paleta, arranjos, mesa dos doces e iluminação para casamento intimista. Veja como aplicar no Espaço Coral, em Batatais SP.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://coraleventos.com.br/blog#blog"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://coraleventos.com.br/blog/decoracao-mini-wedding#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://coraleventos.com.br/blog/decoracao-mini-wedding#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://coraleventos.com.br/blog/decoracao-mini-wedding#primaryimage",
+      "url": "https://coraleventos.com.br/images/scenes/decoracao/decoracao-mesas/espaco-coral-decoracao-decoracao-mesas-05.webp",
+      "width": 2048,
+      "height": 1363,
+      "caption": "Mesa posta com centro de mesa elaborado para decoração de mini wedding no Espaço Coral em Batatais SP"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://coraleventos.com.br/blog/decoracao-mini-wedding#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://coraleventos.com.br"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://coraleventos.com.br/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Decoração de Mini Wedding: Ideias para um Casamento Intimista",
+          "item": "https://coraleventos.com.br/blog/decoracao-mini-wedding"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://coraleventos.com.br/blog/decoracao-mini-wedding#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Como decorar um mini wedding gastando menos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O caminho não é cortar itens, é concentrar: escolher poucos pontos de alto impacto, como a mesa imperial e um arranjo de cerimônia, em vez de tentar cobrir o mesmo número de pontos de uma festa grande. Gastar menos aqui significa otimizar onde o investimento aparece, não reduzir o padrão."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual a diferença entre decoração de mini wedding e de casamento grande?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Menos pontos de decoração, mais intensidade em cada um. Com lista curta, itens que não escalam em festa grande viram viáveis: papelaria com nome de cada convidado, cardápio impresso, sinalização personalizada. A decoração deixa de se diluir por mesa e passa a se concentrar em poucos momentos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dá para reaproveitar decoração de casa em mini wedding?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Em parte. Elementos simples, como vasos, tecidos e objetos pessoais do casal, funcionam bem quando há poucos pontos de decoração para cobrir. Vale combinar com o decorador para integrar essas peças à paleta escolhida, sem prometer economia numérica."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O Espaço Coral tem restrição de número mínimo de convidados para decorar o espaço?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. A mesma estrutura completa, sala privativa, área verde e salão envidraçado, fica disponível independentemente do tamanho da festa. O casal decora o espaço com o fornecedor que escolher, sem pacote fechado."
+          }
+        }
+      ]
+    }
+  ]
+}
