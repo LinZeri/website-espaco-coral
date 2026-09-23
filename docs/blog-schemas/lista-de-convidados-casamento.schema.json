@@ -1,0 +1,181 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://coraleventos.com.br/blog/lista-de-convidados-casamento#article",
+      "headline": "Lista de Convidados do Casamento: Como Montar e Cortar sem Briga",
+      "description": "Lista de convidados do casamento: como montar por etapas, critérios para cortar sem briga e quem tem prioridade. Guia prático para casais do interior de SP.",
+      "datePublished": "2026-09-28",
+      "dateModified": "2026-09-28",
+      "inLanguage": "pt-BR",
+      "wordCount": 1734,
+      "keywords": [
+        "lista de convidados casamento",
+        "como montar lista de convidados casamento",
+        "como cortar lista de convidados",
+        "quem convidar para o casamento",
+        "casamento",
+        "Batatais"
+      ],
+      "articleSection": "Casamento",
+      "articleBody": "Para montar a lista de convidados sem briga, defina primeiro um número-teto com os dois lados da família, antes de escrever qualquer nome. Depois corte por categoria inteira (trabalho, amizades an",
+      "author": {
+        "@id": "https://coraleventos.com.br/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://coraleventos.com.br#organization"
+      },
+      "image": {
+        "@id": "https://coraleventos.com.br/blog/lista-de-convidados-casamento#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://coraleventos.com.br/blog/lista-de-convidados-casamento"
+      },
+      "isPartOf": {
+        "@id": "https://coraleventos.com.br/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Lista de Convidados de Casamento"
+        },
+        {
+          "@type": "Thing",
+          "name": "Planejamento de Casamento"
+        },
+        {
+          "@type": "Place",
+          "name": "Batatais",
+          "addressRegion": "SP",
+          "addressCountry": "BR"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://coraleventos.com.br/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Gestora do Espaço Coral",
+      "url": "https://coraleventos.com.br/sobre",
+      "worksFor": {
+        "@id": "https://coraleventos.com.br#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://coraleventos.com.br#organization",
+      "name": "Espaço Coral",
+      "url": "https://coraleventos.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://coraleventos.com.br/images/logo/espaco-coral-logo.svg"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://coraleventos.com.br/blog#blog",
+      "name": "Blog Espaço Coral",
+      "url": "https://coraleventos.com.br/blog",
+      "publisher": {
+        "@id": "https://coraleventos.com.br#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://coraleventos.com.br/blog/lista-de-convidados-casamento",
+      "url": "https://coraleventos.com.br/blog/lista-de-convidados-casamento",
+      "name": "Lista de Convidados do Casamento: Como Montar e Cortar sem Briga",
+      "description": "Lista de convidados do casamento: como montar por etapas, critérios para cortar sem briga e quem tem prioridade. Guia prático para casais do interior de SP.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://coraleventos.com.br/blog#blog"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://coraleventos.com.br/blog/lista-de-convidados-casamento#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://coraleventos.com.br/blog/lista-de-convidados-casamento#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://coraleventos.com.br/blog/lista-de-convidados-casamento#primaryimage",
+      "url": "https://coraleventos.com.br/images/scenes/pessoas/convidados/espaco-coral-pessoas-convidados-04.webp",
+      "width": 1080,
+      "height": 720,
+      "caption": "Convidados reunidos durante recepção de casamento no Espaço Coral em Batatais SP"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://coraleventos.com.br/blog/lista-de-convidados-casamento#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://coraleventos.com.br"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://coraleventos.com.br/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Lista de Convidados do Casamento: Como Montar e Cortar sem Briga",
+          "item": "https://coraleventos.com.br/blog/lista-de-convidados-casamento"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://coraleventos.com.br/blog/lista-de-convidados-casamento#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quantos convidados em média tem um casamento?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A média no Brasil é de 125 convidados (The Knot Worldwide, Global Wedding Report 2023, via CNN Brasil, acesso em jul. 2026), mas o número certo depende do orçamento, do estilo de festa e do espaço escolhido pelo casal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como cortar a lista de convidados sem magoar ninguém?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Corte por categoria inteira, não pessoa a pessoa. Priorize quem teve convívio real no último ano e aplique a mesma regra para os dois lados da família, sem exceção silenciosa para um nome específico."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "É obrigado a convidar colega de trabalho para o casamento?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. Convide apenas quem é amizade pessoal declarada fora do expediente. Para o restante do time, uma comemoração separada no trabalho resolve sem constranger ninguém."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Criança pode ir no casamento? Como decidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A decisão deve ser uma regra geral, festa kids-free ou não, comunicada no convite, nunca criança por criança. Espaços com área kids dedicada, como o Espaço Coral, facilitam quando o casal opta por incluir crianças."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quem tem direito a levar acompanhante no casamento?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reserve o acompanhante para relacionamentos sérios e comprometidos: noivado, casamento ou convivência declarada. Aplicar a mesma regra para todos os convidados evita que alguém se sinta tratado de forma diferente."
+          }
+        }
+      ]
+    }
+  ]
+}
