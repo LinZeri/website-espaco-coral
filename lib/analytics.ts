@@ -23,7 +23,7 @@ export const META_PIXEL_ID = "1442151020219648";
  * GOOGLE_ADS_ID: "AW-123456789"
  * GOOGLE_ADS_WHATSAPP_LABEL: rótulo da ação de conversão (ex: "AbCdEfGhIj")
  */
-export const GOOGLE_ADS_ID: string | null = null;
+export const GOOGLE_ADS_ID: string | null = "AW-18557812619";
 export const GOOGLE_ADS_WHATSAPP_LABEL: string | null = null;
 
 type Params = Record<string, string | number | undefined>;
