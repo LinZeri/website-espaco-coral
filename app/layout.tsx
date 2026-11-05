@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import Script from "next/script";
 import { SITE_URL } from "@/lib/seo-config";
+import { GA4_MEASUREMENT_ID, trackingBootstrap } from "@/lib/analytics";
+import { AnalyticsListener } from "@/components/analytics/analytics-listener";
 import "./globals.css";
 
 // Corpo: Inter, legibilidade, modernidade
@@ -98,51 +100,28 @@ export default function RootLayout({
       className={`${inter.variable} ${playfairDisplay.variable}`}
     >
       <head>
-        {/* Google Tag Manager */}
-        <Script id="gtm-head" strategy="afterInteractive">
-          {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-          })(window,document,'script','dataLayer','GTM-NR95XJ6B');`}
+        {/* Rastreamento sem GTM: GA4 + Google Ads (gtag) e Meta Pixel.
+            IDs e eventos em lib/analytics.ts. As filas gtag/fbq nascem no
+            bootstrap; as bibliotecas carregam depois sem perder eventos. */}
+        <Script id="tracking-bootstrap" strategy="afterInteractive">
+          {trackingBootstrap()}
         </Script>
-
-        {/* Meta Pixel */}
-        <Script id="meta-pixel" strategy="afterInteractive">
-          {`!function(f,b,e,v,n,t,s)
-          {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-          n.queue=[];t=b.createElement(e);t.async=!0;
-          t.src=v;s=b.getElementsByTagName(e)[0];
-          s.parentNode.insertBefore(t,s)}(window, document,'script',
-          'https://connect.facebook.net/en_US/fbevents.js');
-          fbq('init', '1442151020219648');
-          fbq('track', 'PageView');`}
-        </Script>
+        <Script
+          id="gtag-js"
+          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA4_MEASUREMENT_ID}`}
+        />
+        <Script
+          id="meta-pixel-js"
+          strategy="lazyOnload"
+          src="https://connect.facebook.net/en_US/fbevents.js"
+        />
       </head>
       <body className="antialiased font-sans bg-background text-foreground">
-        {/* Google Tag Manager (noscript) */}
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-NR95XJ6B"
-            height="0"
-            width="0"
-            style={{ display: "none", visibility: "hidden" }}
-          />
-        </noscript>
+        <AnalyticsListener />
 
-        {/* Meta Pixel (noscript) */}
-        <noscript>
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            height="1"
-            width="1"
-            style={{ display: "none" }}
-            src="https://www.facebook.com/tr?id=1442151020219648&ev=PageView&noscript=1"
-            alt=""
-          />
-        </noscript>
+        {/* Sem <noscript> do Pixel: o Next pré-carrega a imagem mesmo com JS
+            ativo, e isso contava um PageView duplicado em toda visita. */}
 
         {/* Sentinel para detecção de scroll do header via IntersectionObserver */}
         <div

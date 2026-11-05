@@ -10,6 +10,7 @@ export function WhatsAppButton() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Fale conosco pelo WhatsApp"
+      data-cta-position="flutuante"
       className="fixed bottom-6 right-6 z-50 flex items-center gap-2 px-4 py-3 bg-[#25D366] text-white shadow-lg hover:bg-[#20ba5a] transition-all duration-200 hover:shadow-xl hover:-translate-y-0.5"
     >
       <MessageCircle size={20} />

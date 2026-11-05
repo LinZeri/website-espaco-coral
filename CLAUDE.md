@@ -31,7 +31,7 @@ O site também comporta **landing pages de campanhas pagas** (Google Ads, Meta) 
 | Geração | SSG — Static Site Generation |
 | Deploy | Vercel |
 | Domínio | coraleventos.com.br |
-| Analytics | GTM: `GTM-NR95XJ6B` |
+| Analytics | GA4 `G-C11MGCM7W2` via gtag.js (sem GTM; ver `lib/analytics.ts`) |
 | Meta Pixel | `1442151020219648` |
 | Blog | MDX em `/content/blog/` (futuro) |
 
@@ -58,10 +58,18 @@ Toda página sob `/lp/[slug]` deve ter:
 ```
 Sem exceção. Essas páginas não devem aparecer no Google.
 
-### 3. GTM e Meta Pixel em todas as páginas públicas
-Incluir GTM (`GTM-NR95XJ6B`) e Meta Pixel (`1442151020219648`) no layout principal.
-Em LPs: manter ambos (para rastreamento de conversão de campanhas).
-Em páginas noindex: manter rastreamento, mas garantir que o noindex está no head.
+### 3. Rastreamento em código, sem GTM
+GA4, Google Ads e Meta Pixel são carregados direto no layout raiz via gtag.js e fbevents.js.
+**Fonte única: `lib/analytics.ts`** (IDs, eventos, destinos). Não reinstalar o GTM nem colar
+snippets de pixel no layout: duplica PageView.
+- Conversão principal: `whatsapp_click` (GA4 key event) + `Contact` (Meta) + conversão do Google Ads.
+  Capturada por um listener global (`components/analytics/analytics-listener.tsx`) em qualquer link `wa.me`.
+  Para nomear a origem, use `data-cta-position="..."` no link ou num ancestral (e `data-lp="slug"` em LPs).
+  Botões novos não precisam de `onClick`.
+- GA4: propriedade `509223804`, stream `G-C11MGCM7W2`. Dimensões de evento: `cta_position`, `lp_slug`, `link_text`.
+  A service account `etuos-1@etuos-510920.iam.gserviceaccount.com` é Editor no GA4 e Total no Search Console
+  (`https://coraleventos.com.br/`), então Claude configura e lê ambos via API.
+- Em LPs e páginas noindex: manter rastreamento, mas garantir que o noindex está no head.
 
 ### 4. Sem cookie consent por ora
 Não implementar banner de cookies neste momento.

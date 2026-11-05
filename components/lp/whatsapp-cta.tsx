@@ -2,12 +2,6 @@
 
 import { MessageCircle } from "lucide-react";
 
-declare global {
-  interface Window {
-    dataLayer?: Record<string, unknown>[];
-  }
-}
-
 const WHATSAPP_NUMBER = "5516991294178";
 
 export function lpWhatsAppUrl(message: string) {
@@ -15,7 +9,7 @@ export function lpWhatsAppUrl(message: string) {
 }
 
 type Props = {
-  /** Slug da LP (ex: "casamentos"). Vai para o dataLayer. */
+  /** Slug da LP (ex: "casamentos"). Vai como lp_slug na conversão. */
   lp: string;
   /** Posição do botão na página (ex: "hero", "final", "flutuante"). */
   position: string;
@@ -30,11 +24,9 @@ type Props = {
 /**
  * Botão de WhatsApp das landing pages de campanha.
  *
- * No clique, empurra para o dataLayer:
- *   { event: "lp_whatsapp_click", lp_slug, cta_position }
- * No GTM: gatilho "Evento personalizado" = lp_whatsapp_click, ligado à tag de
- * conversão do Google Ads e ao evento Contact do Meta Pixel.
- * Os atributos data-* permitem também um gatilho de clique por seletor.
+ * A conversão é registrada pelo listener global (components/analytics/
+ * analytics-listener.tsx), que lê data-lp e data-cta-position deste link e
+ * envia whatsapp_click (GA4), a conversão do Google Ads e Contact (Meta).
  */
 export function LpWhatsAppCta({
   lp,
@@ -45,21 +37,11 @@ export function LpWhatsAppCta({
   ariaLabel,
   showIcon = true,
 }: Props) {
-  const handleClick = () => {
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({
-      event: "lp_whatsapp_click",
-      lp_slug: lp,
-      cta_position: position,
-    });
-  };
-
   return (
     <a
       href={lpWhatsAppUrl(message)}
       target="_blank"
       rel="noopener noreferrer"
-      onClick={handleClick}
       data-cta="whatsapp"
       data-lp={lp}
       data-cta-position={position}
