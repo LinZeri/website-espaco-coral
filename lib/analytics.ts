@@ -24,7 +24,7 @@ export const META_PIXEL_ID = "1442151020219648";
  * GOOGLE_ADS_WHATSAPP_LABEL: rótulo da ação de conversão (ex: "AbCdEfGhIj")
  */
 export const GOOGLE_ADS_ID: string | null = "AW-18557812619";
-export const GOOGLE_ADS_WHATSAPP_LABEL: string | null = null;
+export const GOOGLE_ADS_WHATSAPP_LABEL: string | null = "Xa21CNrb0LIdEIv_hpFF";
 
 type Params = Record<string, string | number | undefined>;
 
@@ -71,6 +71,8 @@ export function trackWhatsAppClick({ position, lp, text }: WhatsAppClick) {
   if (GOOGLE_ADS_ID && GOOGLE_ADS_WHATSAPP_LABEL) {
     gtag("event", "conversion", {
       send_to: `${GOOGLE_ADS_ID}/${GOOGLE_ADS_WHATSAPP_LABEL}`,
+      // beacon: o hit sobrevive mesmo se o WhatsApp abrir na mesma aba (mobile)
+      transport_type: "beacon",
     });
   }
 

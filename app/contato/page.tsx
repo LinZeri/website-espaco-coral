@@ -71,6 +71,7 @@ export default function ContatoPage() {
                 href={WHATSAPP_URL}
                 target="_blank"
                 rel="noopener noreferrer"
+                data-cta-position="contato"
                 className="inline-flex items-center gap-3 bg-foreground px-8 py-4 text-sm font-medium tracking-wide text-white transition-colors duration-200 hover:bg-foreground/80"
               >
                 <MessageCircle size={18} />

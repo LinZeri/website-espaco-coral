@@ -25,6 +25,7 @@ export function CtaSection() {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
+            data-cta-position="cta-final"
             className="flex items-center gap-2 px-8 py-4 bg-gold text-foreground text-sm font-medium tracking-wide hover:bg-gold-light transition-colors duration-200"
           >
             <MessageCircle size={16} />
