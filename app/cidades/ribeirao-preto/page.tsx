@@ -377,6 +377,7 @@ export default function RibeiraoPretoPage() {
             </p>
             <a
               href={WHATSAPP_URL}
+              data-cta-position="cta-final"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-10 inline-flex items-center gap-2 bg-gold px-8 py-4 text-sm font-medium tracking-wide text-foreground transition-colors duration-200 hover:bg-gold-light"

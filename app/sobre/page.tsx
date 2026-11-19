@@ -273,6 +273,7 @@ export default function SobrePage() {
                 </a>
                 <a
                   href={WHATSAPP_URL}
+                  data-cta-position="cta-final"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 bg-gold px-6 py-3 text-sm font-medium tracking-wide text-foreground transition-colors hover:bg-gold-light"
